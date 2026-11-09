@@ -1,0 +1,1 @@
+SELECT p.name AS process,t.name AS thread,ROUND(SUM(s.dur)/1e9,3) AS running_seconds,COUNT(*) AS slices FROM sched s JOIN thread t USING(utid) LEFT JOIN process p USING(upid) WHERE s.dur>0 GROUP BY p.name,t.name ORDER BY running_seconds DESC LIMIT 28;

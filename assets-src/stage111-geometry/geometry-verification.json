@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Geometry indices are lossy; other source data unchanged. Not device visual/FPS acceptance.",
+  "models": [
+    {
+      "kind": "butterfly",
+      "triangles": 46386,
+      "sha256": "951c719ea7fd5eee1d3068c070a77b0fbf241cbefb67555a7338cb589cdeca29",
+      "originalBinaryPrefixPreserved": true,
+      "contactSurfacesUnchanged": true,
+      "animations": 5
+    },
+    {
+      "kind": "beetle",
+      "triangles": 64784,
+      "sha256": "c79c9a08cac239540669e180de5b360bd47aaf085dbf3e17f3055ddda06a3901",
+      "originalBinaryPrefixPreserved": true,
+      "contactSurfacesUnchanged": true,
+      "animations": 5
+    },
+    {
+      "kind": "ladybug",
+      "triangles": 52528,
+      "sha256": "4eeece068f65960f74dfe03eba68f61a7365d8112daeb3efeeb795f7afe63b3e",
+      "originalBinaryPrefixPreserved": true,
+      "contactSurfacesUnchanged": true,
+      "animations": 5
+    },
+    {
+      "kind": "caterpillar",
+      "triangles": 36948,
+      "sha256": "f962615e3d99458e0e98e7557827a046c7071d1262967b9e59627253a3d0b02b",
+      "originalBinaryPrefixPreserved": true,
+      "contactSurfacesUnchanged": true,
+      "animations": 5
+    },
+    {
+      "kind": "garden",
+      "triangles": 175176,
+      "sha256": "9a1e5fabfaf55e610dd6feb4f47bd8a189f65485b9eb0a3ac754b119f2abb126",
+      "originalBinaryPrefixPreserved": true,
+      "contactSurfacesUnchanged": true,
+      "animations": 0
+    }
+  ]
+}

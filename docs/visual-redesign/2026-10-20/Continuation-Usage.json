@@ -1,0 +1,92 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": null,
+  "phaseStartUTC": "2026-10-20T11:36:23.890000+00:00",
+  "snapshotUTC": "2026-10-20T13:52:51.420989+00:00",
+  "wallSeconds": 8187.531,
+  "netWorkSeconds": null,
+  "phaseTokens": 44035469,
+  "tokenTotals": {
+    "input_tokens": 43925713,
+    "cached_input_tokens": 43324928,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 109756,
+    "reasoning_output_tokens": 44386,
+    "total_tokens": 44035469
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 0,
+  "cli": [],
+  "directProfilerCalls": 0,
+  "directProfiler": [],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 0,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 0,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-20T13:52:06.272Z",
+      "baselineBasis": "last counter at or before phase start",
+      "baselineAsOfUTC": null,
+      "baseline": {
+        "input_tokens": 179909894,
+        "cached_input_tokens": 176027904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 813847,
+        "reasoning_output_tokens": 265010,
+        "total_tokens": 180723741
+      },
+      "cumulative": {
+        "input_tokens": 223835607,
+        "cached_input_tokens": 219352832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 923603,
+        "reasoning_output_tokens": 309396,
+        "total_tokens": 224759210
+      },
+      "phase": {
+        "input_tokens": 43925713,
+        "cached_input_tokens": 43324928,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109756,
+        "reasoning_output_tokens": 44386,
+        "total_tokens": 44035469
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown.",
+  "spatialEditorMcpCallSites": {
+    "mcp__pico_spatial_editor__ensure_editor_ready": 14,
+    "mcp__pico_spatial_editor__get_spatial_editor_docs": 14,
+    "mcp__pico_spatial_editor__search_shader_nodes": 6,
+    "mcp__pico_spatial_editor__get_material_authoring_profile": 3,
+    "mcp__pico_spatial_editor__get_material_template": 2,
+    "mcp__pico_spatial_editor__get_scene_info": 8,
+    "mcp__pico_spatial_editor__get_shader_node_catalog": 4,
+    "mcp__pico_spatial_editor__execute_script": 7,
+    "mcp__pico_spatial_editor__resolve_material_binding": 1,
+    "mcp__pico_spatial_editor__validate_material_usda": 14,
+    "mcp__pico_spatial_editor__preview_material_usda": 16,
+    "mcp__pico_spatial_editor__get_viewport_screenshot": 25,
+    "mcp__pico_spatial_editor__commit_material_preview": 8,
+    "mcp__pico_spatial_editor__pack_project": 2,
+    "mcp__pico_spatial_editor__get_pack_status": 2,
+    "mcp__pico_spatial_editor__stop_editor": 3,
+    "mcp__pico_spatial_editor__set_environment_hdri": 4,
+    "mcp__pico_spatial_editor__import_asset": 7,
+    "mcp__pico_spatial_editor__export_material_usda": 1
+  },
+  "spatialEditorCountingNote": "Executable call-site count, excluding quoted metadata; loops and failed calls are not success counts. Separate from PICO CLI.",
+  "additionalToolsNote": "Blender, direct spatialbundle executable/pack wrapper, PE inspection, downloads and editor MCP are not pico-cli calls. Direct pack executable invoked through wrapper twice, both succeeded after DLL workaround; earlier MCP pack failed twice. Subsequent integrated garden imports/material previews/screenshots remain editor evidence only."
+}

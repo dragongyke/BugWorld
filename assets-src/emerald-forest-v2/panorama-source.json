@@ -1,0 +1,16 @@
+{
+  "kind": "CC0 photographic forest, reduced for mobile texture budget",
+  "source": "https://polyhaven.com/a/forest_slope",
+  "author": "Andreas Mischok",
+  "sourceResolution": [
+    8192,
+    4096
+  ],
+  "resolution": [
+    4096,
+    2048
+  ],
+  "runtimeMiddleTrunks": 0,
+  "runtimeFarTrees": 0,
+  "note": "Tonemapped colour panorama. Matching 4K unclipped EXR retained separately for IBL."
+}

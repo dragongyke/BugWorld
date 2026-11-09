@@ -1,0 +1,59 @@
+{
+  "format": "BugWorld v3-review UI assets 1",
+  "status": "asset review candidate; not app integration or SDK screenshot",
+  "logo": {
+    "wordmark": "BugWorld",
+    "glyphs": "outlined Georgia Bold",
+    "mark": "own butterfly optical icon",
+    "svg_size": [
+      369,
+      72
+    ]
+  },
+  "tools": [
+    "crayon",
+    "fill",
+    "eraser",
+    "album",
+    "save",
+    "leaf",
+    "undo",
+    "redo",
+    "preview",
+    "close"
+  ],
+  "tool_viewBox": [
+    0,
+    0,
+    24,
+    24
+  ],
+  "tool_stroke": 1.65,
+  "palette": {
+    "ink": "#55416e",
+    "muted": "#93849d",
+    "accent": "#9778be",
+    "border": "#e8deed",
+    "paper": "#fffdf8"
+  },
+  "boards": {
+    "asset-layout-review": [
+      1920,
+      1280
+    ],
+    "logo-and-tools-contact": [
+      1600,
+      850
+    ]
+  },
+  "actual_source_assets": [
+    "assets-src/v3-review/lineart/icons/butterfly.svg",
+    "assets-src/v3-review/lineart/icons/beetle.svg",
+    "assets-src/v3-review/lineart/icons/ladybug.svg",
+    "assets-src/v3-review/lineart/icons/caterpillar.svg",
+    "assets-src/v3-review/lineart/sheets/butterfly-outline.svg",
+    "assets-src/v3-review/lineart/sheets/beetle-outline.svg",
+    "assets-src/v3-review/lineart/sheets/ladybug-outline.svg",
+    "assets-src/v3-review/lineart/sheets/caterpillar-outline.svg"
+  ]
+}

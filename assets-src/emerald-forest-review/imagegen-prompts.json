@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-10-20",
+  "referenceRole": "Approved emerald forest concept; art direction only",
+  "reference": "../../docs/visual-redesign/2026-10-20/emerald-forest-concept.png",
+  "outputs": [
+    {
+      "file": "forest-panorama-source.png",
+      "prompt": "Create one production environment texture for BugWorld, using the attached APPROVED CONCEPT ONLY as art direction reference. Output a wide 2:1 equirectangular full 360-degree panorama for a VR sky environment, not a flat perspective view or a collage. Warm tranquil emerald green woodland around a small clear turquoise forest pond. Distant mossy trunks, lush layered fern banks, warm dappled morning sunlight from upper front-left, green leafy canopy with pale cyan sky openings. The pond bank runs continuously around the entire horizon, below the equator; tree trunks emerge above that bank with continuous plausible perspective. Horizon is at image vertical centre. Lower hemisphere mostly calm dark-green/turquoise water; upper hemisphere green canopy with open pale sky. Match the lighting, sophisticated natural bark, green hue and gentle realistic atmosphere of the reference. No foreground hero objects, no nearby log, no large foreground lotus leaves, no insects, no people, no text, no UI. All visible forest objects belong to the far background beyond 8 metres. Left and right edges must join seamlessly; vertical objects must be equirectangular-projected, extreme top and bottom stretched appropriately for spherical mapping. This is the actual background texture, not a mockup showing a sphere. High detailed natural realistic texture, restrained contrast, no black void, no night sky, no oversaturated neon. Requested aspect ratio 2:1."
+    },
+    {
+      "file": "forest-ground-albedo.png",
+      "prompt": "Production PBR BASE COLOR TEXTURE, seamless square tile, overhead orthographic evenly lit scan of soft lush emerald forest moss growing over damp dark brown earth, tiny rounded weathered grey-brown pebbles partly embedded under moss, occasional dry tiny leaf fragment, organic irregular patches of olive moss in several scales. Match a warm peaceful photorealistic forest pond bank. This is albedo only: no cast shadows, no directional lighting, no highlights, no occlusion painted black, no perspective, no horizon, no objects above surface, no text. Fine natural microdetail at 2 metres square physical coverage. 1:1 square image."
+    },
+    {
+      "file": "forest-panorama.png",
+      "editReference": "forest-panorama-source.png",
+      "requestedDimensions": [
+        4096,
+        2048
+      ],
+      "actualDimensions": [
+        1774,
+        887
+      ],
+      "prompt": "Upscale and refine this exact 360-degree equirectangular forest panorama for a virtual-reality environment. REQUIRED output dimensions 4096 x 2048 pixels, 2:1 aspect ratio; prioritize the highest available native output resolution. Preserve all layout, continuous forest pond shoreline, green mossy trunks, emerald canopy, morning sun direction, clear turquoise water, and the panorama/equirectangular projection. Increase bark and leaf detail, natural foliage sharpness without oversharpening. Remove visible compression and mushy blur. Make the extreme left and extreme right edges join seamlessly, including trees, horizon, canopy and water; top and bottom poles must converge continuously. No large new foreground objects, no characters, no text. Output only the full background texture, not a frame or comparison."
+    }
+  ],
+  "qualification": "Generated raster texture candidates. Seamlessness and runtime mapping are not guaranteed by the prompt. Ground is albedo-only, not a full scanned PBR material."
+}

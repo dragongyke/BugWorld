@@ -1,0 +1,31 @@
+{
+  "timestampUTC": "2026-10-09T06:06:16.7846459Z",
+  "sdk": "6.1.0",
+  "versionName": "1.0.3",
+  "versionCode": 3,
+  "command": ".\\gradlew.bat :app:testDebugUnitTest :app:lintDebug :app:assembleDebug --offline --console=plain",
+  "result": "BUILD SUCCESSFUL",
+  "reportedWallTime": "30m 55s",
+  "wallTimeNote": "Includes unobserved waiting intervals; not a measurement of CPU compile time",
+  "tests": {
+    "total": 85.0,
+    "failures": 0.0,
+    "errors": 0.0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 33
+  },
+  "apk": {
+    "path": "app-debug.apk",
+    "sha256": "b38a73d6fc3930889628e84ab4a139be6bac02dcdafd1a57c2fd48eab43ede43",
+    "runtimeFiles": 36,
+    "bytes": 184639045
+  },
+  "approvedModels": 5,
+  "animationClips": 20,
+  "legacyRuntimeAssets": 0,
+  "adbDevices": 0,
+  "deviceInstalled": false,
+  "headsetVisualAcceptance": false
+}

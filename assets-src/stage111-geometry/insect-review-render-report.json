@@ -1,0 +1,178 @@
+[
+  {
+    "species": "butterfly",
+    "variant": "source",
+    "pose": "idle",
+    "clip": "butterfly_idle_perch",
+    "frame": 34.25,
+    "span": 0.290624737739563,
+    "meshes": 8,
+    "image": "butterfly-idle-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\butterfly.glb"
+  },
+  {
+    "species": "butterfly",
+    "variant": "source",
+    "pose": "moving",
+    "clip": "butterfly_fly",
+    "frame": 9.049999999999999,
+    "span": 0.3271486759185791,
+    "meshes": 8,
+    "image": "butterfly-moving-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\butterfly.glb"
+  },
+  {
+    "species": "butterfly",
+    "variant": "batched",
+    "pose": "idle",
+    "clip": "butterfly_idle_perch",
+    "frame": 34.25,
+    "span": 0.290624737739563,
+    "meshes": 8,
+    "image": "butterfly-idle-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\butterfly.glb"
+  },
+  {
+    "species": "butterfly",
+    "variant": "batched",
+    "pose": "moving",
+    "clip": "butterfly_fly",
+    "frame": 9.049999999999999,
+    "span": 0.3271486759185791,
+    "meshes": 8,
+    "image": "butterfly-moving-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\butterfly.glb"
+  },
+  {
+    "species": "beetle",
+    "variant": "source",
+    "pose": "idle",
+    "clip": "idle",
+    "frame": 25.849999999999998,
+    "span": 0.3688662648200989,
+    "meshes": 11,
+    "image": "beetle-idle-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\beetle.glb"
+  },
+  {
+    "species": "beetle",
+    "variant": "source",
+    "pose": "moving",
+    "clip": "flight",
+    "frame": 17.45,
+    "span": 0.3509054481983185,
+    "meshes": 11,
+    "image": "beetle-moving-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\beetle.glb"
+  },
+  {
+    "species": "beetle",
+    "variant": "batched",
+    "pose": "idle",
+    "clip": "idle",
+    "frame": 25.849999999999998,
+    "span": 0.3688662648200989,
+    "meshes": 11,
+    "image": "beetle-idle-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\beetle.glb"
+  },
+  {
+    "species": "beetle",
+    "variant": "batched",
+    "pose": "moving",
+    "clip": "flight",
+    "frame": 17.45,
+    "span": 0.3509054481983185,
+    "meshes": 11,
+    "image": "beetle-moving-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\beetle.glb"
+  },
+  {
+    "species": "ladybug",
+    "variant": "source",
+    "pose": "idle",
+    "clip": "idle",
+    "frame": 25.849999999999998,
+    "span": 0.25161850452423096,
+    "meshes": 11,
+    "image": "ladybug-idle-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\ladybug.glb"
+  },
+  {
+    "species": "ladybug",
+    "variant": "source",
+    "pose": "moving",
+    "clip": "flight",
+    "frame": 17.45,
+    "span": 0.24825723469257355,
+    "meshes": 11,
+    "image": "ladybug-moving-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\ladybug.glb"
+  },
+  {
+    "species": "ladybug",
+    "variant": "batched",
+    "pose": "idle",
+    "clip": "idle",
+    "frame": 25.849999999999998,
+    "span": 0.2514745891094208,
+    "meshes": 11,
+    "image": "ladybug-idle-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\ladybug.glb"
+  },
+  {
+    "species": "ladybug",
+    "variant": "batched",
+    "pose": "moving",
+    "clip": "flight",
+    "frame": 17.45,
+    "span": 0.24814531207084656,
+    "meshes": 11,
+    "image": "ladybug-moving-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\ladybug.glb"
+  },
+  {
+    "species": "caterpillar",
+    "variant": "source",
+    "pose": "idle",
+    "clip": "caterpillar_idle_breathe",
+    "frame": 34.25,
+    "span": 0.3239094614982605,
+    "meshes": 4,
+    "image": "caterpillar-idle-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\caterpillar.glb"
+  },
+  {
+    "species": "caterpillar",
+    "variant": "source",
+    "pose": "moving",
+    "clip": "caterpillar_crawl",
+    "frame": 25.849999999999998,
+    "span": 0.3239094614982605,
+    "meshes": 4,
+    "image": "caterpillar-moving-source.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\insects-batched\\caterpillar.glb"
+  },
+  {
+    "species": "caterpillar",
+    "variant": "batched",
+    "pose": "idle",
+    "clip": "caterpillar_idle_breathe",
+    "frame": 34.25,
+    "span": 0.32390788197517395,
+    "meshes": 4,
+    "image": "caterpillar-idle-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\caterpillar.glb"
+  },
+  {
+    "species": "caterpillar",
+    "variant": "batched",
+    "pose": "moving",
+    "clip": "caterpillar_crawl",
+    "frame": 25.849999999999998,
+    "span": 0.32390788197517395,
+    "meshes": 4,
+    "image": "caterpillar-moving-batched.png",
+    "source": "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\stage111-geometry\\caterpillar.glb"
+  }
+]

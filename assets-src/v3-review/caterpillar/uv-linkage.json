@@ -1,0 +1,100 @@
+{
+  "status": "asset UV documentation; runtime dynamic painting is not implemented",
+  "runtime_dynamic_paint_implemented": false,
+  "source_lineart": "assets-src/v3-review/lineart/manifest.json caterpillar regions",
+  "mesh": "ONE continuous wrinkled soft cuticle",
+  "uv_layout": {
+    "u": "longitudinal t from tail 0 to head 1",
+    "v": "1 - j/96 around the continuous skin circumference",
+    "seam": "positive local Y side"
+  },
+  "region_intervals": [
+    {
+      "region_id": 1,
+      "label": "tail",
+      "u": [
+        0,
+        0.06
+      ]
+    },
+    {
+      "region_id": 2,
+      "label": "segment_01",
+      "u": [
+        0.06,
+        0.165
+      ]
+    },
+    {
+      "region_id": 3,
+      "label": "segment_02",
+      "u": [
+        0.165,
+        0.27
+      ]
+    },
+    {
+      "region_id": 4,
+      "label": "segment_03",
+      "u": [
+        0.27,
+        0.375
+      ]
+    },
+    {
+      "region_id": 5,
+      "label": "segment_04",
+      "u": [
+        0.375,
+        0.48
+      ]
+    },
+    {
+      "region_id": 6,
+      "label": "segment_05",
+      "u": [
+        0.48,
+        0.585
+      ]
+    },
+    {
+      "region_id": 7,
+      "label": "segment_06",
+      "u": [
+        0.585,
+        0.69
+      ]
+    },
+    {
+      "region_id": 8,
+      "label": "segment_07",
+      "u": [
+        0.69,
+        0.795
+      ]
+    },
+    {
+      "region_id": 9,
+      "label": "segment_08",
+      "u": [
+        0.795,
+        0.9
+      ]
+    },
+    {
+      "region_id": 10,
+      "label": "head",
+      "u": [
+        0.9,
+        1
+      ]
+    }
+  ],
+  "sample_basecolor": "textures/skin-basecolor.png",
+  "next_integration_steps": [
+    "Map the ten line-art regions to the documented longitudinal UV intervals.",
+    "Choose and implement a drawing-pixel-to-curved-skin transfer that preserves user marks around the body.",
+    "Composite uploaded/player pigment into the base-color atlas and keep the existing normal/roughness maps.",
+    "Wire painting interaction and texture updates only after visual approval."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source": "clean Blender 5.2 glTF import",
+  "bounds_m": [
+    [
+      -0.11820273101329803,
+      -0.08308770507574081,
+      -5.77287282794714e-05
+    ],
+    [
+      0.10246066004037857,
+      0.08307091146707535,
+      0.1414433866739273
+    ]
+  ],
+  "six_legs": true,
+  "distinct_sampled_poses": 6,
+  "poses": {
+    "walk": {
+      "frame": 7,
+      "duration_frames": 25,
+      "rms_vertex_offset_m": 0.00422,
+      "lowest_vertex_m": 0.000962,
+      "all_frame_min_z_m": -0.001564,
+      "maximum_frame_vertex_step_m": 0.004649
+    },
+    "touch": {
+      "frame": 17,
+      "duration_frames": 33,
+      "rms_vertex_offset_m": 0.010658,
+      "lowest_vertex_m": 0.004787,
+      "all_frame_min_z_m": -0.000895,
+      "maximum_frame_vertex_step_m": 0.008032
+    },
+    "takeoff": {
+      "frame": 16,
+      "duration_frames": 25,
+      "rms_vertex_offset_m": 0.010853,
+      "lowest_vertex_m": 0.005708,
+      "all_frame_min_z_m": -0.000287,
+      "maximum_frame_vertex_step_m": 0.022262
+    },
+    "perch": {
+      "frame": 25,
+      "duration_frames": 49,
+      "rms_vertex_offset_m": 0.001404,
+      "lowest_vertex_m": 0.001058,
+      "all_frame_min_z_m": -0.000806,
+      "maximum_frame_vertex_step_m": 0.001713
+    },
+    "idle": {
+      "frame": 13,
+      "duration_frames": 49,
+      "rms_vertex_offset_m": 0.001623,
+      "lowest_vertex_m": 0.000155,
+      "all_frame_min_z_m": -5.8e-05,
+      "maximum_frame_vertex_step_m": 0.000751
+    },
+    "flight": {
+      "frame": 4,
+      "duration_frames": 25,
+      "rms_vertex_offset_m": 0.021526,
+      "lowest_vertex_m": 0.000352,
+      "all_frame_min_z_m": 0.000136,
+      "maximum_frame_vertex_step_m": 0.030671
+    }
+  }
+}

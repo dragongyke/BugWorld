@@ -1,0 +1,36 @@
+{
+  "threadId": "01a1528b-745e-72f1-b248-bb4f951467bf",
+  "phaseStartUTC": "2026-10-19T05:03:53.579000+00:00",
+  "snapshotUTC": "2026-10-19T05:25:34.782451+00:00",
+  "wallSeconds": 1301.203,
+  "records": [
+    {
+      "task": "stage_main",
+      "threadId": "01a1528b-745e-72f1-b248-bb4f951467bf",
+      "lastUTC": "2026-10-19T05:25:01.443Z",
+      "usage": {
+        "input_tokens": 5377091,
+        "cached_input_tokens": 5221504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 39540,
+        "reasoning_output_tokens": 8484,
+        "total_tokens": 5416631
+      }
+    },
+    {
+      "task": "/root/stage_review",
+      "threadId": "01a15295-d9b7-7142-b5b4-cbb043b0ba5e",
+      "lastUTC": "2026-10-19T05:18:13.537Z",
+      "usage": {
+        "input_tokens": 784119,
+        "cached_input_tokens": 718848,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5465,
+        "reasoning_output_tokens": 2150,
+        "total_tokens": 789584
+      }
+    }
+  ],
+  "verifiedTokens": 6206215,
+  "scope": "Stage chat plus directly spawned reviewer only. Cached input included in input; reasoning included in output. Excludes backend usage not exposed, parent Shared Space work, and requests after latest logged counters."
+}

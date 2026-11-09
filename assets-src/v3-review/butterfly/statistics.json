@@ -1,0 +1,133 @@
+{
+  "species": "butterfly",
+  "triangles": 55688,
+  "vertices": 32911,
+  "mesh_objects": 68,
+  "bones": 25,
+  "actions": [
+    "butterfly_idle_perch",
+    "butterfly_fly",
+    "butterfly_perch_touch",
+    "butterfly_antenna_groom",
+    "butterfly_startle"
+  ],
+  "glb_bytes": 20142340,
+  "body_continuous": false,
+  "images": [
+    {
+      "name": "cuticle-basecolor.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "cuticle-normal.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "cuticle-roughness.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "wing-basecolor.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "wing-normal.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "wing-roughness.png",
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "roundtrip_actions": [
+    "butterfly_antenna_groom",
+    "butterfly_fly",
+    "butterfly_idle_perch",
+    "butterfly_perch_touch",
+    "butterfly_startle"
+  ],
+  "roundtrip_bones": 25,
+  "animation_samples": [
+    {
+      "action": "butterfly_antenna_groom",
+      "frame": 1,
+      "image": "animation-butterfly_antenna_groom-0.png"
+    },
+    {
+      "action": "butterfly_antenna_groom",
+      "frame": 21,
+      "image": "animation-butterfly_antenna_groom-1.png"
+    },
+    {
+      "action": "butterfly_antenna_groom",
+      "frame": 41,
+      "image": "animation-butterfly_antenna_groom-2.png"
+    },
+    {
+      "action": "butterfly_fly",
+      "frame": 1,
+      "image": "animation-butterfly_fly-0.png"
+    },
+    {
+      "action": "butterfly_fly",
+      "frame": 7,
+      "image": "animation-butterfly_fly-1.png"
+    },
+    {
+      "action": "butterfly_fly",
+      "frame": 14,
+      "image": "animation-butterfly_fly-2.png"
+    },
+    {
+      "action": "butterfly_idle_perch",
+      "frame": 1,
+      "image": "animation-butterfly_idle_perch-0.png"
+    },
+    {
+      "action": "butterfly_idle_perch",
+      "frame": 28,
+      "image": "animation-butterfly_idle_perch-1.png"
+    },
+    {
+      "action": "butterfly_idle_perch",
+      "frame": 54,
+      "image": "animation-butterfly_idle_perch-2.png"
+    },
+    {
+      "action": "butterfly_perch_touch",
+      "frame": 1,
+      "image": "animation-butterfly_perch_touch-0.png"
+    },
+    {
+      "action": "butterfly_perch_touch",
+      "frame": 19,
+      "image": "animation-butterfly_perch_touch-1.png"
+    },
+    {
+      "action": "butterfly_perch_touch",
+      "frame": 36,
+      "image": "animation-butterfly_perch_touch-2.png"
+    },
+    {
+      "action": "butterfly_startle",
+      "frame": 1,
+      "image": "animation-butterfly_startle-0.png"
+    },
+    {
+      "action": "butterfly_startle",
+      "frame": 14,
+      "image": "animation-butterfly_startle-1.png"
+    },
+    {
+      "action": "butterfly_startle",
+      "frame": 27,
+      "image": "animation-butterfly_startle-2.png"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "sourceSHA256": "616e8cd716b6559de4e8a06b75568754d40f46c9bb82c301fb821b8392e38583",
+  "outputSHA256": "27eaf11cc95f7a7d59cdbcf089078b8c5c0ba612177328f9d36292d0bf8a0f6f",
+  "bytes": 2095840,
+  "format": "KTX1 R11F_G11F_B10F linear",
+  "sourceRange": "HDR scene-linear Cycles render of approved garden; no water self-reflection",
+  "faceOrder": [
+    "+X",
+    "-X",
+    "+Y",
+    "-Y",
+    "+Z",
+    "-Z"
+  ],
+  "mips": [
+    {
+      "level": 0,
+      "size": 256,
+      "faceBytes": 262144,
+      "linearMin": 9.5367431640625e-07,
+      "linearMax": 7.75
+    },
+    {
+      "level": 1,
+      "size": 128,
+      "faceBytes": 65536,
+      "linearMin": 3.528594970703125e-05,
+      "linearMax": 4.1875
+    },
+    {
+      "level": 2,
+      "size": 64,
+      "faceBytes": 16384,
+      "linearMin": 0.000213623046875,
+      "linearMax": 0.8359375
+    },
+    {
+      "level": 3,
+      "size": 32,
+      "faceBytes": 4096,
+      "linearMin": 0.00066375732421875,
+      "linearMax": 0.185546875
+    },
+    {
+      "level": 4,
+      "size": 16,
+      "faceBytes": 1024,
+      "linearMin": 0.0020751953125,
+      "linearMax": 0.05517578125
+    }
+  ],
+  "diffuseSH": [
+    [
+      0.018172245,
+      0.0192189907,
+      0.0243503827
+    ],
+    [
+      0.0122586668,
+      0.0137114258,
+      0.0075995243
+    ],
+    [
+      -0.00945794978,
+      -0.00746901278,
+      -0.00220481433
+    ],
+    [
+      -0.0102896621,
+      -0.0136967361,
+      -0.00361394516
+    ],
+    [
+      -0.0141954862,
+      -0.016969696,
+      -0.00848419343
+    ],
+    [
+      -0.00412205192,
+      -0.00489912815,
+      -0.00217004252
+    ],
+    [
+      -0.000357127033,
+      -0.00160693196,
+      -0.000192437674
+    ],
+    [
+      2.63269733e-05,
+      0.00228028611,
+      0.00225661803
+    ],
+    [
+      0.00409340296,
+      0.00385319629,
+      0.00381366279
+    ]
+  ],
+  "limitation": "One static local probe; no dynamic insect reflections or planar reflection parallax"
+}

@@ -1,0 +1,29 @@
+{
+  "exitCode": 0,
+  "durationSeconds": 16.236,
+  "bundleBytes": 2142040,
+  "command": [
+    "C:\\Users\\Admin\\AppData\\Local\\pico\\6.1\\editor\\spatialbundle\\spatialbundle.exe",
+    "pack",
+    "--project-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-water-editor",
+    "--scene-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-water-editor\\Sources\\Scenes",
+    "--scene-files",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-water-editor\\Sources\\Scenes\\Hi.usda",
+    "--output-bundle",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-water-editor\\Build\\EmeraldWater.bundle",
+    "--formats",
+    "usda",
+    "--override-output",
+    "--compress-textures",
+    "--discard-unused-resources",
+    "--preserve-resources",
+    "material",
+    "--material-platform",
+    "mobile",
+    "--force-build"
+  ],
+  "environmentWorkaround": "Same SDK editor DLL directory added to child PATH only.",
+  "scope": "Mobile bundle compilation; no application install or headset validation."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "species": "butterfly",
+    "pose": "idle",
+    "meanAbsolutePixelDifference": 0.10502604166666667
+  },
+  {
+    "species": "beetle",
+    "pose": "idle",
+    "meanAbsolutePixelDifference": 0.2622641782407407
+  },
+  {
+    "species": "ladybug",
+    "pose": "idle",
+    "meanAbsolutePixelDifference": 0.28898871527777775
+  },
+  {
+    "species": "caterpillar",
+    "pose": "idle",
+    "meanAbsolutePixelDifference": 0.24911747685185184
+  },
+  {
+    "species": "butterfly",
+    "pose": "moving",
+    "meanAbsolutePixelDifference": 0.06322916666666667
+  },
+  {
+    "species": "beetle",
+    "pose": "moving",
+    "meanAbsolutePixelDifference": 0.09372685185185185
+  },
+  {
+    "species": "ladybug",
+    "pose": "moving",
+    "meanAbsolutePixelDifference": 0.5032204861111111
+  },
+  {
+    "species": "caterpillar",
+    "pose": "moving",
+    "meanAbsolutePixelDifference": 0.23244068287037037
+  }
+]

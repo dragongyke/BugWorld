@@ -1,0 +1,32 @@
+[
+  {
+    "source": "assets-src/stage-ring/garden.glb",
+    "view": "front",
+    "image": "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\stage111-garden-review\\source-front.png"
+  },
+  {
+    "source": "assets-src/stage-ring/garden.glb",
+    "view": "back",
+    "image": "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\stage111-garden-review\\source-back.png"
+  },
+  {
+    "source": "assets-src/stage-ring/garden.glb",
+    "view": "side",
+    "image": "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\stage111-garden-review\\source-side.png"
+  },
+  {
+    "source": "assets-src/stage111-geometry/garden.glb",
+    "view": "front",
+    "image": "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\stage111-garden-review\\candidate-front.png"
+  },
+  {
+    "source": "assets-src/stage111-geometry/garden.glb",
+    "view": "back",
+    "image": "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\stage111-garden-review\\candidate-back.png"
+  },
+  {
+    "source": "assets-src/stage111-geometry/garden.glb",
+    "view": "side",
+    "image": "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\stage111-garden-review\\candidate-side.png"
+  }
+]

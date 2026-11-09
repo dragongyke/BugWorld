@@ -1,0 +1,39 @@
+{
+  "phaseStartUTC": "2026-11-04T13:18:19.064000+00:00",
+  "snapshotUTC": "2026-11-04T13:43:07.667351+00:00",
+  "wallSeconds": 1488.603,
+  "phaseTokens": 34658464,
+  "tokenTotals": {
+    "input_tokens": 34526185,
+    "cached_input_tokens": 34179584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132279,
+    "reasoning_output_tokens": 37933,
+    "total_tokens": 34658464
+  },
+  "picoCliCalls": 0,
+  "directProfilerCalls": 0,
+  "tasks": [
+    {
+      "task": "/root",
+      "tokens": 15969617
+    },
+    {
+      "task": "/root/stage_routes",
+      "tokens": 7019696
+    },
+    {
+      "task": "/root/wing_assets_114",
+      "tokens": 6966125
+    },
+    {
+      "task": "/root/ground_assets_114",
+      "tokens": 4703026
+    }
+  ],
+  "parserWarnings": {
+    "Exec command arguments were not an inline cmd object": 6
+  },
+  "unparseableNonCliCommands": 1,
+  "notes": "Counter snapshot includes cached input and direct children. Nonliteral shell calls are excluded from automated CLI evidence. Image generation service and final packaging/documentation after the snapshot are not billed or measured by this calculation."
+}

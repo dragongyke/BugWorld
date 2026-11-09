@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "fore_-1_cell1",
+    "pixels": 8848
+  },
+  {
+    "id": 2,
+    "name": "fore_-1_cell2",
+    "pixels": 21611
+  },
+  {
+    "id": 3,
+    "name": "fore_-1_cell3",
+    "pixels": 8211
+  },
+  {
+    "id": 4,
+    "name": "fore_1_cell1",
+    "pixels": 8842
+  },
+  {
+    "id": 5,
+    "name": "fore_1_cell2",
+    "pixels": 21611
+  },
+  {
+    "id": 6,
+    "name": "fore_1_cell3",
+    "pixels": 8220
+  },
+  {
+    "id": 7,
+    "name": "hind_-1_cell1",
+    "pixels": 7895
+  },
+  {
+    "id": 8,
+    "name": "hind_-1_cell2",
+    "pixels": 30208
+  },
+  {
+    "id": 9,
+    "name": "hind_-1_cell3",
+    "pixels": 8749
+  },
+  {
+    "id": 10,
+    "name": "hind_1_cell1",
+    "pixels": 7909
+  },
+  {
+    "id": 11,
+    "name": "hind_1_cell2",
+    "pixels": 30187
+  },
+  {
+    "id": 12,
+    "name": "hind_1_cell3",
+    "pixels": 8744
+  },
+  {
+    "id": 13,
+    "name": "head",
+    "pixels": 2159
+  },
+  {
+    "id": 14,
+    "name": "thorax_left",
+    "pixels": 2157
+  },
+  {
+    "id": 15,
+    "name": "thorax_right",
+    "pixels": 2252
+  },
+  {
+    "id": 16,
+    "name": "thorax_lower",
+    "pixels": 2007
+  },
+  {
+    "id": 17,
+    "name": "tail1",
+    "pixels": 2052
+  },
+  {
+    "id": 18,
+    "name": "tail2",
+    "pixels": 2087
+  },
+  {
+    "id": 19,
+    "name": "tail3",
+    "pixels": 2521
+  },
+  {
+    "id": 20,
+    "name": "tail4",
+    "pixels": 2668
+  },
+  {
+    "id": 21,
+    "name": "tail5",
+    "pixels": 2476
+  },
+  {
+    "id": 22,
+    "name": "tail6",
+    "pixels": 1545
+  },
+  {
+    "id": 23,
+    "name": "tail7",
+    "pixels": 776
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "status": "Asset design study; not installed and not headset evidence",
+  "skySphereRadiusMetres": 9,
+  "skyPreviewShadowVisibility": false,
+  "waterMaterialNote": "Art-directed static PBR metallic 0.38; not physical water. Needs device shader probe.",
+  "sourceSha256": "9a1e5fabfaf55e610dd6feb4f47bd8a189f65485b9eb0a3ac754b119f2abb126",
+  "glbSha256": "e138d41f2af1e86ba22ce3920005b744df86e24dcbc6f886f5a2e799ed767ca7",
+  "gardenTriangles": 150211,
+  "gardenMeshes": 40,
+  "gardenMaterials": 17,
+  "waterTriangles": 2,
+  "heroLeaves": 6,
+  "waterPads": 4,
+  "flowers": 3,
+  "reeds": 24,
+  "fernClusters": 28,
+  "leaves": [
+    {
+      "name": "observe_front_right",
+      "centre": [
+        1.4,
+        2.15,
+        0.55
+      ],
+      "radius": 0.93,
+      "frontDotStanding": 0.6276,
+      "frontDotSeated": 0.4826
+    },
+    {
+      "name": "observe_front_low",
+      "centre": [
+        0.65,
+        1.4,
+        0.12
+      ],
+      "radius": 0.91,
+      "frontDotStanding": 0.7993,
+      "frontDotSeated": 0.6696
+    },
+    {
+      "name": "observe_right",
+      "centre": [
+        2.7,
+        -0.5,
+        0.3
+      ],
+      "radius": 1.0,
+      "frontDotStanding": 0.6302,
+      "frontDotSeated": 0.5013
+    },
+    {
+      "name": "observe_back",
+      "centre": [
+        0.3,
+        -2.9,
+        0.3
+      ],
+      "radius": 1.3,
+      "frontDotStanding": 0.6209,
+      "frontDotSeated": 0.4968
+    },
+    {
+      "name": "observe_back_left",
+      "centre": [
+        -2.6,
+        -2.1,
+        0.3
+      ],
+      "radius": 1.25,
+      "frontDotStanding": 0.6062,
+      "frontDotSeated": 0.494
+    },
+    {
+      "name": "observe_left",
+      "centre": [
+        -3.9,
+        0.4,
+        0.2
+      ],
+      "radius": 1.4,
+      "frontDotStanding": 0.5154,
+      "frontDotSeated": 0.4136
+    }
+  ],
+  "anchors": [
+    {
+      "species": "beetle",
+      "surface": "CC0_foreground_fallen_log",
+      "point": [
+        -1.9500000476837158,
+        1.75,
+        0.5161495208740234
+      ],
+      "normal": [
+        0.1056017205119133,
+        0.057064495980739594,
+        0.9927698969841003
+      ],
+      "span": 0.48
+    },
+    {
+      "species": "ladybug",
+      "surface": "observe_front_right",
+      "point": [
+        1.350000023841858,
+        2.049999952316284,
+        0.5208730697631836
+      ],
+      "normal": [
+        -0.22241558134555817,
+        -0.15807455778121948,
+        0.9620518088340759
+      ],
+      "span": 0.31
+    },
+    {
+      "species": "caterpillar",
+      "surface": "observe_front_low",
+      "point": [
+        0.6499999761581421,
+        1.399999976158142,
+        0.12000036239624023
+      ],
+      "normal": [
+        -0.09030305594205856,
+        -0.13302862644195557,
+        0.9869897365570068
+      ],
+      "span": 0.4
+    },
+    {
+      "species": "butterfly",
+      "surface": "detail_lotus_petal",
+      "point": [
+        -0.30000001192092896,
+        2.25,
+        0.44295787811279297
+      ],
+      "normal": [
+        -0.42676374316215515,
+        -0.4520419239997864,
+        0.7832820415496826
+      ],
+      "span": 0.48
+    }
+  ],
+  "reviewInsects": [
+    {
+      "species": "beetle",
+      "sha256": "c79c9a08cac239540669e180de5b360bd47aaf085dbf3e17f3055ddda06a3901"
+    },
+    {
+      "species": "ladybug",
+      "sha256": "4eeece068f65960f74dfe03eba68f61a7365d8112daeb3efeeb795f7afe63b3e"
+    },
+    {
+      "species": "caterpillar",
+      "sha256": "f962615e3d99458e0e98e7557827a046c7071d1262967b9e59627253a3d0b02b"
+    },
+    {
+      "species": "butterfly",
+      "sha256": "951c719ea7fd5eee1d3068c070a77b0fbf241cbefb67555a7338cb589cdeca29"
+    }
+  ],
+  "leafWoodIntersections": [],
+  "limitations": [
+    "Cycles world/reflection/tonemapping are not PICO runtime evidence",
+    "water is static exported PBR; dual-normal animation not implemented",
+    "anchors are design samples, not completed collision-safe loop routes",
+    "leaf-facing dot checks do not prove no occlusion or no intersections",
+    "panorama seam and poles must be verified in the actual sky sphere"
+  ]
+}

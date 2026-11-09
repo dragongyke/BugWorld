@@ -1,0 +1,122 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": null,
+  "phaseStartUTC": "2026-10-22T06:12:39.511000+00:00",
+  "snapshotUTC": "2026-10-22T06:39:26.255711+00:00",
+  "wallSeconds": 1606.745,
+  "netWorkSeconds": null,
+  "phaseTokens": 7436374,
+  "tokenTotals": {
+    "input_tokens": 7404641,
+    "cached_input_tokens": 7043200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31733,
+    "reasoning_output_tokens": 8189,
+    "total_tokens": 7436374
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 2,
+  "cli": [
+    {
+      "utc": "2026-10-22T06:16:25.007Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_086dd217ad634fe6a21adb21e47ad304",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "--help"
+      ],
+      "statementOffset": 211
+    },
+    {
+      "utc": "2026-10-22T06:31:34.832Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_f215a4090b4f42fe8c6691c3ca8d0cad",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "install",
+        "--help"
+      ],
+      "statementOffset": 0
+    }
+  ],
+  "directProfilerCalls": 0,
+  "directProfiler": [],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 0,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 0,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-22T06:38:59.958Z",
+      "baselineBasis": "last counter at or before phase start",
+      "baselineAsOfUTC": null,
+      "baseline": {
+        "input_tokens": 249361537,
+        "cached_input_tokens": 243921280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 997217,
+        "reasoning_output_tokens": 330937,
+        "total_tokens": 250358754
+      },
+      "cumulative": {
+        "input_tokens": 255737591,
+        "cached_input_tokens": 250013696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1025718,
+        "reasoning_output_tokens": 338662,
+        "total_tokens": 256763309
+      },
+      "phase": {
+        "input_tokens": 6376054,
+        "cached_input_tokens": 6092416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28501,
+        "reasoning_output_tokens": 7725,
+        "total_tokens": 6404555
+      }
+    },
+    {
+      "log": "rollout-2026-10-22T14-29-44-01a1624d-2094-7511-b1f7-6f4ec0c5c18e.jsonl",
+      "threadId": "01a1624d-2094-7511-b1f7-6f4ec0c5c18e",
+      "task": "/root/forest_runtime_review",
+      "asOfUTC": "2026-10-22T06:37:41.991Z",
+      "baselineBasis": "new direct child after phase start; zero baseline",
+      "baselineAsOfUTC": null,
+      "baseline": {},
+      "cumulative": {
+        "input_tokens": 1028587,
+        "cached_input_tokens": 950784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3232,
+        "reasoning_output_tokens": 464,
+        "total_tokens": 1031819
+      },
+      "phase": {
+        "input_tokens": 1028587,
+        "cached_input_tokens": 950784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3232,
+        "reasoning_output_tokens": 464,
+        "total_tokens": 1031819
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown.",
+  "phase": "1.0.12 emerald forest APK integration; device validation deferred"
+}

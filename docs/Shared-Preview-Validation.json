@@ -1,0 +1,46 @@
+{
+  "version": "1.0.5",
+  "versionCode": 5,
+  "sourceBaseline": "f0d582357383e9ed2241d4f11bbd44d25ca99a00",
+  "scope": "Baseline plus Shared Space changes; independent Stage work excluded from this APK",
+  "tests": {
+    "tests": 97,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 28
+  },
+  "runtimeAssetMatches": 37,
+  "approvedInsects": {
+    "butterfly": {
+      "sha256": "c144196aded9514ff02e85b557aad08c18b306e34cb11f73d1138f0357259d7d",
+      "bytes": 20142340,
+      "matchesApproved": true
+    },
+    "beetle": {
+      "sha256": "09fad12111f64f23b4d94fddf0430a4f9aebb8a44979feddf4f4525deaa6374e",
+      "bytes": 22764324,
+      "matchesApproved": true
+    },
+    "ladybug": {
+      "sha256": "9689cdda51b5aeb06f3c335e5d99f09bd8e9c0731ad8c067eebf8b634e7bc513",
+      "bytes": 20737640,
+      "matchesApproved": true
+    },
+    "caterpillar": {
+      "sha256": "3035c211c4176354c9c039ce1e4adc9452bb2bf7cbf0c349f03b55305145ae98",
+      "bytes": 12510404,
+      "matchesApproved": true
+    }
+  },
+  "apk": {
+    "path": "deliverables/BugWorld-1.0.5-shared-preview.apk",
+    "sha256": "7f4acf8f4a8892801498b35c735f25cc9db8b175101895e7a9d1206ce3b97574",
+    "bytes": 187059012
+  },
+  "deviceValidation": "Pending: no device attached; no measured loading speed or gesture acceptance result"
+}

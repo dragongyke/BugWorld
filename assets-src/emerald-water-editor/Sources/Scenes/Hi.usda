@@ -1,0 +1,180 @@
+#usda 1.0
+(
+    customLayerData = {
+        string Copyright = "Copyright 2022 - 2024 PICO. All rights reserved."
+        string RuntimeVersion = "Runtime V6.1.0.0.mol.13"
+        string Version = "Spatial Editor V6.1.1"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Plane "WaterProbe" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        uniform token axis = "Y"
+        custom double cornerRadius = 0
+        float3[] extent = [(-0.05, 0, -0.05), (0.05, 0, 0.05)]
+        double length = 0.10000000149011612
+        rel material:binding = </Root/WaterProbe/DefaultMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double width = 0.10000000149011612
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (40, 1, 40)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial" (
+            customData = {
+                bool applyToneMapping = 1
+                string blendingMode = "OPAQUE"
+                string cullingMode = "BACK"
+                bool depthTest = 1
+                bool depthWrite = 1
+                string materialType = "SHADER_GRAPH"
+                float opacityThreshold = 0
+                string shaderGraphGuid = "b6654a7b-bffd-485a-a651-aec520271757"
+            }
+        )
+        {
+            token outputs:mtlx:surface.connect = </Root/WaterProbe/DefaultMaterial/Surface.outputs:out>
+            token outputs:spatial:vertex
+            float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                color3f inputs:diffuseColor = (0.006, 0.025, 0.018)
+                float inputs:ior = 1.333
+                float inputs:metallic = 0
+                float3 inputs:normal.connect = </Root/WaterProbe/DefaultMaterial/Normal.outputs:out>
+                float inputs:opacity = 1
+                float inputs:roughness = 0.06
+                token outputs:out
+                float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                int ui:nodegraph:node:stackingOrder = 15
+            }
+
+            def Shader "UV"
+            {
+                uniform token info:id = "ND_texcoord_vector2"
+                int inputs:index = 0
+                float2 outputs:out
+            }
+
+            def Shader "Time"
+            {
+                uniform token info:id = "ND_time_float"
+                float outputs:out
+            }
+
+            def Shader "Flow"
+            {
+                uniform token info:id = "ND_multiply_vector2FA"
+                float2 inputs:in1 = (0.007, 0.003)
+                float inputs:in2.connect = </Root/WaterProbe/DefaultMaterial/Time.outputs:out>
+                float2 outputs:out
+            }
+
+            def Shader "MovingUV"
+            {
+                uniform token info:id = "ND_add_vector2"
+                float2 inputs:in1.connect = </Root/WaterProbe/DefaultMaterial/UV.outputs:out>
+                float2 inputs:in2.connect = </Root/WaterProbe/DefaultMaterial/Flow.outputs:out>
+                float2 outputs:out
+            }
+
+            def Shader "Ripple"
+            {
+                uniform token info:id = "ND_image_vector3"
+                asset inputs:file = @../Textures/WaterNormal.png@
+                string inputs:filtertype = "linear"
+                float2 inputs:texcoord.connect = </Root/WaterProbe/DefaultMaterial/MovingUV.outputs:out>
+                string inputs:uaddressmode = "periodic"
+                string inputs:vaddressmode = "periodic"
+                float3 outputs:out
+            }
+
+            def Shader "Normal"
+            {
+                uniform token info:id = "ND_normalmap"
+                float3 inputs:in.connect = </Root/WaterProbe/DefaultMaterial/AverageRipple.outputs:out>
+                float3 inputs:normal.connect = </Root/WaterProbe/DefaultMaterial/WaterUp.outputs:out>
+                float inputs:scale = 2
+                string inputs:space = "tangent"
+                float3 inputs:tangent.connect = </Root/WaterProbe/DefaultMaterial/WaterTangent.outputs:out>
+                float3 outputs:out
+            }
+
+            def Shader "UV2"
+            {
+                uniform token info:id = "ND_multiply_vector2FA"
+                float2 inputs:in1.connect = </Root/WaterProbe/DefaultMaterial/UV.outputs:out>
+                float inputs:in2 = 0.67
+                float2 outputs:out
+            }
+
+            def Shader "Flow2"
+            {
+                uniform token info:id = "ND_multiply_vector2FA"
+                float2 inputs:in1 = (-0.003, 0.004)
+                float inputs:in2.connect = </Root/WaterProbe/DefaultMaterial/Time.outputs:out>
+                float2 outputs:out
+            }
+
+            def Shader "MovingUV2"
+            {
+                uniform token info:id = "ND_add_vector2"
+                float2 inputs:in1.connect = </Root/WaterProbe/DefaultMaterial/UV2.outputs:out>
+                float2 inputs:in2.connect = </Root/WaterProbe/DefaultMaterial/Flow2.outputs:out>
+                float2 outputs:out
+            }
+
+            def Shader "Ripple2"
+            {
+                uniform token info:id = "ND_image_vector3"
+                asset inputs:file = @../Textures/WaterNormal.png@
+                string inputs:filtertype = "linear"
+                float2 inputs:texcoord.connect = </Root/WaterProbe/DefaultMaterial/MovingUV2.outputs:out>
+                string inputs:uaddressmode = "periodic"
+                string inputs:vaddressmode = "periodic"
+                float3 outputs:out
+            }
+
+            def Shader "SumRipple"
+            {
+                uniform token info:id = "ND_add_vector3"
+                float3 inputs:in1.connect = </Root/WaterProbe/DefaultMaterial/Ripple.outputs:out>
+                float3 inputs:in2.connect = </Root/WaterProbe/DefaultMaterial/Ripple2.outputs:out>
+                float3 outputs:out
+            }
+
+            def Shader "AverageRipple"
+            {
+                uniform token info:id = "ND_multiply_vector3FA"
+                float3 inputs:in1.connect = </Root/WaterProbe/DefaultMaterial/SumRipple.outputs:out>
+                float inputs:in2 = 0.5
+                float3 outputs:out
+            }
+
+            def Shader "WaterUp"
+            {
+                uniform token info:id = "ND_constant_vector3"
+                float3 inputs:value = (0, 0, 1)
+                float3 outputs:out
+            }
+
+            def Shader "WaterTangent"
+            {
+                uniform token info:id = "ND_constant_vector3"
+                float3 inputs:value = (1, 0, 0)
+                float3 outputs:out
+            }
+        }
+    }
+}

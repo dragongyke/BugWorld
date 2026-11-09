@@ -1,0 +1,49 @@
+{
+  "geometryChecks": "passed",
+  "visualFidelity": "not accepted",
+  "runtimeIntegration": false,
+  "headsetValidation": false,
+  "gardenTriangles": 150211,
+  "skyTriangles": 3968,
+  "gardenSha256": "e138d41f2af1e86ba22ce3920005b744df86e24dcbc6f886f5a2e799ed767ca7",
+  "skySha256": "daacd5e0cd61f020d726884e5977cebe53ed334bb724be6fe0325858c3125626",
+  "blendSha256": "9aa0e3915718b4eceeb52dc18decca859f2435b5ca902f4cdf6b7cfe840c9787",
+  "staticIntersectionPairsChecked": 39,
+  "imageSizes": {
+    "forest-panorama.png": [
+      1774,
+      887
+    ],
+    "forest-ground-albedo.png": [
+      1254,
+      1254
+    ],
+    "front.png": [
+      1440,
+      900
+    ],
+    "right.png": [
+      1440,
+      900
+    ],
+    "back.png": [
+      1440,
+      900
+    ],
+    "left.png": [
+      1440,
+      900
+    ]
+  },
+  "requestedPanoramaSize": [
+    4096,
+    2048
+  ],
+  "panoramaMeetsRequestedResolution": false,
+  "newRgba8TextureBytesWithMipEstimate": 16778955,
+  "runtimeAssetsCheckedUnchanged": 29,
+  "caveats": [
+    "Geometry/packaging checks do not establish visual fidelity or FPS",
+    "Water shader, routes and native lighting remain unimplemented in this study"
+  ]
+}

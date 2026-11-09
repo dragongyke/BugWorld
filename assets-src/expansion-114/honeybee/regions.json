@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "fore_1_cell1",
+    "pixels": 8161
+  },
+  {
+    "id": 2,
+    "name": "fore_1_cell2",
+    "pixels": 19088
+  },
+  {
+    "id": 3,
+    "name": "fore_1_cell3",
+    "pixels": 6220
+  },
+  {
+    "id": 4,
+    "name": "hind_-1_cell2",
+    "pixels": 9327
+  },
+  {
+    "id": 5,
+    "name": "hind_-1_cell3",
+    "pixels": 3223
+  },
+  {
+    "id": 6,
+    "name": "fore_-1_cell1",
+    "pixels": 10979
+  },
+  {
+    "id": 7,
+    "name": "fore_-1_cell2",
+    "pixels": 36879
+  },
+  {
+    "id": 8,
+    "name": "fore_-1_cell3",
+    "pixels": 9993
+  },
+  {
+    "id": 9,
+    "name": "abdomen1",
+    "pixels": 13834
+  },
+  {
+    "id": 10,
+    "name": "abdomen2",
+    "pixels": 17509
+  },
+  {
+    "id": 11,
+    "name": "abdomen3",
+    "pixels": 16840
+  },
+  {
+    "id": 12,
+    "name": "abdomen4",
+    "pixels": 9780
+  },
+  {
+    "id": 13,
+    "name": "abdomen5",
+    "pixels": 3587
+  },
+  {
+    "id": 14,
+    "name": "abdomen6",
+    "pixels": 423
+  },
+  {
+    "id": 15,
+    "name": "thorax",
+    "pixels": 37624
+  },
+  {
+    "id": 16,
+    "name": "head",
+    "pixels": 14549
+  }
+]

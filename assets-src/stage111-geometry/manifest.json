@@ -1,0 +1,547 @@
+{
+  "tool": "meshoptimizer 1.1.1 (MIT)",
+  "documentation": "https://github.com/zeux/meshoptimizer/blob/master/js/README.md",
+  "scope": "Candidate. Lossy triangle indices only; approved attributes/images/rigs/clips and contact surfaces preserved. Needs render and device validation.",
+  "results": [
+    {
+      "kind": "butterfly",
+      "source": "assets-src\\insects-batched\\butterfly.glb",
+      "sourceSha256": "bc7771a113de4263f433d605794340694662c069b24cc4c6bca13c406374a6f8",
+      "sha256": "951c719ea7fd5eee1d3068c070a77b0fbf241cbefb67555a7338cb589cdeca29",
+      "trianglesBefore": 55688,
+      "trianglesAfter": 46386,
+      "records": [
+        {
+          "mesh": "1700 thoracic setae",
+          "before": 5100,
+          "after": 5100,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "L_forewing_closed_membrane",
+          "before": 8124,
+          "after": 8124,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "L_hindwing_closed_membrane",
+          "before": 6972,
+          "after": 6972,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "R_forewing_closed_membrane",
+          "before": 8124,
+          "after": 8124,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "R_hindwing_closed_membrane",
+          "before": 6972,
+          "after": 6972,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "batch_Antenna club 1",
+          "before": 14028,
+          "after": 4726,
+          "error": 0.001956021413207054,
+          "protected": false
+        },
+        {
+          "mesh": "batch_Compound eye 1",
+          "before": 1904,
+          "after": 1904,
+          "error": 0,
+          "protected": false
+        },
+        {
+          "mesh": "batch_L_forewing_vein_0",
+          "before": 4464,
+          "after": 4464,
+          "error": 0,
+          "protected": true
+        }
+      ]
+    },
+    {
+      "kind": "beetle",
+      "source": "assets-src\\insects-batched\\beetle.glb",
+      "sourceSha256": "43f60a85d47826aacd3dc7c35329741b1e5aea39b9e9e2fc1c66fae13963ebd4",
+      "sha256": "c79c9a08cac239540669e180de5b360bd47aaf085dbf3e17f3055ddda06a3901",
+      "trianglesBefore": 96244,
+      "trianglesAfter": 64784,
+      "records": [
+        {
+          "mesh": "elytron_L",
+          "before": 13136,
+          "after": 12484,
+          "error": 0.00199882872402668,
+          "protected": false
+        },
+        {
+          "mesh": "elytron_R",
+          "before": 13136,
+          "after": 12484,
+          "error": 0.001998604740947485,
+          "protected": false
+        },
+        {
+          "mesh": "head_and_recurved_horn",
+          "before": 14080,
+          "after": 3942,
+          "error": 0.0017956607043743134,
+          "protected": false
+        },
+        {
+          "mesh": "pronotum_and_short_horn",
+          "before": 11520,
+          "after": 5698,
+          "error": 0.001977929612621665,
+          "protected": false
+        },
+        {
+          "mesh": "batch_abdomen",
+          "before": 14844,
+          "after": 11136,
+          "error": 0.0019990846049040556,
+          "protected": false
+        },
+        {
+          "mesh": "batch_antenna_club_1_0",
+          "before": 15876,
+          "after": 9520,
+          "error": 0.0019528316333889961,
+          "protected": false
+        },
+        {
+          "mesh": "batch_claw_L1_1",
+          "before": 6612,
+          "after": 2584,
+          "error": 0.0019487268291413784,
+          "protected": false
+        },
+        {
+          "mesh": "batch_elytron_rolled_edge_1",
+          "before": 1560,
+          "after": 1560,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "batch_eye_1",
+          "before": 2128,
+          "after": 2024,
+          "error": 0.001952958176843822,
+          "protected": false
+        },
+        {
+          "mesh": "batch_flight_membrane_L_dist",
+          "before": 1408,
+          "after": 1408,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "batch_wing_crossvein_L_dist_6",
+          "before": 1944,
+          "after": 1944,
+          "error": 0,
+          "protected": true
+        }
+      ]
+    },
+    {
+      "kind": "ladybug",
+      "source": "assets-src\\insects-batched\\ladybug.glb",
+      "sourceSha256": "f49bf551f12a75b822ba81014751607fb993b44e4cc102ac414f5182a11e3eb0",
+      "sha256": "4eeece068f65960f74dfe03eba68f61a7365d8112daeb3efeeb795f7afe63b3e",
+      "trianglesBefore": 71428,
+      "trianglesAfter": 52528,
+      "records": [
+        {
+          "mesh": "elytron_L",
+          "before": 13136,
+          "after": 11892,
+          "error": 0.0019632792100310326,
+          "protected": false
+        },
+        {
+          "mesh": "elytron_R",
+          "before": 13136,
+          "after": 11886,
+          "error": 0.001964280614629388,
+          "protected": false
+        },
+        {
+          "mesh": "head",
+          "before": 1680,
+          "after": 1680,
+          "error": 0,
+          "protected": false
+        },
+        {
+          "mesh": "pronotum",
+          "before": 4936,
+          "after": 4936,
+          "error": 0,
+          "protected": false
+        },
+        {
+          "mesh": "batch_abdomen",
+          "before": 10288,
+          "after": 5426,
+          "error": 0.0019940012134611607,
+          "protected": false
+        },
+        {
+          "mesh": "batch_antenna_club_1_0",
+          "before": 13524,
+          "after": 6582,
+          "error": 0.001997552113607526,
+          "protected": false
+        },
+        {
+          "mesh": "batch_cheek_suture_1",
+          "before": 7688,
+          "after": 3396,
+          "error": 0.0019587171263992786,
+          "protected": false
+        },
+        {
+          "mesh": "batch_elytron_rolled_edge_1",
+          "before": 1560,
+          "after": 1560,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "batch_eye_1",
+          "before": 2128,
+          "after": 1818,
+          "error": 0.001996684120967984,
+          "protected": false
+        },
+        {
+          "mesh": "batch_flight_membrane_L_dist",
+          "before": 1408,
+          "after": 1408,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "batch_wing_crossvein_L_dist_6",
+          "before": 1944,
+          "after": 1944,
+          "error": 0,
+          "protected": true
+        }
+      ]
+    },
+    {
+      "kind": "caterpillar",
+      "source": "assets-src\\insects-batched\\caterpillar.glb",
+      "sourceSha256": "7a74619bad082cac90bb892c82dcb4c8fd1cf51f315ce20c75c50fd30626041c",
+      "sha256": "f962615e3d99458e0e98e7557827a046c7071d1262967b9e59627253a3d0b02b",
+      "trianglesBefore": 117128,
+      "trianglesAfter": 36948,
+      "records": [
+        {
+          "mesh": "ONE continuous wrinkled soft cuticle",
+          "before": 83134,
+          "after": 23638,
+          "error": 0.0019942056387662888,
+          "protected": false
+        },
+        {
+          "mesh": "batch_850 sparse skin setae",
+          "before": 4178,
+          "after": 4178,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "batch_Anterior leg knee 6/1",
+          "before": 28376,
+          "after": 7944,
+          "error": 0.0015403496799990535,
+          "protected": false
+        },
+        {
+          "mesh": "batch_Simple dark eye 1",
+          "before": 1440,
+          "after": 1188,
+          "error": 0.0019422541372478008,
+          "protected": false
+        }
+      ]
+    },
+    {
+      "kind": "garden",
+      "source": "assets-src\\stage-ring\\garden.glb",
+      "sourceSha256": "15e556a7afa3bc3190c7a4d6782fda0cb40028cbe6be2211325013bc8e0bd079",
+      "sha256": "9a1e5fabfaf55e610dd6feb4f47bd8a189f65485b9eb0a3ac754b119f2abb126",
+      "trianglesBefore": 251260,
+      "trianglesAfter": 175176,
+      "records": [
+        {
+          "mesh": "fallen_log_5m_PROXY.001",
+          "before": 83128,
+          "after": 83128,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "dead_tree",
+          "before": 45810,
+          "after": 18167,
+          "error": 0.0019872249104082584,
+          "protected": false
+        },
+        {
+          "mesh": "Sparse moss attached to retained wood",
+          "before": 25034,
+          "after": 25034,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "detail_dew.001",
+          "before": 6400,
+          "after": 1792,
+          "error": 0.0004556683707050979,
+          "protected": false
+        },
+        {
+          "mesh": "detail_gold.001",
+          "before": 1320,
+          "after": 1320,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "detail_grass_flower.001",
+          "before": 1008,
+          "after": 1008,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "detail_leaf_vein.001",
+          "before": 16352,
+          "after": 3056,
+          "error": 0.0006101870676502585,
+          "protected": false
+        },
+        {
+          "mesh": "detail_lotus_petal.001",
+          "before": 41472,
+          "after": 11611,
+          "error": 0.00121949496679008,
+          "protected": false
+        },
+        {
+          "mesh": "detail_reed_0.001",
+          "before": 960,
+          "after": 960,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "detail_reed_1.001",
+          "before": 720,
+          "after": 720,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "detail_reed_2.001",
+          "before": 720,
+          "after": 720,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_00.001",
+          "before": 4816,
+          "after": 4816,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_00_stem.001",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_01.001",
+          "before": 4816,
+          "after": 4816,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_01_stem.001",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_02",
+          "before": 4816,
+          "after": 4816,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_02_stem",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_03",
+          "before": 4816,
+          "after": 4140,
+          "error": 0.0019980024080723524,
+          "protected": false
+        },
+        {
+          "mesh": "hero_leaf_03_stem",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_04",
+          "before": 1064,
+          "after": 1064,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_04_stem",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_06.001",
+          "before": 1064,
+          "after": 1064,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_06_stem.001",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_07.001",
+          "before": 1064,
+          "after": 1064,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_07_stem.001",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_08.001",
+          "before": 1064,
+          "after": 1064,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "hero_leaf_08_stem",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "lotus_flower_stem",
+          "before": 20,
+          "after": 20,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "lotus_flower_stem.001",
+          "before": 20,
+          "after": 20,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "lotus_flower_stem.002",
+          "before": 20,
+          "after": 20,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "lotus_flower_stem.003",
+          "before": 20,
+          "after": 20,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "Stage calm pond",
+          "before": 2048,
+          "after": 2048,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "water_pad_00",
+          "before": 1064,
+          "after": 1064,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "water_pad_00_stem",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "water_pad_01",
+          "before": 1064,
+          "after": 1064,
+          "error": 0,
+          "protected": true
+        },
+        {
+          "mesh": "water_pad_01_stem",
+          "before": 56,
+          "after": 56,
+          "error": 0,
+          "protected": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "package": "com.bugworld.app",
+  "status": "incomplete",
+  "checks": [
+    {
+      "test": "compact_native_bar",
+      "barToPaperWidth": 0.7657142857142857
+    },
+    {
+      "test": "new_paper_opens_confirmation_and_cancel_preserves_drawing",
+      "passed": true
+    }
+  ],
+  "limits": "Semantic actions and UI state only; tracked finger input, panel following, and visual frame pacing require headset observation."
+}

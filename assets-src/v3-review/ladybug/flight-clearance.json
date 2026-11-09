@@ -1,0 +1,21 @@
+{
+  "source_glb_sha256": "9689cdda51b5aeb06f3c335e5d99f09bd8e9c0731ad8c067eebf8b634e7bc513",
+  "method": "evaluated GLB triangle surface BVH overlap at every half frame, epsilon 0.03 mm",
+  "sampled_frames": 214,
+  "intersection_records": [],
+  "clear": true,
+  "tested_wings": [
+    "flight_membrane_L_dist",
+    "flight_membrane_L_prox",
+    "flight_membrane_R_dist",
+    "flight_membrane_R_prox"
+  ],
+  "tested_solids": [
+    "abdomen",
+    "elytron_L",
+    "elytron_R",
+    "pronotum",
+    "thorax_underplate"
+  ],
+  "limitation": "Surface intersection test, not volumetric signed distance; visual pose review is also required."
+}

@@ -1,0 +1,69 @@
+{
+  "fresh_process": true,
+  "imported_mesh_objects": 92,
+  "bones": 15,
+  "actions": [
+    "caterpillar_crawl",
+    "caterpillar_explore",
+    "caterpillar_idle_breathe",
+    "caterpillar_recoil",
+    "caterpillar_touch_curiosity"
+  ],
+  "images": [
+    {
+      "name": "cuticle-basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cuticle-normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cuticle-roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "skin-basecolor",
+      "size": [
+        2048,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "skin-normal",
+      "size": [
+        2048,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "skin-roughness",
+      "size": [
+        2048,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "materials": 4,
+  "triangles": 117128,
+  "dimensions_m": [
+    0.3239094614982605,
+    0.07960117235779762,
+    0.12335521294153295
+  ]
+}

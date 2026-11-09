@@ -1,0 +1,238 @@
+{
+  "phaseStartUTC": "2026-10-09T12:22:01.235000+00:00",
+  "snapshotUTC": "2026-10-09T12:40:29.779011+00:00",
+  "wallSeconds": 1108,
+  "projectWallSeconds": 98718,
+  "phaseTokens": 5919978,
+  "projectTokens": 173191574,
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "cumulative": {
+        "input_tokens": 82583112,
+        "cached_input_tokens": 80869376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 443025,
+        "reasoning_output_tokens": 142024,
+        "total_tokens": 83026137
+      },
+      "phase": {
+        "input_tokens": 5892855,
+        "cached_input_tokens": 5747200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 27123,
+        "reasoning_output_tokens": 9333,
+        "total_tokens": 5919978
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T18-12-51-01a11b00-6019-7760-b0dc-f7855a912dc0.jsonl",
+      "cumulative": {
+        "input_tokens": 1411824,
+        "cached_input_tokens": 1335424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4548,
+        "reasoning_output_tokens": 903,
+        "total_tokens": 1416372
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T20-27-44-01a11b7b-daa5-7451-afd6-d309befa7fc4.jsonl",
+      "cumulative": {
+        "input_tokens": 2121230,
+        "cached_input_tokens": 2035200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25899,
+        "reasoning_output_tokens": 7360,
+        "total_tokens": 2147129
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T20-28-16-01a11b7c-59af-7161-a99b-7c43dc82da49.jsonl",
+      "cumulative": {
+        "input_tokens": 3952313,
+        "cached_input_tokens": 3832832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35026,
+        "reasoning_output_tokens": 10792,
+        "total_tokens": 3987339
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T20-28-52-01a11b7c-e549-7aa2-862f-fd996fd32901.jsonl",
+      "cumulative": {
+        "input_tokens": 5370191,
+        "cached_input_tokens": 5137152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 52814,
+        "reasoning_output_tokens": 18807,
+        "total_tokens": 5423005
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T20-37-41-01a11b84-f881-7c32-a471-2544d7e3924a.jsonl",
+      "cumulative": {
+        "input_tokens": 19096798,
+        "cached_input_tokens": 18451328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 130277,
+        "reasoning_output_tokens": 50667,
+        "total_tokens": 19227075
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T21-01-21-01a11b9a-a3a3-7bd0-92bd-59e9f3844292.jsonl",
+      "cumulative": {
+        "input_tokens": 9645418,
+        "cached_input_tokens": 9368448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56744,
+        "reasoning_output_tokens": 19891,
+        "total_tokens": 9702162
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-08T21-39-54-01a11bbd-ef40-7353-8839-d7ec21312728.jsonl",
+      "cumulative": {
+        "input_tokens": 13618472,
+        "cached_input_tokens": 13401216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 68390,
+        "reasoning_output_tokens": 28758,
+        "total_tokens": 13686862
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-09T12-45-28-01a11efa-fef2-7b23-a495-61e56cecf33f.jsonl",
+      "cumulative": {
+        "input_tokens": 6242226,
+        "cached_input_tokens": 6082688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28133,
+        "reasoning_output_tokens": 7493,
+        "total_tokens": 6270359
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-09T12-45-51-01a11efb-59e8-7310-a239-d6f3301a6def.jsonl",
+      "cumulative": {
+        "input_tokens": 12749231,
+        "cached_input_tokens": 12490368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76578,
+        "reasoning_output_tokens": 33951,
+        "total_tokens": 12825809
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-09T12-46-38-01a11efc-113f-76a3-8e71-c70caf5739be.jsonl",
+      "cumulative": {
+        "input_tokens": 13376628,
+        "cached_input_tokens": 12997632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 65922,
+        "reasoning_output_tokens": 18528,
+        "total_tokens": 13442550
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-09T13-17-35-01a11f18-689c-7ac2-a37e-6b25408fbc0e.jsonl",
+      "cumulative": {
+        "input_tokens": 2030139,
+        "cached_input_tokens": 1931136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6636,
+        "reasoning_output_tokens": 2607,
+        "total_tokens": 2036775
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    }
+  ]
+}

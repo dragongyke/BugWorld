@@ -1,0 +1,29 @@
+{
+  "species": "dragonfly",
+  "bytes": 769360,
+  "triangles": 14347,
+  "draw_primitives": 5,
+  "meshes": [
+    "Anatomy",
+    "PaperSurface"
+  ],
+  "joints": 13,
+  "clips": [
+    "idle",
+    "walk",
+    "takeoff",
+    "flight",
+    "touch",
+    "perch"
+  ],
+  "textures": 2,
+  "materials": [
+    "Compound eye \u2013 dragonfly",
+    "Sclerites and feet",
+    "Membrane venation",
+    "Thoracic bronze",
+    "Paper_dragonfly"
+  ],
+  "float_sheet_v0": "top",
+  "units": "metres"
+}

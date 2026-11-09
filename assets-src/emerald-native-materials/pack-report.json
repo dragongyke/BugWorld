@@ -1,0 +1,29 @@
+{
+  "exitCode": 0,
+  "durationSeconds": 23.03,
+  "bundleBytes": 120952119,
+  "command": [
+    "C:\\Users\\Admin\\AppData\\Local\\pico\\6.1\\editor\\spatialbundle\\spatialbundle.exe",
+    "pack",
+    "--project-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-native-final",
+    "--scene-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-native-final\\Sources\\Scenes",
+    "--scene-files",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-native-final\\Sources\\Scenes\\Hi.usda",
+    "--output-bundle",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-native-final\\Build\\GardenReview.bundle",
+    "--formats",
+    "usda",
+    "--override-output",
+    "--compress-textures",
+    "--discard-unused-resources",
+    "--preserve-resources",
+    "material",
+    "--material-platform",
+    "mobile",
+    "--force-build"
+  ],
+  "scope": "Combined editor garden with mobile materials, not APK or headset validation",
+  "environmentWorkaround": "Same SDK editor DLL directory added to child PATH only."
+}

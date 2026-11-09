@@ -1,0 +1,119 @@
+{
+  "sourceSha256": "37db7de882b9768a416be37054a4d176a3cf8dbec578141eb7eb8bede99c3b34",
+  "sha256": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+  "elapsedSeconds": 11.362725099956151,
+  "shiftsMetres": {
+    "CC0_foreground_fallen_log": -0.34,
+    "CC0_right_fallen_log": -0.19
+  },
+  "mossAssignedVertices": {
+    "CC0_foreground_fallen_log": 210380,
+    "CC0_right_fallen_log": 79237,
+    "CC0_hero_weathered_stump": 22978
+  },
+  "decimation": [
+    {
+      "name": "CC0_hero_weathered_stump",
+      "ratio": 0.45,
+      "before": 101802,
+      "after": 45810
+    },
+    {
+      "name": "CC0_right_fallen_log",
+      "ratio": 0.4,
+      "before": 83128,
+      "after": 33251
+    },
+    {
+      "name": "CC0_mossy_root_base",
+      "ratio": 0.4,
+      "before": 41046,
+      "after": 16418
+    },
+    {
+      "name": "CC0_near_small_stump",
+      "ratio": 0.4,
+      "before": 41046,
+      "after": 16418
+    },
+    {
+      "name": "detail_lotus_petal",
+      "ratio": 0.55,
+      "before": 62208,
+      "after": 34213
+    },
+    {
+      "name": "detail_grass_flower",
+      "ratio": 0.65,
+      "before": 14448,
+      "after": 9391
+    },
+    {
+      "name": "detail_dew",
+      "ratio": 0.65,
+      "before": 6400,
+      "after": 4320
+    }
+  ],
+  "resizedTextures": [
+    {
+      "name": "dead_tree_trunk_02_arm_2k",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "dead_tree_trunk_arm_2k",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "tree_stump_01_diff_2k",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "tree_stump_01_arm_2k",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "tree_stump_01_nor_gl_2k",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "waterTriangles": 2048,
+  "mossAlphaMode": "MASK",
+  "mossAlphaCutoff": 0.35,
+  "scope": "Review candidate, not approved source or deployed runtime. No dynamic waves or planar reflection."
+}

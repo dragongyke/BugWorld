@@ -1,0 +1,95 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": null,
+  "phaseStartUTC": "2026-10-21T10:34:08.216000+00:00",
+  "snapshotUTC": "2026-10-21T12:29:53.449734+00:00",
+  "wallSeconds": 6945.234,
+  "netWorkSeconds": null,
+  "phaseTokens": 20736855,
+  "tokenTotals": {
+    "input_tokens": 20675956,
+    "cached_input_tokens": 19961344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 60899,
+    "reasoning_output_tokens": 16564,
+    "total_tokens": 20736855
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 0,
+  "cli": [],
+  "directProfilerCalls": 0,
+  "directProfiler": [],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 0,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 0,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-21T12:28:48.723Z",
+      "baselineBasis": "last counter at or before phase start",
+      "baselineAsOfUTC": null,
+      "baseline": {
+        "input_tokens": 226915977,
+        "cached_input_tokens": 222210560,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 929372,
+        "reasoning_output_tokens": 312276,
+        "total_tokens": 227845349
+      },
+      "cumulative": {
+        "input_tokens": 247591933,
+        "cached_input_tokens": 242171904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 990271,
+        "reasoning_output_tokens": 328840,
+        "total_tokens": 248582204
+      },
+      "phase": {
+        "input_tokens": 20675956,
+        "cached_input_tokens": 19961344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 60899,
+        "reasoning_output_tokens": 16564,
+        "total_tokens": 20736855
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown.",
+  "phase": "Emerald forest native sunlight, water, shoreline and portable scene",
+  "spatialEditorExecutableCallSites": {
+    "mcp__pico_spatial_editor__ensure_editor_ready": 10,
+    "mcp__pico_spatial_editor__get_spatial_editor_docs": 13,
+    "mcp__pico_spatial_editor__execute_script": 40,
+    "mcp__pico_spatial_editor__import_asset": 4,
+    "mcp__pico_spatial_editor__get_entity_info": 2,
+    "mcp__pico_spatial_editor__get_viewport_screenshot": 34,
+    "mcp__pico_spatial_editor__get_scene_info": 6,
+    "mcp__pico_spatial_editor__set_environment_hdri": 5,
+    "mcp__pico_spatial_editor__get_material_capabilities": 2,
+    "mcp__pico_spatial_editor__validate_material_usda": 4,
+    "mcp__pico_spatial_editor__preview_material_usda": 7,
+    "mcp__pico_spatial_editor__commit_material_preview": 5,
+    "mcp__pico_spatial_editor__stop_editor": 5,
+    "mcp__pico_spatial_editor__search_shader_nodes": 1,
+    "mcp__pico_spatial_editor__get_shader_node_catalog": 1
+  },
+  "spatialEditorCallSitesTotal": 139,
+  "spatialEditorCountCaveat": "Call sites, not exact requests or success counts; loops may execute a call site repeatedly.",
+  "directMobilePackRuns": 2,
+  "directMobilePackEvidence": [
+    "assets-src/emerald-native-materials/pack-shore-v3-report.json",
+    "assets-src/emerald-native-scene/pack-report.json"
+  ],
+  "noNewApk": true
+}

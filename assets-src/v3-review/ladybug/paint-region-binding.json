@@ -1,0 +1,13 @@
+{
+  "status": "design_contract_only_dynamic_painting_not_implemented",
+  "lineart_manifest": "assets-src/v3-review/lineart/manifest.json",
+  "lineart_species": "ladybug",
+  "uv_layer": "ArtSurfaceUV",
+  "regions": [
+    {"id": 1, "label": "elytron_left", "meshes": ["elytron_L"], "material": "left_pink_wax", "uv_domain": "U tail-to-head; V seam-to-outer-edge, angle/(pi/2)"},
+    {"id": 2, "label": "elytron_right", "meshes": ["elytron_R"], "material": "right_mint_wax", "uv_domain": "U tail-to-head; V seam-to-outer-edge, angle/(pi/2)"},
+    {"id": 3, "label": "head", "meshes": ["head"], "material": "warm_brown_cuticle", "limitation": "Material is shared with other body meshes; independent head painting requires a material instance and a region UV bake."},
+    {"id": 4, "label": "pronotum", "meshes": ["pronotum"], "material": "ivory_collar_with_brown_smudge", "uv_domain": "U rear-to-front; V left-to-right across the collar arch"}
+  ],
+  "required_future_work": ["Raster region extraction", "Region-to-curved-UV warp", "Protected ink and spot masks", "Runtime material texture replacement", "Device verification"]
+}

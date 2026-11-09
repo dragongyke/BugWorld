@@ -1,0 +1,6 @@
+# Superseded experiments remain local; the failure history is in README/retrospective.
+sources/jacaranda_tree/
+sources/mossy_forest.jpg
+sources/mossy_rock_*.jpg
+forest-panorama-source.blend
+*.picometa

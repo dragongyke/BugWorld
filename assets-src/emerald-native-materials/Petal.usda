@@ -1,0 +1,52 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+)
+def Xform "Root" {
+    def Material "Petal" (
+        customData = {
+            string materialType = "SHADER_GRAPH"
+            string blendingMode = "OPAQUE"
+            string cullingMode = "NONE"
+            bool depthWrite = 1
+            bool depthTest = 1
+            bool applyToneMapping = 1
+        }
+    ) {
+        token outputs:mtlx:surface.connect = </Root/Petal/Surface.outputs:out>
+        def Shader "Surface" {
+            uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+            color3f inputs:diffuseColor.connect = </Root/Petal/LinearColor.outputs:out>
+            float inputs:metallic = 0
+            float inputs:roughness = 0.46
+            float inputs:opacity = 1
+
+            token outputs:out
+        }
+        def Shader "UV" {
+            uniform token info:id = "ND_texcoord_vector2"
+            int inputs:index = 0
+            float2 outputs:out
+        }
+        def Shader "Albedo" {
+            uniform token info:id = "ND_image_color3"
+            asset inputs:file = @C:/Work/AndoidSpatialProject/BugWorld/assets-src/emerald-native-materials/Textures/Petal.png@
+            float2 inputs:texcoord.connect = </Root/Petal/UVScale.outputs:out>
+            color3f outputs:out
+        }
+        def Shader "UVScale" {
+            uniform token info:id = "ND_multiply_vector2FA"
+            float2 inputs:in1.connect = </Root/Petal/UV.outputs:out>
+            float inputs:in2 = 1
+            float2 outputs:out
+        }
+        def Shader "LinearColor" {
+            uniform token info:id = "ND_power_color3FA"
+            color3f inputs:in1.connect = </Root/Petal/Albedo.outputs:out>
+            float inputs:in2 = 2.2
+            color3f outputs:out
+        }
+
+    }
+}

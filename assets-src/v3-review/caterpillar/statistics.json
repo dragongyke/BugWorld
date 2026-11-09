@@ -1,0 +1,133 @@
+{
+  "species": "caterpillar",
+  "triangles": 117128,
+  "vertices": 61467,
+  "mesh_objects": 92,
+  "bones": 15,
+  "actions": [
+    "caterpillar_crawl",
+    "caterpillar_explore",
+    "caterpillar_recoil",
+    "caterpillar_idle_breathe",
+    "caterpillar_touch_curiosity"
+  ],
+  "glb_bytes": 12510404,
+  "body_continuous": true,
+  "images": [
+    {
+      "name": "cuticle-basecolor.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "cuticle-normal.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "cuticle-roughness.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "skin-basecolor.png",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "name": "skin-normal.png",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "name": "skin-roughness.png",
+      "width": 2048,
+      "height": 1024
+    }
+  ],
+  "roundtrip_actions": [
+    "caterpillar_crawl",
+    "caterpillar_explore",
+    "caterpillar_idle_breathe",
+    "caterpillar_recoil",
+    "caterpillar_touch_curiosity"
+  ],
+  "roundtrip_bones": 15,
+  "animation_samples": [
+    {
+      "action": "caterpillar_crawl",
+      "frame": 1,
+      "image": "animation-caterpillar_crawl-0.png"
+    },
+    {
+      "action": "caterpillar_crawl",
+      "frame": 21,
+      "image": "animation-caterpillar_crawl-1.png"
+    },
+    {
+      "action": "caterpillar_crawl",
+      "frame": 41,
+      "image": "animation-caterpillar_crawl-2.png"
+    },
+    {
+      "action": "caterpillar_explore",
+      "frame": 1,
+      "image": "animation-caterpillar_explore-0.png"
+    },
+    {
+      "action": "caterpillar_explore",
+      "frame": 28,
+      "image": "animation-caterpillar_explore-1.png"
+    },
+    {
+      "action": "caterpillar_explore",
+      "frame": 54,
+      "image": "animation-caterpillar_explore-2.png"
+    },
+    {
+      "action": "caterpillar_idle_breathe",
+      "frame": 1,
+      "image": "animation-caterpillar_idle_breathe-0.png"
+    },
+    {
+      "action": "caterpillar_idle_breathe",
+      "frame": 28,
+      "image": "animation-caterpillar_idle_breathe-1.png"
+    },
+    {
+      "action": "caterpillar_idle_breathe",
+      "frame": 54,
+      "image": "animation-caterpillar_idle_breathe-2.png"
+    },
+    {
+      "action": "caterpillar_recoil",
+      "frame": 1,
+      "image": "animation-caterpillar_recoil-0.png"
+    },
+    {
+      "action": "caterpillar_recoil",
+      "frame": 14,
+      "image": "animation-caterpillar_recoil-1.png"
+    },
+    {
+      "action": "caterpillar_recoil",
+      "frame": 27,
+      "image": "animation-caterpillar_recoil-2.png"
+    },
+    {
+      "action": "caterpillar_touch_curiosity",
+      "frame": 1,
+      "image": "animation-caterpillar_touch_curiosity-0.png"
+    },
+    {
+      "action": "caterpillar_touch_curiosity",
+      "frame": 21,
+      "image": "animation-caterpillar_touch_curiosity-1.png"
+    },
+    {
+      "action": "caterpillar_touch_curiosity",
+      "frame": 41,
+      "image": "animation-caterpillar_touch_curiosity-2.png"
+    }
+  ]
+}

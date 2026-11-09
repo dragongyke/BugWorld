@@ -1,0 +1,16 @@
+#usda 1.0
+(
+    defaultPrim = "ForestBackdrop"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+# Keep the shadow policy in a referenced asset: Editor 6.1's scene writer
+# does not serialize DynamicShadowComponent when it is authored locally.
+def Mesh "ForestBackdrop" (
+    prepend references = @ForestBackground.usda@
+)
+{
+    quatf xformOp:orient = (1, 0, 0, 0)
+    float3 xformOp:translate = (0, 1.6, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+}

@@ -1,0 +1,140 @@
+{
+  "phaseStartUTC": "2026-10-19T10:03:14.691000+00:00",
+  "snapshotUTC": "2026-10-19T10:42:52.802590+00:00",
+  "wallSeconds": 2378,
+  "phaseTokens": 11145169,
+  "historicalCoverageComplete": false,
+  "picoCliCalls": 19,
+  "cli": [
+    {
+      "utc": "2026-10-19T10:05:34.638Z",
+      "command": "--help"
+    },
+    {
+      "utc": "2026-10-19T10:05:49.680Z",
+      "command": "capture screenshot --help"
+    },
+    {
+      "utc": "2026-10-19T10:06:08.619Z",
+      "command": "capture screenshot --out '.work/stage-before109.png'"
+    },
+    {
+      "utc": "2026-10-19T10:07:04.932Z",
+      "command": "capture screenshot --out '.work/stage-before109.png'"
+    },
+    {
+      "utc": "2026-10-19T10:08:42.625Z",
+      "command": "app install --help"
+    },
+    {
+      "utc": "2026-10-19T10:08:42.625Z",
+      "command": "app launch --help"
+    },
+    {
+      "utc": "2026-10-19T10:09:11.315Z",
+      "command": "app install 'app/build/outputs/apk/debug/app-debug.apk' --replace"
+    },
+    {
+      "utc": "2026-10-19T10:09:43.038Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T10:09:58.561Z",
+      "command": "capture screenshot --out '.work/stage109-studio.png'"
+    },
+    {
+      "utc": "2026-10-19T10:19:18.800Z",
+      "command": "app install 'app/build/outputs/apk/debug/app-debug.apk' --replace"
+    },
+    {
+      "utc": "2026-10-19T10:19:18.800Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T10:23:28.355Z",
+      "command": "perf --help"
+    },
+    {
+      "utc": "2026-10-19T10:24:33.321Z",
+      "command": "perf live --help"
+    },
+    {
+      "utc": "2026-10-19T10:33:31.537Z",
+      "command": "app install --help"
+    },
+    {
+      "utc": "2026-10-19T10:33:51.243Z",
+      "command": "app install deliverables/BugWorld-1.0.9.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T10:33:51.243Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T10:34:48.303Z",
+      "command": "capture screenshot --out .work/stage109-device.png"
+    },
+    {
+      "utc": "2026-10-19T10:40:31.246Z",
+      "command": "app install deliverables/BugWorld-1.0.9.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T10:40:31.246Z",
+      "command": "app launch com.bugworld.app"
+    }
+  ],
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "asOfUTC": "2026-10-19T10:42:22.014Z",
+      "baseline": {
+        "input_tokens": 108776209,
+        "cached_input_tokens": 106236160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 573189,
+        "reasoning_output_tokens": 182514,
+        "total_tokens": 109349398
+      },
+      "cumulative": {
+        "input_tokens": 119072683,
+        "cached_input_tokens": 116279808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 621807,
+        "reasoning_output_tokens": 195622,
+        "total_tokens": 119694490
+      },
+      "phase": {
+        "input_tokens": 10296474,
+        "cached_input_tokens": 10043648,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 48618,
+        "reasoning_output_tokens": 13108,
+        "total_tokens": 10345092
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T18-25-25-01a153b1-d307-7532-a473-d88f6b554bc3.jsonl",
+      "asOfUTC": "2026-10-19T10:27:51.151Z",
+      "baseline": {},
+      "cumulative": {
+        "input_tokens": 796004,
+        "cached_input_tokens": 718336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4073,
+        "reasoning_output_tokens": 1625,
+        "total_tokens": 800077
+      },
+      "phase": {
+        "input_tokens": 796004,
+        "cached_input_tokens": 718336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4073,
+        "reasoning_output_tokens": 1625,
+        "total_tokens": 800077
+      }
+    }
+  ],
+  "imagegenCalls": 1,
+  "imagegenBackendTokens": null,
+  "definition": "Session counter differences; input includes cached tokens, output includes reasoning. No billing estimate. Historical log coverage is incomplete; no exact project grand total claimed."
+}

@@ -1,0 +1,1628 @@
+[
+  {
+    "clip": "idle",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.013888888888888888,
+    "lowestVertexAboveRestPlaneMeters": -6.826739991083741e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.027777777777777776,
+    "lowestVertexAboveRestPlaneMeters": -6.827722972957417e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.041666666666666664,
+    "lowestVertexAboveRestPlaneMeters": -6.827298057032749e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.05555555555555555,
+    "lowestVertexAboveRestPlaneMeters": -6.826392200309783e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.06944444444444445,
+    "lowestVertexAboveRestPlaneMeters": -6.827298057032749e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.08333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.828705227235332e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.09722222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.829609628766775e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.1111111111111111,
+    "lowestVertexAboveRestPlaneMeters": -6.829312769696116e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.125,
+    "lowestVertexAboveRestPlaneMeters": -6.828192272223532e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.1388888888888889,
+    "lowestVertexAboveRestPlaneMeters": -6.825849413871765e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.1527777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.828875484643504e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.826556636951864e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.18055555555555555,
+    "lowestVertexAboveRestPlaneMeters": -6.829047197243199e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.19444444444444445,
+    "lowestVertexAboveRestPlaneMeters": -6.82757527101785e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.20833333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.828092591604218e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.2222222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.825609307270497e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.2361111111111111,
+    "lowestVertexAboveRestPlaneMeters": -6.827028119005263e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.25,
+    "lowestVertexAboveRestPlaneMeters": -6.826638127677143e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.2638888888888889,
+    "lowestVertexAboveRestPlaneMeters": -6.827421020716429e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.2777777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.82681129546836e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.2916666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.828548066550866e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.3055555555555556,
+    "lowestVertexAboveRestPlaneMeters": -6.826988828834146e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.3194444444444444,
+    "lowestVertexAboveRestPlaneMeters": -6.827627657912672e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.829588528489694e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.3472222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.82789905113168e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.3611111111111111,
+    "lowestVertexAboveRestPlaneMeters": -6.828131881775334e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.375,
+    "lowestVertexAboveRestPlaneMeters": -6.828503683209419e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.3888888888888889,
+    "lowestVertexAboveRestPlaneMeters": -6.826374738011509e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4027777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.826166645623744e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4166666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.826547178206965e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4305555555555556,
+    "lowestVertexAboveRestPlaneMeters": -6.828110053902492e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4444444444444444,
+    "lowestVertexAboveRestPlaneMeters": -6.827515608165413e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4583333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.825489981565624e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4722222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.82754471199587e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.4861111111111111,
+    "lowestVertexAboveRestPlaneMeters": -6.829959602328017e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": -6.827236211393028e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5138888888888888,
+    "lowestVertexAboveRestPlaneMeters": -6.829956691944972e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5277777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.827542529208586e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5416666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.825485615991056e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5555555555555556,
+    "lowestVertexAboveRestPlaneMeters": -6.827506149420515e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5694444444444444,
+    "lowestVertexAboveRestPlaneMeters": -6.828112964285538e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5833333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.826550816185772e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.5972222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.826163007644936e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.6111111111111112,
+    "lowestVertexAboveRestPlaneMeters": -6.826371100032702e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.625,
+    "lowestVertexAboveRestPlaneMeters": -6.828500045230612e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.6388888888888888,
+    "lowestVertexAboveRestPlaneMeters": -6.828138430137187e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.6527777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.827896868344396e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.829584162915125e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.6805555555555556,
+    "lowestVertexAboveRestPlaneMeters": -6.827628385508433e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.6944444444444444,
+    "lowestVertexAboveRestPlaneMeters": -6.826991739217192e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.7083333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.828553159721196e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.7222222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.826810567872599e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.7361111111111112,
+    "lowestVertexAboveRestPlaneMeters": -6.827421020716429e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.75,
+    "lowestVertexAboveRestPlaneMeters": -6.826638855272904e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.7638888888888888,
+    "lowestVertexAboveRestPlaneMeters": -6.827028119005263e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.7777777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.825607852078974e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.7916666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.828091136412695e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.8055555555555556,
+    "lowestVertexAboveRestPlaneMeters": -6.827572360634804e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.8194444444444444,
+    "lowestVertexAboveRestPlaneMeters": -6.829047197243199e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.826555909356102e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.8472222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.828874757047743e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.8611111111111112,
+    "lowestVertexAboveRestPlaneMeters": -6.825849413871765e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.875,
+    "lowestVertexAboveRestPlaneMeters": -6.828192272223532e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.8888888888888888,
+    "lowestVertexAboveRestPlaneMeters": -6.829312769696116e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9027777777777778,
+    "lowestVertexAboveRestPlaneMeters": -6.829609628766775e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9166666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.828705954831094e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9305555555555556,
+    "lowestVertexAboveRestPlaneMeters": -6.827298057032749e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9444444444444444,
+    "lowestVertexAboveRestPlaneMeters": -6.826392200309783e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9583333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827298057032749e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9722222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.827723700553179e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 0.9861111111111112,
+    "lowestVertexAboveRestPlaneMeters": -6.826739991083741e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "idle",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.03333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.826927710790187e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.06666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.828487676102668e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.1,
+    "lowestVertexAboveRestPlaneMeters": -6.826822209404781e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.13333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.826466415077448e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.826110620750114e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.2,
+    "lowestVertexAboveRestPlaneMeters": -6.827803736086935e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.23333333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.82888348819688e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.26666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.82864265399985e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.3,
+    "lowestVertexAboveRestPlaneMeters": -6.826419121352956e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.828014738857746e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.36666666666666664,
+    "lowestVertexAboveRestPlaneMeters": -6.826958269812167e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.4,
+    "lowestVertexAboveRestPlaneMeters": -6.828296318417415e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.43333333333333335,
+    "lowestVertexAboveRestPlaneMeters": -6.828464393038303e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.4666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.826219760114327e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": -6.825640593888238e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.5333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.828393088653684e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.5666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.82864774717018e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.6,
+    "lowestVertexAboveRestPlaneMeters": -6.828297046013176e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.6333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.826637400081381e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.827772449469194e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.7,
+    "lowestVertexAboveRestPlaneMeters": -6.829277845099568e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.7333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.82758036418818e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.7666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.827012111898512e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.8,
+    "lowestVertexAboveRestPlaneMeters": -6.82627796777524e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.829409539932385e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.8666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.828307232353836e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.9,
+    "lowestVertexAboveRestPlaneMeters": -6.828147888882086e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.9333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.829814083175734e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 0.9666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.827549077570438e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "walk",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": -6.827161269029602e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.027777777777777776,
+    "lowestVertexAboveRestPlaneMeters": -6.826746539445594e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.05555555555555555,
+    "lowestVertexAboveRestPlaneMeters": -6.828730693086982e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.08333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.827340257586911e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.1111111111111111,
+    "lowestVertexAboveRestPlaneMeters": -6.82727768435143e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.1388888888888889,
+    "lowestVertexAboveRestPlaneMeters": -6.827698234701529e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.827346078353003e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.19444444444444445,
+    "lowestVertexAboveRestPlaneMeters": -6.827931065345183e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.2222222222222222,
+    "lowestVertexAboveRestPlaneMeters": -6.82832978782244e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.25,
+    "lowestVertexAboveRestPlaneMeters": 0.0005118383560329676,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.2777777777777778,
+    "lowestVertexAboveRestPlaneMeters": 0.0008006632560864091,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.3055555555555556,
+    "lowestVertexAboveRestPlaneMeters": 0.0013049818808212876,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": 0.0019905180670320988,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.3611111111111111,
+    "lowestVertexAboveRestPlaneMeters": 0.0028098970651626587,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.3888888888888889,
+    "lowestVertexAboveRestPlaneMeters": 0.0037052081897854805,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.4166666666666667,
+    "lowestVertexAboveRestPlaneMeters": 0.004613385535776615,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.4444444444444444,
+    "lowestVertexAboveRestPlaneMeters": 0.005470909643918276,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.4722222222222222,
+    "lowestVertexAboveRestPlaneMeters": 0.006218424998223782,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": 0.007359719835221767,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.5277777777777778,
+    "lowestVertexAboveRestPlaneMeters": 0.008341697044670582,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.5555555555555556,
+    "lowestVertexAboveRestPlaneMeters": 0.008641456253826618,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.5833333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.008494087494909763,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.6111111111111112,
+    "lowestVertexAboveRestPlaneMeters": 0.007773767225444317,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.6388888888888888,
+    "lowestVertexAboveRestPlaneMeters": 0.006425621919333935,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.005724792368710041,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.6944444444444444,
+    "lowestVertexAboveRestPlaneMeters": 0.004896269645541906,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.7222222222222222,
+    "lowestVertexAboveRestPlaneMeters": 0.003997421823441982,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.75,
+    "lowestVertexAboveRestPlaneMeters": 0.0030910824425518513,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.7777777777777778,
+    "lowestVertexAboveRestPlaneMeters": 0.002240802627056837,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.8055555555555556,
+    "lowestVertexAboveRestPlaneMeters": 0.0015069943619892001,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.0009404518641531467,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.8611111111111112,
+    "lowestVertexAboveRestPlaneMeters": 0.0005793514428660274,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.8888888888888888,
+    "lowestVertexAboveRestPlaneMeters": 0.0004494306049309671,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.9166666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.0004492286825552583,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.9444444444444444,
+    "lowestVertexAboveRestPlaneMeters": 0.00044924370013177395,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 0.9722222222222222,
+    "lowestVertexAboveRestPlaneMeters": 0.0004492180305533111,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "hop",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": 0.00044923077803105116,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.041666666666666664,
+    "lowestVertexAboveRestPlaneMeters": -6.828879122622311e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.08333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.827370816608891e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.125,
+    "lowestVertexAboveRestPlaneMeters": -6.828652112744749e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.828929326729849e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.20833333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.82967875036411e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.25,
+    "lowestVertexAboveRestPlaneMeters": -0.00021140727039892226,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.2916666666666667,
+    "lowestVertexAboveRestPlaneMeters": 0.00046177138574421406,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": 0.0006956757279112935,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.375,
+    "lowestVertexAboveRestPlaneMeters": 0.0011811091098934412,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.4166666666666667,
+    "lowestVertexAboveRestPlaneMeters": 0.0018601196352392435,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.4583333333333333,
+    "lowestVertexAboveRestPlaneMeters": 0.0041332850232720375,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": 0.012304180301725864,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.5416666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.018186427652835846,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.5833333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.02050534076988697,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.625,
+    "lowestVertexAboveRestPlaneMeters": 0.022462978959083557,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.024039849638938904,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.7083333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.025091737508773804,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.75,
+    "lowestVertexAboveRestPlaneMeters": 0.025474414229393005,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.7916666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.025474414229393005,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.025474414229393005,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.875,
+    "lowestVertexAboveRestPlaneMeters": 0.025474414229393005,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.9166666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.025474414229393005,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 0.9583333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.025474414229393005,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "takeoff",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": 0.025474419817328453,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": 0.024133596569299698,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.041666666666666664,
+    "lowestVertexAboveRestPlaneMeters": 0.024133579805493355,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.08333333333333333,
+    "lowestVertexAboveRestPlaneMeters": 0.024133596569299698,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.125,
+    "lowestVertexAboveRestPlaneMeters": 0.02413358725607395,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.0241335928440094,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.20833333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.024133598431944847,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.25,
+    "lowestVertexAboveRestPlaneMeters": 0.023749420419335365,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.2916666666666667,
+    "lowestVertexAboveRestPlaneMeters": 0.024133605882525444,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": 0.024133598431944847,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.375,
+    "lowestVertexAboveRestPlaneMeters": 0.024133577942848206,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.4166666666666667,
+    "lowestVertexAboveRestPlaneMeters": 0.0241335891187191,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.4583333333333333,
+    "lowestVertexAboveRestPlaneMeters": 0.02413359098136425,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": 0.024133596569299698,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.5416666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.02413359470665455,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.5833333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.023749420419335365,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.625,
+    "lowestVertexAboveRestPlaneMeters": 0.024133607745170593,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.024133596569299698,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.7083333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.024133577942848206,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.75,
+    "lowestVertexAboveRestPlaneMeters": 0.02413359098136425,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.7916666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.02413358725607395,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.02413359470665455,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.875,
+    "lowestVertexAboveRestPlaneMeters": 0.02413361147046089,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.9166666666666666,
+    "lowestVertexAboveRestPlaneMeters": 0.023749420419335365,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 0.9583333333333334,
+    "lowestVertexAboveRestPlaneMeters": 0.024133607745170593,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "flight",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": 0.024133581668138504,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.03333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.827677134424448e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.06666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.827538163634017e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.1,
+    "lowestVertexAboveRestPlaneMeters": -6.829334597568959e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.13333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.826780008850619e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.82810932630673e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.2,
+    "lowestVertexAboveRestPlaneMeters": -6.829018093412742e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.23333333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.825905438745394e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.26666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.826184835517779e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.3,
+    "lowestVertexAboveRestPlaneMeters": -6.826552271377295e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.828048208262771e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.36666666666666664,
+    "lowestVertexAboveRestPlaneMeters": -6.827893957961351e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.4,
+    "lowestVertexAboveRestPlaneMeters": -6.825473974458873e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.43333333333333335,
+    "lowestVertexAboveRestPlaneMeters": -6.828310142736882e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.4666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.82588288327679e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": -6.829416815889999e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.5333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.828307232353836e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.5666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.826605385867879e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.6,
+    "lowestVertexAboveRestPlaneMeters": -6.827690958743915e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.6333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.827343895565718e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.82732425048016e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.7,
+    "lowestVertexAboveRestPlaneMeters": -6.827151810284704e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.7333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.827508332207799e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.7666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.826769094914198e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.8,
+    "lowestVertexAboveRestPlaneMeters": -6.829459744039923e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827909965068102e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.8666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.9,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.9333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 0.9666666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "touch",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.020833333333333332,
+    "lowestVertexAboveRestPlaneMeters": -6.826766184531152e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.041666666666666664,
+    "lowestVertexAboveRestPlaneMeters": -6.829875928815454e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.0625,
+    "lowestVertexAboveRestPlaneMeters": -6.826569006079808e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.08333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.829438643762842e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.10416666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.828727782703936e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.125,
+    "lowestVertexAboveRestPlaneMeters": -6.828134064562619e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.14583333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.829046469647437e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.16666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.827161996625364e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.1875,
+    "lowestVertexAboveRestPlaneMeters": -6.828857294749469e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.20833333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827317702118307e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.22916666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.827821198385209e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.25,
+    "lowestVertexAboveRestPlaneMeters": -6.826851313235238e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.2708333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.826720345998183e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.2916666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.827287143096328e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.3125,
+    "lowestVertexAboveRestPlaneMeters": -6.82940662954934e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.3333333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.82488753227517e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.3541666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.826758180977777e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.375,
+    "lowestVertexAboveRestPlaneMeters": -6.826379831181839e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.3958333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.827300239820033e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.4166666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.828855111962184e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.4375,
+    "lowestVertexAboveRestPlaneMeters": -6.826752360211685e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.4583333333333333,
+    "lowestVertexAboveRestPlaneMeters": -6.828064215369523e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.4791666666666667,
+    "lowestVertexAboveRestPlaneMeters": -6.826566823292524e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.5,
+    "lowestVertexAboveRestPlaneMeters": -6.826025492046028e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.5208333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827137985965237e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.5416666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.826040771557018e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.5625,
+    "lowestVertexAboveRestPlaneMeters": -6.826852768426761e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.5833333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.826661410741508e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.6041666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.828532787039876e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.625,
+    "lowestVertexAboveRestPlaneMeters": -6.828236655564979e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.6458333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.829485937487334e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.6666666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.827533070463687e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.6875,
+    "lowestVertexAboveRestPlaneMeters": -6.829304766142741e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.7083333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827480683568865e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.7291666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.82903264532797e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.75,
+    "lowestVertexAboveRestPlaneMeters": -6.829053745605052e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.7708333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827922334196046e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.7916666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.827696051914245e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.8125,
+    "lowestVertexAboveRestPlaneMeters": -6.828825280535966e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.8333333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827859033364803e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.8541666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.82772442814894e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.875,
+    "lowestVertexAboveRestPlaneMeters": -6.827423931099474e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.8958333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.827173638157547e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.9166666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.829079211456701e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.9375,
+    "lowestVertexAboveRestPlaneMeters": -6.827715696999803e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.9583333333333334,
+    "lowestVertexAboveRestPlaneMeters": -6.828467303421348e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 0.9791666666666666,
+    "lowestVertexAboveRestPlaneMeters": -6.826766184531152e-05,
+    "wingHindLegCrossings": {}
+  },
+  {
+    "clip": "perch",
+    "phase": 1.0,
+    "lowestVertexAboveRestPlaneMeters": -6.82716490700841e-05,
+    "wingHindLegCrossings": {}
+  }
+]

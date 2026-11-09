@@ -1,0 +1,160 @@
+{
+  "approvedAssetsChecked": 28,
+  "animationClips": 20,
+  "files": [
+    {
+      "runtime": "models/butterfly.glb",
+      "source": "assets-src/v3-review/butterfly/butterfly.glb",
+      "sha256": "c144196aded9514ff02e85b557aad08c18b306e34cb11f73d1138f0357259d7d"
+    },
+    {
+      "runtime": "models/beetle.glb",
+      "source": "assets-src/v3-review/beetle/beetle.glb",
+      "sha256": "09fad12111f64f23b4d94fddf0430a4f9aebb8a44979feddf4f4525deaa6374e"
+    },
+    {
+      "runtime": "models/ladybug.glb",
+      "source": "assets-src/v3-review/ladybug/ladybug.glb",
+      "sha256": "9689cdda51b5aeb06f3c335e5d99f09bd8e9c0731ad8c067eebf8b634e7bc513"
+    },
+    {
+      "runtime": "models/caterpillar.glb",
+      "source": "assets-src/v3-review/caterpillar/caterpillar.glb",
+      "sha256": "3035c211c4176354c9c039ce1e4adc9452bb2bf7cbf0c349f03b55305145ae98"
+    },
+    {
+      "runtime": "models/garden.glb",
+      "source": "assets-src/v3-review/garden/garden.glb",
+      "sha256": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+      "derivativeManifest": "assets-src/stage-optimized/manifest.json"
+    },
+    {
+      "runtime": "environment/sky.png",
+      "source": "assets-src/v3-review/garden/sources/project-original-textures/sky.png",
+      "sha256": "5b969de05e7e0265a573a44a68265b39402e9fd174654672fb7bd5604d919215"
+    },
+    {
+      "runtime": "ui/brand/bugworld-logo.png",
+      "source": "assets-src/v3-review/ui/brand/bugworld-logo.png",
+      "sha256": "3741d7ba327ab14c2934f84846277437bea1aea4dd42274a811398ee1c150cf1"
+    },
+    {
+      "runtime": "ui/icons/album-64.png",
+      "source": "assets-src/v3-review/ui/icons/album-64.png",
+      "sha256": "e783012d9eea0ba8fdad0093f0122fb4d2571c06f629fcabd2e4d573fc02c0e9"
+    },
+    {
+      "runtime": "ui/icons/close-64.png",
+      "source": "assets-src/v3-review/ui/icons/close-64.png",
+      "sha256": "5307df6f679ffabbda887c39ac51fac043f28a6eba91d53bdc827f276d313649"
+    },
+    {
+      "runtime": "ui/icons/crayon-64.png",
+      "source": "assets-src/v3-review/ui/icons/crayon-64.png",
+      "sha256": "f02cc28e372a76a45efef9ddb816969dfb8a240885135020e2ca72ff70904701"
+    },
+    {
+      "runtime": "ui/icons/eraser-64.png",
+      "source": "assets-src/v3-review/ui/icons/eraser-64.png",
+      "sha256": "6e7f675a08fb3576398667e9b8efc346ade2b223e157e2b103a1db7aaf876d19"
+    },
+    {
+      "runtime": "ui/icons/fill-64.png",
+      "source": "assets-src/v3-review/ui/icons/fill-64.png",
+      "sha256": "bd227c41ce17ce5e140ab3bb445df779b867ae43bdfecf35d82e407c27fa4c57"
+    },
+    {
+      "runtime": "ui/icons/leaf-64.png",
+      "source": "assets-src/v3-review/ui/icons/leaf-64.png",
+      "sha256": "096d935d42d0bca983a8f2287063d741db7c31c4747adc89c09a7f83e45fc562"
+    },
+    {
+      "runtime": "ui/icons/preview-64.png",
+      "source": "assets-src/v3-review/ui/icons/preview-64.png",
+      "sha256": "0e7651445319f22b252428f7308075f3b6314096f8bfc5a33dcaee7d710f2d1b"
+    },
+    {
+      "runtime": "ui/icons/redo-64.png",
+      "source": "assets-src/v3-review/ui/icons/redo-64.png",
+      "sha256": "8ee06a8e7da428eb8669b7c2e347b63c8206664f006d41e2f6795eceb04a7ce0"
+    },
+    {
+      "runtime": "ui/icons/save-64.png",
+      "source": "assets-src/v3-review/ui/icons/save-64.png",
+      "sha256": "fa280399f30221c5903263f1be3576c8ff544e74b99e7de977d97677f1fad79e"
+    },
+    {
+      "runtime": "ui/icons/undo-64.png",
+      "source": "assets-src/v3-review/ui/icons/undo-64.png",
+      "sha256": "b645c697767872d6a93a870ded0fee2b662486cc553772e5c4fd71be5b14a237"
+    },
+    {
+      "runtime": "ui/species/butterfly-96.png",
+      "source": "assets-src/v3-review/lineart/icons/butterfly-96.png",
+      "sha256": "cd48d11447072cd61c3b79153f9800b36f2bfe6e6f733d04b9eaad42033dbf53"
+    },
+    {
+      "runtime": "ui/species/beetle-96.png",
+      "source": "assets-src/v3-review/lineart/icons/beetle-96.png",
+      "sha256": "87b8d34f14439575aff52fdc3f98e0767aa64ffa9da00f1394984807d6785dc2"
+    },
+    {
+      "runtime": "ui/species/ladybug-96.png",
+      "source": "assets-src/v3-review/lineart/icons/ladybug-96.png",
+      "sha256": "389841d42040bbf88c424458a699bb38f283e9bc246d01b4374c4aa90ae201d5"
+    },
+    {
+      "runtime": "ui/species/caterpillar-96.png",
+      "source": "assets-src/v3-review/lineart/icons/caterpillar-96.png",
+      "sha256": "878d6a631bcb074c0a2be0015ad1a5decd4cbd3a72beeb27391c99d83b404809"
+    },
+    {
+      "runtime": "templates/butterfly-lines.png",
+      "source": "assets-src/v3-review/lineart/sheets/butterfly-outline-2048.png",
+      "sha256": "633f9e69ba62e3d7e775a88cfdea85115065b2ad486406f910bbd51783b8ed0a"
+    },
+    {
+      "runtime": "templates/butterfly-mask.png",
+      "source": "assets-src/v3-review/lineart/masks/butterfly-regions-2048.png",
+      "sha256": "d97c59bf707550e02907dd68de37e5e3e09f3468aae49a2fa6e148669ade4902"
+    },
+    {
+      "runtime": "templates/beetle-lines.png",
+      "source": "assets-src/v3-review/lineart/sheets/beetle-outline-2048.png",
+      "sha256": "348d6b770d3e08d6443f433fb562dd14124e86745a27c19f6eff65cdf09b7ce3"
+    },
+    {
+      "runtime": "templates/beetle-mask.png",
+      "source": "assets-src/v3-review/lineart/masks/beetle-regions-2048.png",
+      "sha256": "9e85b5984239f7e135778f5680b27c52f7cb7a7f016b62a152e992b7573214b5"
+    },
+    {
+      "runtime": "templates/ladybug-lines.png",
+      "source": "assets-src/v3-review/lineart/sheets/ladybug-outline-2048.png",
+      "sha256": "b1d7f247f85931859fc1b1c1fb348a98d882397e36c13a95949c3a583b7631ca"
+    },
+    {
+      "runtime": "templates/ladybug-mask.png",
+      "source": "assets-src/v3-review/lineart/masks/ladybug-regions-2048.png",
+      "sha256": "8f1427d3531809b6fcd30dd8013fcefa07aa9e5631ed58f3563a9260ac658407"
+    },
+    {
+      "runtime": "templates/caterpillar-lines.png",
+      "source": "assets-src/v3-review/lineart/sheets/caterpillar-outline-2048.png",
+      "sha256": "18c4e0e788b0beb6922a3e17ed873e9199d1403d50f136aae7f83827b71bb66f"
+    },
+    {
+      "runtime": "templates/caterpillar-mask.png",
+      "source": "assets-src/v3-review/lineart/masks/caterpillar-regions-2048.png",
+      "sha256": "95917c9466d22fc26aaa122460b987d39cdd1340df22192edc29d905784c7b00"
+    }
+  ],
+  "derivedRuntimeAssetsChecked": 3,
+  "legacyRuntimePresent": false,
+  "apkChecked": {
+    "path": "BugWorld-1.0.6.apk",
+    "sha256": "ee732096efce968a774acf17c10af10fc0c2cde2bc3adea8df69fa152165ede5",
+    "runtimeFiles": 37,
+    "bytes": 175593341
+  }
+}

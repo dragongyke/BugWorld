@@ -1,0 +1,31 @@
+{
+  "exitCode": 0,
+  "seconds": 29.328,
+  "sourceSceneSha256": "78ecd8062ee15d127f71cafac7606f1d014282162104b37edcdf099d896ddd33",
+  "runtimeSceneSha256": "9a7c3131e35652b3ca19d54a7940c26d0ea38529d2bfbf995bafed23a1f61c3b",
+  "staticReviewInsectsRemoved": true,
+  "bundle": "app/src/main/assets/v3/environment/forest.bundle",
+  "bytes": 103883353,
+  "sha256": "103b3f7ce4b0e73652b7453b61996fe192e003763325fa3293aca1e32f6703b6",
+  "sceneName": "Forest",
+  "command": [
+    "C:\\Users\\Admin\\AppData\\Local\\pico\\6.1\\editor\\spatialbundle\\spatialbundle.exe",
+    "pack",
+    "--project-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-runtime",
+    "--scene-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-runtime\\Sources\\Scenes",
+    "--scene-files",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\.work\\emerald-runtime\\Sources\\Scenes\\Forest.usda",
+    "--output-bundle",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\app\\src\\main\\assets\\v3\\environment\\forest.bundle",
+    "--formats",
+    "usda",
+    "--override-output",
+    "--compress-textures",
+    "--discard-unused-resources",
+    "--material-platform",
+    "mobile",
+    "--force-build"
+  ]
+}

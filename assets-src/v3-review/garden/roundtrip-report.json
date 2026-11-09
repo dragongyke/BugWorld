@@ -1,0 +1,123 @@
+{
+  "sourceGlbSha256": "37db7de882b9768a416be37054a4d176a3cf8dbec578141eb7eb8bede99c3b34",
+  "meshes": 150,
+  "vertices": 685975,
+  "triangles": 740784,
+  "missingUV": [],
+  "missingMaterials": [],
+  "embeddedImages": [
+    {
+      "name": "dead_tree_trunk_02_arm_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "dead_tree_trunk_02_diff_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "dead_tree_trunk_02_nor_gl_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "dead_tree_trunk_arm_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "dead_tree_trunk_diff_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "dead_tree_trunk_nor_gl_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lotus_leaf_albedo_authored.001",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "lotus_leaf_normal.001",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "lotus_petal_albedo.001",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "moss_01_arm_1k",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "moss_01_diff-moss_01_alpha-moss_01_alpha_1k",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "moss_01_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "tree_stump_01_arm_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "tree_stump_01_diff_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "tree_stump_01_nor_gl_2k",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "water_normal.001",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "scope": "GLB import and render under matching Blender review lighting; not PICO runtime"
+}

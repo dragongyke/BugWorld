@@ -1,0 +1,27 @@
+{
+  "asset": "mossy_rock",
+  "author": "Rob Tuytel",
+  "source": "https://polyhaven.com/a/mossy_rock",
+  "license": "CC0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": [
+    {
+      "file": "mossy_rock_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/mossy_rock/mossy_rock_diff_1k.jpg",
+      "bytes": 1124438,
+      "sha256": "4dbf37f1b0465c9c8914213163923be159716f5b97fb6946437b6c5e143ef540"
+    },
+    {
+      "file": "mossy_rock_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/mossy_rock/mossy_rock_nor_gl_1k.jpg",
+      "bytes": 995727,
+      "sha256": "232cdd6a9fdfd01bb8bb1f8f604c53dbca79fa0d3d7995edf85c9945757aa8df"
+    },
+    {
+      "file": "mossy_rock_rough_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/mossy_rock/mossy_rock_rough_1k.jpg",
+      "bytes": 780918,
+      "sha256": "0a18bdeb08444b730170b0477f13940ce6cd4d82d06137df661f96d1e2a6a66e"
+    }
+  ]
+}

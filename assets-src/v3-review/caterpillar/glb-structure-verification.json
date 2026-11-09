@@ -1,0 +1,36 @@
+{
+  "bytes": 12510404,
+  "animations": [
+    {
+      "name": "caterpillar_crawl",
+      "channels": 45,
+      "seconds": 3
+    },
+    {
+      "name": "caterpillar_explore",
+      "channels": 45,
+      "seconds": 4
+    },
+    {
+      "name": "caterpillar_idle_breathe",
+      "channels": 45,
+      "seconds": 4
+    },
+    {
+      "name": "caterpillar_recoil",
+      "channels": 45,
+      "seconds": 2
+    },
+    {
+      "name": "caterpillar_touch_curiosity",
+      "channels": 45,
+      "seconds": 3
+    }
+  ],
+  "mesh_primitives": 92,
+  "skins": 1,
+  "joints": 15,
+  "embedded_images": 6,
+  "external_image_uris": [],
+  "triangles": 117128
+}

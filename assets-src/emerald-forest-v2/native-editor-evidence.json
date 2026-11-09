@@ -1,0 +1,35 @@
+{
+  "evidence": "native Spatial Editor 6.1; not headset",
+  "cameraPosition": [
+    0,
+    1.6,
+    0
+  ],
+  "cameraEuler": [
+    -20,
+    180,
+    0
+  ],
+  "roi": [
+    1450,
+    1120,
+    2150,
+    1320
+  ],
+  "meanAbsoluteChannelDifference": 10.434480952380952,
+  "fractionPixelsChangedMoreThan2": 0.7503785714285715,
+  "gardenSha256": "df443a615e68551e87165ccc8457dce7e6971fa913c100e819a2828bc62165eb",
+  "views": [
+    "front",
+    "right",
+    "back",
+    "left"
+  ],
+  "waterMaterial": "../emerald-native-materials/Water.usda",
+  "lighting": "Forest Slope HDRI exponent 9; no verified directional light",
+  "limitations": [
+    "No application integration or performance test",
+    "No physical refraction",
+    "No insects in native editor review"
+  ]
+}

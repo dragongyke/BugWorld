@@ -1,0 +1,167 @@
+{
+  "status": "Asset design study; not installed and not headset evidence",
+  "skySphereRadiusMetres": 12,
+  "skyCentre": [
+    0,
+    0,
+    1.6
+  ],
+  "skyPreviewShadowVisibility": false,
+  "waterMaterialNote": "Static thin alpha-blended PBR over a shallow bed, metallic 0; no physical refraction. Native animated shader is a separate editor probe.",
+  "sourceSha256": "e138d41f2af1e86ba22ce3920005b744df86e24dcbc6f886f5a2e799ed767ca7",
+  "glbSha256": "3660df32385d74613324c17596d2af0b061b2c1883dd67e444f56807ad4197c7",
+  "gardenTriangles": 150789,
+  "gardenMeshes": 37,
+  "gardenMaterials": 17,
+  "waterTriangles": 160,
+  "heroLeaves": 5,
+  "waterPads": 4,
+  "flowers": 3,
+  "reeds": 24,
+  "fernClusters": 40,
+  "leaves": [
+    {
+      "name": "observe_front_right",
+      "centre": [
+        1.75,
+        2.65,
+        0.55
+      ],
+      "radius": 0.93,
+      "frontDotStanding": 0.5708,
+      "frontDotSeated": 0.445
+    },
+    {
+      "name": "observe_front_low",
+      "centre": [
+        1.3,
+        1.15,
+        0.12
+      ],
+      "radius": 0.91,
+      "frontDotStanding": 0.7629,
+      "frontDotSeated": 0.6296
+    },
+    {
+      "name": "observe_right",
+      "centre": [
+        2.7,
+        -0.5,
+        0.3
+      ],
+      "radius": 1.0,
+      "frontDotStanding": 0.6302,
+      "frontDotSeated": 0.5013
+    },
+    {
+      "name": "observe_back",
+      "centre": [
+        0.3,
+        -2.9,
+        0.3
+      ],
+      "radius": 1.3,
+      "frontDotStanding": 0.6209,
+      "frontDotSeated": 0.4968
+    },
+    {
+      "name": "observe_back_left",
+      "centre": [
+        -2.6,
+        -2.1,
+        0.3
+      ],
+      "radius": 1.25,
+      "frontDotStanding": 0.6062,
+      "frontDotSeated": 0.494
+    }
+  ],
+  "anchors": [
+    {
+      "species": "beetle",
+      "surface": "CC0_foreground_fallen_log",
+      "point": [
+        -1.75,
+        2.450000047683716,
+        0.38100385665893555
+      ],
+      "normal": [
+        0.06505053490400314,
+        0.025728672742843628,
+        0.9975502490997314
+      ],
+      "span": 0.48
+    },
+    {
+      "species": "ladybug",
+      "surface": "observe_front_right",
+      "point": [
+        1.7000000476837158,
+        2.549999952316284,
+        0.5208730697631836
+      ],
+      "normal": [
+        -0.22241558134555817,
+        -0.15807455778121948,
+        0.9620518088340759
+      ],
+      "span": 0.31
+    },
+    {
+      "species": "caterpillar",
+      "surface": "observe_front_low",
+      "point": [
+        1.2999999523162842,
+        1.149999976158142,
+        0.12000036239624023
+      ],
+      "normal": [
+        -0.09030305594205856,
+        -0.13302862644195557,
+        0.9869897365570068
+      ],
+      "span": 0.4
+    },
+    {
+      "species": "butterfly",
+      "surface": "detail_lotus_petal",
+      "point": [
+        -0.30000001192092896,
+        2.25,
+        0.44367408752441406
+      ],
+      "normal": [
+        -0.29782789945602417,
+        -0.5521681308746338,
+        0.7787227034568787
+      ],
+      "span": 0.48
+    }
+  ],
+  "reviewInsects": [
+    {
+      "species": "beetle",
+      "sha256": "c79c9a08cac239540669e180de5b360bd47aaf085dbf3e17f3055ddda06a3901"
+    },
+    {
+      "species": "ladybug",
+      "sha256": "4eeece068f65960f74dfe03eba68f61a7365d8112daeb3efeeb795f7afe63b3e"
+    },
+    {
+      "species": "caterpillar",
+      "sha256": "f962615e3d99458e0e98e7557827a046c7071d1262967b9e59627253a3d0b02b"
+    },
+    {
+      "species": "butterfly",
+      "sha256": "951c719ea7fd5eee1d3068c070a77b0fbf241cbefb67555a7338cb589cdeca29"
+    }
+  ],
+  "leafWoodIntersections": [],
+  "limitations": [
+    "Cycles world/reflection/tonemapping are not PICO runtime evidence",
+    "garden GLB is static; any native water probe is separate and not integrated",
+    "anchors are design samples, not completed collision-safe loop routes",
+    "leaf-facing dot checks do not prove no occlusion or no intersections",
+    "panorama seam and poles must be verified in the actual sky sphere"
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve portable scene hashes on Windows checkouts.
+assets-src/emerald-native-scene/**/*.usda text eol=lf

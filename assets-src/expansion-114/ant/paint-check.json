@@ -1,0 +1,28 @@
+{
+  "byteSize": 1044780,
+  "triangles": 14236,
+  "meshCount": 5,
+  "regionsPixels": {
+    "1": 21084,
+    "2": 16664,
+    "3": 3630,
+    "4": 16698,
+    "5": 23156,
+    "6": 13812,
+    "7": 2680
+  },
+  "paint": [
+    {
+      "mesh": "PaperSurface",
+      "skinVertices": 5831,
+      "triangles": 5344,
+      "directProjectedVerticesFraction": 0.3666609500943234,
+      "maskHitFractionsAreaWeighted": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

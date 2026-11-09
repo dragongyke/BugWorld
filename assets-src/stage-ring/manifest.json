@@ -1,0 +1,41 @@
+{
+  "kind": "stage-ring-derivative",
+  "baseApprovedGlbSha256": "37db7de882b9768a416be37054a4d176a3cf8dbec578141eb7eb8bede99c3b34",
+  "inputCommit": "6c81604",
+  "inputGlbSha256": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+  "runtimeFiles": {
+    "models/garden.glb": "15e556a7afa3bc3190c7a4d6782fda0cb40028cbe6be2211325013bc8e0bd079",
+    "environment/water-reflection.ktx": "dfcfb62d0cdbeeea9181ed11b2904431a2a4c3d6a66effd9e414aae884f3e571",
+    "environment/garden-routes.json": "991730bfd210fa80a94419f36ac6e3413f60acaf3931446581a9987e65eda4ee",
+    "environment/sky.png": "7b33690d53ec786b668b54f5f468f09432c2a360c3887cb59c7313ca789ac14c",
+    "environment/sky.ktx": "9fd7b630d0be72f233d06dd69537bbf6bff0170e6452c8fdf1291cdc39ae2dfc"
+  },
+  "sourceFiles": {
+    "models/garden.glb": "assets-src/stage-ring/garden.glb",
+    "environment/sky.png": "assets-src/stage-ring/sky-source.png"
+  },
+  "kotlinRoutes": {
+    "path": "app/src/main/java/com/bugworld/app/garden/ApprovedGardenRoutes.kt",
+    "sha256": "819943935b2b34b32096b559fa6c140f61f4d347fdf4795d40e6cf08f18d2a33"
+  },
+  "waterRuntimeParameters": {
+    "roughness": 0.26,
+    "metallic": 0,
+    "normalScale": 0.18,
+    "baseColor": [
+      0.035,
+      0.085,
+      0.1,
+      1
+    ]
+  },
+  "inventory": {
+    "triangles": 251260,
+    "meshes": 36,
+    "bytes": 32875460
+  },
+  "approvedDesign": "docs/visual-redesign/2026-10-19/Stage-Review.md",
+  "headsetVisualAcceptance": false,
+  "runtimePerformanceVerified": false,
+  "hashNormalization": "UTF-8 text normalized to LF for Kotlin/JSON; exact bytes for binary resources"
+}

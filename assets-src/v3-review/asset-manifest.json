@@ -1,0 +1,286 @@
+{
+  "package": "BugWorld v3 approved assets",
+  "applicationIntegrated": true,
+  "userApproved": true,
+  "runtimePerformanceVerified": false,
+  "previewRenderer": "Blender Cycles; not a PICO runtime screenshot",
+  "assets": [
+    {
+      "id": "bugworld.v3.butterfly",
+      "status": "user-approved-2026-10-09",
+      "glb": {
+        "path": "butterfly/butterfly.glb",
+        "bytes": 20142340,
+        "sha256": "c144196aded9514ff02e85b557aad08c18b306e34cb11f73d1138f0357259d7d"
+      },
+      "editableSource": {
+        "path": "butterfly/butterfly.blend",
+        "bytes": 22403320,
+        "sha256": "763204a43c56be9630e365c01cf2bf6b76da74b1c477beef4215af3f73df3a59"
+      },
+      "meshes": 68,
+      "materials": 5,
+      "embeddedImages": 6,
+      "animations": [
+        "butterfly_antenna_groom",
+        "butterfly_fly",
+        "butterfly_idle_perch",
+        "butterfly_perch_touch",
+        "butterfly_startle"
+      ],
+      "extensionsUsed": [
+        "KHR_materials_specular"
+      ],
+      "extensionsRequired": []
+    },
+    {
+      "id": "bugworld.v3.beetle",
+      "status": "user-approved-2026-10-09",
+      "glb": {
+        "path": "beetle/beetle.glb",
+        "bytes": 22764324,
+        "sha256": "09fad12111f64f23b4d94fddf0430a4f9aebb8a44979feddf4f4525deaa6374e"
+      },
+      "editableSource": {
+        "path": "beetle/beetle.blend",
+        "bytes": 21284337,
+        "sha256": "21b5af0d4b983df408f529cf1d3890c7ce517c2e700e5fe36caf5c40b100ac45"
+      },
+      "meshes": 150,
+      "materials": 10,
+      "embeddedImages": 30,
+      "animations": [
+        "flight",
+        "idle",
+        "takeoff",
+        "touch",
+        "walk"
+      ],
+      "extensionsUsed": [
+        "KHR_materials_clearcoat"
+      ],
+      "extensionsRequired": [],
+      "flightClearanceEvidence": {
+        "path": "beetle/flight-clearance.json",
+        "bytes": 669,
+        "sha256": "8f3ec4777fcd56c0b149d6c5956e7c11d0e3e3530df868dd9f9e44490daf1b51"
+      }
+    },
+    {
+      "id": "bugworld.v3.ladybug",
+      "status": "user-approved-2026-10-09",
+      "glb": {
+        "path": "ladybug/ladybug.glb",
+        "bytes": 20737640,
+        "sha256": "9689cdda51b5aeb06f3c335e5d99f09bd8e9c0731ad8c067eebf8b634e7bc513"
+      },
+      "editableSource": {
+        "path": "ladybug/ladybug.blend",
+        "bytes": 19401756,
+        "sha256": "0108f1411b7c5f42231abc6066d7861202d7358e6a8b2cc13257a0532f195b00"
+      },
+      "meshes": 139,
+      "materials": 10,
+      "embeddedImages": 30,
+      "animations": [
+        "flight",
+        "idle",
+        "takeoff",
+        "touch",
+        "walk"
+      ],
+      "extensionsUsed": [
+        "KHR_materials_clearcoat"
+      ],
+      "extensionsRequired": [],
+      "flightClearanceEvidence": {
+        "path": "ladybug/flight-clearance.json",
+        "bytes": 654,
+        "sha256": "bf8e034334068e7931fa07933fb6ad9cf7804c64b503149612ba0b635206f0ba"
+      }
+    },
+    {
+      "id": "bugworld.v3.caterpillar",
+      "status": "user-approved-2026-10-09",
+      "glb": {
+        "path": "caterpillar/caterpillar.glb",
+        "bytes": 12510404,
+        "sha256": "3035c211c4176354c9c039ce1e4adc9452bb2bf7cbf0c349f03b55305145ae98"
+      },
+      "editableSource": {
+        "path": "caterpillar/caterpillar.blend",
+        "bytes": 14689009,
+        "sha256": "4756d6a67021f4982ceb4f66585cdac40bf4d0b453f6688f347d690801b1817b"
+      },
+      "meshes": 92,
+      "materials": 4,
+      "embeddedImages": 6,
+      "animations": [
+        "caterpillar_crawl",
+        "caterpillar_explore",
+        "caterpillar_idle_breathe",
+        "caterpillar_recoil",
+        "caterpillar_touch_curiosity"
+      ],
+      "extensionsUsed": [
+        "KHR_materials_specular"
+      ],
+      "extensionsRequired": []
+    },
+    {
+      "id": "bugworld.v3.garden",
+      "status": "user-approved-2026-10-09",
+      "glb": {
+        "path": "garden/garden.glb",
+        "bytes": 63333100,
+        "sha256": "37db7de882b9768a416be37054a4d176a3cf8dbec578141eb7eb8bede99c3b34"
+      },
+      "editableSource": {
+        "path": "garden/garden-naturalized.blend",
+        "bytes": 68412920,
+        "sha256": "7a2eec4f226869bcccc338221c73c24577a593532f63edaebec524b53a112925"
+      },
+      "meshes": 150,
+      "materials": 16,
+      "embeddedImages": 16,
+      "animations": [],
+      "extensionsUsed": [
+        "KHR_materials_transmission",
+        "KHR_materials_emissive_strength",
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+      ],
+      "extensionsRequired": [],
+      "mossAlphaRange": [
+        0,
+        255
+      ]
+    }
+  ],
+  "vectors": [
+    {
+      "path": "lineart/sheets/beetle-outline.svg",
+      "bytes": 5161,
+      "sha256": "e5ea7fa83dd85fea9f6f1313ab8151affc9fc1dbe8101bdd16eb01e0b1f33e61"
+    },
+    {
+      "path": "lineart/sheets/butterfly-outline.svg",
+      "bytes": 8690,
+      "sha256": "6fb4ffbdb7b1f5956ef0d6cd7f3ef1cc6b52d8fcb2b1cd1556d0e6d307437e31"
+    },
+    {
+      "path": "lineart/sheets/caterpillar-outline.svg",
+      "bytes": 4491,
+      "sha256": "272786cc25d0c4c4cd89c58eb918e4fabe7f8814a17410095661b5b707c7df31"
+    },
+    {
+      "path": "lineart/sheets/ladybug-outline.svg",
+      "bytes": 3930,
+      "sha256": "3b45d328ee0fb7d3b818377ca145160d116602952cc0ef6e3ba79e9d4dbc8406"
+    },
+    {
+      "path": "lineart/icons/beetle.svg",
+      "bytes": 1369,
+      "sha256": "f1b489bc3baca53788b25741bf59885a242b766ac3b49b8d92b62ec8a6f50554"
+    },
+    {
+      "path": "lineart/icons/butterfly.svg",
+      "bytes": 2639,
+      "sha256": "990fddf518ee4a6fbc809637b836587b5b5f298adf582da5e01cfa234d15e63f"
+    },
+    {
+      "path": "lineart/icons/caterpillar.svg",
+      "bytes": 1357,
+      "sha256": "5f79248badb5ef508c18c388e038f3edc78c3907492ea2f5075372b068dd8184"
+    },
+    {
+      "path": "lineart/icons/ladybug.svg",
+      "bytes": 1627,
+      "sha256": "b0a1940fb0aad09e6300c7c1fc24cb118c724493ed9abf9aeb97bc7923bb276c"
+    }
+  ],
+  "uiFiles": [
+    {
+      "path": "ui/boards/asset-layout-review.svg",
+      "bytes": 70863,
+      "sha256": "e85ae040e5fc431d452226dcdb9f03dcbccc4c75b4c636e18defdb84a6d47a91"
+    },
+    {
+      "path": "ui/boards/logo-and-tools-contact.svg",
+      "bytes": 27983,
+      "sha256": "10151305ff2b73e06efb39a5b9f91775539d242dfe2649ac7f11878fbe6d0e63"
+    },
+    {
+      "path": "ui/brand/bugworld-logo.svg",
+      "bytes": 13908,
+      "sha256": "73b196be9ab9ef032dbc41e2e62d7a385aa82e2dcc1cc55833ac5d7c9e41184f"
+    },
+    {
+      "path": "ui/brand/bugworld-mark.svg",
+      "bytes": 2626,
+      "sha256": "b46e55f3a5faced86ddae9c91e65e432f2acf3f1b850abaec934f2204de9ed05"
+    },
+    {
+      "path": "ui/icons/album.svg",
+      "bytes": 439,
+      "sha256": "af8b540c369c6621bd522c75f2ab57ca695130b65ecc741b472cbdedce9f4e6c"
+    },
+    {
+      "path": "ui/icons/close.svg",
+      "bytes": 259,
+      "sha256": "c3c0459b8a0f5ceb446d4068e346451146743d5e344c2d0043ec803e47d93ca4"
+    },
+    {
+      "path": "ui/icons/crayon.svg",
+      "bytes": 457,
+      "sha256": "d76e7261c2c519008e606c80558a5aa03a1fca78c7e9af3bbd13d9a40c6c023e"
+    },
+    {
+      "path": "ui/icons/eraser.svg",
+      "bytes": 468,
+      "sha256": "e5ee8e0a5518d00487dd3e54df97a7d479413ab8186326089113eb7d503d4bd9"
+    },
+    {
+      "path": "ui/icons/fill.svg",
+      "bytes": 589,
+      "sha256": "576bab584d3275dded67f38898d498155802a5e987029b92780f02f069d0efa6"
+    },
+    {
+      "path": "ui/icons/leaf.svg",
+      "bytes": 420,
+      "sha256": "9cee5a30876213a4ebddcdd356ebd8960c87b33630f67f9b72af240e7dc555fb"
+    },
+    {
+      "path": "ui/icons/preview.svg",
+      "bytes": 256,
+      "sha256": "18182ed688b0fe6203061aecbcc2384e8947122f91b0c68c6c59daf12a7f6de5"
+    },
+    {
+      "path": "ui/icons/redo.svg",
+      "bytes": 284,
+      "sha256": "1cd912a396d9a519c4a953d3445640d696258bf4cd8cf001477e149210f3aad4"
+    },
+    {
+      "path": "ui/icons/save.svg",
+      "bytes": 293,
+      "sha256": "5797deb9f426032647a01230994e410ffca3d1e7191268d19188fec60e16cdde"
+    },
+    {
+      "path": "ui/icons/undo.svg",
+      "bytes": 283,
+      "sha256": "0d7dc035cbf4a732d94cedb64c87e7726e0dfd50349143170aa20fe115d4bada"
+    }
+  ],
+  "notes": [
+    "Only the explicit GLB/source files listed here are delivery candidates.",
+    "Old prototype images, intermediate .blend files and run logs are not runtime inputs.",
+    "Runtime loads exact GLBs; user paint replaces selected base-color textures and retains PBR maps.",
+    "PICO directional shadows are integrated; Blender fog, area lights and post-process glow are not baked into GLB.",
+    "Integration is not a claim of headset visual or performance acceptance."
+  ],
+  "galleryFileCheck": {
+    "references": 51,
+    "missing": [],
+    "browserInteractionTest": "not completed: browser connection unavailable"
+  }
+}

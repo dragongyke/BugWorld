@@ -1,0 +1,34 @@
+{
+  "name": "dead_tree_trunk",
+  "resolution": "2k",
+  "license": "CC0",
+  "source": "https://polyhaven.com/a/dead_tree_trunk",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": {
+    "dead_tree_trunk_2k.gltf": {
+      "sha256": "63133e2cd4c8c9d08114ef158284403ba4fad802b7f1162f73a8323b509a1b53",
+      "bytes": 2812,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/dead_tree_trunk/dead_tree_trunk_2k.gltf"
+    },
+    "textures/dead_tree_trunk_diff_2k.jpg": {
+      "sha256": "57b3f04a2b9b1017abfefbbca1b5d4f5421960fefd964a0b9dd4036be4d58d0c",
+      "bytes": 2580084,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_tree_trunk/dead_tree_trunk_diff_2k.jpg"
+    },
+    "textures/dead_tree_trunk_arm_2k.jpg": {
+      "sha256": "f244cfbfab760d877980065593710f74947bb70eac9d47d9a189537d23ba1f6b",
+      "bytes": 2608763,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_tree_trunk/dead_tree_trunk_arm_2k.jpg"
+    },
+    "textures/dead_tree_trunk_nor_gl_2k.jpg": {
+      "sha256": "9447959386aa3ee0e3552bd095c3dbbcb13c58cc6a87cb4b51cc4517b695040c",
+      "bytes": 3804907,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/dead_tree_trunk/dead_tree_trunk_nor_gl_2k.jpg"
+    },
+    "dead_tree_trunk.bin": {
+      "sha256": "c1ac6b3195246e8647a28eee2fbfdd4712a045c7cf2dcb4f5abcc2d40a446ca6",
+      "bytes": 2293788,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dead_tree_trunk/dead_tree_trunk.bin"
+    }
+  }
+}

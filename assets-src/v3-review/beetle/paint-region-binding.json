@@ -1,0 +1,12 @@
+{
+  "status": "design_contract_only_dynamic_painting_not_implemented",
+  "lineart_manifest": "assets-src/v3-review/lineart/manifest.json",
+  "lineart_species": "beetle",
+  "uv_layer": "ArtSurfaceUV",
+  "regions": [
+    {"id": 1, "label": "elytron", "meshes": ["elytron_L", "elytron_R"], "materials": ["left_green_elytron", "right_green_elytron"], "uv_domain": "U source X from rear to front; V seam-to-outer-edge, angle/(pi/2)", "side_profile_mapping": "At each X, normalized height h=(sourceBottomY-sourceY)/(sourceBottomY-sourceTopY); h=cos(V*pi/2)^0.94. Region content must be warped, not directly pasted as a whole sheet."},
+    {"id": 2, "label": "pronotum_and_short_horn", "meshes": ["pronotum_and_short_horn"], "material": "lavender_pronotum", "uv_domain": "Normalized source-profile X and inverted source-profile Y (model Z)"},
+    {"id": 3, "label": "head_and_long_horn", "meshes": ["head_and_recurved_horn"], "material": "warm_ivory_wax", "uv_domain": "Normalized source-profile X and inverted source-profile Y (model Z)", "limitation": "Ivory material is also used on shell rims; independent horn painting requires a material instance."}
+  ],
+  "required_future_work": ["Raster region extraction", "Side-profile-to-curved-shell UV warp", "Protected ink masks", "Per-region material instances where shared", "Runtime material texture replacement", "Device verification"]
+}

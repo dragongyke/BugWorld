@@ -1,0 +1,7 @@
+.DS_Store
+.CacheData/
+.Component/
+UserSettings/
+ModelView
+Build/
+*.picometa

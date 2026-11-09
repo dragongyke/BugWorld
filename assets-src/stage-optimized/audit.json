@@ -1,0 +1,694 @@
+{
+  "file": ".work\\stage-optimization\\candidate-v2\\garden.glb",
+  "sha256": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+  "bytes": 52132376,
+  "nodes": 49,
+  "meshes": 49,
+  "primitives": 49,
+  "triangles": 494775,
+  "vertices": 557647,
+  "materials": 16,
+  "alphaPrimitives": {
+    "OPAQUE": 48,
+    "MASK": 1
+  },
+  "alphaTriangles": {
+    "OPAQUE": 389841,
+    "MASK": 104934,
+    "BLEND": 0
+  },
+  "textureRgba8MiB": 107.99867248535156,
+  "textureRgba8FullMipMiB": 143.99565505981445,
+  "images": [
+    {
+      "name": "lotus_leaf_normal",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 2543527,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "lotus_leaf_albedo_authored",
+      "width": 1254,
+      "height": 1254,
+      "channels": 3,
+      "encodedBytes": 2399910,
+      "rgba8Bytes": 6290064,
+      "rgba8FullMipBytes": 8384072
+    },
+    {
+      "name": "dead_tree_trunk_02_nor_gl_2k",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "encodedBytes": 4920531,
+      "rgba8Bytes": 16777216,
+      "rgba8FullMipBytes": 22369620
+    },
+    {
+      "name": "dead_tree_trunk_02_diff_2k",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "encodedBytes": 3484654,
+      "rgba8Bytes": 16777216,
+      "rgba8FullMipBytes": 22369620
+    },
+    {
+      "name": "dead_tree_trunk_02_arm_2k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 1791578,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "dead_tree_trunk_nor_gl_2k",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "encodedBytes": 3804907,
+      "rgba8Bytes": 16777216,
+      "rgba8FullMipBytes": 22369620
+    },
+    {
+      "name": "dead_tree_trunk_diff_2k",
+      "width": 2048,
+      "height": 2048,
+      "channels": 3,
+      "encodedBytes": 2580084,
+      "rgba8Bytes": 16777216,
+      "rgba8FullMipBytes": 22369620
+    },
+    {
+      "name": "dead_tree_trunk_arm_2k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 1713995,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "moss_01_nor_gl_1k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 388925,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "moss_01_diff-moss_01_alpha-moss_01_alpha_1k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 4,
+      "encodedBytes": 404242,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "moss_01_arm_1k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 336140,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "tree_stump_01_nor_gl_2k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 2393739,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "tree_stump_01_diff_2k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 1923995,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "tree_stump_01_arm_2k",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "encodedBytes": 1811738,
+      "rgba8Bytes": 4194304,
+      "rgba8FullMipBytes": 5592404
+    },
+    {
+      "name": "lotus_petal_albedo",
+      "width": 512,
+      "height": 512,
+      "channels": 4,
+      "encodedBytes": 160504,
+      "rgba8Bytes": 1048576,
+      "rgba8FullMipBytes": 1398100
+    },
+    {
+      "name": "stage_water_normal",
+      "width": 512,
+      "height": 512,
+      "channels": 3,
+      "encodedBytes": 137871,
+      "rgba8Bytes": 1048576,
+      "rgba8FullMipBytes": 1398100
+    }
+  ],
+  "byMaterial": {
+    "lotus_leaf": {
+      "primitives": 15,
+      "triangles": 66080,
+      "vertices": 34544
+    },
+    "stem": {
+      "primitives": 14,
+      "triangles": 2808,
+      "vertices": 2292
+    },
+    "firefly": {
+      "primitives": 5,
+      "triangles": 660,
+      "vertices": 1980
+    },
+    "dead_tree_trunk_02": {
+      "primitives": 2,
+      "triangles": 116379,
+      "vertices": 66576
+    },
+    "dead_tree_trunk": {
+      "primitives": 1,
+      "triangles": 45810,
+      "vertices": 24727
+    },
+    "moss_01": {
+      "primitives": 1,
+      "triangles": 104934,
+      "vertices": 312903
+    },
+    "tree_stump_01": {
+      "primitives": 2,
+      "triangles": 32836,
+      "vertices": 19826
+    },
+    "dew": {
+      "primitives": 1,
+      "triangles": 4320,
+      "vertices": 2800
+    },
+    "gold": {
+      "primitives": 1,
+      "triangles": 1760,
+      "vertices": 2200
+    },
+    "grass_flower": {
+      "primitives": 1,
+      "triangles": 9391,
+      "vertices": 13003
+    },
+    "leaf_vein": {
+      "primitives": 1,
+      "triangles": 33376,
+      "vertices": 21184
+    },
+    "lotus_petal": {
+      "primitives": 1,
+      "triangles": 34213,
+      "vertices": 21391
+    },
+    "reed_0": {
+      "primitives": 1,
+      "triangles": 13800,
+      "vertices": 11385
+    },
+    "reed_1": {
+      "primitives": 1,
+      "triangles": 12960,
+      "vertices": 10692
+    },
+    "reed_2": {
+      "primitives": 1,
+      "triangles": 13400,
+      "vertices": 11055
+    },
+    "water": {
+      "primitives": 1,
+      "triangles": 2048,
+      "vertices": 1089
+    }
+  },
+  "primitivesDetail": [
+    {
+      "node": "background_leaf_08",
+      "mesh": 0,
+      "triangles": 1064,
+      "vertices": 561,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "background_leaf_08_stem",
+      "mesh": 1,
+      "triangles": 56,
+      "vertices": 45,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "background_leaf_09",
+      "mesh": 2,
+      "triangles": 1064,
+      "vertices": 561,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "background_leaf_09_stem",
+      "mesh": 3,
+      "triangles": 56,
+      "vertices": 45,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_firefly_0_0",
+      "mesh": 4,
+      "triangles": 260,
+      "vertices": 780,
+      "material": "firefly",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_firefly_0_1",
+      "mesh": 5,
+      "triangles": 100,
+      "vertices": 300,
+      "material": "firefly",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_firefly_-1_0",
+      "mesh": 6,
+      "triangles": 140,
+      "vertices": 420,
+      "material": "firefly",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_firefly_-1_1",
+      "mesh": 7,
+      "triangles": 140,
+      "vertices": 420,
+      "material": "firefly",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_0_0",
+      "mesh": 8,
+      "triangles": 8008,
+      "vertices": 4148,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_0_1",
+      "mesh": 9,
+      "triangles": 6384,
+      "vertices": 3366,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_1_1",
+      "mesh": 10,
+      "triangles": 5320,
+      "vertices": 2805,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_1_2",
+      "mesh": 11,
+      "triangles": 4256,
+      "vertices": 2244,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_1_3",
+      "mesh": 12,
+      "triangles": 2128,
+      "vertices": 1122,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_-1_0",
+      "mesh": 13,
+      "triangles": 18704,
+      "vertices": 9639,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_-1_1",
+      "mesh": 14,
+      "triangles": 8512,
+      "vertices": 4488,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_-1_2",
+      "mesh": 15,
+      "triangles": 2128,
+      "vertices": 1122,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_-1_3",
+      "mesh": 16,
+      "triangles": 2128,
+      "vertices": 1122,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_lotus_leaf_-2_2",
+      "mesh": 17,
+      "triangles": 3192,
+      "vertices": 1683,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_0_0",
+      "mesh": 18,
+      "triangles": 244,
+      "vertices": 202,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_0_1",
+      "mesh": 19,
+      "triangles": 356,
+      "vertices": 292,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_0_-1",
+      "mesh": 20,
+      "triangles": 112,
+      "vertices": 90,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_1_1",
+      "mesh": 21,
+      "triangles": 280,
+      "vertices": 225,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_1_2",
+      "mesh": 22,
+      "triangles": 168,
+      "vertices": 135,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_1_3",
+      "mesh": 23,
+      "triangles": 168,
+      "vertices": 135,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_-1_0",
+      "mesh": 24,
+      "triangles": 432,
+      "vertices": 359,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_-1_1",
+      "mesh": 25,
+      "triangles": 488,
+      "vertices": 404,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_-1_2",
+      "mesh": 26,
+      "triangles": 112,
+      "vertices": 90,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_-1_3",
+      "mesh": 27,
+      "triangles": 112,
+      "vertices": 90,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "batch_stem_-2_2",
+      "mesh": 28,
+      "triangles": 168,
+      "vertices": 135,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "CC0_foreground_fallen_log",
+      "mesh": 29,
+      "triangles": 83128,
+      "vertices": 46114,
+      "material": "dead_tree_trunk_02",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "CC0_hero_weathered_stump",
+      "mesh": 30,
+      "triangles": 45810,
+      "vertices": 24727,
+      "material": "dead_tree_trunk",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "CC0_moss_on_branches",
+      "mesh": 31,
+      "triangles": 104934,
+      "vertices": 312903,
+      "material": "moss_01",
+      "alphaMode": "MASK",
+      "doubleSided": true
+    },
+    {
+      "node": "CC0_mossy_root_base",
+      "mesh": 32,
+      "triangles": 16418,
+      "vertices": 9913,
+      "material": "tree_stump_01",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "CC0_near_small_stump",
+      "mesh": 33,
+      "triangles": 16418,
+      "vertices": 9913,
+      "material": "tree_stump_01",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "CC0_right_fallen_log",
+      "mesh": 34,
+      "triangles": 33251,
+      "vertices": 20462,
+      "material": "dead_tree_trunk_02",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_dew",
+      "mesh": 35,
+      "triangles": 4320,
+      "vertices": 2800,
+      "material": "dew",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_gold",
+      "mesh": 36,
+      "triangles": 1760,
+      "vertices": 2200,
+      "material": "gold",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_grass_flower",
+      "mesh": 37,
+      "triangles": 9391,
+      "vertices": 13003,
+      "material": "grass_flower",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_leaf_vein",
+      "mesh": 38,
+      "triangles": 33376,
+      "vertices": 21184,
+      "material": "leaf_vein",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_lotus_petal",
+      "mesh": 39,
+      "triangles": 34213,
+      "vertices": 21391,
+      "material": "lotus_petal",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_reed_0",
+      "mesh": 40,
+      "triangles": 13800,
+      "vertices": 11385,
+      "material": "reed_0",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_reed_1",
+      "mesh": 41,
+      "triangles": 12960,
+      "vertices": 10692,
+      "material": "reed_1",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "detail_reed_2",
+      "mesh": 42,
+      "triangles": 13400,
+      "vertices": 11055,
+      "material": "reed_2",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "firefly.004",
+      "mesh": 43,
+      "triangles": 20,
+      "vertices": 60,
+      "material": "firefly",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "hero_leaf_06",
+      "mesh": 44,
+      "triangles": 1064,
+      "vertices": 561,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "hero_leaf_07",
+      "mesh": 45,
+      "triangles": 1064,
+      "vertices": 561,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "hero_leaf_07_stem",
+      "mesh": 46,
+      "triangles": 56,
+      "vertices": 45,
+      "material": "stem",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "hero_leaf_08",
+      "mesh": 47,
+      "triangles": 1064,
+      "vertices": 561,
+      "material": "lotus_leaf",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    },
+    {
+      "node": "pond_water",
+      "mesh": 48,
+      "triangles": 2048,
+      "vertices": 1089,
+      "material": "water",
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    }
+  ],
+  "limits": "File inventory only; RGBA8 is a decode/upload estimate, not measured GPU allocation. Primitive count excludes native batching, culling, stereo, shadow and additional passes."
+}

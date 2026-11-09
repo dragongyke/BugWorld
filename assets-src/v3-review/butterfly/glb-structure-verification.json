@@ -1,0 +1,36 @@
+{
+  "bytes": 20142340,
+  "animations": [
+    {
+      "name": "butterfly_antenna_groom",
+      "channels": 75,
+      "seconds": 3
+    },
+    {
+      "name": "butterfly_fly",
+      "channels": 75,
+      "seconds": 1
+    },
+    {
+      "name": "butterfly_idle_perch",
+      "channels": 75,
+      "seconds": 4
+    },
+    {
+      "name": "butterfly_perch_touch",
+      "channels": 75,
+      "seconds": 2.6666666666666665
+    },
+    {
+      "name": "butterfly_startle",
+      "channels": 75,
+      "seconds": 2
+    }
+  ],
+  "mesh_primitives": 68,
+  "skins": 1,
+  "joints": 25,
+  "embedded_images": 6,
+  "external_image_uris": [],
+  "triangles": 55688
+}

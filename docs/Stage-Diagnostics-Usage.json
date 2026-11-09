@@ -1,0 +1,897 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": "docs/Stage-109-Usage.json",
+  "phaseStartUTC": "2026-10-19T10:42:52.802590+00:00",
+  "snapshotUTC": "2026-10-19T11:35:05.359234+00:00",
+  "wallSeconds": 3132.557,
+  "netWorkSeconds": null,
+  "phaseTokens": 31329127,
+  "tokenTotals": {
+    "input_tokens": 31213889,
+    "cached_input_tokens": 30582272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 115238,
+    "reasoning_output_tokens": 34785,
+    "total_tokens": 31329127
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 38,
+  "cli": [
+    {
+      "utc": "2026-10-19T10:45:58.427Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_66ccfb5bb2ce4084a0ad9a5a90333913",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "capture",
+        "screenshot",
+        "--out",
+        ".work/stage109-worn.png"
+      ],
+      "statementOffset": 0
+    },
+    {
+      "utc": "2026-10-19T10:46:39.997Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_31485e9183634d17b4076b21dbe362a5",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "install",
+        "app/build/outputs/apk/debug/app-debug.apk",
+        "--replace"
+      ],
+      "statementOffset": 232
+    },
+    {
+      "utc": "2026-10-19T10:46:39.997Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_31485e9183634d17b4076b21dbe362a5",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "launch",
+        "com.bugworld.app"
+      ],
+      "statementOffset": 348
+    },
+    {
+      "utc": "2026-10-19T10:48:55.646Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_4b08e40f68064eeca7a53e135b63db2d",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "--help"
+      ],
+      "statementOffset": 0
+    },
+    {
+      "utc": "2026-10-19T10:48:55.646Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_4b08e40f68064eeca7a53e135b63db2d",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "setup",
+        "--help"
+      ],
+      "statementOffset": 60
+    },
+    {
+      "utc": "2026-10-19T10:49:42.897Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_e97e792001e74c13a594e61546f9cb33",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "--help"
+      ],
+      "statementOffset": 76
+    },
+    {
+      "utc": "2026-10-19T10:49:42.897Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_e97e792001e74c13a594e61546f9cb33",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "install",
+        "app/build/outputs/apk/debug/app-debug.apk",
+        "--replace"
+      ],
+      "statementOffset": 230
+    },
+    {
+      "utc": "2026-10-19T10:49:42.897Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_e97e792001e74c13a594e61546f9cb33",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "launch",
+        "com.bugworld.app"
+      ],
+      "statementOffset": 346
+    },
+    {
+      "utc": "2026-10-19T10:50:33.126Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_bbb161384e1748ba9cb11ac3b135e7d5",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "doctor",
+        "--help"
+      ],
+      "statementOffset": 0
+    },
+    {
+      "utc": "2026-10-19T10:53:31.603Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_137d0d5c3fa44c87afd6951643f2441b",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "live",
+        "run",
+        "--package",
+        "com.bugworld.app",
+        "--adb",
+        "C:\\PICO4Overseas\\platform-tools-latest-windows\\platform-tools\\adb.exe",
+        "--device",
+        "PB322XKGL4220049B",
+        "--duration",
+        "20",
+        "--save",
+        "--output",
+        ".work\\stage110-live-perf-enabled.json"
+      ],
+      "statementOffset": 398,
+      "inventorySequence": 5
+    },
+    {
+      "utc": "2026-10-19T10:54:36.129Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_058e90b6f3bf466e829e0e5c9f88c1de",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "doctor",
+        "check"
+      ],
+      "statementOffset": 220,
+      "inventorySequence": 7
+    },
+    {
+      "utc": "2026-10-19T10:56:41.200Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_463e5c2b2d4442e1828f1a05c3f772d0",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "install",
+        ".work/opacity-cache-probe.apk",
+        "--replace"
+      ],
+      "statementOffset": 89
+    },
+    {
+      "utc": "2026-10-19T10:56:41.200Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_463e5c2b2d4442e1828f1a05c3f772d0",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "launch",
+        "com.bugworld.app"
+      ],
+      "statementOffset": 193
+    },
+    {
+      "utc": "2026-10-19T11:14:43.619Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_599fe68e890e4e14b50efdaac6296f2b",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "record",
+        "--help"
+      ],
+      "statementOffset": 504
+    },
+    {
+      "utc": "2026-10-19T11:17:14.966Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_035cce26d9dd4dc897baee65dd90071c",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "record",
+        "--adb",
+        "C:/PICO4Overseas/platform-tools-latest-windows/platform-tools/adb.exe",
+        "--device",
+        "PB322XKGL4220049B",
+        "--package",
+        "com.bugworld.app",
+        "--duration",
+        "35",
+        "--output",
+        ".work/stage110-active-baseline.perfetto-trace"
+      ],
+      "statementOffset": 131
+    },
+    {
+      "utc": "2026-10-19T11:18:18.156Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_d6fe6361061443a0bd29b6a4df11e11f",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "load",
+        ".work/stage110-active-baseline.perfetto-trace",
+        "--shell",
+        ".work/stage110-profiler-cli-0.2.0/trace_processor_shell.exe",
+        "--envelope"
+      ],
+      "statementOffset": 131
+    },
+    {
+      "utc": "2026-10-19T11:18:39.045Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_250716883a9a4ca89ad605e2249405e4",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis"
+      ],
+      "statementOffset": 131
+    },
+    {
+      "utc": "2026-10-19T11:18:52.664Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_726f214f75c84c54a0abf21579e6c326",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--help"
+      ],
+      "statementOffset": 131
+    },
+    {
+      "utc": "2026-10-19T11:18:52.664Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_726f214f75c84c54a0abf21579e6c326",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.spatialSlowest",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--limit",
+        "12"
+      ],
+      "statementOffset": 208
+    },
+    {
+      "utc": "2026-10-19T11:19:23.421Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_499917d57a864ae5818da65bf0ee1d91",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--sql-file",
+        ".work/stage110-slices.sql"
+      ],
+      "statementOffset": 675
+    },
+    {
+      "utc": "2026-10-19T11:19:47.157Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_c05f3cde58c04ae393136596cc12618d",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--sql-file",
+        ".work/stage110-cpu.sql"
+      ],
+      "statementOffset": 442
+    },
+    {
+      "utc": "2026-10-19T11:19:47.157Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_c05f3cde58c04ae393136596cc12618d",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--sql-file",
+        ".work/stage110-all-slices.sql"
+      ],
+      "statementOffset": 608
+    },
+    {
+      "utc": "2026-10-19T11:23:00.540Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_89bcf61f0e0441b587a4f19a238f56d1",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "record",
+        "--adb",
+        "C:/PICO4Overseas/platform-tools-latest-windows/platform-tools/adb.exe",
+        "--device",
+        "PB322XKGL4220049B",
+        "--package",
+        "com.bugworld.app",
+        "--duration",
+        "20",
+        "--output",
+        ".work/stage110-no-animation.perfetto-trace"
+      ],
+      "statementOffset": 131
+    },
+    {
+      "utc": "2026-10-19T11:26:03.929Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_db5c082f9f00423ba47ee2692198c14e",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "load",
+        "--help"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:26:03.929Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_db5c082f9f00423ba47ee2692198c14e",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--help"
+      ],
+      "statementOffset": 204
+    },
+    {
+      "utc": "2026-10-19T11:26:03.929Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_db5c082f9f00423ba47ee2692198c14e",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "close",
+        "--help"
+      ],
+      "statementOffset": 281
+    },
+    {
+      "utc": "2026-10-19T11:26:17.193Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_041a8f4044b44b5b965115279a327a89",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "load",
+        ".work/stage110-no-animation.perfetto-trace",
+        "--shell",
+        ".work/stage110-profiler-cli-0.2.0/trace_processor_shell.exe",
+        "--envelope"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:26:37.823Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_ff5b915f1358477a910276ce72af3899",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.appOverview",
+        "--session",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--package",
+        "com.bugworld.app",
+        "--envelope"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:26:37.823Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_ff5b915f1358477a910276ce72af3899",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.spatialOverview",
+        "--session",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--envelope"
+      ],
+      "statementOffset": 465
+    },
+    {
+      "utc": "2026-10-19T11:26:37.823Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_ff5b915f1358477a910276ce72af3899",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--sql-file",
+        "scripts/perf/thread_cpu.sql",
+        "--envelope"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:26:37.823Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_ff5b915f1358477a910276ce72af3899",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--sql-file",
+        "scripts/perf/app_runtime_slices.sql",
+        "--envelope"
+      ],
+      "statementOffset": 443
+    },
+    {
+      "utc": "2026-10-19T11:27:04.750Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_613cbede78034d749f61fc5435bb5aa9",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.appOverview",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--package",
+        "com.bugworld.app",
+        "--envelope"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:27:04.750Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_613cbede78034d749f61fc5435bb5aa9",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.spatialOverview",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--envelope"
+      ],
+      "statementOffset": 381
+    },
+    {
+      "utc": "2026-10-19T11:27:04.750Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_613cbede78034d749f61fc5435bb5aa9",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--sql",
+        "SELECT tag,msg FROM android_logs WHERE tag IN ('BugWorldStagePerf','BugWorldGarden') ORDER BY ts LIMIT 30",
+        "--envelope"
+      ],
+      "statementOffset": 615
+    },
+    {
+      "utc": "2026-10-19T11:27:20.084Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_db9157e4202242c6be65c652feba9c7e",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--sql-file",
+        ".work/stage110-comparison-cpu.sql",
+        "--envelope"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:27:20.084Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_db9157e4202242c6be65c652feba9c7e",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--sql-file",
+        ".work/stage110-comparison-cpu.sql",
+        "--envelope"
+      ],
+      "statementOffset": 382
+    },
+    {
+      "utc": "2026-10-19T11:27:48.428Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_758a7f04db83408db86ed59c566ad919",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "session",
+        "close",
+        "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+        "--envelope"
+      ],
+      "statementOffset": 128
+    },
+    {
+      "utc": "2026-10-19T11:27:48.428Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_758a7f04db83408db86ed59c566ad919",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "session",
+        "close",
+        "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+        "--envelope"
+      ],
+      "statementOffset": 335
+    }
+  ],
+  "directProfilerCalls": 8,
+  "directProfiler": [
+    {
+      "utc": "2026-10-19T10:52:14.511Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_2c8f034893ba4c29bda2b0531a5a43be",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "live",
+        "run",
+        "--help"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 1
+    },
+    {
+      "utc": "2026-10-19T10:52:24.570Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_c354ae53e00d422f80a138e134015c54",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "trace",
+        "record",
+        "--help"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 2
+    },
+    {
+      "utc": "2026-10-19T10:52:24.570Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_c354ae53e00d422f80a138e134015c54",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "doctor",
+        "check",
+        "--envelope"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 3
+    },
+    {
+      "utc": "2026-10-19T10:52:31.904Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_b6047705fc084166854980d31bf2ec52",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "live",
+        "run",
+        "--package",
+        "com.bugworld.app",
+        "--adb",
+        "C:\\PICO4Overseas\\platform-tools-latest-windows\\platform-tools\\adb.exe",
+        "--device",
+        "PB322XKGL4220049B",
+        "--duration",
+        "15",
+        "--save",
+        "--output",
+        ".work\\stage110-live-perf.json"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 4
+    },
+    {
+      "utc": "2026-10-19T10:53:51.389Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_f23c99c51c26499a801d28c14d840973",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "trace",
+        "load",
+        "--help"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 6
+    },
+    {
+      "utc": "2026-10-19T10:55:34.101Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_0c1db6b8d72f428298583a10f20eb5d4",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "trace",
+        "analysis",
+        "--help"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 8
+    },
+    {
+      "utc": "2026-10-19T10:55:48.250Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_8e93995562044bf48dfec7102983df36",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "trace",
+        "analysis",
+        "frame.spatialOverview",
+        "--help"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 9
+    },
+    {
+      "utc": "2026-10-19T10:55:48.250Z",
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "callId": "call_8e93995562044bf48dfec7102983df36",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "trace",
+        "analysis",
+        "frame.appOverview",
+        "--help"
+      ],
+      "statementOffset": 0,
+      "inventorySequence": 10
+    }
+  ],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 2,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 8,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-19T11:34:55.264Z",
+      "baselineBasis": "Stage-109-Usage.json cumulative counter",
+      "baselineAsOfUTC": "2026-10-19T10:42:22.014Z",
+      "baseline": {
+        "input_tokens": 119072683,
+        "cached_input_tokens": 116279808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 621807,
+        "reasoning_output_tokens": 195622,
+        "total_tokens": 119694490
+      },
+      "cumulative": {
+        "input_tokens": 137159712,
+        "cached_input_tokens": 134077696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 671864,
+        "reasoning_output_tokens": 210970,
+        "total_tokens": 137831576
+      },
+      "phase": {
+        "input_tokens": 18087029,
+        "cached_input_tokens": 17797888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 50057,
+        "reasoning_output_tokens": 15348,
+        "total_tokens": 18137086
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T18-51-15-01a153c9-79bc-7210-aa2f-5ce243bafd30.jsonl",
+      "threadId": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "task": "/root/stage110_perf_investigation",
+      "asOfUTC": "2026-10-19T11:29:23.990Z",
+      "baselineBasis": "new direct child after phase start; zero baseline",
+      "baselineAsOfUTC": null,
+      "baseline": {},
+      "cumulative": {
+        "input_tokens": 9862678,
+        "cached_input_tokens": 9643136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 48279,
+        "reasoning_output_tokens": 13552,
+        "total_tokens": 9910957
+      },
+      "phase": {
+        "input_tokens": 9862678,
+        "cached_input_tokens": 9643136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 48279,
+        "reasoning_output_tokens": 13552,
+        "total_tokens": 9910957
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T18-51-34-01a153c9-c41b-7920-a2f1-80a2bab6b7ad.jsonl",
+      "threadId": "01a153c9-c41b-7920-a2f1-80a2bab6b7ad",
+      "task": "/root/stage110_interaction",
+      "asOfUTC": "2026-10-19T11:12:48.098Z",
+      "baselineBasis": "new direct child after phase start; zero baseline",
+      "baselineAsOfUTC": null,
+      "baseline": {},
+      "cumulative": {
+        "input_tokens": 3264182,
+        "cached_input_tokens": 3141248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16902,
+        "reasoning_output_tokens": 5885,
+        "total_tokens": 3281084
+      },
+      "phase": {
+        "input_tokens": 3264182,
+        "cached_input_tokens": 3141248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16902,
+        "reasoning_output_tokens": 5885,
+        "total_tokens": 3281084
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown."
+}

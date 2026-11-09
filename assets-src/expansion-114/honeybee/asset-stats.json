@@ -1,0 +1,30 @@
+{
+  "species": "honeybee",
+  "bytes": 965440,
+  "triangles": 15073,
+  "draw_primitives": 6,
+  "meshes": [
+    "Anatomy",
+    "PaperSurface"
+  ],
+  "joints": 13,
+  "clips": [
+    "idle",
+    "walk",
+    "takeoff",
+    "flight",
+    "touch",
+    "perch"
+  ],
+  "textures": 2,
+  "materials": [
+    "Compound eye \u2013 honeybee",
+    "Sclerites and feet",
+    "Membrane venation",
+    "Dust of pollen",
+    "Chestnut pile",
+    "Paper_honeybee"
+  ],
+  "float_sheet_v0": "top",
+  "units": "metres"
+}

@@ -1,0 +1,38 @@
+{
+  "phaseStartUTC": "2026-11-04T12:22:34.002000+00:00",
+  "snapshotUTC": "2026-11-04T12:50:40.218253+00:00",
+  "wallSeconds": 1686.216,
+  "phaseTokens": 34414912,
+  "tokenTotals": {
+    "input_tokens": 34307820,
+    "cached_input_tokens": 33715456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 107092,
+    "reasoning_output_tokens": 24264,
+    "total_tokens": 34414912
+  },
+  "picoCliCalls": 0,
+  "directProfilerCalls": 0,
+  "tasks": [
+    {
+      "task": "/root",
+      "tokens": 14999044
+    },
+    {
+      "task": "/root/bilingual_studio",
+      "tokens": 3385060
+    },
+    {
+      "task": "/root/spatial_hand_pose",
+      "tokens": 8172953
+    },
+    {
+      "task": "/root/stage_routes",
+      "tokens": 7857855
+    }
+  ],
+  "parserWarnings": {
+    "Exec command arguments were not an inline cmd object": 18
+  },
+  "auditNote": "One invalid PowerShell brace-expansion search was inspected separately; it contains read-only search commands. Nonliteral batched reads are not counted as CLI evidence."
+}

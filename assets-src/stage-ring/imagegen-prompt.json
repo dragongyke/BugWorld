@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "generate",
+  "transparent_background": false,
+  "prompt": "Create a production equirectangular environment texture for a healing miniature lotus pond VR scene. 2:1 panoramic aspect, full 360 longitude and 180 latitude, seamless left/right matching edges. ONLY sky and very distant atmosphere, NO foreground, NO plants, NO buildings, NO water surface, NO text. Bright readable dreamy blue-violet twilight starry sky: zenith soft medium indigo blue, many delicate fine scattered white stars (not giant stars, not glitter bokeh); very faint Milky Way mist and wispy pale lavender clouds, horizon at exactly image center is a broad luminous lavender periwinkle band with subtly warm pink highlights. Lower half transitions smoothly to muted desaturated blue teal atmospheric gradient, so water reflections pick up broad calm lighting rather than bands. Top and bottom poles should be nearly constant color across longitude to avoid pinching artifacts. This is a texture map, NOT a perspective rendering or a framed concept board. Overall bright enough for relaxed immersive garden observation, luminous but restrained, no black sky, no sun or oversized moon, no aurora ribbons, no purple stripes. High quality natural softly painted photographic atmosphere, subtle quiet stars. All edges bleed to canvas.",
+  "output": "sky-source.png",
+  "purpose": "Equirectangular sky texture, not a headset capture"
+}

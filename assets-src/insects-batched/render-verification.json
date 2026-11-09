@@ -1,0 +1,79 @@
+{
+  "pairedRenders": [
+    {
+      "species": "butterfly",
+      "pose": "idle",
+      "pixelsIdentical": false,
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 4.340277777777778e-06,
+      "sourcePNGsha256": "4b4be3729cd3aac67c8ac86e54e9ccf5d1520edebc6d328312ab36f3e25a51fd",
+      "candidatePNGsha256": "e0b8389a0374d7bca1601b163ecd81bcca66f8c1e27de62ce84b51ceb3adab09"
+    },
+    {
+      "species": "butterfly",
+      "pose": "moving",
+      "pixelsIdentical": true,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "sourcePNGsha256": "8dc5f268ca2cc4d040e2a2ae5589a877e6db27b49fb2ea101b36d2d55a6643fd",
+      "candidatePNGsha256": "902eb852c1e33df499d7f8f4db518bbc61b5def378c57b9769f75312d1553bd7"
+    },
+    {
+      "species": "beetle",
+      "pose": "idle",
+      "pixelsIdentical": false,
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 1.4467592592592592e-06,
+      "sourcePNGsha256": "f668ca7e92f6ccb67e2e41275a648b34295125eb6194e5817c44e26b4160293a",
+      "candidatePNGsha256": "5590b9e772c0e6b9f633da6f15698677b7b9b36a12aee28120df542b53a96507"
+    },
+    {
+      "species": "beetle",
+      "pose": "moving",
+      "pixelsIdentical": false,
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 2.8935185185185184e-06,
+      "sourcePNGsha256": "44176f280db1f54f5cad5945df25a182accdb4cef5d606902680e08d66535bed",
+      "candidatePNGsha256": "0cafd0bb88cd4cbb39ee5709aa58cf25d22f15136296fbe8598a6da7df871da8"
+    },
+    {
+      "species": "ladybug",
+      "pose": "idle",
+      "pixelsIdentical": true,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "sourcePNGsha256": "ac78eb7bedcba8054555f111405cf57dc5f56e5768c7bcd579b2ec3fba10b069",
+      "candidatePNGsha256": "8a6c569ad637f2748f0ce312b330702567fc8552e033b8ba9c8cb1ab37f66145"
+    },
+    {
+      "species": "ladybug",
+      "pose": "moving",
+      "pixelsIdentical": true,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "sourcePNGsha256": "37f0e776204728d167acb3e85a132cd6a81896354e89fd193c04fda059f2f385",
+      "candidatePNGsha256": "380001c26623b03c92cff7711ad5f361e613ba06d778cb243fd724a3b72a7bc3"
+    },
+    {
+      "species": "caterpillar",
+      "pose": "idle",
+      "pixelsIdentical": false,
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 2.8935185185185184e-06,
+      "sourcePNGsha256": "6f46188f0cadfc7b44a926d907d9d6ecb89b8a0f81a94f20788b697a519bfe00",
+      "candidatePNGsha256": "87feb8c2ba797e4b2de5ccfb2ce7e7b808d5edb395ffe8efef8241d8da42fbd7"
+    },
+    {
+      "species": "caterpillar",
+      "pose": "moving",
+      "pixelsIdentical": true,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "sourcePNGsha256": "cab9c1e910c3fd8a848615e1faad4383fc651d0dd9f2f14d33eeea29dd8c3d47",
+      "candidatePNGsha256": "81a95997aeeef5f492a61ced6bd4bc591d44107c481fe1959deeff3de6a54a4d"
+    }
+  ],
+  "allPixelsIdentical": false,
+  "renderer": "Blender 5.2.1 Cycles OptiX, 480x480, 16 samples, seed 17; evaluated visible mesh bounds, bone-display collection excluded; idle and flight/crawl at 35% duration",
+  "limits": "Fixed Blender comparisons, not headset performance or full collision validation."
+}

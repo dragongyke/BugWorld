@@ -1,0 +1,27 @@
+{
+  "captures": [
+    "water-final-t0.png",
+    "water-final-t1.png"
+  ],
+  "camera": {
+    "position": [
+      0,
+      1.1,
+      4
+    ],
+    "rotationEuler": [
+      -16,
+      0,
+      0
+    ]
+  },
+  "roi": [
+    1000,
+    650,
+    2200,
+    900
+  ],
+  "meanAbsChannelDifference": 1.1497922222222223,
+  "changedPixelFraction": 0.17406,
+  "scope": "Correct tangent-space material with forest HDRI; editor captures only. No headset or GPU performance claim."
+}

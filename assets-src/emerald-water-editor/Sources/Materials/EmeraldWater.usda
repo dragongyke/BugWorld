@@ -1,0 +1,134 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+)
+def Xform "Root"
+{
+    def Material "EmeraldWater" (
+        customData = {
+            string materialType = "SHADER_GRAPH"
+            string blendingMode = "OPAQUE"
+            string cullingMode = "BACK"
+            bool depthWrite = 1
+            bool depthTest = 1
+            bool applyToneMapping = 1
+        }
+    )
+    {
+        token outputs:mtlx:surface.connect = </Root/EmeraldWater/Surface.outputs:out>
+        def Shader "Surface"
+        {
+            uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+            color3f inputs:diffuseColor = (0.006, 0.025, 0.018)
+            float inputs:metallic = 0
+            float inputs:roughness = 0.06
+            float inputs:ior = 1.333
+            float inputs:opacity = 1
+            float3 inputs:normal.connect = </Root/EmeraldWater/Normal.outputs:out>
+            token outputs:out
+        }
+        def Shader "UV"
+        {
+            uniform token info:id = "ND_texcoord_vector2"
+            int inputs:index = 0
+            float2 outputs:out
+        }
+        def Shader "Time"
+        {
+            uniform token info:id = "ND_time_float"
+            float outputs:out
+        }
+        def Shader "Flow"
+        {
+            uniform token info:id = "ND_multiply_vector2FA"
+            float2 inputs:in1 = (0.007, 0.003)
+            float inputs:in2.connect = </Root/EmeraldWater/Time.outputs:out>
+            float2 outputs:out
+        }
+        def Shader "MovingUV"
+        {
+            uniform token info:id = "ND_add_vector2"
+            float2 inputs:in1.connect = </Root/EmeraldWater/UV.outputs:out>
+            float2 inputs:in2.connect = </Root/EmeraldWater/Flow.outputs:out>
+            float2 outputs:out
+        }
+        def Shader "Ripple"
+        {
+            uniform token info:id = "ND_image_vector3"
+            asset inputs:file = @../Textures/WaterNormal.png@
+            float2 inputs:texcoord.connect = </Root/EmeraldWater/MovingUV.outputs:out>
+            string inputs:uaddressmode = "periodic"
+            string inputs:vaddressmode = "periodic"
+            string inputs:filtertype = "linear"
+            float3 outputs:out
+        }
+        def Shader "Normal"
+        {
+            uniform token info:id = "ND_normalmap"
+            float3 inputs:in.connect = </Root/EmeraldWater/AverageRipple.outputs:out>
+            string inputs:space = "tangent"
+            float inputs:scale = 2.0
+            float3 inputs:normal.connect = </Root/EmeraldWater/WaterUp.outputs:out>
+            float3 inputs:tangent.connect = </Root/EmeraldWater/WaterTangent.outputs:out>
+            float3 outputs:out
+        }
+        def Shader "UV2"
+        {
+            uniform token info:id = "ND_multiply_vector2FA"
+            float2 inputs:in1.connect = </Root/EmeraldWater/UV.outputs:out>
+            float inputs:in2 = 0.67
+            float2 outputs:out
+        }
+        def Shader "Flow2"
+        {
+            uniform token info:id = "ND_multiply_vector2FA"
+            float2 inputs:in1 = (-0.003, 0.004)
+            float inputs:in2.connect = </Root/EmeraldWater/Time.outputs:out>
+            float2 outputs:out
+        }
+        def Shader "MovingUV2"
+        {
+            uniform token info:id = "ND_add_vector2"
+            float2 inputs:in1.connect = </Root/EmeraldWater/UV2.outputs:out>
+            float2 inputs:in2.connect = </Root/EmeraldWater/Flow2.outputs:out>
+            float2 outputs:out
+        }
+        def Shader "Ripple2"
+        {
+            uniform token info:id = "ND_image_vector3"
+            asset inputs:file = @../Textures/WaterNormal.png@
+            float2 inputs:texcoord.connect = </Root/EmeraldWater/MovingUV2.outputs:out>
+            string inputs:uaddressmode = "periodic"
+            string inputs:vaddressmode = "periodic"
+            string inputs:filtertype = "linear"
+            float3 outputs:out
+        }
+        def Shader "SumRipple"
+        {
+            uniform token info:id = "ND_add_vector3"
+            float3 inputs:in1.connect = </Root/EmeraldWater/Ripple.outputs:out>
+            float3 inputs:in2.connect = </Root/EmeraldWater/Ripple2.outputs:out>
+            float3 outputs:out
+        }
+        def Shader "AverageRipple"
+        {
+            uniform token info:id = "ND_multiply_vector3FA"
+            float3 inputs:in1.connect = </Root/EmeraldWater/SumRipple.outputs:out>
+            float inputs:in2 = 0.5
+            float3 outputs:out
+        }
+        def Shader "WaterUp"
+        {
+            uniform token info:id = "ND_constant_vector3"
+            float3 inputs:value = (0, 0, 1)
+            float3 outputs:out
+        }
+        def Shader "WaterTangent"
+        {
+            uniform token info:id = "ND_constant_vector3"
+            float3 inputs:value = (1, 0, 0)
+            float3 outputs:out
+        }
+    }
+}

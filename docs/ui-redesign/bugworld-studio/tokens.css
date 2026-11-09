@@ -1,0 +1,21 @@
+:root {
+  --surface: #faf8f5;
+  --paper: #fffcf5;
+  --raised: #ffffff;
+  --ink: #403849;
+  --muted: #756d7e;
+  --accent: #75598f;
+  --accent-hover: #65467f;
+  --selected: #e9dff1;
+  --focus: #75598f;
+  --stroke: #ded7e2;
+  --quiet: #f0ecef;
+  --success: #43715d;
+  --error: #a24449;
+  --radius-panel: 28px;
+  --radius-control: 16px;
+  --duration-fast: 110ms;
+  --duration-state: 150ms;
+  --duration-panel: 220ms;
+  --font: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+}

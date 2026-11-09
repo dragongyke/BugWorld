@@ -1,0 +1,194 @@
+{
+  "geometryChecks": "passed",
+  "visualFidelity": "not established by this automated check; see native review",
+  "runtimeIntegration": false,
+  "headsetValidation": false,
+  "gardenTriangles": 150789,
+  "skyTriangles": 3968,
+  "gardenSha256": "3660df32385d74613324c17596d2af0b061b2c1883dd67e444f56807ad4197c7",
+  "skySha256": "e1ce5cdb1da8ed07f265c1b465698b66c2cb96e1916ca46ccad373c7fa83dc07",
+  "blendSha256": "aac56939d9920a6e8994aaa67bc42eec29a1644ee86bca24d9f057c35fe071bb",
+  "staticIntersectionPairsChecked": 30,
+  "imageSizes": {
+    "forest-panorama.png": [
+      4096,
+      2048
+    ],
+    "forest-ground-albedo.png": [
+      1254,
+      1254
+    ],
+    "front.png": [
+      1440,
+      900
+    ],
+    "right.png": [
+      1440,
+      900
+    ],
+    "back.png": [
+      1440,
+      900
+    ],
+    "left.png": [
+      1440,
+      900
+    ]
+  },
+  "requestedPanoramaSize": [
+    4096,
+    2048
+  ],
+  "panoramaMeetsRequestedResolution": true,
+  "newRgba8TextureBytesWithMipEstimate": 53125995,
+  "allEmbeddedTextures": [
+    {
+      "name": "rock_moss_set_01_nor_gl_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "rock_moss_set_01_diff_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "rock_moss_set_01_rough_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "dead_tree_trunk_02_nor_gl_2k",
+      "width": 2048,
+      "height": 2048,
+      "rgba8WithMipsBytes": 22369621
+    },
+    {
+      "name": "dead_tree_trunk_02_diff_2k",
+      "width": 2048,
+      "height": 2048,
+      "rgba8WithMipsBytes": 22369621
+    },
+    {
+      "name": "dead_tree_trunk_02_arm_2k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "dead_tree_trunk_nor_gl_2k",
+      "width": 2048,
+      "height": 2048,
+      "rgba8WithMipsBytes": 22369621
+    },
+    {
+      "name": "dead_tree_trunk_diff_2k",
+      "width": 2048,
+      "height": 2048,
+      "rgba8WithMipsBytes": 22369621
+    },
+    {
+      "name": "dead_tree_trunk_arm_2k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "moss_01_nor_gl_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "moss_01_diff-moss_01_alpha-moss_01_alpha_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "moss_01_arm_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "forest_leaves_02_nor_gl_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "forest_leaves_02_diffuse_1k",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "lotus_petal_daylight",
+      "width": 512,
+      "height": 512,
+      "rgba8WithMipsBytes": 1398101
+    },
+    {
+      "name": "lotus_leaf_normal",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "lotus_emerald_pigment",
+      "width": 1254,
+      "height": 1254,
+      "rgba8WithMipsBytes": 8386752
+    },
+    {
+      "name": "shallow_water_pigment",
+      "width": 512,
+      "height": 512,
+      "rgba8WithMipsBytes": 1398101
+    },
+    {
+      "name": "water_fine_ripple_normal",
+      "width": 1024,
+      "height": 1024,
+      "rgba8WithMipsBytes": 5592405
+    },
+    {
+      "name": "fern_02_nor_gl_1k",
+      "width": 512,
+      "height": 512,
+      "rgba8WithMipsBytes": 1398101
+    },
+    {
+      "name": "fern_02_diff-fern_02_alpha-fern_02_alpha_1k",
+      "width": 512,
+      "height": 512,
+      "rgba8WithMipsBytes": 1398101
+    },
+    {
+      "name": "fern_02_arm_1k",
+      "width": 512,
+      "height": 512,
+      "rgba8WithMipsBytes": 1398101
+    },
+    {
+      "name": "forest-panorama",
+      "width": 4096,
+      "height": 2048,
+      "rgba8WithMipsBytes": 44739243
+    }
+  ],
+  "allRgba8TextureBytesWithMipEstimate": 216703844,
+  "incrementalTextureBytesVersusFirstStudy": 65709021,
+  "runtimeAssetsCheckedUnchanged": 29,
+  "caveats": [
+    "Geometry/packaging checks do not establish visual fidelity or FPS",
+    "Static GLB water and integrated native editor water use different material models",
+    "Native editor integration does not establish headset lighting or performance",
+    "Routes are not yet implemented for this layout",
+    "RGBA8 mip estimates are not measured GPU residency"
+  ]
+}

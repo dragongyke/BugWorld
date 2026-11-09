@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "test": "one_distinct_click_owner_per_species",
+      "passed": true
+    },
+    {
+      "test": "tools_fill_native_subwindow",
+      "passed": true,
+      "contentBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 720,
+        "bottom": 1680
+      },
+      "windowBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 720,
+        "bottom": 1680
+      }
+    },
+    {
+      "test": "direct_paper_switch",
+      "species": "独角仙",
+      "passed": true
+    },
+    {
+      "test": "direct_paper_switch",
+      "species": "瓢虫",
+      "passed": true
+    },
+    {
+      "test": "direct_paper_switch",
+      "species": "毛毛虫",
+      "passed": true
+    },
+    {
+      "test": "direct_paper_switch",
+      "species": "蝴蝶",
+      "passed": true
+    }
+  ],
+  "limits": "Semantic hierarchy/actions only; gaze visuals and inward panel angle require headset observation."
+}

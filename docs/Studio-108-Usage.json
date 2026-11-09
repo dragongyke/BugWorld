@@ -1,0 +1,92 @@
+{
+  "phaseStartUTC": "2026-10-19T09:08:03.984000+00:00",
+  "snapshotUTC": "2026-10-19T09:15:14.321318+00:00",
+  "wallSeconds": 430,
+  "phaseTokens": 2849542,
+  "availableLogCounterSnapshot": 114787286,
+  "projectCalendarSpanSeconds": 950403,
+  "historicalCoverageComplete": false,
+  "separatelyCountedStageTokens": 6206215,
+  "picoCliCalls": 4,
+  "cli": [
+    {
+      "utc": "2026-10-19T09:11:44.327Z",
+      "command": "app install --apk 'C:/Work/AndoidSpatialProject/BugWorld/deliverables/BugWorld-1.0.8.apk' --replace"
+    },
+    {
+      "utc": "2026-10-19T09:11:49.658Z",
+      "command": "app install --help"
+    },
+    {
+      "utc": "2026-10-19T09:11:55.599Z",
+      "command": "app install deliverables/BugWorld-1.0.8.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T09:11:55.599Z",
+      "command": "app launch com.bugworld.app }"
+    }
+  ],
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "asOfUTC": "2026-10-19T09:14:43.939Z",
+      "cumulative": {
+        "input_tokens": 103916504,
+        "cached_input_tokens": 101503616,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 553742,
+        "reasoning_output_tokens": 175021,
+        "total_tokens": 104470246
+      },
+      "phase": {
+        "input_tokens": 2839577,
+        "cached_input_tokens": 2767232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9965,
+        "reasoning_output_tokens": 2280,
+        "total_tokens": 2849542
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T13-15-55-01a15296-79b8-7da0-b920-3c2e64ef5e7f.jsonl",
+      "asOfUTC": "2026-10-19T05:20:46.731Z",
+      "cumulative": {
+        "input_tokens": 1252983,
+        "cached_input_tokens": 1172736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5545,
+        "reasoning_output_tokens": 2630,
+        "total_tokens": 1258528
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T16-40-42-01a15351-f3ab-7f40-bd73-04c5c0cd0c75.jsonl",
+      "asOfUTC": "2026-10-19T08:57:24.163Z",
+      "cumulative": {
+        "input_tokens": 2842502,
+        "cached_input_tokens": 2698240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9795,
+        "reasoning_output_tokens": 3169,
+        "total_tokens": 2852297
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    }
+  ],
+  "definition": "Cumulative session counters; input includes cached tokens and output includes reasoning. No billing estimate; unreported tool backend tokens excluded."
+}

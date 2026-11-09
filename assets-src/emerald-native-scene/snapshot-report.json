@@ -1,0 +1,397 @@
+{
+  "source": "MCP-saved native scene, with portable dependency rewrites",
+  "editorSDK": "6.1.0",
+  "scene": "Sources/Scenes/Hi.usda",
+  "environment": {
+    "file": "../emerald-forest-v2/sources/forest_slope_4k.exr",
+    "intensityExponent": 8,
+    "rotation": 0
+  },
+  "dependencyFiles": 73,
+  "dependencyBytes": 160334051,
+  "repairs": [
+    {
+      "file": ".work/emerald-native-final/Sources/Scenes/Hi.usda",
+      "old": "garden_canopy_v4",
+      "new": "garden",
+      "connections": 1
+    },
+    {
+      "file": ".work/emerald-native-final/Sources/Scenes/Hi.usda",
+      "archivePath": "0/238518156925075483.png",
+      "recoveredFrom": ".work/emerald-native-final/.Library/garden-canopy-v4_1792584402915/0/238518156925075483.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "Sources/Scenes/Hi.usda",
+      "bytes": 39147859,
+      "sha256": "78ecd8062ee15d127f71cafac7606f1d014282162104b37edcdf099d896ddd33"
+    },
+    {
+      "path": "Sources/Resources/00e5df6de980-238518156925075476.png",
+      "bytes": 1700785,
+      "sha256": "00e5df6de9807aeb34b8ee9ed2e689500fe9565338c89cdaec30ea67b538f469"
+    },
+    {
+      "path": "Sources/Resources/01c550114003-146335252376191017.png",
+      "bytes": 1305987,
+      "sha256": "01c5501140034b2ba9ae3cf34e367fd84dc5b23465109cf9b91a2a7de25eb702"
+    },
+    {
+      "path": "Sources/Resources/07c1513c9b64-146335252376191091.png",
+      "bytes": 928756,
+      "sha256": "07c1513c9b646a84cc02074a74a13df401221eff2d22444e4885429aea34c01e"
+    },
+    {
+      "path": "Sources/Resources/0af1213bdebd-146335252376191049.png",
+      "bytes": 310008,
+      "sha256": "0af1213bdebd5b9f9b6bb49508bf9b6cfd0e6ee6a1d2179014e61e4dffed1def"
+    },
+    {
+      "path": "Sources/Resources/12eecc1fe93a-146335252376191025.png",
+      "bytes": 1307433,
+      "sha256": "12eecc1fe93a746b05b1ebeaeda1dfa953012e5cc1aaddccab6e93ee1e5eff29"
+    },
+    {
+      "path": "Sources/Resources/15ce22e8a062-146335252376191015.png",
+      "bytes": 531102,
+      "sha256": "15ce22e8a062c53753d50de4b99c016ca77b97c8a22eaf5311a91cc81852e33c"
+    },
+    {
+      "path": "Sources/Resources/1793bbea74e1-146335252376191027.png",
+      "bytes": 329364,
+      "sha256": "1793bbea74e15f64f2e1001585f2b520f10fd366a04065e6dafa640d3b7bdfc6"
+    },
+    {
+      "path": "Sources/Resources/195ac6c1a94f-238518156925075508.png",
+      "bytes": 8077137,
+      "sha256": "195ac6c1a94f07a5a7ec07d66c84b3b79ed856df30138544832a92cbeaf4fe9f"
+    },
+    {
+      "path": "Sources/Resources/1c0cf9130763-146335252376191039.png",
+      "bytes": 51824,
+      "sha256": "1c0cf9130763a7f3901d56442a1488145aa3edb99cb03adcb77e4e54d8b464fb"
+    },
+    {
+      "path": "Sources/Resources/1d8d64adecda-146335252376191047.png",
+      "bytes": 296971,
+      "sha256": "1d8d64adecdad9dd5e83b94804c159976c57021d3ce17f801fc95ea89c370e07"
+    },
+    {
+      "path": "Sources/Resources/22fc879d28f9-lotus_leaf_normal.png",
+      "bytes": 2543527,
+      "sha256": "22fc879d28f90b3364c73569c5bd2002a7c8edf3e82d5baa9422962fef090964"
+    },
+    {
+      "path": "Sources/Resources/25d35dfc586d-238518156925075485.png",
+      "bytes": 8461896,
+      "sha256": "25d35dfc586d28af1e0f88828fbc810db7e5dcd863edcc805fc7aff4aec7a450"
+    },
+    {
+      "path": "Sources/Resources/27604cd185a0-146335252376191098.png",
+      "bytes": 8168037,
+      "sha256": "27604cd185a020c8756f45dab2b3840fb50eda7c486b733c26d49975536e1d6b"
+    },
+    {
+      "path": "Sources/Resources/2bac85cdc769-BankAlbedo.jpg",
+      "bytes": 437891,
+      "sha256": "2bac85cdc76927fa7dc311037bbbc4dfa2633ea56eb0a24c9cabe163a68c9aa5"
+    },
+    {
+      "path": "Sources/Resources/2ebbca60ff1d-WaterNormal.png",
+      "bytes": 1367449,
+      "sha256": "2ebbca60ff1da23b01f42d4e1266e68bc23cff78c09c5b16d4015f19cb0fdfa8"
+    },
+    {
+      "path": "Sources/Resources/365925af3625-146335252376191093.png",
+      "bytes": 530445,
+      "sha256": "365925af3625b2210139ff28cdfc67f0a92209ac1cae8bd117f63e4d5b9d9657"
+    },
+    {
+      "path": "Sources/Resources/3c3a84338bc1-146335252376191077.png",
+      "bytes": 1143543,
+      "sha256": "3c3a84338bc18dc33f2c47ea28c33aa270d980f96a5ebbb8be0af0ad5005f91e"
+    },
+    {
+      "path": "Sources/Resources/40cea65d8aa4-RockAlbedo.jpg",
+      "bytes": 168099,
+      "sha256": "40cea65d8aa4ee73a93b04af19963834d061eee9779c3fc2c1cba76eef812ccc"
+    },
+    {
+      "path": "Sources/Resources/48333a2231d3-ForestBackground.usda",
+      "bytes": 377,
+      "sha256": "bdc36f1499812b512c651303af288fc38dc00ea038d92999c1a772d5412c26b0"
+    },
+    {
+      "path": "Sources/Resources/48d5011c7117-146335252376191066.png",
+      "bytes": 390239,
+      "sha256": "48d5011c7117e7a51f216572c9ba80661e6274ef59a92b66689814bcbf920c55"
+    },
+    {
+      "path": "Sources/Resources/5112cb1eba3c-238518156925075489.png",
+      "bytes": 801611,
+      "sha256": "5112cb1eba3ceee2d0ed38c91e6f28227e93ece82e3a282996df47e22cee41b0"
+    },
+    {
+      "path": "Sources/Resources/52f6c2c6015b-238518156925075483.png",
+      "bytes": 343648,
+      "sha256": "52f6c2c6015bd447c9432e952b2afee6f8614080644258d6f10e1f14bb99de48"
+    },
+    {
+      "path": "Sources/Resources/53421cdfc47e-Petal.png",
+      "bytes": 16634,
+      "sha256": "53421cdfc47e978d4e68737bd026802859aff1189c7485c4a99e7a534b623c74"
+    },
+    {
+      "path": "Sources/Resources/53a4371be383-146335252376190990.png",
+      "bytes": 91327,
+      "sha256": "53a4371be38383bdc771b859a2a11c14a7a8bb43a6b469b285e5a6f4628603d0"
+    },
+    {
+      "path": "Sources/Resources/599684e856a1-146335252376190998.png",
+      "bytes": 91918,
+      "sha256": "599684e856a103ae5a063d60d69eda18e8bb0eb13f8a29687e69febd969d07fe"
+    },
+    {
+      "path": "Sources/Resources/5de11e715814-146335252376191051.png",
+      "bytes": 1438130,
+      "sha256": "5de11e715814592f68d9a2cf559234ef66858953c8177bb16c455d7a31d51525"
+    },
+    {
+      "path": "Sources/Resources/617a628bdb57-146335252376191033.png",
+      "bytes": 65165,
+      "sha256": "617a628bdb5763acaa131d519a9c37aec1c9e7716718678ef572f4633f83297d"
+    },
+    {
+      "path": "Sources/Resources/68271cf7a7df-146335252376191029.png",
+      "bytes": 2217,
+      "sha256": "68271cf7a7df05425152ee446d2d4cdab3051df8757e0758c098e0c74fcf961c"
+    },
+    {
+      "path": "Sources/Resources/694f63c2ed3b-146335252376191043.png",
+      "bytes": 33420,
+      "sha256": "694f63c2ed3bcfa9013469a49f4465f8c6e2db035a332d7d75ad6912f65c38cd"
+    },
+    {
+      "path": "Sources/Resources/69a60cfaaf31-146335252376191083.png",
+      "bytes": 1306983,
+      "sha256": "69a60cfaaf31bdb848582ef32e84ceedeea047b206c3c538be65c0399724b42e"
+    },
+    {
+      "path": "Sources/Resources/73f4ee6876e9-146335252376191004.png",
+      "bytes": 121866,
+      "sha256": "73f4ee6876e92f3cd6a4895c5e12df8bb63366cc0095d71687bdcfcef30fd09f"
+    },
+    {
+      "path": "Sources/Resources/76e9db5ad90c-146335252376191035.png",
+      "bytes": 1307598,
+      "sha256": "76e9db5ad90caab69087a266476dc73ba69535372bb40f61e6ebb0fa26b58ed5"
+    },
+    {
+      "path": "Sources/Resources/77c9dcecf62b-146335252376191056.png",
+      "bytes": 1414355,
+      "sha256": "77c9dcecf62bfe930aba8a896809a2e57076c4d75654fc86c2e40a4b01aa78ee"
+    },
+    {
+      "path": "Sources/Resources/79680496db98-146335252376190996.png",
+      "bytes": 621860,
+      "sha256": "79680496db984de7cc46970632072e43abc28d1d3f72a7b41c1d3c6713cbe614"
+    },
+    {
+      "path": "Sources/Resources/7d7afc7bb470-fern_02_nor_gl_1k.jpg",
+      "bytes": 19914,
+      "sha256": "7d7afc7bb4700d6ef65d9153c4c34185169dddfe9220d2996d6e2e8293499feb"
+    },
+    {
+      "path": "Sources/Resources/7f61840b479b-146335252376191019.png",
+      "bytes": 1651,
+      "sha256": "7f61840b479b5c9efb5d855887e55d0f5729b28364feb6bba83342e121cdfcd6"
+    },
+    {
+      "path": "Sources/Resources/884b5f62e1e4-146335252376191045.png",
+      "bytes": 665302,
+      "sha256": "884b5f62e1e4403241cf5eab95f7ba6fe844da97f0324327b26aab9533a92499"
+    },
+    {
+      "path": "Sources/Resources/8d6214559b5c-146335252376191031.png",
+      "bytes": 530134,
+      "sha256": "8d6214559b5c1b09130310a38c30973e88735ff20fb20d334cfdd278c5fc335e"
+    },
+    {
+      "path": "Sources/Resources/944027844dbd-146335252376191097.png",
+      "bytes": 3122213,
+      "sha256": "944027844dbd8ec6cc805e2b6613e82510f8e8e411088fc6805bd3ea701235a1"
+    },
+    {
+      "path": "Sources/Resources/9824f259b162-146335252376191000.png",
+      "bytes": 621377,
+      "sha256": "9824f259b162e3350d7d543418a7617c22ed6a5ef776d8156da56d03a16e754d"
+    },
+    {
+      "path": "Sources/Resources/992bd74ec609-146335252376190992.png",
+      "bytes": 91070,
+      "sha256": "992bd74ec6091ac28c0ee083827bcd0e054c663d56697781ef86d70d4465fe82"
+    },
+    {
+      "path": "Sources/Resources/9ad207bb4b85-146335252376191094.png",
+      "bytes": 1387890,
+      "sha256": "9ad207bb4b85fa574085fa37166b35200bbba87f28ae02376ccb58e51e721518"
+    },
+    {
+      "path": "Sources/Resources/9ae6a66e83f5-146335252376191087.png",
+      "bytes": 1305830,
+      "sha256": "9ae6a66e83f515cd5cc959754438a5b4cf8e452e4dbd2b89762eb299dbd8a2fc"
+    },
+    {
+      "path": "Sources/Resources/9cd61e3b552c-146335252376191054.png",
+      "bytes": 1216985,
+      "sha256": "9cd61e3b552c2c04f13f770baeeeea27c5b0d749eb376a729394a28f53d4be70"
+    },
+    {
+      "path": "Sources/Resources/a288ae9695a9-238518156925075507.png",
+      "bytes": 6195880,
+      "sha256": "a288ae9695a9ecd7d97a1fc4064f20531b8040f34347743dcea2d7f04e26bb95"
+    },
+    {
+      "path": "Sources/Resources/a446679f0271-146335252376191075.png",
+      "bytes": 2996110,
+      "sha256": "a446679f0271fda81ee4922cd5664620b0c297f3741bad157945d4267f1e2782"
+    },
+    {
+      "path": "Sources/Resources/a4d4dbeae186-forest-background.usdz",
+      "bytes": 21275926,
+      "sha256": "a4d4dbeae186d08cd95aa461129269831ed6be3229524a069e21718e3f8e501a"
+    },
+    {
+      "path": "Sources/Resources/a51cbaaaf779-146335252376191096.png",
+      "bytes": 1001770,
+      "sha256": "a51cbaaaf7795345755d08c4dddf1f5b586430af0c0bed35b9af9c840e20487c"
+    },
+    {
+      "path": "Sources/Resources/a8f7ac7f6b25-146335252376191095.png",
+      "bytes": 1476393,
+      "sha256": "a8f7ac7f6b2523621298ea8dbcfcaaef60494bd545353487a4499f38e156d0c4"
+    },
+    {
+      "path": "Sources/Resources/b8aca23d359e-238518156925075481.png",
+      "bytes": 10573822,
+      "sha256": "b8aca23d359e12af429dd93a8e9af74f0b96d6ba27a06e8402923e24a5d11ab4"
+    },
+    {
+      "path": "Sources/Resources/c08b23d816b0-146335252376191081.png",
+      "bytes": 3056000,
+      "sha256": "c08b23d816b098615d11163aa161b35a20a7c3e3e9eaadbe864aa30176e29e40"
+    },
+    {
+      "path": "Sources/Resources/c1cf3bc99462-146335252376191085.png",
+      "bytes": 510751,
+      "sha256": "c1cf3bc99462f3a3a992e2fb57f827fee327331f9fd5d1698043d443037a7319"
+    },
+    {
+      "path": "Sources/Resources/c47f27971d50-146335252376191089.png",
+      "bytes": 509135,
+      "sha256": "c47f27971d50ed33b7f7caa153e90dcf0487268f191f723ced3c5205ebce64a6"
+    },
+    {
+      "path": "Sources/Resources/c7a5080c1123-146335252376191013.png",
+      "bytes": 531645,
+      "sha256": "c7a5080c11237ca5e286f12b5503c9b7217f08ae068523dd167cfc9d93115ee7"
+    },
+    {
+      "path": "Sources/Resources/cf6a40ab24f4-BankNormal.jpg",
+      "bytes": 577163,
+      "sha256": "cf6a40ab24f44d3e891a92a1c252416ed1192af54ac92a5704bdfbda0805e290"
+    },
+    {
+      "path": "Sources/Resources/d03bfd1a636e-146335252376191011.png",
+      "bytes": 1308581,
+      "sha256": "d03bfd1a636ed17d72527deaeea2528bb99f55ed7337d608f3f0cf4f3c4bce00"
+    },
+    {
+      "path": "Sources/Resources/d0f2cdca0884-146335252376190994.png",
+      "bytes": 621329,
+      "sha256": "d0f2cdca08842a2a709564dc42ab28cf24299b1e9d2f4f6c2913b5a507e4ad47"
+    },
+    {
+      "path": "Sources/Resources/d1f1a275f849-146335252376191064.png",
+      "bytes": 297257,
+      "sha256": "d1f1a275f849fa93b4c2f58253505edc50eaa49cf5df6b531d0884b3a9759f0a"
+    },
+    {
+      "path": "Sources/Resources/d5e6e64a22dc-146335252376191068.png",
+      "bytes": 1296122,
+      "sha256": "d5e6e64a22dce624667ea066b406b234010b939da12b783572cb49a6ed3672ef"
+    },
+    {
+      "path": "Sources/Resources/da47c56797c4-146335252376191007.png",
+      "bytes": 132462,
+      "sha256": "da47c56797c48681bfc69846005e71e66b685541f9c3959113acf030c4f734ad"
+    },
+    {
+      "path": "Sources/Resources/dc2594f8b461-lotus_emerald_pigment.png",
+      "bytes": 2628869,
+      "sha256": "dc2594f8b46145456979d609ef7f8edf6e7e8917f20695495c2f1a39e8d9db35"
+    },
+    {
+      "path": "Sources/Resources/dd7508ee819a-238518156925075487.png",
+      "bytes": 947138,
+      "sha256": "dd7508ee819a4a12da9ba5aeec87eaf7c0ccfe70d90ce04058fac839f9b4490f"
+    },
+    {
+      "path": "Sources/Resources/e10f44b18f05-146335252376191023.png",
+      "bytes": 408,
+      "sha256": "e10f44b18f052b828389228d7a2e3da271bdd4d48b0aac016ed6981b4d6b581a"
+    },
+    {
+      "path": "Sources/Resources/e11b2d1e9583-238518156925075474.png",
+      "bytes": 1785189,
+      "sha256": "e11b2d1e9583353a3799a2ea5f1828086a8361bf6e5acaefd7c34e733a262714"
+    },
+    {
+      "path": "Sources/Resources/eb4aad3f207f-RockNormal.jpg",
+      "bytes": 209975,
+      "sha256": "eb4aad3f207f1dc5b624d74ae240372171626a66912bd71adf7bd3e518181d6e"
+    },
+    {
+      "path": "Sources/Resources/ed112f32d9bc-146335252376191021.png",
+      "bytes": 23582,
+      "sha256": "ed112f32d9bcf991413b077f7fd9f7e7e3c0766cf740277b4448f10d8b1f7581"
+    },
+    {
+      "path": "Sources/Resources/edd9fe2ba802-146335252376191002.png",
+      "bytes": 68689,
+      "sha256": "edd9fe2ba80208b7a4c9a103d5727e932eb11944be158ed08c5da16862993a9b"
+    },
+    {
+      "path": "Sources/Resources/f64199c7387f-fern_02_diff-fern_02_alpha-fern_02_alpha_1k.png",
+      "bytes": 360092,
+      "sha256": "f64199c7387fb21caeef45004f699f0cd116c832deff3f3215fc7127fe2fd094"
+    },
+    {
+      "path": "Sources/Resources/fa456baf90f5-146335252376191037.png",
+      "bytes": 531309,
+      "sha256": "fa456baf90f5b9d236f17e9b0ce2fa0e49cc08da1f1786e2cade9f073b25ee90"
+    },
+    {
+      "path": "Sources/Resources/fdf3fc6bde20-146335252376191062.png",
+      "bytes": 665717,
+      "sha256": "fdf3fc6bde2079a987f0553e5ee313c6c6234ae95c84d4c8473a2e433c052b20"
+    },
+    {
+      "path": "Sources/Resources/fe5bb7748147-146335252376191079.png",
+      "bytes": 6766676,
+      "sha256": "fe5bb7748147cf71e96b93fcf68aab95ebde0a398bd454e25fa838e11e364c34"
+    },
+    {
+      "path": "Sources/Resources/fee5e970782b-146335252376191041.png",
+      "bytes": 168234,
+      "sha256": "fee5e970782baee1f4cd555fe1b072f39e5cbe28bb64f76d79433a1a9e5eb0f3"
+    }
+  ],
+  "limits": [
+    "Static approved insect poses for visual review, not app animation or saved user artworks",
+    "Environment HDRI must be applied by editor/runtime; editor settings are not a Stage IBL component",
+    "Desktop native pixels and mobile compile do not prove headset fidelity or frame time"
+  ]
+}

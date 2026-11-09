@@ -1,0 +1,21 @@
+{
+  "asset": "forest_leaves_02",
+  "author": "Rob Tuytel",
+  "source": "https://polyhaven.com/a/forest_leaves_02",
+  "license": "CC0",
+  "licenseURL": "https://polyhaven.com/license",
+  "files": [
+    {
+      "file": "forest_leaves_02_diffuse_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_leaves_02/forest_leaves_02_diffuse_1k.jpg",
+      "sha256": "2bac85cdc76927fa7dc311037bbbc4dfa2633ea56eb0a24c9cabe163a68c9aa5",
+      "bytes": 437891
+    },
+    {
+      "file": "forest_leaves_02_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/forest_leaves_02/forest_leaves_02_nor_gl_1k.jpg",
+      "sha256": "cf6a40ab24f44d3e891a92a1c252416ed1192af54ac92a5704bdfbda0805e290",
+      "bytes": 577163
+    }
+  ]
+}

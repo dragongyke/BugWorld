@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-28T08:42:45.335Z",
+  "resources": [
+    {
+      "resource": "tokens.css",
+      "status": 200,
+      "bytes": 482
+    },
+    {
+      "resource": "studio.css",
+      "status": 200,
+      "bytes": 17018
+    },
+    {
+      "resource": "assets/logo.svg",
+      "status": 200,
+      "bytes": 13908
+    },
+    {
+      "resource": "assets/butterfly.svg",
+      "status": 200,
+      "bytes": 2639
+    },
+    {
+      "resource": "assets/beetle.svg",
+      "status": 200,
+      "bytes": 1369
+    },
+    {
+      "resource": "assets/ladybug.svg",
+      "status": 200,
+      "bytes": 1627
+    },
+    {
+      "resource": "assets/caterpillar.svg",
+      "status": 200,
+      "bytes": 1357
+    },
+    {
+      "resource": "assets/album.svg",
+      "status": 200,
+      "bytes": 439
+    },
+    {
+      "resource": "assets/crayon.svg",
+      "status": 200,
+      "bytes": 457
+    },
+    {
+      "resource": "assets/leaf.svg",
+      "status": 200,
+      "bytes": 420
+    },
+    {
+      "resource": "assets/save.svg",
+      "status": 200,
+      "bytes": 293
+    },
+    {
+      "resource": "assets/preview.svg",
+      "status": 200,
+      "bytes": 256
+    },
+    {
+      "resource": "assets/close.svg",
+      "status": 200,
+      "bytes": 259
+    },
+    {
+      "resource": "assets/fill.svg",
+      "status": 200,
+      "bytes": 589
+    },
+    {
+      "resource": "assets/eraser.svg",
+      "status": 200,
+      "bytes": 468
+    },
+    {
+      "resource": "assets/undo.svg",
+      "status": 200,
+      "bytes": 283
+    },
+    {
+      "resource": "assets/redo.svg",
+      "status": 200,
+      "bytes": 284
+    },
+    {
+      "resource": "studio.js",
+      "status": 200,
+      "bytes": 22695
+    },
+    {
+      "resource": "assets/butterfly-lines.png",
+      "status": 200,
+      "bytes": 188698
+    },
+    {
+      "resource": "assets/butterfly-mask.png",
+      "status": 200,
+      "bytes": 9577
+    },
+    {
+      "resource": "assets/beetle-lines.png",
+      "status": 200,
+      "bytes": 127968
+    },
+    {
+      "resource": "assets/beetle-mask.png",
+      "status": 200,
+      "bytes": 6956
+    },
+    {
+      "resource": "assets/ladybug-lines.png",
+      "status": 200,
+      "bytes": 149633
+    },
+    {
+      "resource": "assets/ladybug-mask.png",
+      "status": 200,
+      "bytes": 9509
+    },
+    {
+      "resource": "assets/caterpillar-lines.png",
+      "status": 200,
+      "bytes": 69579
+    },
+    {
+      "resource": "assets/caterpillar-mask.png",
+      "status": 200,
+      "bytes": 6094
+    }
+  ],
+  "productionAppChanged": false
+}

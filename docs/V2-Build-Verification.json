@@ -1,0 +1,10 @@
+{
+  "apk": "app\\build\\outputs\\apk\\debug\\app-debug.apk",
+  "bytes": 70040901,
+  "sha256": "fc2858cec4fb27ba285f962ecc6595eae4907a979607a2034380c3f28f495aba",
+  "v2_assets_match_workspace": true,
+  "unit_tests": 59,
+  "lint_errors": 0,
+  "sdk": "6.1.0",
+  "headset_visual_acceptance": "pending"
+}

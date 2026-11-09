@@ -1,0 +1,17 @@
+#usda 1.0
+(
+    defaultPrim = "ForestBackground"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+def Mesh "ForestBackground" (
+    prepend references = @a4d4dbeae186-forest-background.usdz@
+)
+{
+    def SpatialComponent "DynamicShadowComponent"
+    {
+        uniform token info:id = "DynamicShadowComponent"
+        bool CastsShadow = false
+        bool ReceivesShadow = false
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "exitCode": 0,
+  "durationSeconds": 68.86,
+  "bundleBytes": 207970912,
+  "bundleSha256": "c29946343d9e925e455a7f6b748873425b2e2472099088a8d6079d6181170d72",
+  "command": [
+    "C:\\Users\\Admin\\AppData\\Local\\pico\\6.1\\editor\\spatialbundle\\spatialbundle.exe",
+    "pack",
+    "--project-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-native-scene",
+    "--scene-dir",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-native-scene\\Sources\\Scenes",
+    "--scene-files",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-native-scene\\Sources\\Scenes\\Hi.usda",
+    "--output-bundle",
+    "C:\\Work\\AndoidSpatialProject\\BugWorld\\assets-src\\emerald-native-scene\\Build\\EmeraldForestReview.bundle",
+    "--formats",
+    "usda",
+    "--override-output",
+    "--compress-textures",
+    "--discard-unused-resources",
+    "--preserve-resources",
+    "material",
+    "--material-platform",
+    "mobile",
+    "--force-build"
+  ],
+  "environmentWorkaround": "Same SDK editor DLL directory added to child PATH only",
+  "scope": "Portable native scene mobile compilation. Review insects are static poses; no APK install, headset or FPS evidence."
+}

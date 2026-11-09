@@ -1,0 +1,69 @@
+{
+  "fresh_process": true,
+  "imported_mesh_objects": 68,
+  "bones": 25,
+  "actions": [
+    "butterfly_antenna_groom",
+    "butterfly_fly",
+    "butterfly_idle_perch",
+    "butterfly_perch_touch",
+    "butterfly_startle"
+  ],
+  "images": [
+    {
+      "name": "cuticle-basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cuticle-normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "cuticle-roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "wing-basecolor",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "wing-normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "wing-roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "materials": 5,
+  "triangles": 55688,
+  "dimensions_m": [
+    0.2982400357723236,
+    0.22024968266487122,
+    0.1147118468361441
+  ]
+}

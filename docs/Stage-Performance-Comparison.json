@@ -1,0 +1,332 @@
+{
+  "generatedUTC": "2026-10-19T11:28:44.409694+00:00",
+  "status": "improved_not_90hz_validated",
+  "package": "com.bugworld.app",
+  "tool": "PICO CLI perf -> bundled profiler utilities 0.2.0; Perfetto trace_processor_shell v49.0",
+  "capturePreset": "default",
+  "baseline": {
+    "trace": ".work/stage110-active-baseline.perfetto-trace",
+    "traceBytes": 216338556,
+    "traceSeconds": 34.996776,
+    "residentCount": 4,
+    "residentCountEvidence": ".work/stage110-active-baseline-logcat.txt: residents=4",
+    "appFrameDurationMs": {
+      "frame_count": 319,
+      "avg_dur_ms": 106.647,
+      "max_dur_ms": 242.588,
+      "p50_dur_ms": 109.239,
+      "p90_dur_ms": 164.458,
+      "p95_dur_ms": 208.261,
+      "p99_dur_ms": 231.108
+    },
+    "appFrameBuckets": [
+      {
+        "bucket": "100~200ms",
+        "cnt": 166
+      },
+      {
+        "bucket": "200ms+",
+        "cnt": 16
+      },
+      {
+        "bucket": "33~100ms",
+        "cnt": 136
+      },
+      {
+        "bucket": "<11ms",
+        "cnt": 1
+      }
+    ],
+    "spatialCpuStageWallMs": {
+      "total": 316,
+      "avg_dur_ms": 214.764,
+      "max_dur_ms": 444.542,
+      "p50_dur_ms": 201.308,
+      "p90_dur_ms": 282.905,
+      "p95_dur_ms": 408.817,
+      "p99_dur_ms": 432.721
+    },
+    "spatialGpuStageMs": {
+      "total": 316,
+      "avg_dur_ms": 17.746,
+      "max_dur_ms": 32.544,
+      "p50_dur_ms": 16.764,
+      "p90_dur_ms": 24.984,
+      "p95_dur_ms": 27.678,
+      "p99_dur_ms": 31.345
+    },
+    "spatialFrameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 316
+      }
+    ],
+    "scheduledCpu": [
+      {
+        "process": "com.bugworld.app",
+        "thread": "om.bugworld.app",
+        "tid": 31765,
+        "scheduled_cpu_seconds": 1.396238,
+        "trace_seconds": 34.996776,
+        "one_core_percent": 3.99
+      },
+      {
+        "process": "com.pico.spatial.runtime",
+        "thread": "Eng-Render",
+        "tid": 5616,
+        "scheduled_cpu_seconds": 34.788531,
+        "trace_seconds": 34.996776,
+        "one_core_percent": 99.405
+      }
+    ],
+    "appSliceWallMs": [
+      {
+        "name": "beginFrame",
+        "count": 318,
+        "total_ms": 32713.1,
+        "avg_ms": 102.871,
+        "max_ms": 238.718
+      },
+      {
+        "name": "BugWorldStage:tick",
+        "count": 319,
+        "total_ms": 521.51,
+        "avg_ms": 1.635,
+        "max_ms": 4.764
+      }
+    ],
+    "profilerSession": {
+      "id": "a778f115-41e8-4b8b-acf4-01fe61456c7c",
+      "closed": true
+    }
+  },
+  "noAnimation": {
+    "trace": ".work/stage110-no-animation.perfetto-trace",
+    "traceBytes": 122975221,
+    "traceSeconds": 19.998423,
+    "residentCount": 4,
+    "residentCountEvidence": "Operator/runtime log confirmation from parent capture: device 20:22:36.203, PID 32502, BugWorldStagePerf phase=first_visible_ready wall_ms=22571.428064 residents=4; raw adb output retained in parent session.",
+    "appFrameDurationMs": {
+      "frame_count": 273,
+      "avg_dur_ms": 68.7,
+      "max_dur_ms": 143.293,
+      "p50_dur_ms": 30.159,
+      "p90_dur_ms": 130.58,
+      "p95_dur_ms": 131.036,
+      "p99_dur_ms": 131.873
+    },
+    "appFrameBuckets": [
+      {
+        "bucket": "100~200ms",
+        "cnt": 136
+      },
+      {
+        "bucket": "11~22ms",
+        "cnt": 84
+      },
+      {
+        "bucket": "22~33ms",
+        "cnt": 7
+      },
+      {
+        "bucket": "<11ms",
+        "cnt": 46
+      }
+    ],
+    "spatialCpuStageWallMs": {
+      "total": 271,
+      "avg_dur_ms": 145.032,
+      "max_dur_ms": 147.771,
+      "p50_dur_ms": 144.933,
+      "p90_dur_ms": 146.102,
+      "p95_dur_ms": 146.374,
+      "p99_dur_ms": 146.927
+    },
+    "spatialGpuStageMs": {
+      "total": 271,
+      "avg_dur_ms": 9.378,
+      "max_dur_ms": 13.662,
+      "p50_dur_ms": 9.698,
+      "p90_dur_ms": 11.158,
+      "p95_dur_ms": 11.333,
+      "p99_dur_ms": 11.992
+    },
+    "spatialFrameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 271
+      }
+    ],
+    "scheduledCpu": [
+      {
+        "process": "com.bugworld.app",
+        "thread": "om.bugworld.app",
+        "tid": 32502,
+        "scheduled_cpu_seconds": 0.892253,
+        "trace_seconds": 19.998423,
+        "one_core_percent": 4.462
+      },
+      {
+        "process": "com.pico.spatial.runtime",
+        "thread": "Eng-Render",
+        "tid": 5616,
+        "scheduled_cpu_seconds": 19.862716,
+        "trace_seconds": 19.998423,
+        "one_core_percent": 99.321
+      }
+    ],
+    "appSliceWallMs": [
+      {
+        "name": "beginFrame",
+        "count": 272,
+        "total_ms": 17907.08,
+        "avg_ms": 65.835,
+        "max_ms": 129.132
+      },
+      {
+        "name": "BugWorldStage:tick",
+        "count": 273,
+        "total_ms": 380.97,
+        "avg_ms": 1.395,
+        "max_ms": 26.017
+      }
+    ],
+    "profilerSession": {
+      "id": "878eedad-042b-4ed0-8acf-1ef4f0340de9",
+      "closed": true
+    }
+  },
+  "diagnosticVariable": "Native animation playback skipped; geometry, materials, routes and interaction retained. Full-animation source restored by parent.",
+  "userObservation": "Severe stutter persists with animation playback disabled.",
+  "conclusion": "Disabling animation is unsuccessful as a stutter fix. Both traces keep Eng-Render scheduled on CPU for about 99.3-99.4% of one core. Recorded frame/GPU durations are lower in the no-animation run, but native cost attribution and a controlled causal effect are not established.",
+  "limitations": [
+    "Two captures have different durations; both captures have four residents confirmed by runtime logs.",
+    "Spatial CPUTime is pipeline wall duration and may include waits; it is not scheduled CPU execution.",
+    "sched duration measures CPU execution occupancy, including possible busy-waiting; it does not identify useful work or skinning cost.",
+    "Application frame durations are not final compositor FPS; the no-animation distribution includes 136 of 273 frames in the 100-200ms bucket.",
+    "Tracing can add overhead; camera pose, thermal state and capture repeatability were not controlled in this pair.",
+    "The default utility labels all spatial frames Late; its frame-duration bucket labels are not used to reinterpret measured stage timings.",
+    "2026-10-20 batched capture has five residents and full animation; 2026-10-19 baseline has four, with different head pose, elapsed time and thermal state. No 0/1/10-resident validation yet."
+  ],
+  "scheduledCpuQuery": "SELECT p.name AS process, t.name AS thread, t.tid,\n       ROUND(SUM(s.dur) / 1e9, 6) AS scheduled_cpu_seconds,\n       ROUND((SELECT end_ts-start_ts FROM trace_bounds) / 1e9, 6) AS trace_seconds,\n       ROUND(SUM(s.dur) * 100.0 / (SELECT end_ts-start_ts FROM trace_bounds), 3) AS one_core_percent\nFROM sched s JOIN thread t USING(utid) JOIN process p USING(upid)\nWHERE s.dur > 0 AND\n      ((p.name = 'com.pico.spatial.runtime' AND t.name = 'Eng-Render')\n       OR (p.name = 'com.bugworld.app' AND t.tid = p.pid))\nGROUP BY t.utid;\n",
+  "localEvidence": [
+    ".work/stage110-baseline-app.json",
+    ".work/stage110-baseline-spatial.json",
+    ".work/stage110-baseline-sched.json",
+    ".work/stage110-no-animation-app.json",
+    ".work/stage110-no-animation-spatial.json",
+    ".work/stage110-no-animation-sched.json",
+    ".work/stage110-no-animation-slices.json",
+    ".work/stage110-no-animation-trace-logs.json",
+    ".work/stage110-batched-app.json",
+    ".work/stage110-batched-spatial.json",
+    ".work/stage110-batched-sched.json",
+    ".work/stage110-batched-cpu.json",
+    ".work/stage110-batched-runtime.json",
+    ".work/stage110-batched-device.log"
+  ],
+  "updatedUTC": "2026-10-20T07:30:09.897217+00:00",
+  "batched": {
+    "version": "1.0.10",
+    "trace": ".work/stage110-batched.perfetto-trace",
+    "traceBytes": 156732687,
+    "traceSeconds": 19.998823,
+    "residentCount": 5,
+    "residentCountEvidence": "adb run-as garden.txt contains five IDs; new arrival c6dc949b-99c3-4546-9eb2-5cfc9c7ec25e confirmed in device log and user observation",
+    "appFrameDurationMs": {
+      "frame_count": 943,
+      "avg_dur_ms": 12.91,
+      "max_dur_ms": 41.441,
+      "p50_dur_ms": 13.853,
+      "p90_dur_ms": 14.542,
+      "p95_dur_ms": 14.769,
+      "p99_dur_ms": 15.198
+    },
+    "appFrameBuckets": [
+      {
+        "bucket": "11~22ms",
+        "cnt": 851
+      },
+      {
+        "bucket": "33~100ms",
+        "cnt": 1
+      },
+      {
+        "bucket": "<11ms",
+        "cnt": 91
+      }
+    ],
+    "spatialCpuStageWallMs": {
+      "total": 903,
+      "avg_dur_ms": 10.172,
+      "max_dur_ms": 13.6,
+      "p50_dur_ms": 10.063,
+      "p90_dur_ms": 11.353,
+      "p95_dur_ms": 11.829,
+      "p99_dur_ms": 12.469
+    },
+    "spatialGpuStageMs": {
+      "total": 903,
+      "avg_dur_ms": 17.442,
+      "max_dur_ms": 23.243,
+      "p50_dur_ms": 17.736,
+      "p90_dur_ms": 19.039,
+      "p95_dur_ms": 19.392,
+      "p99_dur_ms": 20.118
+    },
+    "spatialFrameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 887
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 1
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 15
+      }
+    ],
+    "scheduledCpu": [
+      {
+        "process": "com.bugworld.app",
+        "thread": "om.bugworld.app",
+        "tid": 9133,
+        "scheduled_cpu_seconds": 3.000599,
+        "trace_seconds": 19.998823,
+        "one_core_percent": 15.004
+      },
+      {
+        "process": "com.pico.spatial.runtime",
+        "thread": "Eng-Render",
+        "tid": 5616,
+        "scheduled_cpu_seconds": 3.746299,
+        "trace_seconds": 19.998823,
+        "one_core_percent": 18.733
+      }
+    ],
+    "appSliceWallMs": [
+      {
+        "name": "beginFrame",
+        "count": 943,
+        "total_ms": 9205.09,
+        "avg_ms": 9.761,
+        "max_ms": 12.689
+      },
+      {
+        "name": "BugWorldStage:tick",
+        "count": 943,
+        "total_ms": 1598.2,
+        "avg_ms": 1.695,
+        "max_ms": 28.691
+      }
+    ],
+    "userObservation": "新昆虫出现，卡顿明显减轻",
+    "profilerSession": {
+      "id": "b7f34841-d283-48e9-9601-014007fa1282",
+      "closed": true
+    }
+  },
+  "batchedConclusion": "User confirms arrival and reduced stutter. Native render scheduled CPU is no longer saturated and application frame durations improve substantially. GPU stage still exceeds 90 Hz budget. Baseline has four insects and candidate five; view/thermal state uncontrolled, so this is directional evidence, not a strict causal performance ratio or compositor FPS claim."
+}

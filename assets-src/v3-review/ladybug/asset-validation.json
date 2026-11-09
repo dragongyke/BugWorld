@@ -1,0 +1,33 @@
+{
+  "species": "ladybug",
+  "blender": "5.2.1 LTS",
+  "mesh_objects": 139,
+  "vertices": 36108,
+  "triangles": 71428,
+  "bones": 34,
+  "actions": {
+    "idle": 72,
+    "walk": 36,
+    "touch": 42,
+    "takeoff": 60,
+    "flight": 48
+  },
+  "all_meshes_have_uv": true,
+  "all_meshes_have_weights": true,
+  "materials": 10,
+  "glb": {
+    "bytes": 20737640,
+    "meshes": 139,
+    "skins": 1,
+    "animations": [
+      "flight",
+      "idle",
+      "takeoff",
+      "touch",
+      "walk"
+    ],
+    "images": 30,
+    "materials": 10
+  },
+  "runtime_tested": false
+}

@@ -1,0 +1,33 @@
+{
+  "species": "beetle",
+  "blender": "5.2.1 LTS",
+  "mesh_objects": 150,
+  "vertices": 48538,
+  "triangles": 96244,
+  "bones": 34,
+  "actions": {
+    "idle": 72,
+    "walk": 36,
+    "touch": 42,
+    "takeoff": 60,
+    "flight": 48
+  },
+  "all_meshes_have_uv": true,
+  "all_meshes_have_weights": true,
+  "materials": 10,
+  "glb": {
+    "bytes": 22764324,
+    "meshes": 150,
+    "skins": 1,
+    "animations": [
+      "flight",
+      "idle",
+      "takeoff",
+      "touch",
+      "walk"
+    ],
+    "images": 30,
+    "materials": 10
+  },
+  "runtime_tested": false
+}

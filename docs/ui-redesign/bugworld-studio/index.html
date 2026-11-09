@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BugWorld · 纸间花园 / 交互设计原型</title>
+  <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="studio.css">
+</head>
+<body>
+  <header class="review-bar">
+    <div><strong>纸间花园</strong><span class="review-meta">BUGWORLD · UI DESIGN 01</span></div>
+    <nav aria-label="原型评审工具">
+      <button data-layout="spatial" aria-pressed="true">空间布局</button>
+      <button data-layout="flat" aria-pressed="false">平面细节</button>
+      <button id="states-button" aria-pressed="false">状态对照</button>
+    </nav>
+  </header>
+  <main id="viewport" aria-label="BugWorld 空间创作工作台">
+    <div id="workspace">
+      <nav class="topbar panel" aria-label="昆虫画纸">
+        <button class="brand" aria-label="BugWorld 回到画板"><img src="assets/logo.svg" alt="BugWorld"></button>
+        <span class="bar-divider"></span>
+        <div class="species-items" role="group" aria-label="选择昆虫">
+          <button class="species selected" data-species="butterfly" aria-label="蝴蝶画纸" aria-pressed="true"><img src="assets/butterfly.svg" alt=""><i></i></button>
+          <button class="species" data-species="beetle" aria-label="独角仙画纸" aria-pressed="false"><img src="assets/beetle.svg" alt=""><i></i></button>
+          <button class="species" data-species="ladybug" aria-label="瓢虫画纸" aria-pressed="false"><img src="assets/ladybug.svg" alt=""><i></i></button>
+          <button class="species" data-species="caterpillar" aria-label="毛毛虫画纸" aria-pressed="false"><img src="assets/caterpillar.svg" alt=""><i></i></button>
+        </div>
+        <span class="bar-divider"></span>
+        <button class="album-toggle" id="album-toggle" aria-expanded="false"><img src="assets/album.svg" alt=""><span>作品册</span><span id="album-count" class="count">0</span></button>
+      </nav>
+      <section class="board panel" aria-label="主画板">
+        <header class="board-head">
+          <div class="paper-title"><span class="eyebrow">让想象，慢慢生长</span><div><h1 id="species-name">蝴蝶</h1><span class="status" id="save-state" role="status">一张新画纸</span></div></div>
+          <div class="head-actions"><button class="button secondary" id="new-paper"><span class="plus">＋</span>新画纸</button><button class="icon-button" id="tools-toggle" aria-label="收起画具" aria-expanded="true"><img src="assets/crayon.svg" alt=""></button></div>
+        </header>
+        <div class="paper" id="paper">
+          <span class="paper-corner corner-tl"></span><span class="paper-corner corner-br"></span>
+          <canvas id="paint" width="1024" height="1024" aria-label="昆虫涂色画纸，拖动绘画，选择填色后点击区域" tabindex="0"></canvas>
+          <div id="paper-loading" role="status">正在铺好画纸…</div>
+          <div class="paper-foot"><span id="paint-hint">挑一种颜色，从翅膀开始吧</span><span>随心涂色 · 没有标准答案</span></div>
+        </div>
+        <footer class="board-foot">
+          <div class="quiet-actions"><button class="text-button" id="visit-garden"><img src="assets/leaf.svg" alt="">去花园坐坐</button><button class="icon-button" id="sound-button" aria-label="声音设置"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5 5 9H2v6h3l5 4V5Zm4 3q5 4 0 8m3-11q8 7 0 14"/></svg></button></div>
+          <div class="creation-actions"><button class="button secondary" id="save"><img src="assets/save.svg" alt=""><span>保存</span></button><button class="button secondary" id="preview"><img src="assets/preview.svg" alt=""><span>看看它</span></button><button class="button primary" id="release"><img src="assets/leaf.svg" alt=""><span>送到大自然</span><span class="arrow">↗</span></button></div>
+        </footer>
+        <div class="inline-alert" id="inline-alert" role="alert" hidden></div>
+      </section>
+      <aside class="tools panel" aria-label="画具面板">
+        <header class="tools-head"><div><span class="eyebrow">一点颜色，无限可能</span><h2>画具</h2></div><button class="icon-button" id="close-tools" aria-label="收起画具面板"><img src="assets/close.svg" alt=""></button></header>
+        <div class="tool-tabs" role="group" aria-label="画笔类型">
+          <button data-tool="crayon" aria-pressed="true" class="selected"><img src="assets/crayon.svg" alt=""><span>蜡笔</span></button>
+          <button data-tool="fill" aria-pressed="false"><img src="assets/fill.svg" alt=""><span>填色</span></button>
+          <button data-tool="eraser" aria-pressed="false"><img src="assets/eraser.svg" alt=""><span>橡皮</span></button>
+        </div>
+        <section class="brush-preview" aria-label="笔触预览"><div><span id="brush-description">蜡笔 · 轻轻涂</span><span id="brush-color">樱花粉</span></div><canvas id="brush-sample" width="560" height="92" aria-label="当前画笔效果示意"></canvas></section>
+        <div class="palette-header"><h3>颜色</h3><span id="color-name">樱花粉</span></div>
+        <div class="palette" id="palette" role="group" aria-label="十二色画笔"></div>
+        <div class="sliders">
+          <label class="slider-row" id="radius-label"><span>粗细 <output id="radius-value">12</output></span><input id="radius" type="range" min="4" max="24" value="12" aria-label="画笔粗细"><span class="range-labels"><i>细</i><i>粗</i></span></label>
+          <label class="slider-row" id="strength-label"><span>轻重 <output id="strength-value">轻涂</output></span><input id="strength" type="range" min="8" max="100" value="45" aria-label="画笔轻重"><span class="range-labels"><i>轻</i><i>重</i></span></label>
+        </div>
+        <div class="mirror-row"><div><strong>对称绘画</strong><small id="mirror-help">两边翅膀，一起上色</small></div><button id="mirror" class="switch" role="switch" aria-checked="false" aria-label="对称绘画"><span></span></button></div>
+        <div class="history-row"><button id="undo" class="button secondary" disabled><img src="assets/undo.svg" alt="">撤销</button><button id="redo" class="button secondary" disabled><img src="assets/redo.svg" alt="">重做</button></div>
+      </aside>
+      <aside class="album panel" id="album" aria-label="作品册面板" hidden>
+        <header><div><span class="eyebrow">每一笔，都值得留下</span><h2>作品册</h2></div><button class="icon-button" id="close-album" aria-label="收起作品册"><img src="assets/close.svg" alt=""></button></header>
+        <div id="album-list"></div><p class="album-note">原型作品只保存在当前浏览器</p>
+      </aside>
+      <div class="handle" aria-hidden="true"></div>
+    </div>
+    <section id="state-sheet" class="state-sheet panel" aria-label="组件状态对照" hidden>
+      <div class="state-heading"><div><span class="eyebrow">清楚知道，你正在操作什么</span><h2>凝视和选中，是两回事</h2></div><button class="icon-button" id="close-states" aria-label="关闭状态对照"><img src="assets/close.svg" alt=""></button></div>
+      <div class="state-grid">
+        <figure><button class="species" aria-label="默认状态示例"><img src="assets/beetle.svg" alt=""><i></i></button><figcaption>默认<small>干净的底色</small></figcaption></figure>
+        <figure><button class="species example-hover" aria-label="凝视状态示例"><img src="assets/beetle.svg" alt=""><i></i></button><figcaption>凝视<small>仅目标出现外框</small></figcaption></figure>
+        <figure><button class="species selected" aria-label="选中状态示例"><img src="assets/butterfly.svg" alt=""><i></i></button><figcaption>选中<small>浅紫底与固定标记</small></figcaption></figure>
+        <figure><button class="species selected example-hover" aria-label="选中并凝视状态示例"><img src="assets/butterfly.svg" alt=""><i></i></button><figcaption>选中 + 凝视<small>两个状态同时清楚</small></figcaption></figure>
+      </div>
+      <div class="feedback-examples"><div><button class="button secondary" disabled><img src="assets/undo.svg" alt="">撤销</button><p>禁用 · 当前没有可撤销内容</p></div><div><button class="button secondary" aria-busy="true"><span class="spinner"></span>正在保存</button><p>处理中 · 保留画纸，防止重复点击</p></div><div><span class="saved-pill">✓ 已保存到作品册</span><p>完成 · 明确结果，不遮挡绘画</p></div></div>
+      <div class="error-example"><span>暂时没能保存。你的涂色还在画板上。</span><button class="button secondary" id="demo-error">在画板中体验重试</button></div>
+      <p class="state-note">这里用鼠标悬停模拟凝视。原生版本继续使用 PICO 的独立凝视目标，需要头显验证。</p>
+    </section>
+  </main>
+  <footer class="review-footer"><span><b>交互设计原型</b> · 鼠标悬停模拟凝视，可直接涂色</span><div><button id="example-color">试试示例配色</button><span>浏览器示意 · 未接入头显</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog"><div class="dialog-inner" id="dialog-content"></div></dialog>
+  <script src="studio.js"></script>
+</body>
+</html>

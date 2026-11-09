@@ -1,0 +1,782 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/moss_01/moss_01_1k.blend",
+        "md5": "39eb89a1c48257ec013bd8f104330bc1",
+        "size": 174449,
+        "include": {
+          "textures/moss_01_alpha_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_alpha_1k.png",
+            "md5": "e55f1cca390d93f23980a5fdbe1dc705",
+            "size": 85174
+          },
+          "textures/moss_01_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_diff_1k.jpg",
+            "md5": "5768f973a7d6d2846a2e76a6b0669a83",
+            "size": 170297
+          },
+          "textures/moss_01_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_nor_gl_1k.exr",
+            "md5": "48109c6224d76af40c8daea58e601025",
+            "size": 896965
+          },
+          "textures/moss_01_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_rough_1k.exr",
+            "md5": "994feab352789473e3e491e056fa8c63",
+            "size": 523510
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/moss_01/moss_01_2k.blend",
+        "md5": "421f2e3722492fece110c307865996d7",
+        "size": 174175,
+        "include": {
+          "textures/moss_01_alpha_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_alpha_2k.png",
+            "md5": "838476c334c1c70807d9c3b999b81186",
+            "size": 167941
+          },
+          "textures/moss_01_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_diff_2k.jpg",
+            "md5": "268c4ea561fa189fead481250ab5835c",
+            "size": 511727
+          },
+          "textures/moss_01_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_nor_gl_2k.exr",
+            "md5": "aef74c116e76f721c9fd06cb71110f6f",
+            "size": 3625820
+          },
+          "textures/moss_01_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_rough_2k.exr",
+            "md5": "1e72de94bdcb8e7bce964b5c12de749d",
+            "size": 1621872
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/moss_01/moss_01_4k.blend",
+        "md5": "3b362ffdd106e348d98c6a6576a979bd",
+        "size": 174342,
+        "include": {
+          "textures/moss_01_alpha_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_alpha_4k.png",
+            "md5": "950b611470b343b16a20d1bdc500fb7d",
+            "size": 308924
+          },
+          "textures/moss_01_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_diff_4k.jpg",
+            "md5": "f5e3cb94fddab99ad6fd840eff617bfc",
+            "size": 1562699
+          },
+          "textures/moss_01_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_nor_gl_4k.exr",
+            "md5": "ad3943f49180b5a256d23936e9ca8986",
+            "size": 14866408
+          },
+          "textures/moss_01_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_rough_4k.exr",
+            "md5": "65dbccab3b325ca4d446a614d9a24068",
+            "size": 4357694
+          }
+        }
+      }
+    }
+  },
+  "Alpha": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_alpha_1k.exr",
+        "md5": "fd2230a7137b201735e2433427a30ab7",
+        "size": 117493
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_alpha_1k.jpg",
+        "md5": "ee449cf9ea926b8b5a412b6da88e8c6d",
+        "size": 175211
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_alpha_1k.png",
+        "md5": "e55f1cca390d93f23980a5fdbe1dc705",
+        "size": 85174
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_alpha_2k.exr",
+        "md5": "41de053721fc36e473c0245fd3e753cb",
+        "size": 246020
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_alpha_2k.jpg",
+        "md5": "8d3464877af81b13ceb634fd77459a4b",
+        "size": 461116
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_alpha_2k.png",
+        "md5": "838476c334c1c70807d9c3b999b81186",
+        "size": 167941
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_alpha_4k.exr",
+        "md5": "b3fadabc9cc7a6cb5f859476a625b106",
+        "size": 467769
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_alpha_4k.jpg",
+        "md5": "fb5af59a5c292ab66b0eabff54c6d738",
+        "size": 1107899
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_alpha_4k.png",
+        "md5": "950b611470b343b16a20d1bdc500fb7d",
+        "size": 308924
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_ao_1k.exr",
+        "md5": "eb54c623b089fb35484f26a479fca63a",
+        "size": 263644
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_ao_1k.jpg",
+        "md5": "f4a5c5acf8ae93d7c0dd2d66ecca454c",
+        "size": 77299
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_ao_1k.png",
+        "md5": "42e00b8ec6aa8643d6ed4a037353ade3",
+        "size": 414653
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_ao_2k.exr",
+        "md5": "81a69308617fa381a1142f7860490994",
+        "size": 567156
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_ao_2k.jpg",
+        "md5": "15f75f423b85767172c4cd0838f4dbbc",
+        "size": 256757
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_ao_2k.png",
+        "md5": "44e418e42e4896270cde310ef1880423",
+        "size": 676969
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_ao_4k.exr",
+        "md5": "d2b13f2d002873908648d9bcff43b99d",
+        "size": 902785
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_ao_4k.jpg",
+        "md5": "b1faae295d2a5ae857f5412fb9f1659f",
+        "size": 880011
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_ao_4k.png",
+        "md5": "09afbdb0c270a617030b53a17cf8d4ef",
+        "size": 788178
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_arm_1k.exr",
+        "md5": "e7ba2bb321401c8a9725d68319eba0b7",
+        "size": 711926
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_arm_1k.jpg",
+        "md5": "e3b6adf32db7076885afe0e179cc1850",
+        "size": 336140
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_arm_1k.png",
+        "md5": "460c1a15c4ec7b1a1a97b1a2e05ec206",
+        "size": 1484451
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_arm_2k.exr",
+        "md5": "b3b3f6eae9d39ddf1bf156e9bc7e99b3",
+        "size": 2213057
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_arm_2k.jpg",
+        "md5": "427fabe137e96a5e9f9087fc2220407c",
+        "size": 1095803
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_arm_2k.png",
+        "md5": "1a7f33fada6b5ab3beb9ba9d57c93e28",
+        "size": 3888344
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_arm_4k.exr",
+        "md5": "502a46c7a7c176eee63ba03eafe0183d",
+        "size": 6277555
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_arm_4k.jpg",
+        "md5": "e58801aaf4f23793247bd5e35396fa27",
+        "size": 3365305
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_arm_4k.png",
+        "md5": "53dff55755886fed19da715a6d5e81b9",
+        "size": 5845166
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_diff_1k.exr",
+        "md5": "8a08ca98008c7a43fa9ca42c12283322",
+        "size": 453796
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_diff_1k.jpg",
+        "md5": "5768f973a7d6d2846a2e76a6b0669a83",
+        "size": 170297
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_diff_1k.png",
+        "md5": "d4fd9d088faa0f653c394873eaad0213",
+        "size": 658744
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_diff_2k.exr",
+        "md5": "bf123c09fc23a8cad3793e61b0ef2099",
+        "size": 1218894
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_diff_2k.jpg",
+        "md5": "268c4ea561fa189fead481250ab5835c",
+        "size": 511727
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_diff_2k.png",
+        "md5": "b768786e5303fb811853e6d1e7d1ba57",
+        "size": 2187611
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_diff_4k.exr",
+        "md5": "1689e5c5996c2d26b0e66ec9e8732eef",
+        "size": 3367813
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_diff_4k.jpg",
+        "md5": "f5e3cb94fddab99ad6fd840eff617bfc",
+        "size": 1562699
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_diff_4k.png",
+        "md5": "2ed4ae52213c9bc73f562951d1beb6fd",
+        "size": 20356530
+      }
+    }
+  },
+  "Displacement": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_disp_1k.exr",
+        "md5": "f619a850d675eeb9c08a34a9a420423b",
+        "size": 419662
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_disp_1k.jpg",
+        "md5": "dfcbea4ffa1a56f119653d52fbebdaff",
+        "size": 117049
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_disp_1k.png",
+        "md5": "1e9bd876f30973dd770a0b80f74557a5",
+        "size": 793093
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_disp_2k.exr",
+        "md5": "a2ccc9d2054f012260e70a849a915199",
+        "size": 1435935
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_disp_2k.jpg",
+        "md5": "8fcf1c95369f68941bf1132de304e613",
+        "size": 381319
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_disp_2k.png",
+        "md5": "34a69b878d293605a1f2f2c7e8f68530",
+        "size": 2698778
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_disp_4k.exr",
+        "md5": "9551cf8d21b48e353f85c84b11040bf0",
+        "size": 4857662
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_disp_4k.jpg",
+        "md5": "b3d6588093fbb06954155a1a91232312",
+        "size": 1216709
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_disp_4k.png",
+        "md5": "89558494699045b875769e1006dfb810",
+        "size": 7737462
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_nor_dx_1k.exr",
+        "md5": "86c5b824d1c6437d214b4144115f15c6",
+        "size": 893911
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_nor_dx_1k.jpg",
+        "md5": "e4ec1418d390438900957e8222c3784b",
+        "size": 390980
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_nor_dx_1k.png",
+        "md5": "edc5e3b2f010a8d94df9351ce55a59f4",
+        "size": 2644874
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_nor_dx_2k.exr",
+        "md5": "920e0be393c68a8a2ccad9b288dfcb5c",
+        "size": 3605349
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_nor_dx_2k.jpg",
+        "md5": "42238f6dcdd7befe4be2da6c2eb2fc22",
+        "size": 1679823
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_nor_dx_2k.png",
+        "md5": "00b2a4e36f71da387734456e27b588b1",
+        "size": 9601361
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_nor_dx_4k.exr",
+        "md5": "99d15e0d3ba058e801485df194f6e287",
+        "size": 14829905
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_nor_dx_4k.jpg",
+        "md5": "f1b85fc1fffe56bddc055a8d9ff9fb33",
+        "size": 7170184
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_nor_dx_4k.png",
+        "md5": "830426cb7d69fc74eec98d8a38a864b2",
+        "size": 32635921
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_nor_gl_1k.exr",
+        "md5": "48109c6224d76af40c8daea58e601025",
+        "size": 896965
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_nor_gl_1k.jpg",
+        "md5": "faf161f708abe274db1b8087800fa08b",
+        "size": 388925
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_nor_gl_1k.png",
+        "md5": "8728dc180313b71ea32057cf5726a2f3",
+        "size": 2647395
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_nor_gl_2k.exr",
+        "md5": "aef74c116e76f721c9fd06cb71110f6f",
+        "size": 3625820
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_nor_gl_2k.jpg",
+        "md5": "96db55f825bbaefa2ded5c8d1cc6abbe",
+        "size": 1632699
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_nor_gl_2k.png",
+        "md5": "3a6e537276135d5b641a7ae3a15ca4a8",
+        "size": 9604894
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_nor_gl_4k.exr",
+        "md5": "ad3943f49180b5a256d23936e9ca8986",
+        "size": 14866408
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_nor_gl_4k.jpg",
+        "md5": "c0924ee9fc1365a0d0510748e6f15628",
+        "size": 6643244
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_nor_gl_4k.png",
+        "md5": "a322ab00e7ce1cdfb234be81b11e01a2",
+        "size": 32642768
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_rough_1k.exr",
+        "md5": "994feab352789473e3e491e056fa8c63",
+        "size": 523510
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_rough_1k.jpg",
+        "md5": "6ed4ec0cdbeb45ef951fcd81c7205e5f",
+        "size": 272608
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_rough_1k.png",
+        "md5": "49cd5f49a206961c9a9c9007e0c50ac4",
+        "size": 737287
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_rough_2k.exr",
+        "md5": "1e72de94bdcb8e7bce964b5c12de749d",
+        "size": 1621872
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_rough_2k.jpg",
+        "md5": "45339c0198387788cac28fad251ffe4b",
+        "size": 894363
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_rough_2k.png",
+        "md5": "54794ac7f3d40526ea7ed9782a827d37",
+        "size": 2177489
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_rough_4k.exr",
+        "md5": "65dbccab3b325ca4d446a614d9a24068",
+        "size": 4357694
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_rough_4k.jpg",
+        "md5": "4a5b0a76c35defd16d90f2a6305bcfc9",
+        "size": 2707866
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_rough_4k.png",
+        "md5": "d283f0417d92cc9ffbbc96e5e8928859",
+        "size": 3693904
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/moss_01/moss_01_1k.fbx",
+        "md5": "897ba5d50fd47c74f0634fc8d1623d5e",
+        "size": 51484,
+        "include": {
+          "textures/moss_01_alpha_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_alpha_1k.png",
+            "md5": "e55f1cca390d93f23980a5fdbe1dc705",
+            "size": 85174
+          },
+          "textures/moss_01_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_diff_1k.jpg",
+            "md5": "5768f973a7d6d2846a2e76a6b0669a83",
+            "size": 170297
+          },
+          "textures/moss_01_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_nor_gl_1k.exr",
+            "md5": "48109c6224d76af40c8daea58e601025",
+            "size": 896965
+          },
+          "textures/moss_01_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_rough_1k.exr",
+            "md5": "994feab352789473e3e491e056fa8c63",
+            "size": 523510
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/moss_01/moss_01_2k.fbx",
+        "md5": "b9492d141f84483fa8060839f1be6768",
+        "size": 51484,
+        "include": {
+          "textures/moss_01_alpha_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_alpha_2k.png",
+            "md5": "838476c334c1c70807d9c3b999b81186",
+            "size": 167941
+          },
+          "textures/moss_01_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_diff_2k.jpg",
+            "md5": "268c4ea561fa189fead481250ab5835c",
+            "size": 511727
+          },
+          "textures/moss_01_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_nor_gl_2k.exr",
+            "md5": "aef74c116e76f721c9fd06cb71110f6f",
+            "size": 3625820
+          },
+          "textures/moss_01_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_rough_2k.exr",
+            "md5": "1e72de94bdcb8e7bce964b5c12de749d",
+            "size": 1621872
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/moss_01/moss_01_4k.fbx",
+        "md5": "7699952af3c94f210cc2695c0418fae5",
+        "size": 51484,
+        "include": {
+          "textures/moss_01_alpha_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_alpha_4k.png",
+            "md5": "950b611470b343b16a20d1bdc500fb7d",
+            "size": 308924
+          },
+          "textures/moss_01_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_diff_4k.jpg",
+            "md5": "f5e3cb94fddab99ad6fd840eff617bfc",
+            "size": 1562699
+          },
+          "textures/moss_01_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_nor_gl_4k.exr",
+            "md5": "ad3943f49180b5a256d23936e9ca8986",
+            "size": 14866408
+          },
+          "textures/moss_01_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_rough_4k.exr",
+            "md5": "65dbccab3b325ca4d446a614d9a24068",
+            "size": 4357694
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/moss_01/moss_01_1k.gltf",
+        "md5": "1baba498fd3936673609dda5ecfe960a",
+        "size": 18481,
+        "include": {
+          "textures/moss_01_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_nor_gl_1k.jpg",
+            "md5": "faf161f708abe274db1b8087800fa08b",
+            "size": 388925
+          },
+          "textures/moss_01_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_diff_1k.jpg",
+            "md5": "5768f973a7d6d2846a2e76a6b0669a83",
+            "size": 170297
+          },
+          "textures/moss_01_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_arm_1k.jpg",
+            "md5": "e3b6adf32db7076885afe0e179cc1850",
+            "size": 336140
+          },
+          "moss_01.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/moss_01/moss_01.bin",
+            "md5": "cdb092878a81b3208a162d79546892fe",
+            "size": 7260
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/moss_01/moss_01_2k.gltf",
+        "md5": "2a4fd6d96cbe0bbc3f65a657df64ad94",
+        "size": 18481,
+        "include": {
+          "textures/moss_01_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_nor_gl_2k.jpg",
+            "md5": "96db55f825bbaefa2ded5c8d1cc6abbe",
+            "size": 1632699
+          },
+          "textures/moss_01_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_diff_2k.jpg",
+            "md5": "268c4ea561fa189fead481250ab5835c",
+            "size": 511727
+          },
+          "textures/moss_01_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_arm_2k.jpg",
+            "md5": "427fabe137e96a5e9f9087fc2220407c",
+            "size": 1095803
+          },
+          "moss_01.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/moss_01/moss_01.bin",
+            "md5": "cdb092878a81b3208a162d79546892fe",
+            "size": 7260
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/moss_01/moss_01_4k.gltf",
+        "md5": "840f3d9f2417f6154b5c0d7345a73f24",
+        "size": 18481,
+        "include": {
+          "textures/moss_01_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_nor_gl_4k.jpg",
+            "md5": "c0924ee9fc1365a0d0510748e6f15628",
+            "size": 6643244
+          },
+          "textures/moss_01_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_diff_4k.jpg",
+            "md5": "f5e3cb94fddab99ad6fd840eff617bfc",
+            "size": 1562699
+          },
+          "textures/moss_01_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_arm_4k.jpg",
+            "md5": "e58801aaf4f23793247bd5e35396fa27",
+            "size": 3365305
+          },
+          "moss_01.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/moss_01/moss_01.bin",
+            "md5": "cdb092878a81b3208a162d79546892fe",
+            "size": 7260
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/moss_01/moss_01_1k.usdc",
+        "md5": "ceae81dc6b3f925c4f9f43661d78fe59",
+        "size": 23703,
+        "include": {
+          "textures/moss_01_alpha_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/moss_01/moss_01_alpha_1k.png",
+            "md5": "e55f1cca390d93f23980a5fdbe1dc705",
+            "size": 85174
+          },
+          "textures/moss_01_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/moss_01/moss_01_diff_1k.jpg",
+            "md5": "5768f973a7d6d2846a2e76a6b0669a83",
+            "size": 170297
+          },
+          "textures/moss_01_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_nor_gl_1k.exr",
+            "md5": "48109c6224d76af40c8daea58e601025",
+            "size": 896965
+          },
+          "textures/moss_01_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/moss_01/moss_01_rough_1k.exr",
+            "md5": "994feab352789473e3e491e056fa8c63",
+            "size": 523510
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/moss_01/moss_01_2k.usdc",
+        "md5": "72bf99207fc8e3024a67326085e76958",
+        "size": 23656,
+        "include": {
+          "textures/moss_01_alpha_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/moss_01/moss_01_alpha_2k.png",
+            "md5": "838476c334c1c70807d9c3b999b81186",
+            "size": 167941
+          },
+          "textures/moss_01_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/moss_01/moss_01_diff_2k.jpg",
+            "md5": "268c4ea561fa189fead481250ab5835c",
+            "size": 511727
+          },
+          "textures/moss_01_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_nor_gl_2k.exr",
+            "md5": "aef74c116e76f721c9fd06cb71110f6f",
+            "size": 3625820
+          },
+          "textures/moss_01_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/moss_01/moss_01_rough_2k.exr",
+            "md5": "1e72de94bdcb8e7bce964b5c12de749d",
+            "size": 1621872
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/moss_01/moss_01_4k.usdc",
+        "md5": "7849fd95492a6f21beec9e1f84e549cf",
+        "size": 23681,
+        "include": {
+          "textures/moss_01_alpha_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/moss_01/moss_01_alpha_4k.png",
+            "md5": "950b611470b343b16a20d1bdc500fb7d",
+            "size": 308924
+          },
+          "textures/moss_01_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/moss_01/moss_01_diff_4k.jpg",
+            "md5": "f5e3cb94fddab99ad6fd840eff617bfc",
+            "size": 1562699
+          },
+          "textures/moss_01_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_nor_gl_4k.exr",
+            "md5": "ad3943f49180b5a256d23936e9ca8986",
+            "size": 14866408
+          },
+          "textures/moss_01_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/moss_01/moss_01_rough_4k.exr",
+            "md5": "65dbccab3b325ca4d446a614d9a24068",
+            "size": 4357694
+          }
+        }
+      }
+    }
+  }
+}

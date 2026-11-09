@@ -1,0 +1,7 @@
+{
+  "source": "01-neutral-three-quarter.png",
+  "fresh_import": "06-fresh-process-roundtrip.png",
+  "mean_absolute_RGB_byte_error": 0.1742482853223594,
+  "percentile99_RGB_byte_error": 1.0,
+  "threshold_note": "Rendered image comparison; small rounding, normal/tangent and denoiser differences are expected."
+}

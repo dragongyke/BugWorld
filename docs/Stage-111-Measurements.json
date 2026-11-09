@@ -1,0 +1,1196 @@
+[
+  {
+    "name": "auto-a",
+    "seconds": 15,
+    "gpu": {
+      "total": 672,
+      "avg_dur_ms": 17.588,
+      "max_dur_ms": 20.616,
+      "p50_dur_ms": 17.89,
+      "p90_dur_ms": 19.194,
+      "p95_dur_ms": 19.525,
+      "p99_dur_ms": 20.155
+    },
+    "cpu": {
+      "total": 672,
+      "avg_dur_ms": 12.218,
+      "max_dur_ms": 15.952,
+      "p50_dur_ms": 12.278,
+      "p90_dur_ms": 13.887,
+      "p95_dur_ms": 14.44,
+      "p99_dur_ms": 15.087
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 666
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 6
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 52.312,
+        "minimum": 33,
+        "maximum": 60
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 394561.967,
+        "minimum": 262488,
+        "maximum": 468116
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 386.975,
+        "minimum": 367,
+        "maximum": 394
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 334,
+        "minimum": 334,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 2045268,
+        "minimum": 2045268,
+        "maximum": 2045268
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 49,
+        "minimum": 49,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 673,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 45,
+        "minimum": 45,
+        "maximum": 45
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "fixed",
+    "seconds": 15,
+    "gpu": {
+      "total": 673,
+      "avg_dur_ms": 17.858,
+      "max_dur_ms": 20.745,
+      "p50_dur_ms": 18.248,
+      "p90_dur_ms": 19.373,
+      "p95_dur_ms": 19.618,
+      "p99_dur_ms": 20.096
+    },
+    "cpu": {
+      "total": 673,
+      "avg_dur_ms": 11.807,
+      "max_dur_ms": 15.014,
+      "p50_dur_ms": 12.009,
+      "p90_dur_ms": 13.388,
+      "p95_dur_ms": 13.864,
+      "p99_dur_ms": 14.671
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 659
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 1
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 13
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 44.524,
+        "minimum": 0,
+        "maximum": 54
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 357043.276,
+        "minimum": 0,
+        "maximum": 428112
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 377.979,
+        "minimum": 0,
+        "maximum": 389
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 332.513,
+        "minimum": 0,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 2036164.433,
+        "minimum": 0,
+        "maximum": 2045268
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 48.927,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 674,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 45,
+        "minimum": 45,
+        "maximum": 45
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "auto-b",
+    "seconds": 15,
+    "gpu": {
+      "total": 674,
+      "avg_dur_ms": 16.996,
+      "max_dur_ms": 20.187,
+      "p50_dur_ms": 17.159,
+      "p90_dur_ms": 18.149,
+      "p95_dur_ms": 18.497,
+      "p99_dur_ms": 19.339
+    },
+    "cpu": {
+      "total": 674,
+      "avg_dur_ms": 11.814,
+      "max_dur_ms": 15.528,
+      "p50_dur_ms": 11.961,
+      "p90_dur_ms": 13.294,
+      "p95_dur_ms": 13.696,
+      "p99_dur_ms": 14.239
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 659
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 15
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 676,
+        "average": 54.376,
+        "minimum": 33,
+        "maximum": 60
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 676,
+        "average": 431052.609,
+        "minimum": 262488,
+        "maximum": 468116
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 676,
+        "average": 388.987,
+        "minimum": 367,
+        "maximum": 394
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 676,
+        "average": 334,
+        "minimum": 334,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 676,
+        "average": 2045268,
+        "minimum": 2045268,
+        "maximum": 2045268
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 676,
+        "average": 48.928,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 45.133,
+        "minimum": 45,
+        "maximum": 47
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "off",
+    "seconds": 15,
+    "gpu": {
+      "total": 1345,
+      "avg_dur_ms": 9.331,
+      "max_dur_ms": 10.452,
+      "p50_dur_ms": 9.328,
+      "p90_dur_ms": 9.805,
+      "p95_dur_ms": 9.918,
+      "p99_dur_ms": 10.102
+    },
+    "cpu": {
+      "total": 1345,
+      "avg_dur_ms": 7.98,
+      "max_dur_ms": 10.565,
+      "p50_dur_ms": 7.901,
+      "p90_dur_ms": 8.715,
+      "p95_dur_ms": 8.971,
+      "p99_dur_ms": 9.55
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Early",
+        "cnt": 14
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 1331
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 42.126,
+        "minimum": 42,
+        "maximum": 43
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 354691.388,
+        "minimum": 353652,
+        "maximum": 355700
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 265.126,
+        "minimum": 265,
+        "maximum": 266
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 223,
+        "minimum": 223,
+        "maximum": 223
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 1363548,
+        "minimum": 1363548,
+        "maximum": 1363548
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 48.782,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 90,
+        "minimum": 90,
+        "maximum": 90
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "near",
+    "seconds": 15,
+    "gpu": {
+      "total": 672,
+      "avg_dur_ms": 17.098,
+      "max_dur_ms": 21.714,
+      "p50_dur_ms": 17.004,
+      "p90_dur_ms": 18.62,
+      "p95_dur_ms": 18.979,
+      "p99_dur_ms": 19.784
+    },
+    "cpu": {
+      "total": 672,
+      "avg_dur_ms": 10.341,
+      "max_dur_ms": 16.005,
+      "p50_dur_ms": 10.566,
+      "p90_dur_ms": 12.533,
+      "p95_dur_ms": 13.148,
+      "p99_dur_ms": 14.155
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Late",
+        "cnt": 671
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 1
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 53.253,
+        "minimum": 33,
+        "maximum": 63
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 409629.084,
+        "minimum": 262488,
+        "maximum": 471172
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 388.231,
+        "minimum": 367,
+        "maximum": 397
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 334,
+        "minimum": 334,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 2045268,
+        "minimum": 2045268,
+        "maximum": 2045268
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 48.927,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 675,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 45,
+        "minimum": 45,
+        "maximum": 45
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "no-opacity",
+    "seconds": 15,
+    "gpu": {
+      "total": 1345,
+      "avg_dur_ms": 7.384,
+      "max_dur_ms": 10.386,
+      "p50_dur_ms": 7.19,
+      "p90_dur_ms": 8.517,
+      "p95_dur_ms": 9.368,
+      "p99_dur_ms": 9.933
+    },
+    "cpu": {
+      "total": 1345,
+      "avg_dur_ms": 11.037,
+      "max_dur_ms": 13.645,
+      "p50_dur_ms": 11.041,
+      "p90_dur_ms": 12.058,
+      "p95_dur_ms": 12.215,
+      "p99_dur_ms": 12.385
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Early",
+        "cnt": 3
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 5
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 1337
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1346,
+        "average": 33.307,
+        "minimum": 31,
+        "maximum": 43
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1346,
+        "average": 273090.942,
+        "minimum": 258392,
+        "maximum": 343588
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1346,
+        "average": 367.307,
+        "minimum": 365,
+        "maximum": 377
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1346,
+        "average": 334,
+        "minimum": 334,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1346,
+        "average": 2045268,
+        "minimum": 2045268,
+        "maximum": 2045268
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 49,
+        "minimum": 49,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 90,
+        "minimum": 90,
+        "maximum": 90
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "auto-c",
+    "seconds": 15,
+    "gpu": {
+      "total": 1345,
+      "avg_dur_ms": 9.326,
+      "max_dur_ms": 10.711,
+      "p50_dur_ms": 9.302,
+      "p90_dur_ms": 9.885,
+      "p95_dur_ms": 10.035,
+      "p99_dur_ms": 10.275
+    },
+    "cpu": {
+      "total": 1345,
+      "avg_dur_ms": 8.486,
+      "max_dur_ms": 11.268,
+      "p50_dur_ms": 8.467,
+      "p90_dur_ms": 9.051,
+      "p95_dur_ms": 9.261,
+      "p99_dur_ms": 9.789
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Early",
+        "cnt": 1
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 1
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 1343
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 39.975,
+        "minimum": 32,
+        "maximum": 44
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 328415.281,
+        "minimum": 260440,
+        "maximum": 357748
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 373.975,
+        "minimum": 366,
+        "maximum": 378
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 334,
+        "minimum": 334,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 2045268,
+        "minimum": 2045268,
+        "maximum": 2045268
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 49,
+        "minimum": 49,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1347,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 15,
+        "average": 90,
+        "minimum": 90,
+        "maximum": 90
+      }
+    ],
+    "validity": "User wearing; view not locked; short diagnostic sample"
+  },
+  {
+    "name": "candidate-cold",
+    "seconds": 30,
+    "gpu": {
+      "total": 1027,
+      "avg_dur_ms": 11.673,
+      "max_dur_ms": 33.062,
+      "p50_dur_ms": 11.069,
+      "p90_dur_ms": 12.931,
+      "p95_dur_ms": 15.89,
+      "p99_dur_ms": 21.219
+    },
+    "cpu": {
+      "total": 1027,
+      "avg_dur_ms": 8.711,
+      "max_dur_ms": 48.729,
+      "p50_dur_ms": 8.543,
+      "p90_dur_ms": 9.843,
+      "p95_dur_ms": 10.532,
+      "p99_dur_ms": 11.793
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Early",
+        "cnt": 15
+      },
+      {
+        "frame_type": "Late",
+        "cnt": 103
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 51
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 858
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1057,
+        "average": 51.07,
+        "minimum": 0,
+        "maximum": 260
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1057,
+        "average": 381497.309,
+        "minimum": 0,
+        "maximum": 1911230
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1057,
+        "average": 378.308,
+        "minimum": 0,
+        "maximum": 652
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1057,
+        "average": 324.126,
+        "minimum": 0,
+        "maximum": 337
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1057,
+        "average": 1983354.318,
+        "minimum": 0,
+        "maximum": 2045338
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1057,
+        "average": 47.47,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1027,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 30,
+        "average": 36.1,
+        "minimum": 2,
+        "maximum": 90
+      }
+    ],
+    "validity": "Mixed active/pause/system UI; not a continuous FPS benchmark"
+  },
+  {
+    "name": "geometry-worn",
+    "seconds": 40,
+    "gpu": {
+      "total": 2005,
+      "avg_dur_ms": 15.804,
+      "max_dur_ms": 22.247,
+      "p50_dur_ms": 17.004,
+      "p90_dur_ms": 18.796,
+      "p95_dur_ms": 19.125,
+      "p99_dur_ms": 19.724
+    },
+    "cpu": {
+      "total": 2005,
+      "avg_dur_ms": 9.397,
+      "max_dur_ms": 13.621,
+      "p50_dur_ms": 9.262,
+      "p90_dur_ms": 10.591,
+      "p95_dur_ms": 11.085,
+      "p99_dur_ms": 11.889
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Early",
+        "cnt": 19
+      },
+      {
+        "frame_type": "Late",
+        "cnt": 1661
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 19
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 306
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 51.892,
+        "minimum": 0,
+        "maximum": 63
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 283787.427,
+        "minimum": 0,
+        "maximum": 345756
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 384.738,
+        "minimum": 0,
+        "maximum": 397
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.worldspace",
+        "samples": 2064,
+        "average": 89.504,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.bugworld.app",
+        "samples": 2071,
+        "average": 89.504,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.systemenv",
+        "samples": 3597,
+        "average": 89.504,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.systemui:decor",
+        "samples": 4,
+        "average": 89.5,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.systemui",
+        "samples": 4,
+        "average": 89.5,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "system_server",
+        "samples": 2,
+        "average": 89,
+        "minimum": 89,
+        "maximum": 89
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 332.112,
+        "minimum": 0,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 1507379.835,
+        "minimum": 0,
+        "maximum": 1515744
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 48.951,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 2007,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 40,
+        "average": 50.8,
+        "minimum": 45,
+        "maximum": 90
+      },
+      {
+        "name": "frameRate",
+        "process": "com.picoxr.worldspace",
+        "samples": 39,
+        "average": 52.179,
+        "minimum": 45,
+        "maximum": 90
+      },
+      {
+        "name": "frameRate",
+        "process": "com.picoxr.systemenv",
+        "samples": 39,
+        "average": 90,
+        "minimum": 90,
+        "maximum": 90
+      },
+      {
+        "name": "frameRate",
+        "process": "/system/bin/surfaceflinger",
+        "samples": 2,
+        "average": 0.5,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "name": "frameRate_164",
+        "process": "com.bugworld.app",
+        "samples": 78,
+        "average": 52.231,
+        "minimum": 45,
+        "maximum": 90
+      },
+      {
+        "name": "gpufreq",
+        "process": "runtime/global",
+        "samples": 29,
+        "average": 808068.966,
+        "minimum": 726000,
+        "maximum": 902000
+      }
+    ],
+    "qualification": "view not locked; light-lifecycle includes zero-draw / low-FPS samples; subjective smoothness accepted by user; no 72/90 FPS pass"
+  },
+  {
+    "name": "light-lifecycle",
+    "seconds": 40,
+    "gpu": {
+      "total": 1497,
+      "avg_dur_ms": 12.214,
+      "max_dur_ms": 20.541,
+      "p50_dur_ms": 10.514,
+      "p90_dur_ms": 17.526,
+      "p95_dur_ms": 18.467,
+      "p99_dur_ms": 19.636
+    },
+    "cpu": {
+      "total": 1497,
+      "avg_dur_ms": 8.73,
+      "max_dur_ms": 100.376,
+      "p50_dur_ms": 8.502,
+      "p90_dur_ms": 10.2,
+      "p95_dur_ms": 10.619,
+      "p99_dur_ms": 11.376
+    },
+    "frameTypes": [
+      {
+        "frame_type": "Early",
+        "cnt": 66
+      },
+      {
+        "frame_type": "Late",
+        "cnt": 442
+      },
+      {
+        "frame_type": "Miss",
+        "cnt": 50
+      },
+      {
+        "frame_type": "Normal",
+        "cnt": 939
+      }
+    ],
+    "counters": [
+      {
+        "name": "3D Mesh Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1529,
+        "average": 43.222,
+        "minimum": 0,
+        "maximum": 62
+      },
+      {
+        "name": "3D Mesh Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1529,
+        "average": 232268.717,
+        "minimum": 0,
+        "maximum": 328826
+      },
+      {
+        "name": "Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1529,
+        "average": 370.402,
+        "minimum": 0,
+        "maximum": 396
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.systemenv",
+        "samples": 3062,
+        "average": 89.315,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.bugworld.app",
+        "samples": 1510,
+        "average": 89.491,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.worldspace",
+        "samples": 1525,
+        "average": 89.489,
+        "minimum": 89,
+        "maximum": 90
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.systemui",
+        "samples": 2,
+        "average": 89,
+        "minimum": 89,
+        "maximum": 89
+      },
+      {
+        "name": "RenderRate",
+        "process": "com.picoxr.systemui:decor",
+        "samples": 2,
+        "average": 89,
+        "minimum": 89,
+        "maximum": 89
+      },
+      {
+        "name": "RenderRate",
+        "process": "system_server",
+        "samples": 10,
+        "average": 89,
+        "minimum": 89,
+        "maximum": 89
+      },
+      {
+        "name": "Shadow Draw Call Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1529,
+        "average": 326.334,
+        "minimum": 0,
+        "maximum": 334
+      },
+      {
+        "name": "Shadow Triangle Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1529,
+        "average": 1481042.517,
+        "minimum": 0,
+        "maximum": 1515744
+      },
+      {
+        "name": "Skeletal Animation Count",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1529,
+        "average": 47.782,
+        "minimum": 0,
+        "maximum": 49
+      },
+      {
+        "name": "Texture2D Memory",
+        "process": "com.pico.spatial.runtime",
+        "samples": 1497,
+        "average": 1028720180,
+        "minimum": 1028720180,
+        "maximum": 1028720180
+      },
+      {
+        "name": "frameRate",
+        "process": "com.picoxr.systemenv",
+        "samples": 40,
+        "average": 77.25,
+        "minimum": 61,
+        "maximum": 90
+      },
+      {
+        "name": "frameRate",
+        "process": "com.pico.spatial.runtime",
+        "samples": 39,
+        "average": 39,
+        "minimum": 2,
+        "maximum": 90
+      },
+      {
+        "name": "frameRate",
+        "process": "com.picoxr.worldspace",
+        "samples": 38,
+        "average": 40,
+        "minimum": 1,
+        "maximum": 90
+      },
+      {
+        "name": "frameRate_170",
+        "process": "com.bugworld.app",
+        "samples": 46,
+        "average": 65.391,
+        "minimum": 2,
+        "maximum": 90
+      },
+      {
+        "name": "gpufreq",
+        "process": "runtime/global",
+        "samples": 11,
+        "average": 507090.909,
+        "minimum": 222000,
+        "maximum": 902000
+      }
+    ],
+    "qualification": "view not locked; light-lifecycle includes zero-draw / low-FPS samples; subjective smoothness accepted by user; no 72/90 FPS pass"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "dependencyFiles": 73,
+  "relativeReferences": 127,
+  "waterMotion": {
+    "water": {
+      "normalizedRoi": [
+        0.02,
+        0.72,
+        0.22,
+        0.94
+      ],
+      "meanAbsoluteRgbDelta": 4.5450758934021,
+      "fractionPixelsDeltaAbove3": 0.5377477028141725
+    },
+    "staticBackground": {
+      "normalizedRoi": [
+        0.35,
+        0.02,
+        0.55,
+        0.12
+      ],
+      "meanAbsoluteRgbDelta": 0.0,
+      "fractionPixelsDeltaAbove3": 0.0
+    }
+  },
+  "editorViews": [
+    {
+      "view": "front",
+      "sha256": "f907b31530dcb810711b16d5d1346a077f9ec67477e1a2a6d803b099f3076611"
+    },
+    {
+      "view": "right",
+      "sha256": "184ffb00353874cb634fa96cba11468e93ddda8afdbb29e1a3786c468a8125e6"
+    },
+    {
+      "view": "back",
+      "sha256": "a928b5ee4cd6fc6f54d7e1bbe5f1c6bc6aa7ec2ffc585cc926325012487548a3"
+    },
+    {
+      "view": "left",
+      "sha256": "d2feed69c333ed8dffeb9dd3da776def4c00f4e503ad05a04b0e3559b02830e9"
+    },
+    {
+      "view": "seated",
+      "sha256": "5aa4dfb32057f0f91de678576436649bf72358746205154e546f437115336883"
+    },
+    {
+      "view": "canopy",
+      "sha256": "23d35daf3ad2bab12c2d76ed81c51a3d293f5c3a0a9246f797f268aef8a95df9"
+    }
+  ],
+  "bundleSha256": "f3ab58b676826b4d5562336e902485c421bae623907c51734ea95026915686a3",
+  "previousApkUnchanged": true,
+  "headsetVerified": false,
+  "performanceMeasured": false,
+  "scope": "Portable references, native component declarations, mobile compilation and fixed-camera pixel motion. Visual review is separate."
+}

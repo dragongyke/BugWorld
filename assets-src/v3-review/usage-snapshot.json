@@ -1,0 +1,190 @@
+{
+  "phaseStartUTC": "2026-10-08T13:38:32.741000+00:00",
+  "snapshotUTC": "2026-10-09T04:27:45.289431+00:00",
+  "phaseTotal": 63477531,
+  "projectTotal": 115444414,
+  "records": [
+    {
+      "name": "主任务",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "lastUTC": "2026-10-09T04:27:20.065000+00:00",
+      "cumulative": {
+        "input_tokens": 59517456,
+        "cached_input_tokens": 58245632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 337014,
+        "reasoning_output_tokens": 103144,
+        "total_tokens": 59854470
+      },
+      "phase": {
+        "input_tokens": 26876692,
+        "cached_input_tokens": 26465664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112581,
+        "reasoning_output_tokens": 45514,
+        "total_tokens": 26989273
+      }
+    },
+    {
+      "name": "/root/final_review",
+      "log": "rollout-2026-10-08T18-12-51-01a11b00-6019-7760-b0dc-f7855a912dc0.jsonl",
+      "lastUTC": "2026-10-08T10:17:14.480000+00:00",
+      "cumulative": {
+        "input_tokens": 1411824,
+        "cached_input_tokens": 1335424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4548,
+        "reasoning_output_tokens": 903,
+        "total_tokens": 1416372
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "name": "/root/crayon_v2",
+      "log": "rollout-2026-10-08T20-27-44-01a11b7b-daa5-7451-afd6-d309befa7fc4.jsonl",
+      "lastUTC": "2026-10-08T12:45:50.681000+00:00",
+      "cumulative": {
+        "input_tokens": 2121230,
+        "cached_input_tokens": 2035200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25899,
+        "reasoning_output_tokens": 7360,
+        "total_tokens": 2147129
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "name": "/root/spatial_ui_v2",
+      "log": "rollout-2026-10-08T20-28-16-01a11b7c-59af-7161-a99b-7c43dc82da49.jsonl",
+      "lastUTC": "2026-10-08T13:00:17.223000+00:00",
+      "cumulative": {
+        "input_tokens": 3952313,
+        "cached_input_tokens": 3832832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35026,
+        "reasoning_output_tokens": 10792,
+        "total_tokens": 3987339
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "name": "/root/insect_assets_v2",
+      "log": "rollout-2026-10-08T20-28-52-01a11b7c-e549-7aa2-862f-fd996fd32901.jsonl",
+      "lastUTC": "2026-10-08T13:16:57.823000+00:00",
+      "cumulative": {
+        "input_tokens": 5370191,
+        "cached_input_tokens": 5137152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 52814,
+        "reasoning_output_tokens": 18807,
+        "total_tokens": 5423005
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "name": "/root/insect_animation_design",
+      "log": "rollout-2026-10-08T20-37-41-01a11b84-f881-7c32-a471-2544d7e3924a.jsonl",
+      "lastUTC": "2026-10-09T03:45:13.016000+00:00",
+      "cumulative": {
+        "input_tokens": 19096798,
+        "cached_input_tokens": 18451328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 130277,
+        "reasoning_output_tokens": 50667,
+        "total_tokens": 19227075
+      },
+      "phase": {
+        "input_tokens": 13971421,
+        "cached_input_tokens": 13596672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 90752,
+        "reasoning_output_tokens": 43036,
+        "total_tokens": 14062173
+      }
+    },
+    {
+      "name": "/root/v2_integration_review",
+      "log": "rollout-2026-10-08T21-01-21-01a11b9a-a3a3-7bd0-92bd-59e9f3844292.jsonl",
+      "lastUTC": "2026-10-09T04:26:15.568000+00:00",
+      "cumulative": {
+        "input_tokens": 9645418,
+        "cached_input_tokens": 9368448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56744,
+        "reasoning_output_tokens": 19891,
+        "total_tokens": 9702162
+      },
+      "phase": {
+        "input_tokens": 8687487,
+        "cached_input_tokens": 8475008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 51736,
+        "reasoning_output_tokens": 17840,
+        "total_tokens": 8739223
+      }
+    },
+    {
+      "name": "/root/assets_v3_wings_softbody",
+      "log": "rollout-2026-10-08T21-39-54-01a11bbd-ef40-7353-8839-d7ec21312728.jsonl",
+      "lastUTC": "2026-10-09T03:35:57.113000+00:00",
+      "cumulative": {
+        "input_tokens": 13618472,
+        "cached_input_tokens": 13401216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 68390,
+        "reasoning_output_tokens": 28758,
+        "total_tokens": 13686862
+      },
+      "phase": {
+        "input_tokens": 13618472,
+        "cached_input_tokens": 13401216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 68390,
+        "reasoning_output_tokens": 28758,
+        "total_tokens": 13686862
+      }
+    }
+  ],
+  "unobservedIntervals": [
+    {
+      "from": "2026-10-08T13:53:56.114000+00:00",
+      "to": "2026-10-08T18:01:37.974000+00:00"
+    },
+    {
+      "from": "2026-10-08T18:01:37.975000+00:00",
+      "to": "2026-10-08T22:01:38.115000+00:00"
+    },
+    {
+      "from": "2026-10-08T22:01:40.693000+00:00",
+      "to": "2026-10-09T02:28:33.479000+00:00"
+    }
+  ]
+}

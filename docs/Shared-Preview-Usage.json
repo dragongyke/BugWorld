@@ -1,0 +1,36 @@
+{
+  "phaseStartUTC": "2026-10-19T05:02:49.495000+00:00",
+  "snapshotUTC": "2026-10-19T05:31:28.915291+00:00",
+  "wallSeconds": 1719,
+  "phaseTokens": 8161367,
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "usageAsOfUTC": "2026-10-19T05:30:38.087Z",
+      "phase": {
+        "input_tokens": 6856543,
+        "cached_input_tokens": 6485376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 46296,
+        "reasoning_output_tokens": 14438,
+        "total_tokens": 6902839
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T13-15-55-01a15296-79b8-7da0-b920-3c2e64ef5e7f.jsonl",
+      "usageAsOfUTC": "2026-10-19T05:20:46.731Z",
+      "phase": {
+        "input_tokens": 1252983,
+        "cached_input_tokens": 1172736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5545,
+        "reasoning_output_tokens": 2630,
+        "total_tokens": 1258528
+      }
+    }
+  ],
+  "excludedStageThread": "01a1528b-745e-72f1-b248-bb4f951467bf",
+  "picoCliCalls": 0,
+  "stageSeparateSnapshotTokens": 6206215,
+  "combinedThisIterationTokens": 14367582
+}

@@ -1,0 +1,254 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": null,
+  "phaseStartUTC": "2026-10-20T07:02:20.124000+00:00",
+  "snapshotUTC": "2026-10-20T07:32:16.480796+00:00",
+  "wallSeconds": 1796.357,
+  "netWorkSeconds": null,
+  "phaseTokens": 10962872,
+  "tokenTotals": {
+    "input_tokens": 10925805,
+    "cached_input_tokens": 10771840,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 37067,
+    "reasoning_output_tokens": 11670,
+    "total_tokens": 10962872
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 10,
+  "cli": [
+    {
+      "utc": "2026-10-20T07:22:22.609Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_65a757339b1240868a6751b3e76db5a6",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "install",
+        "app/build/outputs/apk/debug/app-debug.apk",
+        "--replace"
+      ],
+      "statementOffset": 0
+    },
+    {
+      "utc": "2026-10-20T07:22:22.609Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_65a757339b1240868a6751b3e76db5a6",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "app",
+        "launch",
+        "com.bugworld.app"
+      ],
+      "statementOffset": 117
+    },
+    {
+      "utc": "2026-10-20T07:27:02.187Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_7b22b19ad70348a9bda5077ed57329ca",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "record",
+        "--adb",
+        "C:/PICO4Overseas/platform-tools-latest-windows/platform-tools/adb.exe",
+        "--device",
+        "PB322XKGL4220049B",
+        "--package",
+        "com.bugworld.app",
+        "--duration",
+        "20",
+        "--output",
+        ".work/stage110-batched.perfetto-trace"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T07:27:46.737Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_5b309bde2dc840e58ea8426c966b2c02",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "load",
+        ".work/stage110-batched.perfetto-trace",
+        "--shell",
+        ".work/stage110-profiler-cli-0.2.0/trace_processor_shell.exe",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T07:28:10.573Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_5e0e1ff127d04142b3dbb77082731009",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.spatialOverview",
+        "--session",
+        "b7f34841-d283-48e9-9601-014007fa1282",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T07:28:10.573Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_5e0e1ff127d04142b3dbb77082731009",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.appOverview",
+        "--session",
+        "b7f34841-d283-48e9-9601-014007fa1282",
+        "--package",
+        "com.bugworld.app",
+        "--fps",
+        "90",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T07:28:10.573Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_5e0e1ff127d04142b3dbb77082731009",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "b7f34841-d283-48e9-9601-014007fa1282",
+        "--sql-file",
+        "scripts/perf/thread_cpu.sql",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T07:28:51.112Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_bc7d214625ee4503a3678e1c857f92a3",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "b7f34841-d283-48e9-9601-014007fa1282",
+        "--sql-file",
+        "scripts/perf/app_runtime_slices.sql",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T07:29:29.445Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_ec14d926178c477d92ca52a7ec9e9f08",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "b7f34841-d283-48e9-9601-014007fa1282",
+        "--sql-file",
+        ".work/stage110-scheduled-cpu.sql",
+        "--envelope"
+      ],
+      "statementOffset": 457
+    },
+    {
+      "utc": "2026-10-20T07:30:28.258Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_730eb13fb74a41b6ab82851c65782716",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "session",
+        "close",
+        "b7f34841-d283-48e9-9601-014007fa1282"
+      ],
+      "statementOffset": 789
+    }
+  ],
+  "directProfilerCalls": 0,
+  "directProfiler": [],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 0,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 0,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-20T07:31:40.057Z",
+      "baselineBasis": "last counter at or before phase start",
+      "baselineAsOfUTC": null,
+      "baseline": {
+        "input_tokens": 138060183,
+        "cached_input_tokens": 134857728,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 675294,
+        "reasoning_output_tokens": 212241,
+        "total_tokens": 138735477
+      },
+      "cumulative": {
+        "input_tokens": 148985988,
+        "cached_input_tokens": 145629568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 712361,
+        "reasoning_output_tokens": 223911,
+        "total_tokens": 149698349
+      },
+      "phase": {
+        "input_tokens": 10925805,
+        "cached_input_tokens": 10771840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37067,
+        "reasoning_output_tokens": 11670,
+        "total_tokens": 10962872
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown.",
+  "baselineDefinition": "Last exposed per-session token counter at or before the current implementation request; exact response_item user timestamp."
+}

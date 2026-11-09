@@ -1,0 +1,26 @@
+{
+  "status": "asset UV documentation; runtime dynamic painting is not implemented",
+  "runtime_dynamic_paint_implemented": false,
+  "source": "scripts/assets_v3_lineart.py BUTTERFLY_UPPER/LOWER/TIP/EDGE/VEINS",
+  "source_coordinate_system": "local pixels inside the approved 506 x 373 butterfly crop, centerline x=251",
+  "source_to_sheet": "translate(64.000000 181.754941) scale(1.77075099)",
+  "source_to_uv": {
+    "left_u": "0.5 + (x - 251) / 600",
+    "left_v": "1 - (0.495 + (y - 190) / 600)",
+    "right_u": "1 - left_u",
+    "right_v": "left_v"
+  },
+  "region_meshes": {
+    "1": "L_forewing_closed_membrane",
+    "2": "R_forewing_closed_membrane",
+    "3": "L_hindwing_closed_membrane",
+    "4": "R_hindwing_closed_membrane"
+  },
+  "sample_basecolor": "textures/wing-basecolor.png",
+  "ink_is_baked_into_sample_basecolor": true,
+  "next_integration_steps": [
+    "Invert source_to_sheet to convert drawing-canvas coordinates into source-crop coordinates.",
+    "Compose user pigment and locked line-art markings into the sample atlas coordinate system.",
+    "Update the engine base-color texture while retaining normal/roughness maps; wire user interaction only after approval."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "failures": [],
+  "triangles": 494775,
+  "meshCount": 49,
+  "wood": [
+    {
+      "name": "CC0_foreground_fallen_log",
+      "minimumZ": -0.12318775057792664
+    },
+    {
+      "name": "CC0_right_fallen_log",
+      "minimumZ": -0.12338443845510483
+    },
+    {
+      "name": "CC0_hero_weathered_stump",
+      "minimumZ": -0.10661859065294266
+    }
+  ],
+  "protectedSurfaceMaxDistanceMetres": {
+    "CC0_foreground_fallen_log": 0.0,
+    "hero_leaf_07": 0.0,
+    "hero_leaf_08": 0.0
+  },
+  "sha256": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+  "scope": "Geometry, placement and route-surface contract; not runtime FPS or visual acceptance"
+}

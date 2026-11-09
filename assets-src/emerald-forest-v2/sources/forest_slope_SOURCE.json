@@ -1,0 +1,17 @@
+{
+  "license": "CC0-1.0",
+  "source": "https://polyhaven.com/a/forest_slope",
+  "author": "Andreas Mischok",
+  "files": [
+    {
+      "file": "forest_slope.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/forest_slope.jpg",
+      "sha256": "d6ed6cbd2458979198403cd63f6774308eb49571b8f637da47339cad7339589a"
+    },
+    {
+      "file": "forest_slope_4k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/forest_slope_4k.exr",
+      "sha256": "2567b84123dd236f91801409733e1812c41495e2a0b8dfde574291054497ac23"
+    }
+  ]
+}

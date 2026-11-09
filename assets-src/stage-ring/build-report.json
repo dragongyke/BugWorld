@@ -1,0 +1,12 @@
+{
+  "sourceSha256": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+  "sha256": "15e556a7afa3bc3190c7a4d6782fda0cb40028cbe6be2211325013bc8e0bd079",
+  "triangles": 251260,
+  "meshCount": 36,
+  "leafCount": 10,
+  "flowerCount": 4,
+  "grassGroups": 6,
+  "woodCount": 2,
+  "routes": 13,
+  "scope": "Actual exported/reimported GLB with authored Cycles lighting; not headset capture"
+}

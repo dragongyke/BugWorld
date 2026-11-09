@@ -1,0 +1,140 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": null,
+  "phaseStartUTC": "2026-10-20T08:43:05.602000+00:00",
+  "snapshotUTC": "2026-10-20T09:15:40.509312+00:00",
+  "wallSeconds": 1954.907,
+  "netWorkSeconds": null,
+  "phaseTokens": 8519919,
+  "tokenTotals": {
+    "input_tokens": 8479071,
+    "cached_input_tokens": 8338816,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40848,
+    "reasoning_output_tokens": 15639,
+    "total_tokens": 8519919
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 4,
+  "cli": [
+    {
+      "utc": "2026-10-20T08:43:45.746Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_598793e3614f480b9916de596b8c0e10",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "load",
+        ".work/stage111-light-lifecycle.perfetto-trace",
+        "--shell",
+        ".work/stage110-profiler-cli-0.2.0/trace_processor_shell.exe",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T08:45:00.578Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_3c4d2d3feb4a42afb84500bc89cb1057",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "analysis",
+        "frame.spatialOverview",
+        "--session",
+        "3e45e9f2-8923-4cbb-9a34-6f9bbde5b006",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T08:45:00.578Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_3c4d2d3feb4a42afb84500bc89cb1057",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "trace",
+        "query",
+        "--session",
+        "3e45e9f2-8923-4cbb-9a34-6f9bbde5b006",
+        "--sql-file",
+        "scripts/perf/stage_budget_counters.sql",
+        "--envelope"
+      ],
+      "statementOffset": 130
+    },
+    {
+      "utc": "2026-10-20T08:45:34.096Z",
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "callId": "call_9ebbc388fc2a40df858ceccf1bd3ad9f",
+      "evidence": "executed shell tool; PowerShell AST",
+      "arguments": [
+        "perf",
+        "session",
+        "close",
+        "3e45e9f2-8923-4cbb-9a34-6f9bbde5b006"
+      ],
+      "statementOffset": 130
+    }
+  ],
+  "directProfilerCalls": 0,
+  "directProfiler": [],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 0,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 0,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-20T09:15:19.070Z",
+      "baselineBasis": "last counter at or before phase start",
+      "baselineAsOfUTC": null,
+      "baseline": {
+        "input_tokens": 168291665,
+        "cached_input_tokens": 164564480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 765828,
+        "reasoning_output_tokens": 245059,
+        "total_tokens": 169057493
+      },
+      "cumulative": {
+        "input_tokens": 176770736,
+        "cached_input_tokens": 172903296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 806676,
+        "reasoning_output_tokens": 260698,
+        "total_tokens": 177577412
+      },
+      "phase": {
+        "input_tokens": 8479071,
+        "cached_input_tokens": 8338816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 40848,
+        "reasoning_output_tokens": 15639,
+        "total_tokens": 8519919
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown."
+}

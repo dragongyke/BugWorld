@@ -1,0 +1,136 @@
+{
+  "phaseStartUTC": "2026-10-19T08:28:08.170000+00:00",
+  "snapshotUTC": "2026-10-19T09:07:38.863125+00:00",
+  "wallSeconds": 2370,
+  "phaseTokens": 12882931,
+  "availableLogCounterSnapshot": 111627441,
+  "projectCalendarSpanSeconds": 949947,
+  "historicalCoverageComplete": false,
+  "separatelyCountedStageTokens": 6206215,
+  "picoCliCalls": 15,
+  "cli": [
+    {
+      "utc": "2026-10-19T08:33:09.579Z",
+      "command": "device --help"
+    },
+    {
+      "utc": "2026-10-19T08:33:45.934Z",
+      "command": "--help"
+    },
+    {
+      "utc": "2026-10-19T08:35:05.177Z",
+      "command": "capture screenshot --help"
+    },
+    {
+      "utc": "2026-10-19T08:39:17.540Z",
+      "command": "app install --help"
+    },
+    {
+      "utc": "2026-10-19T08:39:31.807Z",
+      "command": "app install app/build/outputs/apk/debug/app-debug.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T08:39:31.807Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T08:40:01.226Z",
+      "command": "capture screenshot --out .work/studio107-first.png"
+    },
+    {
+      "utc": "2026-10-19T08:46:13.539Z",
+      "command": "app install app/build/outputs/apk/debug/app-debug.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T08:46:13.539Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T08:48:52.583Z",
+      "command": "app install app/build/outputs/apk/debug/app-debug.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T08:48:52.583Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T08:55:38.266Z",
+      "command": "app install app/build/outputs/apk/debug/app-debug.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T08:55:38.266Z",
+      "command": "app launch com.bugworld.app"
+    },
+    {
+      "utc": "2026-10-19T09:00:03.528Z",
+      "command": "app install app/build/outputs/apk/debug/app-debug.apk --replace"
+    },
+    {
+      "utc": "2026-10-19T09:00:03.528Z",
+      "command": "app launch com.bugworld.app"
+    }
+  ],
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "asOfUTC": "2026-10-19T09:07:29.860Z",
+      "cumulative": {
+        "input_tokens": 100767352,
+        "cached_input_tokens": 98430464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 543049,
+        "reasoning_output_tokens": 172703,
+        "total_tokens": 101310401
+      },
+      "phase": {
+        "input_tokens": 9982199,
+        "cached_input_tokens": 9742080,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 48435,
+        "reasoning_output_tokens": 13914,
+        "total_tokens": 10030634
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T13-15-55-01a15296-79b8-7da0-b920-3c2e64ef5e7f.jsonl",
+      "asOfUTC": "2026-10-19T05:20:46.731Z",
+      "cumulative": {
+        "input_tokens": 1252983,
+        "cached_input_tokens": 1172736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5545,
+        "reasoning_output_tokens": 2630,
+        "total_tokens": 1258528
+      },
+      "phase": {
+        "input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "log": "rollout-2026-10-19T16-40-42-01a15351-f3ab-7f40-bd73-04c5c0cd0c75.jsonl",
+      "asOfUTC": "2026-10-19T08:57:24.163Z",
+      "cumulative": {
+        "input_tokens": 2842502,
+        "cached_input_tokens": 2698240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9795,
+        "reasoning_output_tokens": 3169,
+        "total_tokens": 2852297
+      },
+      "phase": {
+        "input_tokens": 2842502,
+        "cached_input_tokens": 2698240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9795,
+        "reasoning_output_tokens": 3169,
+        "total_tokens": 2852297
+      }
+    }
+  ],
+  "definition": "Cumulative session counters; input includes cached tokens and output includes reasoning. No billing estimate; unreported tool backend tokens excluded."
+}

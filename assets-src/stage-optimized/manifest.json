@@ -1,0 +1,34 @@
+{
+  "kind": "stage-performance-derivative",
+  "baseApprovedGlbSha256": "37db7de882b9768a416be37054a4d176a3cf8dbec578141eb7eb8bede99c3b34",
+  "runtimeFiles": {
+    "models/garden.glb": "97db51ae63cda21d1fd367a76aa0ed66a2565bbd5c399bc66ce64baf0337e2c5",
+    "environment/water-reflection.ktx": "02b19a696f25f587d8233f09d15a9e949be388b7533d60fec0661e71f333cc8f",
+    "environment/garden-routes.json": "fd701047f48e27443f96f2201b19cf4531d02ac70701905a175cfcb6568fd656"
+  },
+  "kotlinRoutes": {
+    "path": "app/src/main/java/com/bugworld/app/garden/ApprovedGardenRoutes.kt",
+    "sha256": "33bfd9432ff101fe81ca6b354bf363e7fc3544066a437b2819c792d30eb62835"
+  },
+  "waterRuntimeParameters": {
+    "roughness": 0.17,
+    "metallic": 0,
+    "normalScale": 0.65,
+    "baseColor": [
+      0.018,
+      0.045,
+      0.06,
+      1
+    ]
+  },
+  "inventory": {
+    "triangles": 494775,
+    "vertices": 557647,
+    "primitives": 49,
+    "bytes": 52132376,
+    "textureRgba8FullMipMiB": 143.99565505981445
+  },
+  "validation": "Static geometry, routes, rendered comparisons; headset visual and performance acceptance pending",
+  "reproduction": "scripts/build_stage_candidate.py and docs/Stage-Optimization-Metrics.md; approved source remains locked",
+  "hashNormalization": "UTF-8 text normalized to LF for Kotlin/JSON; exact bytes for binary resources"
+}

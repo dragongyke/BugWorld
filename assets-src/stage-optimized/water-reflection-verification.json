@@ -1,0 +1,100 @@
+{
+  "sourceSHA256": "d09b4ddad2772b66e7b9c1c64bf01c8e24fd7183600b71dc0a010558c3e6bf12",
+  "outputSHA256": "02b19a696f25f587d8233f09d15a9e949be388b7533d60fec0661e71f333cc8f",
+  "bytes": 2095832,
+  "format": "KTX1 R11F_G11F_B10F linear",
+  "sourceRange": "HDR scene-linear Cycles garden render; no water self-reflection",
+  "faceOrder": [
+    "+X",
+    "-X",
+    "+Y",
+    "-Y",
+    "+Z",
+    "-Z"
+  ],
+  "mips": [
+    {
+      "level": 0,
+      "size": 256,
+      "faceBytes": 262144,
+      "linearMin": 9.5367431640625e-07,
+      "linearMax": 7.8125
+    },
+    {
+      "level": 1,
+      "size": 128,
+      "faceBytes": 65536,
+      "linearMin": 3.528594970703125e-05,
+      "linearMax": 4.1875
+    },
+    {
+      "level": 2,
+      "size": 64,
+      "faceBytes": 16384,
+      "linearMin": 0.000213623046875,
+      "linearMax": 0.8359375
+    },
+    {
+      "level": 3,
+      "size": 32,
+      "faceBytes": 4096,
+      "linearMin": 0.00067138671875,
+      "linearMax": 0.185546875
+    },
+    {
+      "level": 4,
+      "size": 16,
+      "faceBytes": 1024,
+      "linearMin": 0.002227783203125,
+      "linearMax": 0.0546875
+    }
+  ],
+  "diffuseSH": [
+    [
+      0.0184324581,
+      0.019444494,
+      0.0245921687
+    ],
+    [
+      0.0117937363,
+      0.0134440517,
+      0.00768802008
+    ],
+    [
+      -0.00922829041,
+      -0.00722599694,
+      -0.00197139292
+    ],
+    [
+      -0.0105523092,
+      -0.0140570504,
+      -0.0038900566
+    ],
+    [
+      -0.0138219603,
+      -0.0167844825,
+      -0.00851967252
+    ],
+    [
+      -0.00428474447,
+      -0.00503074559,
+      -0.00194826237
+    ],
+    [
+      -0.000240774759,
+      -0.00156377757,
+      -0.000180663457
+    ],
+    [
+      -0.000583517513,
+      0.00192483814,
+      0.00199301454
+    ],
+    [
+      0.00442259343,
+      0.00412845353,
+      0.0039590947
+    ]
+  ],
+  "limitation": "One static local probe; no dynamic insect reflections or planar reflection parallax"
+}

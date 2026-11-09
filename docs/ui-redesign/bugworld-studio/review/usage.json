@@ -1,0 +1,73 @@
+{
+  "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+  "baselineFile": null,
+  "phaseStartUTC": "2026-10-28T07:54:54.180000+00:00",
+  "snapshotUTC": "2026-10-28T08:38:22.391863+00:00",
+  "wallSeconds": 2608.212,
+  "netWorkSeconds": null,
+  "phaseTokens": 12404476,
+  "tokenTotals": {
+    "input_tokens": 12363721,
+    "cached_input_tokens": 11984896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 40755,
+    "reasoning_output_tokens": 11779,
+    "total_tokens": 12404476
+  },
+  "historicalCoverageComplete": false,
+  "projectTotalTokens": null,
+  "picoCliCalls": 0,
+  "cli": [],
+  "directProfilerCalls": 0,
+  "directProfiler": [],
+  "profilerInventoryReconciliation": {
+    "pico_cli": {
+      "matched": 0,
+      "supplemented": 0
+    },
+    "direct_profiler": {
+      "matched": 0,
+      "supplemented": 0
+    }
+  },
+  "records": [
+    {
+      "log": "rollout-2026-10-08T16-01-21-01a11a87-f8c7-7783-86ac-79ba85d89282.jsonl",
+      "threadId": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "task": "/root",
+      "asOfUTC": "2026-10-28T08:37:53.343Z",
+      "baselineBasis": "last counter at or before phase start",
+      "baselineAsOfUTC": null,
+      "baseline": {
+        "input_tokens": 262889695,
+        "cached_input_tokens": 256707072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1057769,
+        "reasoning_output_tokens": 348678,
+        "total_tokens": 263947464
+      },
+      "cumulative": {
+        "input_tokens": 275253416,
+        "cached_input_tokens": 268691968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1098524,
+        "reasoning_output_tokens": 360457,
+        "total_tokens": 276351940
+      },
+      "phase": {
+        "input_tokens": 12363721,
+        "cached_input_tokens": 11984896,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 40755,
+        "reasoning_output_tokens": 11779,
+        "total_tokens": 12404476
+      }
+    }
+  ],
+  "warnings": [],
+  "definition": "Root plus direct children only. Subtract saved per-log cumulative counters; never add prior phase totals. Input includes cached input; output includes reasoning. Counter boundaries use the saved as-of samples. Wall time includes builds, device/user waits and parallel activity, not net work or network time. CLI counts are explicit executable statements in shell tool calls, including help/failures, not success counts. Direct profiler calls are separate; investigator inventory matches are deduplicated by arguments and source task. No conversation text, billing estimate, or unexposed backend tokens. Historical project totals remain unknown.",
+  "baselineDescription": "Last cumulative sample before current request (response_item/message/role=user)",
+  "phase": "UI prototype and icon-only TopBar feedback",
+  "openDesignAppInvoked": false,
+  "headsetVerified": false
+}

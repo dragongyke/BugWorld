@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "sourceSha256": "15e556a7afa3bc3190c7a4d6782fda0cb40028cbe6be2211325013bc8e0bd079",
+  "majorSurfaceIntersections": [],
+  "woodBasesBelowWater": true,
+  "realKotlinGroundSamples": 37716,
+  "maxSurfaceDistanceMetres": 0.003043284872546792,
+  "triangles": 251260,
+  "limitation": "Ground root contact and major mesh intersection check; articulated feet/wing collision and perception require headset validation."
+}

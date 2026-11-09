@@ -1,0 +1,95 @@
+{
+  "butterfly": {
+    "material_node_bindings": {
+      "Continuous wax pigment • image PBR": [
+        "L_forewing_closed_membrane",
+        "R_forewing_closed_membrane",
+        "L_hindwing_closed_membrane",
+        "R_hindwing_closed_membrane"
+      ]
+    },
+    "exported_glb_landmarks": {
+      "L_forewing_root_uv": [
+        0.49,
+        0.49
+      ],
+      "R_forewing_root_uv": [
+        0.51,
+        0.49
+      ]
+    },
+    "protected_mask_verified": true
+  },
+  "caterpillar": {
+    "material_node_bindings": {
+      "Continuous wax pigment • image PBR": [
+        "ONE continuous wrinkled soft cuticle"
+      ]
+    },
+    "exported_glb_landmarks": {
+      "dorsal_uv": [
+        0.5,
+        0.25
+      ],
+      "ventral_uv": [
+        0.5,
+        0.75
+      ]
+    },
+    "protected_mask_verified": true
+  },
+  "beetle": {
+    "material_node_bindings": {
+      "left_green_elytron": [
+        "elytron_L"
+      ],
+      "right_green_elytron": [
+        "elytron_R"
+      ],
+      "lavender_pronotum": [
+        "pronotum_and_short_horn"
+      ],
+      "warm_ivory_wax": [
+        "head_and_recurved_horn"
+      ]
+    },
+    "exported_glb_landmarks": {
+      "shell_seam_uv": [
+        0.5,
+        1.0
+      ],
+      "shell_outer_edge_uv": [
+        0.5,
+        0.0
+      ]
+    },
+    "protected_mask_verified": true
+  },
+  "ladybug": {
+    "material_node_bindings": {
+      "left_pink_wax": [
+        "elytron_L"
+      ],
+      "right_mint_wax": [
+        "elytron_R"
+      ],
+      "warm_brown_cuticle": [
+        "head"
+      ],
+      "ivory_collar_with_brown_smudge": [
+        "pronotum"
+      ]
+    },
+    "exported_glb_landmarks": {
+      "shell_seam_uv": [
+        0.5,
+        1.0
+      ],
+      "shell_outer_edge_uv": [
+        0.5,
+        0.0
+      ]
+    },
+    "protected_mask_verified": true
+  }
+}

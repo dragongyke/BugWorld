@@ -1,0 +1,25 @@
+{
+  "status": "imported_and_rendered",
+  "bones": 34,
+  "actions": [
+    "flight",
+    "idle",
+    "takeoff",
+    "touch",
+    "walk"
+  ],
+  "glb": {
+    "bytes": 20737640,
+    "meshes": 139,
+    "skins": 1,
+    "animations": [
+      "flight",
+      "idle",
+      "takeoff",
+      "touch",
+      "walk"
+    ],
+    "images": 30,
+    "materials": 10
+  }
+}

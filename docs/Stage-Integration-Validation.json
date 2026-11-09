@@ -1,0 +1,21 @@
+{
+  "version": "1.0.6",
+  "versionCode": 6,
+  "tests": {
+    "tests": 99,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 28
+  },
+  "apk": {
+    "path": "deliverables\\BugWorld-1.0.6.apk",
+    "sha256": "ee732096efce968a774acf17c10af10fc0c2cde2bc3adea8df69fa152165ede5",
+    "bytes": 175593341
+  },
+  "validation": "Build/test/asset consistency only. Not installed; headset input, FPS, visual quality, black-edge mitigation pending."
+}

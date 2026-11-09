@@ -1,0 +1,5453 @@
+{
+  "baseCommit": "fb9545edffcc404b7fdffc9ded93be9c747c819a",
+  "beforeBytes": 14160714053,
+  "archivedEvidenceFiles": 596,
+  "evidenceZip": "2026-10-27-diagnostic-evidence.zip",
+  "evidenceZipBytes": 895484,
+  "retiredTrackedFiles": [
+    "assets-src/emerald-forest-review/back.png",
+    "assets-src/emerald-forest-review/emerald-forest-review.blend",
+    "assets-src/emerald-forest-review/forest-panorama-source.png",
+    "assets-src/emerald-forest-review/forest-panorama.png",
+    "assets-src/emerald-forest-review/front.png",
+    "assets-src/emerald-forest-review/left.png",
+    "assets-src/emerald-forest-review/right.png",
+    "assets-src/emerald-forest-v2/editor-back-integrated.png",
+    "assets-src/emerald-forest-v2/editor-back-water-t1.png",
+    "assets-src/emerald-forest-v2/editor-bed-hidden.png",
+    "assets-src/emerald-forest-v2/editor-canopy-without-bare-trunks.png",
+    "assets-src/emerald-forest-v2/editor-fern-corrected.png",
+    "assets-src/emerald-forest-v2/editor-front-baseline.png",
+    "assets-src/emerald-forest-v2/editor-front-integrated.png",
+    "assets-src/emerald-forest-v2/editor-front-materials.png",
+    "assets-src/emerald-forest-v2/editor-left-integrated.png",
+    "assets-src/emerald-forest-v2/editor-light-balanced.png",
+    "assets-src/emerald-forest-v2/editor-light-material-correction.png",
+    "assets-src/emerald-forest-v2/editor-native-portable.png",
+    "assets-src/emerald-forest-v2/editor-native-sun-default.png",
+    "assets-src/emerald-forest-v2/editor-native-sun-no-shell.png",
+    "assets-src/emerald-forest-v2/editor-native-sun-shadow.png",
+    "assets-src/emerald-forest-v2/editor-reopen-check.png",
+    "assets-src/emerald-forest-v2/editor-reopen-one-sky.png",
+    "assets-src/emerald-forest-v2/editor-right-integrated.png",
+    "assets-src/emerald-forest-v2/editor-shadow-persisted.png",
+    "assets-src/emerald-forest-v2/editor-shore-v3-front.png",
+    "assets-src/emerald-forest-v2/editor-shore-v3-right.png",
+    "assets-src/emerald-forest-v2/editor-sky-shadow-disabled.png",
+    "assets-src/emerald-forest-v2/editor-sun-no-shell.png",
+    "assets-src/emerald-forest-v2/editor-sun-usd-active.png",
+    "assets-src/emerald-forest-v2/editor-sun-usd-first.png",
+    "assets-src/emerald-forest-v2/editor-water-depth-write.png",
+    "assets-src/emerald-forest-v2/editor-water-hidden.png",
+    "assets-src/emerald-forest-v2/editor-water-strong.png",
+    "assets-src/emerald-forest-v2/editor-water-tileable-bed.png",
+    "assets-src/emerald-forest-v2/editor-without-bare-trunks.png",
+    "assets-src/emerald-native-materials/ForestSun.glb",
+    "assets-src/emerald-native-materials/ForestSun.usda",
+    "assets-src/emerald-native-materials/NativeSun.usda",
+    "assets-src/emerald-native-materials/insect-contact-review.glb",
+    "assets-src/emerald-water-editor/water-basis.png",
+    "assets-src/emerald-water-editor/water-calm-t0.png",
+    "assets-src/emerald-water-editor/water-calm-t1.png",
+    "assets-src/emerald-water-editor/water-dual-t0.png",
+    "assets-src/emerald-water-editor/water-dual-t1.png",
+    "assets-src/emerald-water-editor/water-editor-t0.png",
+    "assets-src/emerald-water-editor/water-editor-t1.png",
+    "assets-src/emerald-water-editor/water-final-t0.png",
+    "assets-src/emerald-water-editor/water-final-t1.png",
+    "assets-src/emerald-water-editor/water-fixed-t0.png",
+    "assets-src/emerald-water-editor/water-fixed-t1.png",
+    "assets-src/emerald-water-editor/water-forest-t0.png",
+    "assets-src/emerald-water-editor/water-strong-t0.png",
+    "assets-src/emerald-water-editor/water-tangent-t0.png",
+    "assets-src/emerald-water-editor/water-texture-diagnostic.png",
+    "assets-src/stage-optimized/near-wood.png",
+    "assets-src/stage-optimized/overview.png",
+    "assets-src/stage-optimized/water.png",
+    "assets-src/stage-ring/ApprovedGardenRoutes.kt",
+    "assets-src/stage-ring/back.png",
+    "assets-src/stage-ring/front.png",
+    "assets-src/stage-ring/garden-ring.blend",
+    "assets-src/stage-ring/left.png",
+    "assets-src/stage-ring/lighting/ktx-check.json",
+    "assets-src/stage-ring/lighting/water-reflection-linear.npy",
+    "assets-src/stage-ring/lighting/water-reflection-preview.png",
+    "assets-src/stage-ring/lighting/water-reflection.exr",
+    "assets-src/stage-ring/lighting/water-reflection.json",
+    "assets-src/stage-ring/lighting/water-reflection.ktx",
+    "assets-src/stage-ring/right.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_antenna_groom-0.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_antenna_groom-1.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_antenna_groom-2.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_fly-0.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_fly-1.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_fly-2.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_idle_perch-0.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_idle_perch-1.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_idle_perch-2.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_perch_touch-0.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_perch_touch-1.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_perch_touch-2.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_startle-0.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_startle-1.png",
+    "assets-src/v3-review/butterfly/animation-butterfly_startle-2.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_crawl-0.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_crawl-1.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_crawl-2.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_explore-0.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_explore-1.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_explore-2.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_idle_breathe-0.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_idle_breathe-1.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_idle_breathe-2.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_recoil-0.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_recoil-1.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_recoil-2.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_touch_curiosity-0.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_touch_curiosity-1.png",
+    "assets-src/v3-review/caterpillar/animation-caterpillar_touch_curiosity-2.png",
+    "assets-src/v3-review/garden/lighting/water-reflection-linear.npy",
+    "assets-src/v3-review/garden/lighting/water-reflection-preview.png",
+    "assets-src/v3-review/garden/lighting/water-reflection.exr",
+    "assets-src/v3-review/garden/lighting/water-reflection.json",
+    "docs/Implementation-V2.md",
+    "docs/Implementation-V3.md",
+    "docs/Review.md",
+    "docs/Stage-112-Integration-Plan.md",
+    "docs/Validation.md",
+    "docs/superpowers/plans/2026-10-08-bugworld-v1.md",
+    "docs/superpowers/plans/2026-10-08-insect-animation.md",
+    "docs/superpowers/plans/2026-10-19-starry-ring-stage.md",
+    "docs/superpowers/plans/2026-10-19-studio-107.md",
+    "scripts/assets_v3_package.py",
+    "scripts/assets_v3_routes.py",
+    "scripts/assets_v3_runtime.py",
+    "scripts/bake_garden_water_probe.py",
+    "scripts/build_emerald_review_sun.py",
+    "scripts/build_ring_garden.py",
+    "scripts/inspect_emerald_source_transforms.py",
+    "scripts/pack_emerald_water.py",
+    "scripts/pack_garden_water_probe.py",
+    "scripts/record_assets_v3_metrics.py",
+    "scripts/record_implementation_v3_metrics.py",
+    "scripts/record_render_fix_metrics.py",
+    "scripts/record_ring_manifest.py",
+    "scripts/record_shared_preview_metrics.py",
+    "scripts/record_stage109_metrics.py",
+    "scripts/record_stage112_metrics.py",
+    "scripts/record_stage_metrics.py",
+    "scripts/record_studio_metrics.py",
+    "scripts/render_stage_comparison.py",
+    "scripts/snapshot_emerald_native_scene.py",
+    "scripts/update_metrics.py",
+    "scripts/verify_emerald_forest_review.py",
+    "scripts/verify_ring_garden.py",
+    "scripts/verify_stage111_garden_blender.py",
+    "scripts/verify_stage_bundle.py",
+    "scripts/verify_stage_candidate.py"
+  ],
+  "retiredRawTraces": [
+    {
+      "path": ".work/stage110-active-baseline.perfetto-trace",
+      "bytes": 216338556,
+      "sha256": "c8f48089d2608a6b5ba7d2e1091b9f4adf52693a01aba0d849a096233a94b317"
+    },
+    {
+      "path": ".work/stage110-batched.perfetto-trace",
+      "bytes": 156732687,
+      "sha256": "f544cf35aa862ff096d862820c43935d318763845709e14b5ab98568f161e8bf"
+    },
+    {
+      "path": ".work/stage110-no-animation.perfetto-trace",
+      "bytes": 122975221,
+      "sha256": "cd1896439dcddc6745cae8b3acd66ca86867dcccac7124e8eb664936e5b0bd9b"
+    },
+    {
+      "path": ".work/stage111-auto-a.perfetto-trace",
+      "bytes": 114893606,
+      "sha256": "1c2691c83436fa5d5016d4d69b94c1a210338eb129cacbeddee4b6fb3b72945e"
+    },
+    {
+      "path": ".work/stage111-auto-b.perfetto-trace",
+      "bytes": 113719598,
+      "sha256": "b7548a417b64c64305a1825428d2ab0aee8659058b866bc2b07f3591fa2af041"
+    },
+    {
+      "path": ".work/stage111-auto-c.perfetto-trace",
+      "bytes": 150289118,
+      "sha256": "6e60154a63edaf8836aeb364e9665184354c27cc0000b2e7c3eeab7d4e95acea"
+    },
+    {
+      "path": ".work/stage111-candidate-cold.perfetto-trace",
+      "bytes": 158894212,
+      "sha256": "608334cdbe417db3cb03b8cca6aa483d67b745ca3715d63e56834ee3065f2a0d"
+    },
+    {
+      "path": ".work/stage111-fixed.perfetto-trace",
+      "bytes": 110782039,
+      "sha256": "0e136cefe1f74145091f346fbd68e1bcca2b53ba5ffe99036ab5387f4c7da28f"
+    },
+    {
+      "path": ".work/stage111-geometry-worn.perfetto-trace",
+      "bytes": 335657007,
+      "sha256": "4541427a5f0b22963b2d7028c87746d4a0e79b8221b61d069bd2059d0513f569"
+    },
+    {
+      "path": ".work/stage111-light-lifecycle.perfetto-trace",
+      "bytes": 237864925,
+      "sha256": "6a8065b2bfe61221394c184cfee5a93fedc56e6801e2a902aee39bb740ae1f1d"
+    },
+    {
+      "path": ".work/stage111-near.perfetto-trace",
+      "bytes": 120506764,
+      "sha256": "e71bacd70265900bf9a6abdc28e008bba59012abfb694effcc79e3279ee6a3f8"
+    },
+    {
+      "path": ".work/stage111-no-opacity.perfetto-trace",
+      "bytes": 143084243,
+      "sha256": "742722496d85dddcb9d33f2ea7b311716e768ec425843b8c15a2313eb99a246b"
+    },
+    {
+      "path": ".work/stage111-off.perfetto-trace",
+      "bytes": 144033646,
+      "sha256": "06b931c89d09770bacce9f99a71071ae0b15d50f2d086f9e71f3d7fb9fb2cb3c"
+    }
+  ],
+  "targets": [
+    {
+      "path": ".gradle",
+      "reason": "可再生的本项目缓存或已完成任务状态",
+      "bytes": 6821649,
+      "files": 15
+    },
+    {
+      "path": ".reference-analysis",
+      "reason": "可再生的本项目缓存或已完成任务状态",
+      "bytes": 1126704,
+      "files": 3
+    },
+    {
+      "path": ".superpowers",
+      "reason": "可再生的本项目缓存或已完成任务状态",
+      "bytes": 5796,
+      "files": 3
+    },
+    {
+      "path": "build",
+      "reason": "可再生的本项目缓存或已完成任务状态",
+      "bytes": 1471624,
+      "files": 45
+    },
+    {
+      "path": ".work/ModelLibrary-before-animation-probe.kt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 14322,
+      "files": 1
+    },
+    {
+      "path": ".work/RouteSamples.kt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 631,
+      "files": 1
+    },
+    {
+      "path": ".work/animation-probe",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 742909,
+      "files": 16
+    },
+    {
+      "path": ".work/arrival-green-test.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1484,
+      "files": 1
+    },
+    {
+      "path": ".work/arrival-red-test.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2399,
+      "files": 1
+    },
+    {
+      "path": ".work/asset-final.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 438,
+      "files": 1
+    },
+    {
+      "path": ".work/asset-verification.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 750,
+      "files": 1
+    },
+    {
+      "path": ".work/assets-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 439,
+      "files": 1
+    },
+    {
+      "path": ".work/attachment-impl.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2784,
+      "files": 1
+    },
+    {
+      "path": ".work/baseline-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2202,
+      "files": 1
+    },
+    {
+      "path": ".work/blender-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": ".work/blender-final.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": ".work/board-diagnostic-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/board-lifecycle-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/board-native-log.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 432196,
+      "files": 1
+    },
+    {
+      "path": ".work/board-recurrence-snapshot.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 23466,
+      "files": 1
+    },
+    {
+      "path": ".work/board-recurrence.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6199,
+      "files": 1
+    },
+    {
+      "path": ".work/board-window-repro.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 315,
+      "files": 1
+    },
+    {
+      "path": ".work/bom-6.1.0.pom",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2801,
+      "files": 1
+    },
+    {
+      "path": ".work/bom-6.1.9.pom",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2801,
+      "files": 1
+    },
+    {
+      "path": ".work/camera-fix",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1014,
+      "files": 2
+    },
+    {
+      "path": ".work/check-ring-intersections.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 908,
+      "files": 1
+    },
+    {
+      "path": ".work/check-stage111-tests.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 519,
+      "files": 1
+    },
+    {
+      "path": ".work/check_board_lifecycle.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1290,
+      "files": 1
+    },
+    {
+      "path": ".work/compress-emerald-blend.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 280,
+      "files": 1
+    },
+    {
+      "path": ".work/core-green.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1484,
+      "files": 1
+    },
+    {
+      "path": ".work/core-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2601,
+      "files": 1
+    },
+    {
+      "path": ".work/current-ui-log.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 323716,
+      "files": 1
+    },
+    {
+      "path": ".work/diagnostics-validation.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1951,
+      "files": 1
+    },
+    {
+      "path": ".work/emerald-hdr",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6292483,
+      "files": 4
+    },
+    {
+      "path": ".work/emerald-native-final",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1816200657,
+      "files": 689
+    },
+    {
+      "path": ".work/emerald-native-preview",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 515598339,
+      "files": 135
+    },
+    {
+      "path": ".work/emerald-review-pass1",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 9577167,
+      "files": 5
+    },
+    {
+      "path": ".work/emerald-review-pass2",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 13541221,
+      "files": 6
+    },
+    {
+      "path": ".work/emerald-runtime",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 319539784,
+      "files": 55
+    },
+    {
+      "path": ".work/emerald-source-inspection",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 12670,
+      "files": 3
+    },
+    {
+      "path": ".work/emulator-create.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 922,
+      "files": 1
+    },
+    {
+      "path": ".work/emulator-doctor.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10074,
+      "files": 1
+    },
+    {
+      "path": ".work/emulator-install.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 576,
+      "files": 1
+    },
+    {
+      "path": ".work/emulator-start-small-2.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3590,
+      "files": 1
+    },
+    {
+      "path": ".work/emulator-start-small-3.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 7905,
+      "files": 1
+    },
+    {
+      "path": ".work/emulator-start-small.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1679,
+      "files": 1
+    },
+    {
+      "path": ".work/emulator-start.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6647,
+      "files": 1
+    },
+    {
+      "path": ".work/enter_garden_probe.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 196,
+      "files": 1
+    },
+    {
+      "path": ".work/entity-bytecode.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 322337,
+      "files": 1
+    },
+    {
+      "path": ".work/final-commit.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 620,
+      "files": 1
+    },
+    {
+      "path": ".work/final-verification.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3040,
+      "files": 1
+    },
+    {
+      "path": ".work/finish_metrics.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1131,
+      "files": 1
+    },
+    {
+      "path": ".work/fix-visit-review.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1411,
+      "files": 1
+    },
+    {
+      "path": ".work/forest-compress",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1081,
+      "files": 2
+    },
+    {
+      "path": ".work/forest-inspect",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3345,
+      "files": 2
+    },
+    {
+      "path": ".work/forest-inspection",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3114,
+      "files": 2
+    },
+    {
+      "path": ".work/forest-source-bounds.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 11617,
+      "files": 1
+    },
+    {
+      "path": ".work/garden-canopy-v4.glb",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 33719160,
+      "files": 1
+    },
+    {
+      "path": ".work/garden-shore-v3.glb",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 33719160,
+      "files": 1
+    },
+    {
+      "path": ".work/insect-batch-render-run.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 884,
+      "files": 1
+    },
+    {
+      "path": ".work/insects-batched-renders",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 154431399,
+      "files": 38
+    },
+    {
+      "path": ".work/inspect-forest-source.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 656,
+      "files": 1
+    },
+    {
+      "path": ".work/inspect-forest-sources.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 519,
+      "files": 1
+    },
+    {
+      "path": ".work/inspect-render-bounds.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 371,
+      "files": 1
+    },
+    {
+      "path": ".work/integrate_stage_candidate.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2305,
+      "files": 1
+    },
+    {
+      "path": ".work/integration-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2359,
+      "files": 1
+    },
+    {
+      "path": ".work/interaction-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2105,
+      "files": 1
+    },
+    {
+      "path": ".work/lighting-final-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2916,
+      "files": 1
+    },
+    {
+      "path": ".work/lighting-first-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2445,
+      "files": 1
+    },
+    {
+      "path": ".work/lighting-sky-ktx-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1997,
+      "files": 1
+    },
+    {
+      "path": ".work/lighting-sky-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4392,
+      "files": 1
+    },
+    {
+      "path": ".work/lighting-water-ktx-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2050,
+      "files": 1
+    },
+    {
+      "path": ".work/lint-first.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4115,
+      "files": 1
+    },
+    {
+      "path": ".work/meshopt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 264410,
+      "files": 24
+    },
+    {
+      "path": ".work/mirror-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1956,
+      "files": 1
+    },
+    {
+      "path": ".work/modify-ring-runtime.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4402,
+      "files": 1
+    },
+    {
+      "path": ".work/modify-ring-ui.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6180,
+      "files": 1
+    },
+    {
+      "path": ".work/motion-green.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2445,
+      "files": 1
+    },
+    {
+      "path": ".work/motion-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2101,
+      "files": 1
+    },
+    {
+      "path": ".work/native-spatialview.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 101664,
+      "files": 1
+    },
+    {
+      "path": ".work/opacity-cache-probe-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/opacity-cache-probe.apk",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 158767360,
+      "files": 1
+    },
+    {
+      "path": ".work/paint-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2208,
+      "files": 1
+    },
+    {
+      "path": ".work/pe-inspection",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 668204,
+      "files": 19
+    },
+    {
+      "path": ".work/point-light-bytecode.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 42021,
+      "files": 1
+    },
+    {
+      "path": ".work/pre-review.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2883,
+      "files": 1
+    },
+    {
+      "path": ".work/prepare_shared_validation.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1641,
+      "files": 1
+    },
+    {
+      "path": ".work/preview-red-test.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2779,
+      "files": 1
+    },
+    {
+      "path": ".work/preview-resume-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2176,
+      "files": 1
+    },
+    {
+      "path": ".work/preview-reuse-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1800,
+      "files": 1
+    },
+    {
+      "path": ".work/push.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 435,
+      "files": 1
+    },
+    {
+      "path": ".work/read_baseline.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 679,
+      "files": 1
+    },
+    {
+      "path": ".work/read_metrics.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 922,
+      "files": 1
+    },
+    {
+      "path": ".work/record-stage-review-metrics.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2889,
+      "files": 1
+    },
+    {
+      "path": ".work/record-stage111-and-forest.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1241,
+      "files": 1
+    },
+    {
+      "path": ".work/record-stage111-results.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 882,
+      "files": 1
+    },
+    {
+      "path": ".work/record-stage111.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 904,
+      "files": 1
+    },
+    {
+      "path": ".work/record_forest_continuation.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/render-stage111-insects.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 310,
+      "files": 1
+    },
+    {
+      "path": ".work/review-final.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3065,
+      "files": 1
+    },
+    {
+      "path": ".work/review-green.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1484,
+      "files": 1
+    },
+    {
+      "path": ".work/review-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2393,
+      "files": 1
+    },
+    {
+      "path": ".work/ring-source-108.glb",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 52132376,
+      "files": 1
+    },
+    {
+      "path": ".work/roundtrip",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 13821,
+      "files": 4
+    },
+    {
+      "path": ".work/roundtrip.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 812,
+      "files": 1
+    },
+    {
+      "path": ".work/save_ring_camera.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 222,
+      "files": 1
+    },
+    {
+      "path": ".work/scene-compile.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1801,
+      "files": 1
+    },
+    {
+      "path": ".work/sdk",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4262224,
+      "files": 8
+    },
+    {
+      "path": ".work/shared-space-integration-complete.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1294,
+      "files": 1
+    },
+    {
+      "path": ".work/shared-space-validation",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 784634625,
+      "files": 1424
+    },
+    {
+      "path": ".work/shared-space-validation.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2901,
+      "files": 1
+    },
+    {
+      "path": ".work/sky-depth-probe-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/sky-radius-probe-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/snapshot_redesign_metrics.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3217,
+      "files": 1
+    },
+    {
+      "path": ".work/spec-behaviors-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1974,
+      "files": 1
+    },
+    {
+      "path": ".work/stage-20261020-before.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 11420,
+      "files": 1
+    },
+    {
+      "path": ".work/stage-final-package.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2090,
+      "files": 1
+    },
+    {
+      "path": ".work/stage-identity-negative.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 513,
+      "files": 1
+    },
+    {
+      "path": ".work/stage-integrated-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2916,
+      "files": 1
+    },
+    {
+      "path": ".work/stage-interface-needs.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2153,
+      "files": 1
+    },
+    {
+      "path": ".work/stage-optimization",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 707256534,
+      "files": 89
+    },
+    {
+      "path": ".work/stage109-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2402,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-delivery-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3004,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-diff-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1261,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-final-validation.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1951,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-ibl.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2240,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-inspect",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 24552,
+      "files": 3
+    },
+    {
+      "path": ".work/stage109-intersections",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3192,
+      "files": 2
+    },
+    {
+      "path": ".work/stage109-package.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2057,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-probe-final.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2085,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-reflection.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2084,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-reviewed-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2414,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-route-tests.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 62,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-routes.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2183,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-sky-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1983,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-sky-probe.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-staged-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 0,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-test-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1998,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-ui.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 230,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-validation.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1988,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-visit-regression-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1994,
+      "files": 1
+    },
+    {
+      "path": ".work/stage109-worn-ui.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 192,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-active-baseline-logcat.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5130,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-active-baseline.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 216338556,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-all-slices.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 9248,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-all-slices.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 412,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-analysis-0.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1229,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-analysis-1.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3729,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-analysis-2.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 119,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-baseline-app.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4962,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-baseline-sched.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 521,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-baseline-session-close.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 165,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-baseline-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 998,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-baseline.apk",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 158767360,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched-app.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5290,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched-cpu.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3086,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched-device.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 540,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched-runtime.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10694,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched-sched.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 521,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1188,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-batched.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 156732687,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2960,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-comparison-cpu.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 529,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-core-6.1.0-classes.jar",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1083339,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-cpu.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3173,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-cpu.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 253,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-entity-bytecode.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 322475,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-foundation-6.1.0-classes.jar",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 133567,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-interaction-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2043,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-live-perf-enabled.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3491,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-live-perf.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3074,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-model-structure.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10828,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-app.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5409,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-cpu.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3148,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-load.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 406,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-record.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 505,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-sched.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 522,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-session-close.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 165,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-slices.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10506,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 995,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation-trace-logs.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 211,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation.apk",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 158767360,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-no-animation.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 122975221,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-opacity-freshness.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 0,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-opacity-phase-comparison.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1690,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-perf-command-inventory.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4258,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-perf-findings.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 15019,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-profiler-cli-0.2.0",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10983775,
+      "files": 86
+    },
+    {
+      "path": ".work/stage110-scheduled-cpu.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 538,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-slices.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10405,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-slices.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 483,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-slowest.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2888,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-trace-load.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 409,
+      "files": 1
+    },
+    {
+      "path": ".work/stage110-trace-record.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 509,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-SceneLighting-probe.kt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 10330,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-a-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2125,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-a-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1079,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-a.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 114893606,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-b-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2129,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-b-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1081,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-b.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 113719598,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-c-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1802,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-c-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1046,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-auto-c.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 150289118,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-baseline-load-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2016,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-budget-counters.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 700,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-build-checks.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2938,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-candidate-cold-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2562,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-candidate-cold-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1230,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-candidate-cold.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 158894212,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-component-bytecode.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 15477,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 9174,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-counters.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 273,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-enter-candidate.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 37217,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-enter-geometry.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 230,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-enter-light-lifecycle.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 230,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-fixed-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2114,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-fixed-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1218,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-fixed.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 110782039,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-garden-review",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 37667068,
+      "files": 11
+    },
+    {
+      "path": ".work/stage111-geometry-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2090,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-geometry-worn-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2456,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-geometry-worn-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1290,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-geometry-worn.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 335657007,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-gpu-slices.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 165,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-insect-review",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 76153126,
+      "files": 26
+    },
+    {
+      "path": ".work/stage111-light-lifecycle-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2901,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-light-lifecycle-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2337,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-light-lifecycle-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1260,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-light-lifecycle.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 237864925,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-near-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2238,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-near-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1106,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-near.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 120506764,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-no-opacity-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1911,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-no-opacity-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1105,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-no-opacity.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 143084243,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-off-counters.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2021,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-off-spatial.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1012,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-off.perfetto-trace",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 144033646,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-probe-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2014,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-probe2-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-shadow-probe.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 11431,
+      "files": 1
+    },
+    {
+      "path": ".work/stage111-tracks.sql",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 92,
+      "files": 1
+    },
+    {
+      "path": ".work/stage112-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2971,
+      "files": 1
+    },
+    {
+      "path": ".work/stage112-progress.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1403,
+      "files": 1
+    },
+    {
+      "path": ".work/staged-whitespace-warnings.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 0,
+      "files": 1
+    },
+    {
+      "path": ".work/staging-warnings.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6810,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-active-missing.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 143062,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-cold-start-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2901,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-cold-start-fixed.apk",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 158767360,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-cold-start-regression.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 354,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-cold-start-run.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 554,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-missing-snapshot.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 192,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-parent-enabled.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 199076,
+      "files": 1
+    },
+    {
+      "path": ".work/studio-relaunch-snapshot.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 192,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-bar-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2079,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4011,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-confirm.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 111986,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-current.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 192,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-delivery-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2901,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-final-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3004,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-final-ui.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 137207,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-hover-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2879,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-hover-ui.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 192,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-preview.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 138452,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2485,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-release-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2901,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-reopen-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1994,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-session.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1485,
+      "files": 1
+    },
+    {
+      "path": ".work/studio107-ui.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 137207,
+      "files": 1
+    },
+    {
+      "path": ".work/studio108-before-check.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 215,
+      "files": 1
+    },
+    {
+      "path": ".work/studio108-before.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 199777,
+      "files": 1
+    },
+    {
+      "path": ".work/subwindow-108.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 30295,
+      "files": 1
+    },
+    {
+      "path": ".work/tabbar-108.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 243532,
+      "files": 1
+    },
+    {
+      "path": ".work/test_diagnostics_metrics.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5313,
+      "files": 1
+    },
+    {
+      "path": ".work/ui-api-probe",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1651,
+      "files": 3
+    },
+    {
+      "path": ".work/ui-lifecycle-log.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 8941,
+      "files": 1
+    },
+    {
+      "path": ".work/ui-state-api-probe.kt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 170,
+      "files": 1
+    },
+    {
+      "path": ".work/ui-state-api-stub.kt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 69,
+      "files": 1
+    },
+    {
+      "path": ".work/ui-window-tests",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 8052,
+      "files": 4
+    },
+    {
+      "path": ".work/update-forest-prompts.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1247,
+      "files": 1
+    },
+    {
+      "path": ".work/update_metrics_v2.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5131,
+      "files": 1
+    },
+    {
+      "path": ".work/uv-proof",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2404,
+      "files": 4
+    },
+    {
+      "path": ".work/uv-proof.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 798,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-delivery-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2982,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-device-actions.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6544,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-device-current.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-device-log.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 16129,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-final-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2982,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-final-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3004,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-integration.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2938,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-material-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2901,
+      "files": 1
+    },
+    {
+      "path": ".work/v2-release-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2500,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-artwork-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3997,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-baseline.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1589,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2963,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-commit.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 40923,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-compile.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 927,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-delivery-commit.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 141,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-diff-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 4134,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-environment-report.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6435,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-final-build.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2964,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-glb-uv-validation.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1926,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-migration-green.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 66,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-migration-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1239,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-model-report.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 9160,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-native-api.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 12105,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-native-probe",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1362238,
+      "files": 12
+    },
+    {
+      "path": ".work/v3-paint-asset-check.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3749,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-paint-report.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 6950,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-paint-tests",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 110386,
+      "files": 21
+    },
+    {
+      "path": ".work/v3-preview-lighting-report.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3672,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-push.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 350,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-regressions.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1484,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-route-reproduction.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 62,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-route-tests",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 207836,
+      "files": 16
+    },
+    {
+      "path": ".work/v3-routes",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5176114,
+      "files": 26
+    },
+    {
+      "path": ".work/v3-routes-report.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 5938,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-stage-close-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1997,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-stage-files.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 11282,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-staged-check.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 170,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-store-red.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 480,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-store-version-green.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 64,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-template-validation.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1686,
+      "files": 1
+    },
+    {
+      "path": ".work/v3-ui-probe",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1691410,
+      "files": 10
+    },
+    {
+      "path": ".work/v3-ui-report.md",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 3922,
+      "files": 1
+    },
+    {
+      "path": ".work/verification-2.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2982,
+      "files": 1
+    },
+    {
+      "path": ".work/verify-v3-paint.ps1",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2887,
+      "files": 1
+    },
+    {
+      "path": ".work/verify-v3-routes.ps1",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2303,
+      "files": 1
+    },
+    {
+      "path": ".work/verify_apk_assets.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 668,
+      "files": 1
+    },
+    {
+      "path": ".work/verify_shared_delivery.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2325,
+      "files": 1
+    },
+    {
+      "path": ".work/visual-redesign-image-calls.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2,
+      "files": 1
+    },
+    {
+      "path": ".work/visual-redesign-metrics.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 517,
+      "files": 1
+    },
+    {
+      "path": ".work/visual-review-app.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 379439,
+      "files": 1
+    },
+    {
+      "path": ".work/water-probe-pack.log",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2126,
+      "files": 1
+    },
+    {
+      "path": ".work/whitespace-warnings.txt",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2950,
+      "files": 1
+    },
+    {
+      "path": ".work/write-stage111-forest-metrics.py",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 2166,
+      "files": 1
+    },
+    {
+      "path": ".work/wrong-stage-manifest.json",
+      "reason": "临时构建、诊断包、重复编辑器工程；小型日志另行压缩留存",
+      "bytes": 1206,
+      "files": 1
+    },
+    {
+      "path": "app/build",
+      "reason": "可再生的本项目缓存或已完成任务状态",
+      "bytes": 672235860,
+      "files": 1417
+    },
+    {
+      "path": "assets-src/run-20261008-174225-0a54030f.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 673,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-174225-0a54030f.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9383,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-180020-e315cd13.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 673,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-180020-e315cd13.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9478,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-180433-53a191dc.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 673,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-180433-53a191dc.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9573,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-181038-953cdce4.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 673,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-181038-953cdce4.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9750,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-182324-55fbfa06.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 673,
+      "files": 1
+    },
+    {
+      "path": "assets-src/run-20261008-182324-55fbfa06.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9954,
+      "files": 1
+    },
+    {
+      "path": "docs/Implementation-V2.md",
+      "reason": "已被实际交付记录替代的实施计划或初版检查清单；设计、结果、用量、复盘保留",
+      "bytes": 5266,
+      "files": 1
+    },
+    {
+      "path": "docs/Implementation-V3.md",
+      "reason": "已被实际交付记录替代的实施计划或初版检查清单；设计、结果、用量、复盘保留",
+      "bytes": 3354,
+      "files": 1
+    },
+    {
+      "path": "docs/Review.md",
+      "reason": "已被实际交付记录替代的实施计划或初版检查清单；设计、结果、用量、复盘保留",
+      "bytes": 1893,
+      "files": 1
+    },
+    {
+      "path": "docs/Stage-112-Integration-Plan.md",
+      "reason": "已被实际交付记录替代的实施计划或初版检查清单；设计、结果、用量、复盘保留",
+      "bytes": 1125,
+      "files": 1
+    },
+    {
+      "path": "docs/Validation.md",
+      "reason": "已被实际交付记录替代的实施计划或初版检查清单；设计、结果、用量、复盘保留",
+      "bytes": 4042,
+      "files": 1
+    },
+    {
+      "path": "scripts/__pycache__",
+      "reason": "Python 缓存",
+      "bytes": 463277,
+      "files": 32
+    },
+    {
+      "path": "scripts/assets_v3_package.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 6037,
+      "files": 1
+    },
+    {
+      "path": "scripts/assets_v3_routes.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 13020,
+      "files": 1
+    },
+    {
+      "path": "scripts/assets_v3_runtime.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 11131,
+      "files": 1
+    },
+    {
+      "path": "scripts/bake_garden_water_probe.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 2632,
+      "files": 1
+    },
+    {
+      "path": "scripts/build_emerald_review_sun.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": "scripts/build_ring_garden.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 12523,
+      "files": 1
+    },
+    {
+      "path": "scripts/inspect_emerald_source_transforms.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 977,
+      "files": 1
+    },
+    {
+      "path": "scripts/pack_emerald_water.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 1920,
+      "files": 1
+    },
+    {
+      "path": "scripts/pack_garden_water_probe.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 2149,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_assets_v3_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 4694,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_implementation_v3_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 5174,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_render_fix_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 3985,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_ring_manifest.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 1923,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_shared_preview_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 4967,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_stage109_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 4716,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_stage112_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 2632,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_stage_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 3472,
+      "files": 1
+    },
+    {
+      "path": "scripts/record_studio_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 5828,
+      "files": 1
+    },
+    {
+      "path": "scripts/render_stage_comparison.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 3061,
+      "files": 1
+    },
+    {
+      "path": "scripts/snapshot_emerald_native_scene.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 4112,
+      "files": 1
+    },
+    {
+      "path": "scripts/update_metrics.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 4170,
+      "files": 1
+    },
+    {
+      "path": "scripts/verify_ring_garden.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 2779,
+      "files": 1
+    },
+    {
+      "path": "scripts/verify_stage111_garden_blender.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 2486,
+      "files": 1
+    },
+    {
+      "path": "scripts/verify_stage_bundle.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 4824,
+      "files": 1
+    },
+    {
+      "path": "scripts/verify_stage_candidate.py",
+      "reason": "已完成阶段的专用统计、旧环境同步或一次性诊断入口；当前校验/生成链保留",
+      "bytes": 3097,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/back.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 2415951,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/emerald-forest-review.blend",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 43204967,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/emerald-forest-review.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 110281937,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/forest-panorama-source.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 3571005,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/forest-panorama.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 3843721,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/front.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 2526733,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/left.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 2460812,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/right.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 2472886,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-165227-f3837d65.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 731,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-165227-f3837d65.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16074,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-165657-dff914f9.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 731,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-165657-dff914f9.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16850,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-170301-71c1d034.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 731,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-170301-71c1d034.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16848,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-170618-a97ee4ca.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 731,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-170618-a97ee4ca.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16848,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-171340-1c887c6c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 753,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-171340-1c887c6c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 10070,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-171737-872fe929.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 753,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-review/run-20261020-171737-872fe929.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 10069,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-back-integrated.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7601585,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-back-water-t1.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7600108,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-bed-hidden.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7380072,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-canopy-without-bare-trunks.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 9048220,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-fern-corrected.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6472797,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-front-baseline.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7360049,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-front-integrated.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7029357,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-front-materials.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7845658,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-left-integrated.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 8143918,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-light-balanced.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6649015,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-light-material-correction.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7162350,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-native-portable.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 4063760,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-native-sun-default.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6913729,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-native-sun-no-shell.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7287954,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-native-sun-shadow.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6862724,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-reopen-check.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6499147,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-reopen-one-sky.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6684429,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-right-integrated.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7952129,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-shadow-persisted.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6892741,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-shore-v3-front.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6534508,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-shore-v3-right.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6447925,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-sky-shadow-disabled.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6938635,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-sun-no-shell.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7213504,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-sun-usd-active.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6866381,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-sun-usd-first.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6864028,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-water-depth-write.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6533260,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-water-hidden.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6520457,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-water-strong.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 8340112,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-water-tileable-bed.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 7094055,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/editor-without-bare-trunks.png",
+      "reason": "重复编辑器截图；六向最终图、水波对照和关键失败证据保留",
+      "bytes": 6048907,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/emerald-forest-review.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 83473180,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-194544-098235c5.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 720,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-194544-098235c5.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17365,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-195656-3eabba43.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 720,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-195656-3eabba43.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18801,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-200140-1a36df25.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 720,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-200140-1a36df25.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18683,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-200932-13489993.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 741,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-200932-13489993.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9437,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-201905-d9bddece.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 718,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-201905-d9bddece.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18115,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-202921-86c84612.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-202921-86c84612.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-203408-0a685caf.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-203408-0a685caf.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 3347,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-203539-805bac50.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-203539-805bac50.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18345,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-203904-8aafc140.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-203904-8aafc140.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18345,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-204702-dedfe8c9.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-204702-dedfe8c9.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18353,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-211554-5d016945.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 717,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-211554-5d016945.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18027,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-213842-7ee236be.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261020-213842-7ee236be.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18033,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-193606-2ed702d5.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-193606-2ed702d5.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 18034,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-200428-d5dd68f3.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-200428-d5dd68f3.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16184,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-200718-b6e982c9.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 740,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-200718-b6e982c9.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 3996,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-200755-11d102b3.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 741,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-200755-11d102b3.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9512,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-201417-2332ba78.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/run-20261021-201417-2332ba78.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17868,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/ForestSun.glb",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 592,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/ForestSun.usda",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 473,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/NativeSun.usda",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 514,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/insect-contact-review.glb",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 62009032,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/run-20261021-195135-e7f887aa.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 738,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/run-20261021-195135-e7f887aa.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 10535,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/.CacheData",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 706893635,
+      "files": 163
+    },
+    {
+      "path": "assets-src/emerald-native-scene/.Component",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 2,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/.Library",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 21277777,
+      "files": 3
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Build",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 207779138,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/ModelView",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 46,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/UserSettings",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 2175,
+      "files": 3
+    },
+    {
+      "path": "assets-src/emerald-native-scene/pack-output.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 462,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142059-883f5ecd.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 709,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142059-883f5ecd.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 3017,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142150-e8acc256.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 708,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142150-e8acc256.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 3018,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142241-f1822537.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 709,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142241-f1822537.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 3018,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142342-2cee30ee.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 707,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-142342-2cee30ee.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2798,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-143509-b9103731.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 709,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-143509-b9103731.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 3018,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-143620-4a4e62a1.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 709,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-routes/run-20261022-143620-4a4e62a1.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2798,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/.CacheData",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 44417309,
+      "files": 50
+    },
+    {
+      "path": "assets-src/emerald-water-editor/.Component",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 23,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/Build",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 2142040,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/UserSettings",
+      "reason": "编辑器或工具缓存，可由保留的正式源文件重建",
+      "bytes": 2414,
+      "files": 5
+    },
+    {
+      "path": "assets-src/emerald-water-editor/pack-output.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 454,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-basis.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1871384,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-calm-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 2300322,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-calm-t1.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 2295435,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-dual-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1559402,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-dual-t1.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1561617,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-editor-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 262280,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-editor-t1.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 262280,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-final-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 6259709,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-final-t1.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 6259683,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-fixed-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 334889,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-fixed-t1.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1910653,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-forest-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 6017979,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-strong-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 6388934,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-tangent-t0.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 208221,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/water-texture-diagnostic.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1154963,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-optimized/near-wood.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1622435,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-optimized/overview.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1614157,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-optimized/water.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1395441,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/ApprovedGardenRoutes.kt",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 102656,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/back.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1213361,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/front.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1396956,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/garden-ring.blend",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 64926017,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/garden-ring.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 64951494,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/left.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1371282,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/lighting",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 15161403,
+      "files": 12
+    },
+    {
+      "path": "assets-src/stage-ring/right.png",
+      "reason": "过期场景/水面试验图或旧复合 Blender 文件；小型结果与失败记录保留",
+      "bytes": 1236832,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-181535-3baf037c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 699,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-181535-3baf037c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 11340,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-181919-1df98e15.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 699,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-181919-1df98e15.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 11340,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-182433-44e4e955.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 699,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-182433-44e4e955.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 11340,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-182715-ae81c69e.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 699,
+      "files": 1
+    },
+    {
+      "path": "assets-src/stage-ring/run-20261019-182715-ae81c69e.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2829,
+      "files": 1
+    },
+    {
+      "path": "docs/superpowers/plans",
+      "reason": "已被实际交付记录替代的实施计划或初版检查清单；设计、结果、用量、复盘保留",
+      "bytes": 13687,
+      "files": 4
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/sources/forest_slope_4k.exr.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/sources/jacaranda_tree",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 6811308,
+      "files": 12
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/sources/mossy_forest.jpg",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 11070548,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/sources/mossy_rock_diff_1k.jpg",
+      "reason": "未采用的试验素材",
+      "bytes": 1124438,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/sources/mossy_rock_nor_gl_1k.jpg",
+      "reason": "未采用的试验素材",
+      "bytes": 995727,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-forest-v2/sources/mossy_rock_rough_1k.jpg",
+      "reason": "未采用的试验素材",
+      "bytes": 780918,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/bankalbedo.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/banknormal.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/fern_02_diff-fern_02_alpha-fern_02_alpha_1k.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/fern_02_nor_gl_1k.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2170,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/forest-ground-albedo.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/lotus_emerald_pigment.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/lotus_leaf_normal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/petal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/rockalbedo.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/rocknormal.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-materials/Textures/waternormal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-205007-fe4bfa2e.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 696,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-205007-fe4bfa2e.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 880,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-205155-6f730b40.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 697,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-205155-6f730b40.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2381,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-210319-9e1f58ca.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 697,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-210319-9e1f58ca.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2575,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-211017-65ec6488.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 697,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-211017-65ec6488.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2577,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-211351-dfcb31d3.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 697,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/garden/run-20261008-211351-dfcb31d3.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 1249,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-203755-6d4d6d43.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 701,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-203755-6d4d6d43.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 21534,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-204735-52392094.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 701,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-204735-52392094.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16392,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-205600-727de1de.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 701,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-205600-727de1de.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13070,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-210127-87d3512c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 699,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-210127-87d3512c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 6969,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-210241-bb5da7ec.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 701,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-210241-bb5da7ec.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13072,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-210639-d96b962c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 701,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-210639-d96b962c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13113,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-211047-79f75db1.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 721,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v2/insects/run-20261008-211047-79f75db1.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8736,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/beetle-natural-setting.blend",
+      "reason": "可重复生成的检查布景",
+      "bytes": 25554250,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/beetle.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 21282087,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-104651-0bd8f707.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 783,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-104651-0bd8f707.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 15400,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105325-f7ad9991.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 782,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105325-f7ad9991.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 15399,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105758-26d8eef3.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 795,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105758-26d8eef3.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14938,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105823-ad86ac36.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 827,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105823-ad86ac36.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 840,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105900-0d3aea7e.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 795,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-105900-0d3aea7e.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8998,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110230-2fbda6e2.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 782,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110230-2fbda6e2.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 15494,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110548-31a95cf2.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 795,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110548-31a95cf2.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 15031,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110721-39991247.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 793,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110721-39991247.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9051,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110731-ce48259b.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 846,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-110731-ce48259b.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 733,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-111114-a789c8d7.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 784,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-111114-a789c8d7.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16220,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-111546-ae06ae99.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 777,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-111546-ae06ae99.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 1784,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-112056-4012900c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 794,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-112056-4012900c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 959,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-112106-07859837.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 804,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-112106-07859837.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9336,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-113623-58ee660e.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 805,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-113623-58ee660e.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 1450,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-113752-e9143ec9.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 810,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/beetle/run-20261009-113752-e9143ec9.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9812,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_antenna_groom-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321814,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_antenna_groom-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321903,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_antenna_groom-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 323234,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_fly-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 320009,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_fly-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321892,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_fly-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 297022,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_idle_perch-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321973,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_idle_perch-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321715,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_idle_perch-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 323552,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_perch_touch-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321978,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_perch_touch-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 319909,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_perch_touch-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 316831,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_startle-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 321995,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_startle-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 320861,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/animation-butterfly_startle-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 301769,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/butterfly.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 22422053,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261008-214923-35d9fcd2.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 763,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261008-214923-35d9fcd2.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 15645,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-103056-e977f8d0.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 772,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-103056-e977f8d0.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 7554,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-104045-01e95738.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 772,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-104045-01e95738.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 7749,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-105043-261694cf.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 777,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-105043-261694cf.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17833,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-111556-5f841603.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-111556-5f841603.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 1062,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-111822-7c41aa97.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 798,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-111822-7c41aa97.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 4885,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-112537-d3a3c899.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 799,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/butterfly/run-20261009-112537-d3a3c899.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 6441,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_crawl-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 289721,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_crawl-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 289724,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_crawl-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290786,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_explore-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290516,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_explore-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290464,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_explore-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290962,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_idle_breathe-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290761,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_idle_breathe-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290973,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_idle_breathe-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 291152,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_recoil-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290714,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_recoil-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290305,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_recoil-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 287988,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_touch_curiosity-0.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290765,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_touch_curiosity-1.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290428,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/animation-caterpillar_touch_curiosity-2.png",
+      "reason": "单帧动画中间图；动画接触表、批准模型与检查结果保留",
+      "bytes": 290732,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/caterpillar.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9930514,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261008-214943-6a0f417b.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 769,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261008-214943-6a0f417b.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 16167,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-103102-b8a1aea5.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 778,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-103102-b8a1aea5.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8041,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-104045-b93c387b.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 778,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-104045-b93c387b.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8113,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-110702-b33c69c8.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 803,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-110702-b33c69c8.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 10097,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-111123-6031f315.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 783,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-111123-6031f315.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 21523,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-112824-22831ed1.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 805,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/caterpillar/run-20261009-112824-22831ed1.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 7614,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/garden-naturalized.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 68412988,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/garden-roundtrip.blend",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 109867708,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/garden-roundtrip.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 109867666,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/garden.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 31421564,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/lighting",
+      "reason": "已替代的试验/复合预览产物；当前正式源场景及其全部引用保留",
+      "bytes": 12836450,
+      "files": 8
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261008-214741-53b6bb41.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 746,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261008-214741-53b6bb41.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 1049,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261008-214909-72969207.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 746,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261008-214909-72969207.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 22937,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261008-215118-0eae2cde.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 749,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261008-215118-0eae2cde.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 22254,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-103343-15b47381.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 756,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-103343-15b47381.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 21202,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-104359-8ac2a025.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 836,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-104359-8ac2a025.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 484,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-105248-887241ba.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 756,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-105248-887241ba.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 19993,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-110218-12422dfe.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-110218-12422dfe.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14116,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-111203-0211fad4.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 718,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-111203-0211fad4.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 6988,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-111430-fe189707.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 721,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-111430-fe189707.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17566,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-111738-7e272c48.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-111738-7e272c48.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17566,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-112159-31c9c9bc.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-112159-31c9c9bc.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13369,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-112636-15e9503a.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 733,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-112636-15e9503a.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 20993,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-112845-bf981476.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-112845-bf981476.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17565,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-114409-01437b1c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-114409-01437b1c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13459,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-115044-89a79858.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-115044-89a79858.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17565,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-115220-3fe8baa1.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-115220-3fe8baa1.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 26169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-115937-d4017930.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 734,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-115937-d4017930.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 20993,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120243-8730927a.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120243-8730927a.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17565,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120315-b1646710.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120315-b1646710.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 24148,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120719-a3f8afb1.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 720,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120719-a3f8afb1.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 7589,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120957-a2e4c034.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 731,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-120957-a2e4c034.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 20993,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121114-81e4158f.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121114-81e4158f.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17908,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121155-81ffd889.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121155-81ffd889.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 24484,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121855-26bfcb14.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 723,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121855-26bfcb14.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17894,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121924-07938968.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-121924-07938968.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 24360,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122125-fb4656ad.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122125-fb4656ad.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17894,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122133-8afdbe87.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122133-8afdbe87.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 24360,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122327-62d5f3ba.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122327-62d5f3ba.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 17895,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122357-236cf412.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 722,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122357-236cf412.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 24360,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122716-43af99cd.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 719,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/garden/run-20261009-122716-43af99cd.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 7577,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/ladybug-natural-setting.blend",
+      "reason": "可重复生成的检查布景",
+      "bytes": 20994209,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/ladybug.blend1",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 19394770,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-103421-e5a4f9cb.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 775,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-103421-e5a4f9cb.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14969,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-104532-f881851c.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 786,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-104532-f881851c.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14617,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-104809-a8ed5edd.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 798,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-104809-a8ed5edd.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8416,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105222-e6c929cb.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 785,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105222-e6c929cb.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14486,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105411-f62a3ec4.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105411-f62a3ec4.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8414,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105549-6d02ec46.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 785,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105549-6d02ec46.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14392,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105758-3b37d003.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 798,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105758-3b37d003.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13932,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105900-180da442.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 798,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-105900-180da442.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8360,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-110434-7eb4598f.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-110434-7eb4598f.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 13932,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-110459-c58a893f.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 797,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-110459-c58a893f.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8357,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-110644-a175f6a0.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 849,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-110644-a175f6a0.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 736,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-111114-97cd3543.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 787,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-111114-97cd3543.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 15122,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-111536-74d05ebb.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 785,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-111536-74d05ebb.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 14393,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-111709-8c3d78c7.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 789,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-111709-8c3d78c7.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 969,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-113117-597b14ba.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 810,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-113117-597b14ba.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 1943,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-113407-fb5a203b.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 813,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-113407-fb5a203b.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 9120,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-114110-da0801a3.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 814,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-114110-da0801a3.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 836,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-114149-15b835e3.json",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 809,
+      "files": 1
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/run-20261009-114149-15b835e3.log",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 8948,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/00e5df6de980-238518156925075476.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/00e5df6de980-31226443761451028.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/01c550114003-146335252376191017.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/07c1513c9b64-146335252376191091.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/0af1213bdebd-146335252376191049.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/12eecc1fe93a-146335252376191025.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/15ce22e8a062-146335252376191015.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/1793bbea74e1-146335252376191027.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/195ac6c1a94f-238518156925075508.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2167,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/195ac6c1a94f-31226443761451060.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2167,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/1c0cf9130763-146335252376191039.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2167,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/1d8d64adecda-146335252376191047.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/22fc879d28f9-lotus_leaf_normal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/25d35dfc586d-238518156925075485.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/25d35dfc586d-31226443761451030.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/27604cd185a0-146335252376191098.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/2bac85cdc769-bankalbedo.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/2ebbca60ff1d-waternormal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/343287cbc7ee-31226443761451056.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2164,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/365925af3625-146335252376191093.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/3c3a84338bc1-146335252376191077.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2179,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/40cea65d8aa4-rockalbedo.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/48d5011c7117-146335252376191066.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/5112cb1eba3c-238518156925075489.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/5112cb1eba3c-31226443761451036.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/52f6c2c6015b-238518156925075483.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/52f6c2c6015b-31226443761451038.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2166,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/53421cdfc47e-petal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2170,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/53a308929b88-31226443761451055.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2170,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/53a4371be383-146335252376190990.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/599684e856a1-146335252376190998.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/5de11e715814-146335252376191051.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/617a628bdb57-146335252376191033.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/68271cf7a7df-146335252376191029.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/694f63c2ed3b-146335252376191043.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/69a60cfaaf31-146335252376191083.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/6cc85aaff772-31226443761451053.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2170,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/6d82fddc0e55-petal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2170,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/73f4ee6876e9-146335252376191004.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/76e9db5ad90c-146335252376191035.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/77c9dcecf62b-146335252376191056.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/79680496db98-146335252376190996.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/7d7afc7bb470-fern_02_nor_gl_1k.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2170,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/7f61840b479b-146335252376191019.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2165,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/884b5f62e1e4-146335252376191045.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/8d6214559b5c-146335252376191031.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/944027844dbd-146335252376191097.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/9824f259b162-146335252376191000.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/992bd74ec609-146335252376190992.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/9ad207bb4b85-146335252376191094.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/9ae6a66e83f5-146335252376191087.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/9cd61e3b552c-146335252376191054.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/a288ae9695a9-238518156925075507.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2167,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/a288ae9695a9-31226443761451059.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2167,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/a446679f0271-146335252376191075.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2179,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/a51cbaaaf779-146335252376191096.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/a8f7ac7f6b25-146335252376191095.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/b75ace89c969-lotus_emerald_pigment.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/b8aca23d359e-238518156925075481.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/b8aca23d359e-31226443761451032.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/c08b23d816b0-146335252376191081.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2179,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/c1cf3bc99462-146335252376191085.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/c47f27971d50-146335252376191089.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/c7a5080c1123-146335252376191013.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/cf6a40ab24f4-banknormal.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/d03bfd1a636e-146335252376191011.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/d0f2cdca0884-146335252376190994.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/d1f1a275f849-146335252376191064.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/d5e6e64a22dc-146335252376191068.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/da47c56797c4-146335252376191007.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/dc2594f8b461-lotus_emerald_pigment.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/dd7508ee819a-238518156925075487.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/dd7508ee819a-31226443761451034.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/e10f44b18f05-146335252376191023.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/e11b2d1e9583-238518156925075474.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/e11b2d1e9583-31226443761451026.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2172,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/eb4aad3f207f-rocknormal.jpg.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/ed112f32d9bc-146335252376191021.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2171,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/edd9fe2ba802-146335252376191002.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2169,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/f64199c7387f-fern_02_diff-fern_02_alpha-fern_02_alpha_1k.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/fa456baf90f5-146335252376191037.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/fdf3fc6bde20-146335252376191062.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2175,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/fe5bb7748147-146335252376191079.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2179,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-native-scene/Sources/Resources/fee5e970782b-146335252376191041.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2173,
+      "files": 1
+    },
+    {
+      "path": "assets-src/emerald-water-editor/Sources/Textures/waternormal.png.picometa",
+      "reason": "编辑器元数据、自动备份或已压缩留存的执行日志",
+      "bytes": 2177,
+      "files": 1
+    }
+  ],
+  "deletedTrackedCounts": {
+    "assets-src": 105,
+    "scripts": 26,
+    "docs": 9
+  },
+  "validation": {
+    "version": "1.0.12",
+    "apk": "deliverables/BugWorld-1.0.12.apk",
+    "bytes": 225401041,
+    "sha256": "6b319e199013762c6540f2953c174f567d91f5c0b4c8e0656e17e38af82fd3f9",
+    "packagedV3Files": 35,
+    "unchangedApprovedFiles": [
+      "models/butterfly.glb",
+      "models/beetle.glb",
+      "models/ladybug.glb",
+      "models/caterpillar.glb",
+      "ui/brand/bugworld-logo.png",
+      "ui/icons/album-64.png",
+      "ui/icons/close-64.png",
+      "ui/icons/crayon-64.png",
+      "ui/icons/eraser-64.png",
+      "ui/icons/fill-64.png",
+      "ui/icons/leaf-64.png",
+      "ui/icons/preview-64.png",
+      "ui/icons/redo-64.png",
+      "ui/icons/save-64.png",
+      "ui/icons/undo-64.png",
+      "ui/species/butterfly-96.png",
+      "ui/species/beetle-96.png",
+      "ui/species/ladybug-96.png",
+      "ui/species/caterpillar-96.png",
+      "templates/butterfly-lines.png",
+      "templates/butterfly-mask.png",
+      "templates/beetle-lines.png",
+      "templates/beetle-mask.png",
+      "templates/ladybug-lines.png",
+      "templates/ladybug-mask.png",
+      "templates/caterpillar-lines.png",
+      "templates/caterpillar-mask.png"
+    ],
+    "bundleSha256": "103b3f7ce4b0e73652b7453b61996fe192e003763325fa3293aca1e32f6703b6",
+    "iblSha256": "2cd0eafbc68f31917d43564a3e61895f23d7ecb941d8fbed878d342a6882dc65",
+    "routeCount": 20,
+    "maximumRouteInterpolationGapMetres": 0.0007581710815429688,
+    "unitTests": 119,
+    "lintErrors": 0,
+    "lintWarnings": 34,
+    "status": "Package verified. This command does not establish installation, headset appearance or performance."
+  },
+  "nativeValidation": {
+    "status": "passed",
+    "dependencyFiles": 73,
+    "relativeReferences": 127,
+    "waterMotion": {
+      "water": {
+        "normalizedRoi": [
+          0.02,
+          0.72,
+          0.22,
+          0.94
+        ],
+        "meanAbsoluteRgbDelta": 4.5450758934021,
+        "fractionPixelsDeltaAbove3": 0.5377477028141725
+      },
+      "staticBackground": {
+        "normalizedRoi": [
+          0.35,
+          0.02,
+          0.55,
+          0.12
+        ],
+        "meanAbsoluteRgbDelta": 0.0,
+        "fractionPixelsDeltaAbove3": 0.0
+      }
+    },
+    "editorViews": [
+      {
+        "view": "front",
+        "sha256": "f907b31530dcb810711b16d5d1346a077f9ec67477e1a2a6d803b099f3076611"
+      },
+      {
+        "view": "right",
+        "sha256": "184ffb00353874cb634fa96cba11468e93ddda8afdbb29e1a3786c468a8125e6"
+      },
+      {
+        "view": "back",
+        "sha256": "a928b5ee4cd6fc6f54d7e1bbe5f1c6bc6aa7ec2ffc585cc926325012487548a3"
+      },
+      {
+        "view": "left",
+        "sha256": "d2feed69c333ed8dffeb9dd3da776def4c00f4e503ad05a04b0e3559b02830e9"
+      },
+      {
+        "view": "seated",
+        "sha256": "5aa4dfb32057f0f91de678576436649bf72358746205154e546f437115336883"
+      },
+      {
+        "view": "canopy",
+        "sha256": "23d35daf3ad2bab12c2d76ed81c51a3d293f5c3a0a9246f797f268aef8a95df9"
+      }
+    ],
+    "bundleSha256": "f3ab58b676826b4d5562336e902485c421bae623907c51734ea95026915686a3",
+    "bundleVerifiedThisRun": false,
+    "headsetVerified": false,
+    "performanceMeasured": false,
+    "scope": "Portable references, native component declarations and recorded fixed-camera pixel motion. Bundle verification is optional and reported separately; no Android/GPU acceptance."
+  },
+  "protectedFilesUnchanged": 207,
+  "afterBytes": 3329216287,
+  "releasedBytes": 10831497766,
+  "afterFiles": 859,
+  "afterTopLevelBytes": {
+    ".gitattributes": 109,
+    ".gitignore": 1650,
+    "AGENTS.md": 918,
+    "BugWorld-Design.md": 11675,
+    "build.gradle.kts": 219,
+    "gradle.properties": 1347,
+    "gradlew": 5766,
+    "gradlew.bat": 2674,
+    "local.properties": 420,
+    "README.md": 2993,
+    "settings.gradle.kts": 1057,
+    ".git": 1632709055,
+    ".gradle": 2315504,
+    ".work": 1345751,
+    "app": 193993379,
+    "assets-src": 1245838725,
+    "deliverables": 225401041,
+    "docs": 27088587,
+    "gradle": 61276,
+    "scripts": 434141
+  },
+  "gitMaintenance": "git gc with default retention; connectivity fsck exit 0; no history rewrite",
+  "finalCacheCleanup": "Direct bulk cache deletion blocked by automatic policy (no detailed reason); safer Gradle clean succeeded. Small current audit files and project Gradle cache retained."
+}

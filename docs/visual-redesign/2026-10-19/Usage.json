@@ -1,0 +1,19 @@
+{
+  "phase": "Stage design review, no app implementation",
+  "startUTC": "2026-10-19T09:26:10.611000+00:00",
+  "snapshotUTC": "2026-10-19T09:36:19.210836+00:00",
+  "tokenCounterAsOfUTC": "2026-10-19T09:35:32.961Z",
+  "wallSeconds": 608,
+  "mainThreadTokenDelta": {
+    "input_tokens": 2835159,
+    "cached_input_tokens": 2761856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 13170,
+    "reasoning_output_tokens": 5872,
+    "total_tokens": 2848329
+  },
+  "picoCliCalls": 0,
+  "imagegenCalls": 2,
+  "imagegenBackendTokens": null,
+  "limits": "Main thread visible token counters only; includes cached input and reasoning output within their parent totals. Image backend tokens unavailable; wall time includes tool and review waits. No billing estimate."
+}
