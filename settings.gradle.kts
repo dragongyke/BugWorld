@@ -18,6 +18,12 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        providers.gradleProperty("picoSdkMavenDir").orNull?.let { directory ->
+            maven {
+                url = uri(directory)
+                content { includeGroupByRegex("com[.]pico[.]spatial.*") }
+            }
+        }
         google()
         mavenCentral()
         maven {

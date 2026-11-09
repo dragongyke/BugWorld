@@ -51,3 +51,5 @@ adb shell am start -n com.bugworld.app/.platform.LaunchActivity
 [产品设计](BugWorld-Design.md) · [动画设计](docs/Insect-Animation-Design.md) · [用量](docs/Implementation-Metrics.md) · [复盘](docs/Troubleshooting-Retrospective.md)
 
 使用 `codex/` 功能分支，禁止直接提交或推送 main。
+
+GitHub 构建可通过 `-PpicoSdkMavenDir=<SDK Maven 目录>` 指向本地 SDK Maven 仓库。该目录需要包含 PICO Spatial SDK 6.1.0 及其 UI 1.0.4 传递依赖。本机验证使用已有的 SDK 缓存，SDK 二进制未随源码发布。
