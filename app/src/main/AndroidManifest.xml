@@ -6,15 +6,16 @@
         android:name=".platform.SpatialApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_spatial_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_spatial_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.BugWorldTheme"
         tools:targetApi="31">
 
         <activity
             android:name=".platform.LaunchActivity"
+            android:icon="@mipmap/ic_spatial_launcher"
             android:exported="true"
             android:theme="@style/Theme.BugWorldTheme">
             <intent-filter>
@@ -86,6 +87,8 @@
                 android:value="0"/>
         </activity>
 
+        <meta-data android:name="icon.3d.list" android:resource="@array/icon_3d_list" />
+        <meta-data android:name="icon.sdf.list" android:resource="@array/icon_sdf_list" />
     </application>
 
 </manifest>

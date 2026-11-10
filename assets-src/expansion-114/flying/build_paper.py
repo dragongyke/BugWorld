@@ -93,7 +93,9 @@ def render(slug):
     raw=cleaned.copy(); rgb=np.zeros((1024,1024,3),np.uint8);rgb[:,:,0]=raw
     Image.fromarray(rgb).save(V3/'templates'/f'{slug}-mask.png',optimize=True)
     lines=lines.resize((1024,1024),Image.Resampling.LANCZOS)
-    lines.save(V3/'templates'/f'{slug}-lines.png',optimize=True)
+    pythonpath.insert(0, str(SOURCE))
+    from finish_outline import finish_outline
+    finish_outline(lines, Image.fromarray(rgb)).save(V3/'templates'/f'{slug}-lines.png', optimize=True)
     icon=lines.resize((96,96),Image.Resampling.LANCZOS); alpha=icon.getchannel('A')
     # Increase optical stroke weight at the small 96px native size.
     alpha=alpha.filter(ImageFilter.MaxFilter(3))

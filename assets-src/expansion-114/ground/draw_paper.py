@@ -108,10 +108,16 @@ def make(kind):
     antialias=ink.resize((1024,1024),Image.Resampling.LANCZOS)
     alpha=np.rint((255-np.asarray(antialias)[:,:,1].astype(float))/(255-INK[1])*255).clip(0,255).astype('uint8')
     outline=Image.new('RGBA',(1024,1024),INK+(255,))
-    outline.putalpha(Image.fromarray(alpha));outline.save(RUNTIME/f'templates/{kind}-lines.png')
+    outline.putalpha(Image.fromarray(alpha))
     m=np.asarray(mask)
     rgb=np.zeros((1024,1024,3),dtype=np.uint8);rgb[:,:,0]=m
-    Image.fromarray(rgb).save(RUNTIME/f'templates/{kind}-mask.png')
+    region_image = Image.fromarray(rgb)
+    region_image.save(RUNTIME/f'templates/{kind}-mask.png')
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from finish_outline import finish_outline
+    outline = finish_outline(outline, region_image)
+    outline.save(RUNTIME/f'templates/{kind}-lines.png', optimize=True)
     # Colored pencil with broken directional strokes, cross-grain, flecks and darker fibres.
     rng=random.Random(346 if kind=='ant' else 899)
     palette=np.array([(151,119,76),*PALETTE[kind]],dtype=float)
