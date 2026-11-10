@@ -277,3 +277,4 @@
 - **证据**。1.0.15 真机升级后仍显示默认图标。该版将应用入口改为 Android adaptive icon，并移除了原 PICO 模板声明的两组空间图标数组。
 - **候选**。恢复 `icon.3d.list` 和 `icon.sdf.list` 声明及前后景顺序，将默认图案换成 BugWorld 的蝶与叶。为 Application 和入口 Activity 同时提供同一图案的 PNG，兼容读取标准 Android 图标的入口。
 - **回归**。验证 APK 版本、图标清单引用和打包资源。真机升级后启动器是否立即显示新图案仍待确认。
+- **2026-11-10 真机补测**。ADB 覆盖安装 1.0.16 成功，冷启动完成，主画板日志进入 SHARED。PICO IconService 读到新版 APK 的应用图标资源，随后持续报告空间图标生成中。系统截屏返回 Capturing failed，因此保留启动器显示待确认状态。
