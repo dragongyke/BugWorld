@@ -23,14 +23,14 @@ import com.pico.spatial.ui.foundation.hover.*
     val orbLabel=stringResource(R.string.return_orb)
     val group=remember { SpatialHoverEffectGroup.obtain() }
     Column(Modifier.size(200.dp,144.dp),horizontalAlignment=Alignment.CenterHorizontally) {
-        Text(stringResource(R.string.return_canvas),color=Color.White,fontSize=18.sp,modifier=Modifier
-            .spatialHoverEffectGroup(group.behavior(SpatialHoverEffectGroup.Behavior.Responder))
-            .spatialHoverEffect { hover -> animation(tween(durationMillis=160)) { alpha(if(hover.isActive) 1f else 0f) } })
+        Text(stringResource(R.string.return_canvas),color=Color(0xFFFFF3D6),fontSize=17.sp,
+            modifier=Modifier.background(Color(0xDD253D32), CircleShape)
+                .clickable(enabled=enabled,onClick=exit).padding(horizontal=12.dp,vertical=4.dp))
         Spacer(Modifier.height(12.dp))
         Box(Modifier.size(78.dp).semantics { contentDescription=orbLabel }
             .spatialHoverEffectGroup(group,enable=enabled)
             .spatialHoverEffect { hover -> animation(tween(durationMillis=160)) { scale(if(hover.isActive && enabled) 1.10f else 1f) } }
-            .background(Brush.radialGradient(listOf(Color(0x55E9DEFF),Color(0x116A57A0),Color.Transparent)),CircleShape)
+            .background(Brush.radialGradient(listOf(Color(0x77FFF2C7),Color(0x333D7353),Color.Transparent)),CircleShape)
             .clickable(enabled=enabled,onClick=exit),contentAlignment=Alignment.Center) {
             Box(Modifier.matchParentSize()
                 .spatialHoverEffectGroup(group.behavior(SpatialHoverEffectGroup.Behavior.Responder))

@@ -395,3 +395,7 @@
 ### 1.0.16 图标与画纸轮廓
 
 本轮用本地 SDK、Gradle 和资产校验脚本构建，PICO CLI 调用 0 次。用时与 Token 未单独采集。
+
+### 1.0.17 体验修订
+
+使用 Blender 生成及检验 GLB 和路线，使用 Gradle、ADB 与资产校验脚本。PICO CLI 调用 0 次。用时和 Token 未单独采集。

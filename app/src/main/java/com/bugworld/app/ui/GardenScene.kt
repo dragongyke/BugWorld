@@ -135,7 +135,7 @@ import java.util.concurrent.atomic.AtomicBoolean
             runtime?.root?.let { root ->
                 val mesh=MeshResource.createSphere(.05f).also { it.toGlobal();orbResources+=it }
                 val material=PhysicallyBasedMaterial.create().also { it.toGlobal();orbResources+=it }.apply {
-                    setBaseColor(Color4(.68f,.52f,.86f,1f));setRoughness(.32f);setMetallic(.12f)
+                    setBaseColor(Color4(.42f,.66f,.47f,1f));setRoughness(.52f);setMetallic(0f)
                 }
                 root.addChild(Entity().apply {
                     setName("ReturnToCanvasOrb");components.set(ModelComponent(mesh,material))

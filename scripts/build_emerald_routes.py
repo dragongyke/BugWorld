@@ -149,7 +149,7 @@ for species, surface, center, rx, ry, side in [
     ('DRAGONFLY','observe_back',(-.30,-1.94),.038,.032,False),
     ('HONEYBEE','detail_lotus_petal',(-.42,2.21),.026,.020,False),
     ('HONEYBEE','observe_right',(2.70,-.54),.032,.026,False),
-    ('ANT','water_pad_0',(-.40,2.29),.169,.165,False),
+    ('ANT','compact_forest_bank',(3.20,-3.10),.206,.21,False),
     ('ANT','CC0_hero_weathered_stump',(3.64,1.29),.145,.21,True),
     ('GRASSHOPPER','compact_forest_bank',(0.,4.45),.26,.24,False),
     ('GRASSHOPPER','observe_back_left',(-2.60,-2.09),.255,.245,False),

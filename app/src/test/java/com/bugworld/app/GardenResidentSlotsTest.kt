@@ -17,7 +17,13 @@ class GardenResidentSlotsTest {
             val works=(1..10).map { work("art-$it",s) }
             val first=GardenResidentSlots.plan(works.take(1),"art-1").single()
             val spawn=ApprovedGardenRoutes.arrivalPose(s,first.slot).point
-            assertTrue("$s forward spawn $spawn",spawn.z<-.5f && abs(spawn.x)<-spawn.z*.6f)
+            if (s == Species.ANT) {
+                // Ants now spawn on the exposed bank or bark, outside the forward leaf area.
+                assertTrue(spawn.y < .18f && kotlin.math.hypot(spawn.x, spawn.z) > 4f)
+                assertTrue(ApprovedGardenRoutes.arrivalPose(s, 1).point.y > .5f)
+            } else {
+                assertTrue("$s forward spawn $spawn",spawn.z<-.5f && abs(spawn.x)<-spawn.z*.6f)
+            }
             val placements=GardenResidentSlots.plan(works,"art-10")
             assertEquals("art-10",placements.first().work.id)
             // Each release rebuilds Stage. Its route must match the available route at that time.

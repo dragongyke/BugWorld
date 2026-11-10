@@ -294,6 +294,7 @@ private class PreviewRuntime(private val state: BugWorldState,private val conten
             check(pivot.addChild(next.root))
             model=next; library=nextLibrary; asset=requestedAsset
             interaction=PreviewInteraction()
+            displayedOrientation=null
             motion=PreviewMotion(Species.entries.first { it.asset==ModelLibrary.key(requestedAsset) })
             Log.i(PREVIEW_TAG,"prepared asset=$asset load_ms=${loadedAt-started} instance_ms=${SystemClock.elapsedRealtime()-loadedAt}")
         } catch(failure: Throwable) {
@@ -326,7 +327,7 @@ private class PreviewRuntime(private val state: BugWorldState,private val conten
             val hand=if(pinch) {
                 val pose=event.inputDevicePose
                 if(pose==com.pico.spatial.ui.foundation.gesture.data.InputDevicePose.identity()) null
-                else content.convertRotation(pose.rawRotation.toQuaternion(),ViewCoordinateSpace.Global,
+                else content.convertRotation(pose.rawRotation.toQuaternion().conjugate(),ViewCoordinateSpace.Global,
                     content.localSpatialCoordinateSpace)
             } else null
             when {
@@ -336,6 +337,7 @@ private class PreviewRuntime(private val state: BugWorldState,private val conten
         }
         return events.isNotEmpty()
     }
+    private var displayedOrientation: com.pico.spatial.core.math.Quat? = null
     fun cancelGesture()=interaction.cancel()
     fun frame(dt: Float,size: IntSize,density: Density) {
         if(closed || !active || paintedRevision<0 || size.width==0 || size.height==0) return
@@ -347,7 +349,12 @@ private class PreviewRuntime(private val state: BugWorldState,private val conten
         val wanted=content.convertSize(Vector3(with(density) { 300.dp.toPx() },0f,0f),ViewCoordinateSpace.Local,content.localSpatialCoordinateSpace)
         pivot.components.get<TransformComponent>()!!.apply {
             setPosition(origin); setScaleVector(Vector3(abs(wanted.x)/span))
-            setQuaternion(interaction.orientation)
+            val target = interaction.orientation
+            val displayed = displayedOrientation?.let {
+                com.pico.spatial.core.math.Quat.slerp(it, target, (1f - kotlin.math.exp(-22f * dt)).coerceIn(0f, 1f))
+            } ?: target
+            displayedOrientation = displayed
+            setQuaternion(displayed)
         }
         current.setActive(true)
         current.animate(checkNotNull(motion).update(dt,interaction.takeReaction()>0f))

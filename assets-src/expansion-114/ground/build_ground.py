@@ -60,7 +60,6 @@ for name,col,rough in [
     ('Joint',(.102,.039,.015) if ANT_MODE else (.15,.125,.034),.56),
     ('Compound eye',(.055,.025,.013) if ANT_MODE else (.115,.073,.020),.29),
     ('Amber rib',(.38,.145,.052) if ANT_MODE else (.40,.33,.077),.50),
-    ('Hindwing membrane',(.54,.45,.18),.52),
 ]:
     mats[name]=material(name,col,rough)
 
@@ -284,7 +283,10 @@ def pleated_hindwing(side):
     # Adjacent rails share a membrane. Separate bone weights widen the fan like
     # a pleated grasshopper wing without creating gaps between the rays.
     fanbones=[bone(f'Fan {side} sector {j}',(222,side*10,93),root) for j in range(3)]
-    batch=batches.setdefault('Hindwing membrane',{'v':[],'f':[],'g':[],'uv':[],'regions':[]})
+    batch=batches[PAPER]
+    wing_profile=curve(GRASS['tegmen'])
+    left=min(x for x,y in wing_profile)
+    right=max(x for x,y in wing_profile)
     for j,length in enumerate([213,215,208,202,181,157,128]):
         row=[];weight=fanbones[min(2,j//2)]
         for i in range(12):
@@ -292,11 +294,17 @@ def pleated_hindwing(side):
             point=(222+t*length,side*(10+t*(3+j*2.15)+2.1*math.sin(math.pi*t)),
                    93+t*(4+j*2.5)+1.6*math.sin(math.pi*t)*(-1)**j)
             row.append(point)
+            # The open fan carries the same drawn wing pigment as the folded forewing.
+            x=left+(right-left)*(.006+.988*t)
+            top,bottom=span(wing_profile,x)
+            y=top+(bottom-top)*(.04+.92*j/6)
+            batch['uv'].append(sheet_uv((x,0,y),(4,)))
         base=len(batch['v']);batch['v'].extend(wp(v) for v in row);batch['g'].extend([weight]*len(row))
         if j:
             for i in range(11):
                 a=base-12+i;b=base+i
                 batch['f'].extend([(a,a+1,b),(a+1,b+1,b)])
+                batch['regions'].extend([(4,),(4,)])
         if j%2==0:
             tube(row[1:],[.53*(1-.58*i/10) for i in range(11)],'Amber rib',weight,5)
 

@@ -259,7 +259,10 @@ class InsectModel(private val library: ModelLibrary, name: String, bitmap: Bitma
             scrubPhase=desired.phase(frame.progress,scrubStart)
             val duration=current.getDuration()
             if (duration.isFinite() && duration>0f) current.setTime(duration*scrubPhase)
-        } else current.setSpeed(if (frame.motion>.01f) frame.motion.coerceIn(.25f,2f) else 1f)
+        } else {
+            val speed = if (frame.motion>.01f) frame.motion.coerceIn(.25f,2f) else 1f
+            current.setSpeed(if (species == Species.DRAGONFLY && desired.name == "flight") speed * 2.5f else speed)
+        }
         retiredPlayers.removeAll { old ->
             if (old.isStopped() || old.isComplete()) { old.close(); true } else false
         }

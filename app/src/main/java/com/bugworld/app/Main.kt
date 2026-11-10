@@ -37,6 +37,13 @@ fun mainApp(scope: SpatialAppScope) = with(scope) {
             BindWindow(session,STUDIO_ID)
             if(!session.inGarden) SpeciesBar(state,session.isOpen(ALBUM_ID),
                 openCanvas={ session.open(STUDIO_ID,navigator) },
+                selectPaper={ insect ->
+                    if (state.species != insect && state.ready && !state.busy) {
+                        session.previewVisible = false
+                        state.selectSpecies(insect)
+                    }
+                    session.open(STUDIO_ID,navigator)
+                },
                 album={ if(session.isOpen(ALBUM_ID)) session.close(ALBUM_ID,navigator) else session.open(ALBUM_ID,navigator) })
             if(!session.inGarden && session.toolsVisible) Subwindow(
                 placement=SubwindowPlacement.Right,
@@ -271,7 +278,7 @@ private class WorkspaceSession(private val state: BugWorldState) {
         if(closingStage) { detachedDuringClose=true; stageDetachedSignal?.complete(Unit); return }
         if(restoreOnLateStageDetach) {
             restoreOnLateStageDetach=false
-            if(windows.phase==WorkspaceWindows.Phase.SHARED) windows.openIds.forEach { open(it,navigator,true) }
+            if(windows.phase==WorkspaceWindows.Phase.SHARED) open(STUDIO_ID,navigator,true)
             return
         }
         if(windows.beginReturn()) scope.launch { yield(); restore(navigator) }
@@ -298,8 +305,18 @@ private class WorkspaceSession(private val state: BugWorldState) {
                 if (restored) break
             }
             if (windows.phase == WorkspaceWindows.Phase.SHARED) {
-                ids.filter { it in windows.openIds }.forEach { id ->
-                    if (id != STUDIO_ID || !restored || id !in attached) open(id, navigator, true)
+                if (!restored || STUDIO_ID !in attached) open(STUDIO_ID, navigator, true)
+                if (ALBUM_ID in ids && ALBUM_ID in windows.openIds) {
+                    // Placement.left is evaluated on creation, after the studio is available.
+                    withTimeoutOrNull(2400) {
+                        while (STUDIO_ID !in attached && windows.phase == WorkspaceWindows.Phase.SHARED) delay(100)
+                    }
+                    if (windows.phase != WorkspaceWindows.Phase.SHARED || STUDIO_ID !in attached ||
+                        ALBUM_ID !in windows.openIds) return@launch
+                    close(ALBUM_ID, studioNavigator ?: navigator)
+                    delay(220)
+                    if (windows.phase == WorkspaceWindows.Phase.SHARED)
+                        open(ALBUM_ID, studioNavigator ?: navigator)
                 }
             }
         }

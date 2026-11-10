@@ -12,6 +12,16 @@ class Template(context: Context, val species: Species, val version: Int = CURREN
     val outline: Bitmap by lazy { context.assets.open("$folder/${species.asset}-lines.png").use {
         requireNotNull(BitmapFactory.decodeStream(it)) { "Invalid ${species.asset} outline" }
     } }
+    private val halfOutline by lazy { Bitmap.createScaledBitmap(outline, width / 2, height / 2, true) }
+    private val quarterOutline by lazy { Bitmap.createScaledBitmap(halfOutline, width / 4, height / 4, true) }
+
+    fun displayOutline(screenWidth: Float): Bitmap = when {
+        species.sheetMaterial == null -> outline
+        screenWidth <= width * .30f -> quarterOutline
+        screenWidth <= width * .62f -> halfOutline
+        else -> outline
+    }
+
     val surface: Bitmap get() = outline
     val width get() = outline.width
     val height get() = outline.height

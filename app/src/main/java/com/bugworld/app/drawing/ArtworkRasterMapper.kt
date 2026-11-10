@@ -93,7 +93,8 @@ class ArtworkRasterMapper(val species: Species, val width: Int, val height: Int,
         val tone=relief[index].toInt() and 255
         fun channel(shift:Int) = (((base ushr shift and 255)*tone+64) / 128).coerceAtMost(255)
         val shaded=(255 shl 24) or (channel(16) shl 16) or (channel(8) shl 8) or channel(0)
-        return over(ink[index],shaded)
+        // Keep the paper's locked silhouette out of the grasshopper's cuticle texture.
+        return if (species == Species.GRASSHOPPER) shaded else over(ink[index],shaded)
     }
 
     @Synchronized

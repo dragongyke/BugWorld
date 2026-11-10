@@ -101,7 +101,7 @@ private val Border = Color(0xFFE8DEED)
         if(confirmNew) Confirmation(stringResource(R.string.new_confirm_title),stringResource(R.string.new_confirm_message),{ confirmNew=false }) { state.newCanvas(); confirmNew=false }
     }
 }
-@Composable fun SpeciesBar(state: BugWorldState, albumOpen: Boolean, openCanvas: ()->Unit, album: ()->Unit) {
+@Composable fun SpeciesBar(state: BugWorldState, albumOpen: Boolean, openCanvas: ()->Unit, selectPaper: (Species)->Unit, album: ()->Unit) {
     val species=Species.entries
     val itemWidth=68.dp
     val gap=8.dp
@@ -131,7 +131,7 @@ private val Border = Color(0xFFE8DEED)
                     val isSelected=state.species==insect
                     HoverSurface(Modifier.size(itemWidth,52.dp).semantics { contentDescription=name; role=Role.Tab; selected=isSelected },
                         enabled=enabled,background=if(isSelected) Lavender else Panel,border=if(isSelected) Accent else Border,
-                        click={ state.selectSpecies(insect); openCanvas() }) {
+                        click={ selectPaper(insect) }) {
                         SpeciesIcon(insect,Modifier.size(40.dp))
                     }
                 }

@@ -37,7 +37,7 @@ class PaintView(context: Context, var state: BugWorldState) : View(context) {
         val paperWidth = document.width*scale; val paperHeight = document.height*scale
         destination.set((width-paperWidth)/2,(height-paperHeight)/2,(width+paperWidth)/2,(height+paperHeight)/2)
         image?.let { canvas.drawBitmap(it,null,destination,paint) }
-        canvas.drawBitmap(state.template.outline,null,destination,paint)
+        canvas.drawBitmap(state.template.displayOutline(paperWidth),null,destination,paint)
     }
     override fun onTouchEvent(event: MotionEvent): Boolean {
         if (gesture != null && (state.busy || gesture?.document !== state.document)) finishGesture()
