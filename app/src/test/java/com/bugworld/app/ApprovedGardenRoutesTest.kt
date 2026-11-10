@@ -17,7 +17,7 @@ class ApprovedGardenRoutesTest {
             for(i in starts.indices) {
                 val start=starts[i]
                 for(j in 0 until i) assertTrue(start.distance(starts[j])>.5f)
-                val period=Routes.period(s)
+                val period=Routes.period(s,i)
                 assertEquals(start,Routes.pose(s,i,period).point)
                 assertTrue(start.distance(Routes.pose(s,i,period-.001f).point)<.003f)
                 assertTrue(start.distance(Routes.pose(s,i,period+.001f).point)<.003f)
@@ -25,9 +25,16 @@ class ApprovedGardenRoutesTest {
         }
     }
 
+    @Test fun sameSpeciesLanesHaveDistinctLoopDurations() {
+        for (species in Species.entries) {
+            val periods = List(Routes.count(species)) { Routes.period(species, it) }.sorted()
+            assertTrue(periods.zipWithNext().all { (a, b) -> b - a > 1f })
+        }
+    }
+
     @Test fun speciesUseTheirOwnOrderedActivitiesAndRelativeDurations() {
         for(s in Species.entries) for(i in 0 until Routes.count(s)) {
-            val period=Routes.period(s)
+            val period=Routes.period(s,i)
             val poses=(0 until 1000).map { Routes.pose(s,i,it*period/1000) }
             if(s==Species.CATERPILLAR) {
                 assertTrue(poses.all { it.moving && !it.airborne })
@@ -70,7 +77,7 @@ class ApprovedGardenRoutesTest {
 
     @Test fun everyPhaseSeatHasClearanceAcrossTheFullLoopIncludingOpeningAndLanding() {
         for(s in Species.entries) for(i in 0 until Routes.count(s)) {
-            val period=Routes.period(s)
+            val period=Routes.period(s,i)
             val seats=Routes.seats(s)
             val points=(0 until 2000).map { Routes.pose(s,i,it*period/2000).point }
             for(k in 1 until seats) for(j in points.indices) {
@@ -82,7 +89,7 @@ class ApprovedGardenRoutesTest {
 
     @Test fun differentRoutesKeepClearAtIndependentPhases() {
         val paths=Species.entries.flatMap { s -> (0 until Routes.count(s)).map { i ->
-            s to (0 until 240).map { Routes.pose(s,i,it*Routes.period(s)/240).point }
+            s to (0 until 240).map { Routes.pose(s,i,it*Routes.period(s,i)/240).point }
         } }
         for(a in paths.indices) for(b in 0 until a) {
             val (sa,pa)=paths[a]; val (sb,pb)=paths[b]
@@ -115,8 +122,9 @@ class ApprovedGardenRoutesTest {
                 Species.DRAGONFLY, Species.HONEYBEE -> .86f
                 else -> 8f
             }
-            val pose=Routes.pose(s,i,t)
-            val target=Routes.pose(s,i,t+.02f).point
+            val routeTime = t * Routes.period(s, i) / Routes.period(s, 0)
+            val pose=Routes.pose(s,i,routeTime)
+            val target=Routes.pose(s,i,routeTime+.02f).point
             val d=target-pose.point
             val pitch=pose.pitch*PI/180; val yaw=pose.yaw*PI/180; val roll=pose.roll*PI/180
             val forward=if(s==Species.BUTTERFLY)

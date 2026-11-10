@@ -39,8 +39,8 @@ object GardenResidentSlots {
 
 /** A shared clock preserves separation during rests, hand visits, returns and repeated laps.
  * A resident starts at the physical spawn only as its free phase passes that point. */
-class GardenRouteTraffic(species: Species) {
-    private val period=ApprovedGardenRoutes.period(species)
+class GardenRouteTraffic(species: Species, slot: Int = 0) {
+    private val period=ApprovedGardenRoutes.period(species, slot)
     private val seats=arrayOfNulls<String>(ApprovedGardenRoutes.seats(species))
     private val interval=period/seats.size
     private var clock=0f

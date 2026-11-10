@@ -49,7 +49,29 @@ object ApprovedGardenRoutes {
         Species.ANT -> ant
         Species.GRASSHOPPER -> grasshopper
     }
-    fun period(species: Species)=profile(species).period
+    private val routeProfiles by lazy {
+        Species.entries.associateWith { species ->
+            val base = profile(species)
+            val referenceLength = path(species, 0).length
+            List(count(species)) { slot ->
+                val lengthRatio = path(species, slot).length / referenceLength
+                // Keep each lane's relative phases so residents sharing it retain clearance.
+                val durationScale = when (slot) {
+                    0 -> 1f
+                    1 -> 1.27f + .12f * (lengthRatio - 1f).coerceIn(-1f, 1f)
+                    else -> .81f + .08f * (lengthRatio - 1f).coerceIn(-1f, 1f)
+                }
+                base.copy(
+                    rest = base.rest * durationScale,
+                    walk = base.walk * durationScale,
+                    opening = base.opening * durationScale,
+                    flight = base.flight * durationScale
+                )
+            }
+        }
+    }
+
+    fun period(species: Species, slot: Int = 0) = routeProfiles.getValue(species)[slot].period
 
     private fun path(species: Species,slot: Int): SurfacePath {
         val base=when(species) {
@@ -71,7 +93,7 @@ object ApprovedGardenRoutes {
     fun pose(species: Species,index: Int,time: Float): NaturalPose {
         val slot=Math.floorMod(index,count(species))
         val route=path(species,slot)
-        val profile=profile(species)
+        val profile=routeProfiles.getValue(species)[slot]
         val clock=if(time.isFinite()) time.coerceAtLeast(0f)%profile.period else 0f
         if(clock<profile.rest) return surfacePose(species,route.sample(0f),false)
         val walkClock=clock-profile.rest
@@ -246,6 +268,8 @@ object ApprovedGardenRoutes {
                 this[i]=this[i-1]+sqrt((points[b]-points[a]).pow(2)+(points[b+1]-points[a+1]).pow(2)+(points[b+2]-points[a+2]).pow(2))
             }
         }
+        val length get() = distances.last()
+
         fun sample(progress: Float): Contact {
             val distance=progress.coerceIn(0f,1f)*distances.last()
             val found=distances.binarySearch(distance)

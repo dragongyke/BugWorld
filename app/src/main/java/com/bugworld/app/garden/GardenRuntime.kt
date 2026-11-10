@@ -55,7 +55,7 @@ class GardenRuntime(private val state: BugWorldState) : AutoCloseable {
     private val arrivals=linkedSetOf<String>()
     private var lastArrival=-100f
     private val lanes=Species.entries.associateWith { species ->
-        List(ApprovedGardenRoutes.count(species)) { GardenRouteTraffic(species) }
+        List(ApprovedGardenRoutes.count(species)) { slot -> GardenRouteTraffic(species, slot) }
     }
     private fun lane(r: Resident)=lanes.getValue(r.work.species)[r.index]
     private var notifiedReady=false

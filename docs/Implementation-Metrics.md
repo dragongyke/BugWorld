@@ -387,3 +387,7 @@
 ### GitHub 迁移
 
 本轮未调用 PICO CLI。迁移用时和 Token 总量未单独采集。
+
+### 1.0.15 真机体验反馈修订
+
+本轮使用 Gradle 构建、测试和 lint，PICO CLI 调用 0 次。用时和 Token 未单独采集。

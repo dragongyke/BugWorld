@@ -73,6 +73,7 @@ fun mainApp(scope: SpatialAppScope) = with(scope) {
             val onstage = LocalSpatialContainerStateManager.current.isOnstage.value
             LaunchedEffect(onstage) {
                 if (onstage) session.stageVisible(navigator)
+                else session.stageHidden(navigator)
             }
             DisposableEffect(Unit) {
                 Log.i(WINDOW_TAG,"Stage composition attached; waiting for rendered scene")
@@ -110,6 +111,7 @@ private class WorkspaceSession(private val state: BugWorldState) {
     private var detachedDuringClose=false
     private var stageDetachedSignal: CompletableDeferred<Unit>?=null
     private var restoreOnLateStageDetach=false
+    private var studioNavigator: SpatialNavigator? = null
     private var generation by mutableIntStateOf(0)
     var previewVisible by mutableStateOf(false)
     var toolsVisible by mutableStateOf(true)
@@ -119,6 +121,7 @@ private class WorkspaceSession(private val state: BugWorldState) {
     private fun instance(id: String)=if(id==STUDIO_ID) null else WINDOW_INSTANCE
     fun attached(id: String,navigator: SpatialNavigator) {
         if(id==STUDIO_ID) {
+            studioNavigator = navigator
             explicitlyClosed-=id
             if(freshOnNextOpen && windows.phase==WorkspaceWindows.Phase.SHARED) {
                 freshOnNextOpen=false; previewVisible=false
@@ -138,6 +141,7 @@ private class WorkspaceSession(private val state: BugWorldState) {
     }
     fun detached(id: String,userClosed: Boolean) {
         if(id==STUDIO_ID && userClosed && windows.phase==WorkspaceWindows.Phase.SHARED) freshOnNextOpen=true
+        if (id == STUDIO_ID) studioNavigator = null
         attached-=id; windows.detached(id,userClosed); generation++
         Log.i(WINDOW_TAG,"detached $id phase=${windows.phase}")
     }
@@ -220,7 +224,9 @@ private class WorkspaceSession(private val state: BugWorldState) {
         inGarden=true; generation++
         Log.i(WINDOW_TAG,"Native Stage visible; minimize=$ids")
         ids.forEach { id -> runCatching {
-            val minimized=navigator.minimizeWindowContainer(id,instance(id))
+            val minimized = if (id == STUDIO_ID) {
+                studioNavigator?.minimizeWindowContainer() ?: navigator.minimizeWindowContainer(id, instance(id))
+            } else navigator.minimizeWindowContainer(id, instance(id))
             Log.i(WINDOW_TAG,"minimize $id accepted=$minimized")
         }
             .onFailure { failure(R.string.window_minimize_failed,it) } }
@@ -255,6 +261,10 @@ private class WorkspaceSession(private val state: BugWorldState) {
             }
         }
     }
+    fun stageHidden(navigator: SpatialNavigator) {
+        if (windows.phase == WorkspaceWindows.Phase.STAGE || closingStage) stageDetached(navigator)
+    }
+
     fun stageDetached(navigator: SpatialNavigator) {
         state.cancelPendingRelease()
         Log.i(WINDOW_TAG,"Stage detached phase=${windows.phase}")
@@ -271,7 +281,28 @@ private class WorkspaceSession(private val state: BugWorldState) {
         freshOnNextOpen=false
         inGarden=false; state.cancelPendingRelease(); generation++
         Log.i(WINDOW_TAG,"restore workspace=$ids")
-        ids.forEach { open(it,navigator,true) }
+        scope.launch {
+            // Native Shared Space can become available after the Stage visibility callback.
+            var restored = false
+            for (waitMillis in listOf(120L, 300L, 650L)) {
+                delay(waitMillis)
+                if (windows.phase != WorkspaceWindows.Phase.SHARED) return@launch
+                restored = runCatching {
+                    studioNavigator?.restoreWindowContainer() == true ||
+                        navigator.restoreWindowContainer(STUDIO_ID, instance(STUDIO_ID))
+                }.getOrElse {
+                    Log.w(WINDOW_TAG, "Native studio restore failed", it)
+                    false
+                }
+                Log.i(WINDOW_TAG, "Native studio restore accepted=$restored")
+                if (restored) break
+            }
+            if (windows.phase == WorkspaceWindows.Phase.SHARED) {
+                ids.filter { it in windows.openIds }.forEach { id ->
+                    if (id != STUDIO_ID || !restored || id !in attached) open(id, navigator, true)
+                }
+            }
+        }
     }
     private fun failure(@androidx.annotation.StringRes message: Int,error: Throwable) {
         Log.e(WINDOW_TAG,state.app.getString(message),error); state.report(message)

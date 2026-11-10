@@ -48,7 +48,7 @@ class GardenResidentSlotsTest {
         for(s in Species.entries) {
             val works=(0 until 10).map { work("same-$it",s) }
             val plans=GardenResidentSlots.plan(works,works.first().id)
-            val lanes=List(ApprovedGardenRoutes.count(s)) { GardenRouteTraffic(s) }
+            val lanes=List(ApprovedGardenRoutes.count(s)) { slot -> GardenRouteTraffic(s, slot) }
             val joined=linkedSetOf<String>()
             var visitPositions=emptyMap<String,Float>()
             for(frame in 0..2500) {
