@@ -13,6 +13,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.unit.*
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
@@ -42,25 +43,25 @@ import kotlin.math.abs
 
 private const val PREVIEW_TAG="BugWorldPreview"
 
-/** Paper and insect share one native hit tree; tools use the window's native side augment. */
+/** The editor belongs to the main window. Only an explicit preview needs a native attachment. */
 @Composable fun StudioScene(state: BugWorldState, visible: Boolean,
     closePreview: ()->Unit, board: @Composable ()->Unit) {
     val lifecycle=LocalLifecycleOwner.current.lifecycle
-    var surfaceMayAttach by remember(lifecycle) {
+    var resumed by remember(lifecycle) {
         mutableStateOf(lifecycle.currentState==Lifecycle.State.RESUMED)
     }
     DisposableEffect(lifecycle) {
         val observer=LifecycleEventObserver { _,event ->
-            // A cold launch can compose while CREATED. SDK 6.1.0 disables the
-            // SpatialView root then; an attachment created in that interval can
-            // remain invisible after the native window becomes visible.
-            if(event==Lifecycle.Event.ON_RESUME) surfaceMayAttach=true
+            resumed = lifecycle.currentState == Lifecycle.State.RESUMED
         }
         lifecycle.addObserver(observer)
         onDispose { lifecycle.removeObserver(observer) }
     }
     var attempt by remember { mutableIntStateOf(0) }
-    if(surfaceMayAttach) key(attempt) { PreviewContent(state,visible,closePreview,board) { attempt++ } }
+    // Never replace a working editor merely because the host resumed. Native attachment
+    // windows can remain GONE even while their ECS entity and all ancestors are enabled.
+    // A paused preview is disposed, so resume cannot reuse a lost native surface.
+    if(visible && resumed) key(attempt) { PreviewContent(state,visible,closePreview,board) { attempt++ } }
     else board()
 }
 
@@ -72,6 +73,9 @@ private const val PREVIEW_TAG="BugWorldPreview"
     var viewSize by remember { mutableStateOf(IntSize.Zero) }
     val paperDiagnostics=remember { intArrayOf(0) }
     val paperRef=remember { arrayOfNulls<Entity>(1) }
+    val paperViewRef=remember { arrayOfNulls<android.view.View>(1) }
+    var paperShown by remember { mutableStateOf(false) }
+    val paperHealth=remember { PaperSurfaceHealth() }
     val disposed=remember { AtomicBoolean(false) }
     val density=LocalDensity.current
     val paperSize=if(viewSize.width>0 && viewSize.height>0) viewSize else with(density) { IntSize(1050.dp.roundToPx(),840.dp.roundToPx()) }
@@ -106,6 +110,13 @@ private const val PREVIEW_TAG="BugWorldPreview"
             attachments={
                 // The SDK caches the explicit size by id. Wrap content allows native remeasurement on resize.
                 AttachmentPanel(id="studio-paper") {
+                    // LocalView works for both SDK attachment backends. Legacy panels
+                    // do not expose an ECS AttachmentPanelComponent.content.
+                    val attachmentView=LocalView.current
+                    DisposableEffect(attachmentView) {
+                        paperViewRef[0]=attachmentView
+                        onDispose { if(paperViewRef[0]===attachmentView) paperViewRef[0]=null }
+                    }
                     Box(Modifier.requiredSize(with(density) { paperSize.width.toDp() },with(density) { paperSize.height.toDp() })) { board() }
                 }
             },
@@ -153,6 +164,31 @@ private const val PREVIEW_TAG="BugWorldPreview"
                 Text(stringResource(error!!),color=Ink,fontSize=17.sp)
                 Action(stringResource(R.string.retry),click=retry); IconButton(stringResource(R.string.close_preview),"close",click=close)
             }
+        }
+        // Keep controls usable until the attachment's actual Android content is displayed.
+        // Once ready, paper and insect use the existing single native hit tree.
+        if(!paperShown) board()
+    }
+    LaunchedEffect(active,onstage) {
+        while(true) {
+            val paperView=paperViewRef[0]
+            val shown=paperView?.let {
+                it.isAttachedToWindow && it.isShown && it.windowVisibility==android.view.View.VISIBLE &&
+                    it.width>0 && it.height>0
+            }==true
+            val status=paperHealth.sample(SystemClock.elapsedRealtime(),active && onstage,shown)
+            val ready=status==PaperSurfaceHealth.Status.READY
+            if(ready!=paperShown) {
+                paperShown=ready
+                Log.i(PREVIEW_TAG,"paper content shown=$ready windowVisibility=${paperView?.windowVisibility} attached=${paperView?.isAttachedToWindow}")
+            }
+            if(status==PaperSurfaceHealth.Status.FAILED) {
+                Log.e(PREVIEW_TAG,"Native paper content unavailable in foreground; return to main-window editor view=$paperView shown=${paperView?.isShown} windowVisibility=${paperView?.windowVisibility}")
+                state.report(R.string.preview_failed)
+                close()
+                return@LaunchedEffect
+            }
+            delay(250)
         }
     }
     LaunchedEffect(Unit) {

@@ -119,6 +119,7 @@ private class WorkspaceSession(private val state: BugWorldState) {
     private var stageDetachedSignal: CompletableDeferred<Unit>?=null
     private var restoreOnLateStageDetach=false
     private var studioNavigator: SpatialNavigator? = null
+    private var nativeReturnPrepared=false
     private var generation by mutableIntStateOf(0)
     var previewVisible by mutableStateOf(false)
     var toolsVisible by mutableStateOf(true)
@@ -199,6 +200,7 @@ private class WorkspaceSession(private val state: BugWorldState) {
     }
     fun enterGarden(navigator: SpatialNavigator) {
         if(!windows.beginStage()) return
+        nativeReturnPrepared=false
         generation++
         scope.launch {
             try {
@@ -248,6 +250,10 @@ private class WorkspaceSession(private val state: BugWorldState) {
         scope.launch {
             var succeeded=false
             try {
+                // SDK 6.1.0 restoreWindowContainer is a Stage-only visibility API.
+                // After closeStage it returns false ("There is no stage open"), and
+                // opening an Activity from the now-background app can be blocked.
+                prepareNativeReturn(navigator)
                 navigator.closeStage(); succeeded=true
                 // closeStage acknowledges the request before the native Stage disappears.
                 // Restoring earlier races its final system-wide minimization of Shared Space.
@@ -269,7 +275,24 @@ private class WorkspaceSession(private val state: BugWorldState) {
         }
     }
     fun stageHidden(navigator: SpatialNavigator) {
-        if (windows.phase == WorkspaceWindows.Phase.STAGE || closingStage) stageDetached(navigator)
+        if (windows.phase == WorkspaceWindows.Phase.STAGE || closingStage) {
+            prepareNativeReturn(navigator)
+            stageDetached(navigator)
+        }
+    }
+
+    private fun prepareNativeReturn(navigator: SpatialNavigator) {
+        if(nativeReturnPrepared) return
+        nativeReturnPrepared=true
+        (setOf(STUDIO_ID)+windows.openIds).forEach { id ->
+            runCatching {
+                val restored=if(id==STUDIO_ID) studioNavigator?.restoreWindowContainer()==true ||
+                    navigator.restoreWindowContainer(id,instance(id))
+                else navigator.restoreWindowContainer(id,instance(id))
+                Log.i(WINDOW_TAG,"restore before Stage close $id accepted=$restored")
+                if(!restored) navigator.openWindowContainer(id,instance(id),null)
+            }.onFailure { failure(R.string.window_restore_failed,it) }
+        }
     }
 
     fun stageDetached(navigator: SpatialNavigator) {
@@ -289,35 +312,14 @@ private class WorkspaceSession(private val state: BugWorldState) {
         inGarden=false; state.cancelPendingRelease(); generation++
         Log.i(WINDOW_TAG,"restore workspace=$ids")
         scope.launch {
-            // Native Shared Space can become available after the Stage visibility callback.
-            var restored = false
-            for (waitMillis in listOf(120L, 300L, 650L)) {
-                delay(waitMillis)
-                if (windows.phase != WorkspaceWindows.Phase.SHARED) return@launch
-                restored = runCatching {
-                    studioNavigator?.restoreWindowContainer() == true ||
-                        navigator.restoreWindowContainer(STUDIO_ID, instance(STUDIO_ID))
-                }.getOrElse {
-                    Log.w(WINDOW_TAG, "Native studio restore failed", it)
-                    false
-                }
-                Log.i(WINDOW_TAG, "Native studio restore accepted=$restored")
-                if (restored) break
-            }
+            // Visibility was restored while the Stage existed. Do not retry that
+            // Stage-only API here after its owner has been destroyed.
+            delay(120)
             if (windows.phase == WorkspaceWindows.Phase.SHARED) {
-                if (!restored || STUDIO_ID !in attached) open(STUDIO_ID, navigator, true)
-                if (ALBUM_ID in ids && ALBUM_ID in windows.openIds) {
-                    // Placement.left is evaluated on creation, after the studio is available.
-                    withTimeoutOrNull(2400) {
-                        while (STUDIO_ID !in attached && windows.phase == WorkspaceWindows.Phase.SHARED) delay(100)
-                    }
-                    if (windows.phase != WorkspaceWindows.Phase.SHARED || STUDIO_ID !in attached ||
-                        ALBUM_ID !in windows.openIds) return@launch
-                    close(ALBUM_ID, studioNavigator ?: navigator)
-                    delay(220)
-                    if (windows.phase == WorkspaceWindows.Phase.SHARED)
-                        open(ALBUM_ID, studioNavigator ?: navigator)
-                }
+                if (STUDIO_ID !in attached) open(STUDIO_ID, navigator, true)
+                // Restore the existing album alongside the studio before closing Stage.
+                // Recreating it on a fixed delay raced the old native window's destruction
+                // and lost both its attachment and its existing spatial placement.
             }
         }
     }
