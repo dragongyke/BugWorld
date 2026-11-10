@@ -279,8 +279,9 @@ class GardenRuntime(private val state: BugWorldState) : AutoCloseable {
                 val transform=resident.model.root.components.get<TransformComponent>()!!
                 val routeRotation=transform.quaternion
                 val wanted=if(nearPalm) perch!!.orientation else routeRotation
-                val rotation=Quat.slerp(resident.surfaceRotation ?: routeRotation,wanted,
-                    (delta*(if(onHand) 20f else 8f)).coerceIn(0f,1f))
+                val rotation = if (onHand) wanted else Quat.slerp(
+                    resident.surfaceRotation ?: routeRotation, wanted, (delta*8f).coerceIn(0f,1f)
+                )
                 transform.setQuaternion(rotation)
                 resident.surfaceRotation=if(!nearPalm && abs(Quat.dot(rotation,routeRotation))>.9999f) null else rotation
             }

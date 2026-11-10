@@ -47,17 +47,17 @@ class ApprovedGardenRoutesTest {
             }
             if(s==Species.GRASSHOPPER) {
                 val starts=poses.indices.filter { poses[it].hopPhase!=null && poses.getOrNull(it-1)?.hopPhase==null }
-                assertEquals(2,starts.size)
+                assertEquals(3,starts.size)
                 for(j in starts) {
                     var k=j
                     while(k+1<poses.size && poses[k+1].hopPhase!=null) {
                         assertTrue(poses[k].airborne && poses[k+1].hopPhase!!>=poses[k].hopPhase!!)
                         k++
                     }
-                    assertTrue(poses[k].point.distance(poses[j].point)>.1f && !poses[k+1].airborne)
+                    assertTrue(poses[k].point.distance(poses[j].point)>.30f)
+                    if (k+1 < poses.size) assertFalse(poses[k+1].airborne)
                 }
-                val wingFlight=poses.indexOfFirst { it.airborne && it.hopPhase==null }
-                assertTrue(wingFlight>starts.last() && wingFlight>poses.size*.78f)
+                assertTrue(poses.any { !it.airborne && !it.moving })
                 continue
             }
             val walking=poses.indexOfFirst { it.moving && !it.airborne }
@@ -120,6 +120,7 @@ class ApprovedGardenRoutesTest {
             val t=when(s) {
                 Species.BUTTERFLY -> 2f
                 Species.DRAGONFLY, Species.HONEYBEE -> .86f
+                Species.GRASSHOPPER -> .8f
                 else -> 8f
             }
             val routeTime = t * Routes.period(s, i) / Routes.period(s, 0)

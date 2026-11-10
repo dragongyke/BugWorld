@@ -28,7 +28,10 @@ data class PalmSurface(val side: HandSide,val center: HandPoint,val normal: Hand
         // PALM is a joint center. The GLBs have foot-level normalized origins, so offset
         // to the skin plus a small species-specific sole clearance, in meters.
         val clearance=when(species) { Species.BUTTERFLY->.001f; Species.LADYBUG->.0015f; else->.002f }
-        val point=center+normal*(breadth*.14f+clearance)+heading*step
+        // The system hand silhouette can extend past the joint-derived skin plane.
+        // Keep the extra separation along the palm normal as the hand tilts.
+        val matteClearance = (breadth * .10f).coerceIn(.005f, .009f)
+        val point=center+normal*(breadth*.14f+clearance+matteClearance)+heading*step
         return PerchPose(point,orientation)
     }
 

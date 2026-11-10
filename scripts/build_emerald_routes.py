@@ -151,8 +151,6 @@ for species, surface, center, rx, ry, side in [
     ('HONEYBEE','observe_right',(2.70,-.54),.032,.026,False),
     ('ANT','compact_forest_bank',(3.20,-3.10),.206,.21,False),
     ('ANT','CC0_hero_weathered_stump',(3.64,1.29),.145,.21,True),
-    ('GRASSHOPPER','compact_forest_bank',(0.,4.45),.26,.24,False),
-    ('GRASSHOPPER','observe_back_left',(-2.60,-2.09),.255,.245,False),
 ]:
     route=ring(species,surface,rx,0,ry/rx,center,side)
     # Probe a point just above the visible body's origin with the full imported scene.
@@ -173,6 +171,44 @@ for species, surface, center, rx, ry, side in [
     route['spawnSightHeights']=[1.2,1.6]
     routes.append(route)
 
+# Authored land/bark/leaf supports and flight corridors from the same review GLB.
+circuits = json.loads((ROOT/'assets-src/emerald-routes/grasshopper-circuits.json').read_text())
+def blender_point(row):
+    return Vector((row[0],-row[2],row[1]))
+
+for circuit in circuits:
+    supports = circuit['surfaces']
+    assert len(supports) == len(circuit['jumps']) == 3
+    assert len(circuit['seconds']) == 6 and min(circuit['seconds']) > 0
+    assert supports[0]['surface'] == 'compact_forest_bank'
+    assert supports[1]['surface'] in ('CC0_foreground_fallen_log','CC0_hero_weathered_stump')
+    assert supports[2]['surface'].startswith(('observe_', 'water_pad_'))
+    max_gap = 0
+    for support in supports:
+        tree = trees[support['surface']]
+        positions = list(map(blender_point,support['samples']))
+        for a,b in zip(positions,positions[1:]):
+            for fraction in (0,.25,.5,.75,1):
+                nearest = tree.find_nearest(a.lerp(b,fraction))
+                assert nearest[0] is not None
+                max_gap = max(max_gap,nearest[3])
+    assert max_gap < .003
+    for index, jump in enumerate(circuit['jumps']):
+        a = supports[index]['samples'][-1]
+        b = supports[(index+1)%3]['samples'][0]
+        assert (blender_point(jump[0])-blender_point(a)-blender_point(a[3:])*.003).length < .00001
+        assert (blender_point(jump[-1])-blender_point(b)-blender_point(b[3:])*.003).length < .00001
+        positions = list(map(blender_point,jump))
+        for start,end in zip(positions,positions[1:]):
+            delta = end-start
+            assert all(tree.ray_cast(start,delta.normalized(),delta.length)[0] is None
+                       for tree in trees.values()), ('grasshopper corridor',index,start,end)
+    ground = supports[0]
+    routes.append(dict(species='GRASSHOPPER',surface=ground['surface'],closed=False,
+                       samples=ground['samples'],maxGapMetres=max_gap,
+                       supports=supports,jumps=circuit['jumps'],seconds=circuit['seconds']))
+    print('MIXED CIRCUIT', [s['surface'] for s in supports], sum(circuit['seconds']), max_gap, flush=True)
+
 manifest = dict(sourceGlbSha256=hashlib.sha256(source.read_bytes()).hexdigest(),
                 coordinates='glTF Y-up, in metres', stride=6, routes=routes)
 (out/'routes.json').write_text(json.dumps(manifest, separators=(',', ':')), encoding='utf8')
@@ -182,6 +218,23 @@ for i, route in enumerate(routes):
     lines += [f"    // {route['species']} on {route['surface']}", f'    private fun path{i}() = SurfacePath(floatArrayOf(']
     lines += ['        ' + ','.join(f'{v:.6f}f' for v in row) + ',' for row in route['samples']]
     lines += ['    ), '+str(route['closed']).lower()+')']
+lines += ['    private val grasshopperCircuits by lazy { listOf(']
+for index, circuit in enumerate(circuits):
+    lines += ['        GrasshopperCircuit(',
+              '            floatArrayOf('+','.join(f'{v:.2f}f' for v in circuit['seconds'])+'),',
+              f'            listOf(paths[{17+index}],']
+    for support in circuit['surfaces'][1:]:
+        lines += ['                SurfacePath(floatArrayOf(']
+        lines += ['                    '+','.join(f'{v:.6f}f' for v in row)+',' for row in support['samples']]
+        lines += ['                ), false),']
+    lines += ['            ),', '            listOf(']
+    for jump in circuit['jumps']:
+        lines += ['                SurfacePath(floatArrayOf(']
+        # Jump knots already include the contact offset. Use a world-up normal for lookup.
+        lines += ['                    '+','.join(f'{v:.6f}f' for v in row)+',0f,1f,0f,' for row in jump]
+        lines += ['                ), false),']
+    lines += ['            ),', '        ),']
+lines += ['    ) }']
 lines += ['    // END GENERATED SURFACE KNOTS']
 (out/'route-knots.kt').write_text('\n'.join(lines) + '\n', encoding='utf8')
 

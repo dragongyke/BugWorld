@@ -399,3 +399,7 @@
 ### 1.0.17 体验修订
 
 使用 Blender 生成及检验 GLB 和路线，使用 Gradle、ADB 与资产校验脚本。PICO CLI 调用 0 次。用时和 Token 未单独采集。
+
+### 1.0.18 蚱蜢路线与掌心遮挡
+
+使用 Blender BVH 检查落脚与飞行中心线，使用 Kotlin 路线专项、Gradle 与 ADB。PICO CLI 调用 0 次。用时和 Token 未单独采集。

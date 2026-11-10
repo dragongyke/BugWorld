@@ -76,7 +76,7 @@ class StageInvitationTest {
         for(species in listOf(Species.BUTTERFLY,Species.BEETLE,Species.LADYBUG)) {
             val pose=palm.perch(species,eye,0f)
             val height=pose.point-palm.center
-            assertTrue(height.dot(palm.normal) in .009f.. .014f)
+            assertTrue(height.dot(palm.normal) in .016f.. .021f)
             assertTrue(height.cross(palm.normal).dot(height.cross(palm.normal))<.000001f)
             val up=pose.orientation.rotateVector(Vector3(0f,1f,0f))
             assertEquals(1f,palm.normal.dot(HandPoint(up.x,up.y,up.z)),.001f)
