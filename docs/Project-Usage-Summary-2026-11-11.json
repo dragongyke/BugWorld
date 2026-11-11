@@ -1,0 +1,520 @@
+{
+  "totals": {
+    "input_tokens": 505472314,
+    "cached_input_tokens": 493534336,
+    "output_tokens": 2109538,
+    "reasoning_output_tokens": 677046,
+    "total_tokens": 507581852
+  },
+  "records": [
+    {
+      "id": "01a1a688-e2c7-7352-83ca-4060216374b4",
+      "usage": {
+        "input_tokens": 3364234,
+        "cached_input_tokens": 3259776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20826,
+        "reasoning_output_tokens": 3078,
+        "total_tokens": 3385060
+      },
+      "source": "local session",
+      "asOfUTC": "2026-11-04T12:40:04.717Z"
+    },
+    {
+      "id": "01a1a689-13c7-7df2-b080-d447bc843a73",
+      "usage": {
+        "input_tokens": 8148300,
+        "cached_input_tokens": 7987584,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 24653,
+        "reasoning_output_tokens": 3692,
+        "total_tokens": 8172953
+      },
+      "source": "local session",
+      "asOfUTC": "2026-11-04T12:43:43.956Z"
+    },
+    {
+      "id": "01a1a689-4424-7f51-94c4-16c2e460a584",
+      "usage": {
+        "input_tokens": 14811777,
+        "cached_input_tokens": 14617088,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 65774,
+        "reasoning_output_tokens": 23468,
+        "total_tokens": 14877551
+      },
+      "source": "local session",
+      "asOfUTC": "2026-11-04T13:33:40.521Z"
+    },
+    {
+      "id": "01a1a6b7-19b1-78e0-8f76-fe8582322f85",
+      "usage": {
+        "input_tokens": 6928554,
+        "cached_input_tokens": 6811904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 37571,
+        "reasoning_output_tokens": 8975,
+        "total_tokens": 6966125
+      },
+      "source": "local session",
+      "asOfUTC": "2026-11-04T13:39:40.824Z"
+    },
+    {
+      "id": "01a1a6b7-64f8-7581-82f7-ab447456cea2",
+      "usage": {
+        "input_tokens": 4663786,
+        "cached_input_tokens": 4576000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 39240,
+        "reasoning_output_tokens": 8718,
+        "total_tokens": 4703026
+      },
+      "source": "local session",
+      "asOfUTC": "2026-11-04T13:38:08.866Z"
+    },
+    {
+      "id": "01a11a87-f8c7-7783-86ac-79ba85d89282",
+      "usage": {
+        "input_tokens": 352733047,
+        "cached_input_tokens": 344953728,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1237676,
+        "reasoning_output_tokens": 391399,
+        "total_tokens": 353970723
+      },
+      "source": "local session",
+      "asOfUTC": "2026-11-11T07:44:17.238Z"
+    },
+    {
+      "id": "01a11b00-6019-7760-b0dc-f7855a912dc0",
+      "usage": {
+        "input_tokens": 1411824,
+        "cached_input_tokens": 1335424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4548,
+        "reasoning_output_tokens": 903,
+        "total_tokens": 1416372
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11b7b-daa5-7451-afd6-d309befa7fc4",
+      "usage": {
+        "input_tokens": 2121230,
+        "cached_input_tokens": 2035200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25899,
+        "reasoning_output_tokens": 7360,
+        "total_tokens": 2147129
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11b7c-59af-7161-a99b-7c43dc82da49",
+      "usage": {
+        "input_tokens": 3952313,
+        "cached_input_tokens": 3832832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 35026,
+        "reasoning_output_tokens": 10792,
+        "total_tokens": 3987339
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11b7c-e549-7aa2-862f-fd996fd32901",
+      "usage": {
+        "input_tokens": 5370191,
+        "cached_input_tokens": 5137152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 52814,
+        "reasoning_output_tokens": 18807,
+        "total_tokens": 5423005
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11b84-f881-7c32-a471-2544d7e3924a",
+      "usage": {
+        "input_tokens": 19096798,
+        "cached_input_tokens": 18451328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 130277,
+        "reasoning_output_tokens": 50667,
+        "total_tokens": 19227075
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11b9a-a3a3-7bd0-92bd-59e9f3844292",
+      "usage": {
+        "input_tokens": 9645418,
+        "cached_input_tokens": 9368448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56744,
+        "reasoning_output_tokens": 19891,
+        "total_tokens": 9702162
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11bbd-ef40-7353-8839-d7ec21312728",
+      "usage": {
+        "input_tokens": 13618472,
+        "cached_input_tokens": 13401216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 68390,
+        "reasoning_output_tokens": 28758,
+        "total_tokens": 13686862
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11efa-fef2-7b23-a495-61e56cecf33f",
+      "usage": {
+        "input_tokens": 6242226,
+        "cached_input_tokens": 6082688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28133,
+        "reasoning_output_tokens": 7493,
+        "total_tokens": 6270359
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11efb-59e8-7310-a239-d6f3301a6def",
+      "usage": {
+        "input_tokens": 12749231,
+        "cached_input_tokens": 12490368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76578,
+        "reasoning_output_tokens": 33951,
+        "total_tokens": 12825809
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11efc-113f-76a3-8e71-c70caf5739be",
+      "usage": {
+        "input_tokens": 13376628,
+        "cached_input_tokens": 12997632,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 65922,
+        "reasoning_output_tokens": 18528,
+        "total_tokens": 13442550
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a11f18-689c-7ac2-a37e-6b25408fbc0e",
+      "usage": {
+        "input_tokens": 2030139,
+        "cached_input_tokens": 1931136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6636,
+        "reasoning_output_tokens": 2607,
+        "total_tokens": 2036775
+      },
+      "source": "docs/Lighting-Fix-Usage.json",
+      "asOfUTC": "2026-10-09T12:40:29.779011+00:00"
+    },
+    {
+      "id": "01a153b1-d307-7532-a473-d88f6b554bc3",
+      "usage": {
+        "input_tokens": 796004,
+        "cached_input_tokens": 718336,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4073,
+        "reasoning_output_tokens": 1625,
+        "total_tokens": 800077
+      },
+      "source": "docs/Stage-109-Usage.json",
+      "asOfUTC": "2026-10-19T10:27:51.151Z"
+    },
+    {
+      "id": "01a1624d-2094-7511-b1f7-6f4ec0c5c18e",
+      "usage": {
+        "input_tokens": 1028587,
+        "cached_input_tokens": 950784,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3232,
+        "reasoning_output_tokens": 464,
+        "total_tokens": 1031819
+      },
+      "source": "docs/Stage-112-Usage.json",
+      "asOfUTC": "2026-10-22T06:37:41.991Z"
+    },
+    {
+      "id": "01a153c9-79bc-7210-aa2f-5ce243bafd30",
+      "usage": {
+        "input_tokens": 9862678,
+        "cached_input_tokens": 9643136,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 48279,
+        "reasoning_output_tokens": 13552,
+        "total_tokens": 9910957
+      },
+      "source": "docs/Stage-Diagnostics-Usage.json",
+      "asOfUTC": "2026-10-19T11:29:23.990Z"
+    },
+    {
+      "id": "01a153c9-c41b-7920-a2f1-80a2bab6b7ad",
+      "usage": {
+        "input_tokens": 3264182,
+        "cached_input_tokens": 3141248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16902,
+        "reasoning_output_tokens": 5885,
+        "total_tokens": 3281084
+      },
+      "source": "docs/Stage-Diagnostics-Usage.json",
+      "asOfUTC": "2026-10-19T11:12:48.098Z"
+    },
+    {
+      "id": "01a1528b-745e-72f1-b248-bb4f951467bf",
+      "usage": {
+        "input_tokens": 5377091,
+        "cached_input_tokens": 5221504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 39540,
+        "reasoning_output_tokens": 8484,
+        "total_tokens": 5416631
+      },
+      "source": "docs/Stage-Optimization-Usage.json",
+      "asOfUTC": "2026-10-19T05:25:01.443Z"
+    },
+    {
+      "id": "01a15295-d9b7-7142-b5b4-cbb043b0ba5e",
+      "usage": {
+        "input_tokens": 784119,
+        "cached_input_tokens": 718848,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5465,
+        "reasoning_output_tokens": 2150,
+        "total_tokens": 789584
+      },
+      "source": "docs/Stage-Optimization-Usage.json",
+      "asOfUTC": "2026-10-19T05:18:13.537Z"
+    },
+    {
+      "id": "01a15296-79b8-7da0-b920-3c2e64ef5e7f",
+      "usage": {
+        "input_tokens": 1252983,
+        "cached_input_tokens": 1172736,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5545,
+        "reasoning_output_tokens": 2630,
+        "total_tokens": 1258528
+      },
+      "source": "docs/Studio-107-Usage.json",
+      "asOfUTC": "2026-10-19T05:20:46.731Z"
+    },
+    {
+      "id": "01a15351-f3ab-7f40-bd73-04c5c0cd0c75",
+      "usage": {
+        "input_tokens": 2842502,
+        "cached_input_tokens": 2698240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9795,
+        "reasoning_output_tokens": 3169,
+        "total_tokens": 2852297
+      },
+      "source": "docs/Studio-107-Usage.json",
+      "asOfUTC": "2026-10-19T08:57:24.163Z"
+    }
+  ],
+  "observedCompletedTurnSeconds": 217868.173,
+  "intervals": [
+    [
+      "2026-10-08T08:01:21.933000+00:00",
+      "2026-10-08T08:06:54.930000+00:00"
+    ],
+    [
+      "2026-10-08T08:17:06.988000+00:00",
+      "2026-10-08T08:19:37.266000+00:00"
+    ],
+    [
+      "2026-10-08T08:27:52.351000+00:00",
+      "2026-10-08T08:29:01.295000+00:00"
+    ],
+    [
+      "2026-10-08T08:35:16.267000+00:00",
+      "2026-10-08T08:39:07.688000+00:00"
+    ],
+    [
+      "2026-10-08T09:15:11.004000+00:00",
+      "2026-10-08T11:14:51.971000+00:00"
+    ],
+    [
+      "2026-10-08T11:34:01.904000+00:00",
+      "2026-10-08T11:50:01.412000+00:00"
+    ],
+    [
+      "2026-10-08T11:58:41.293000+00:00",
+      "2026-10-08T12:09:24.899000+00:00"
+    ],
+    [
+      "2026-10-08T12:11:35.473000+00:00",
+      "2026-10-08T12:21:33.766000+00:00"
+    ],
+    [
+      "2026-10-08T12:23:58.557000+00:00",
+      "2026-10-08T13:31:45.008000+00:00"
+    ],
+    [
+      "2026-10-08T13:31:45.029000+00:00",
+      "2026-10-08T13:37:09.909000+00:00"
+    ],
+    [
+      "2026-10-08T13:38:32.673000+00:00",
+      "2026-10-09T04:28:04.127000+00:00"
+    ],
+    [
+      "2026-10-09T04:40:01.792000+00:00",
+      "2026-10-09T04:40:21.516000+00:00"
+    ],
+    [
+      "2026-10-09T04:42:08.749000+00:00",
+      "2026-10-09T06:16:17.197000+00:00"
+    ],
+    [
+      "2026-10-09T12:22:00.542000+00:00",
+      "2026-10-09T12:41:04.877000+00:00"
+    ],
+    [
+      "2026-10-19T05:02:48.795000+00:00",
+      "2026-10-19T05:32:35.392000+00:00"
+    ],
+    [
+      "2026-10-19T08:28:08.119000+00:00",
+      "2026-10-19T09:15:49.392000+00:00"
+    ],
+    [
+      "2026-10-19T09:16:30.951000+00:00",
+      "2026-10-19T09:17:21.775000+00:00"
+    ],
+    [
+      "2026-10-19T09:26:10.388000+00:00",
+      "2026-10-19T09:40:16.594000+00:00"
+    ],
+    [
+      "2026-10-19T10:03:14.658000+00:00",
+      "2026-10-19T11:37:03.683000+00:00"
+    ],
+    [
+      "2026-10-20T03:25:08.429000+00:00",
+      "2026-10-20T03:25:23.999000+00:00"
+    ],
+    [
+      "2026-10-20T07:02:20.040000+00:00",
+      "2026-10-20T07:34:16.128000+00:00"
+    ],
+    [
+      "2026-10-20T07:48:43.594000+00:00",
+      "2026-10-20T09:25:05.039000+00:00"
+    ],
+    [
+      "2026-10-20T11:36:23.829000+00:00",
+      "2026-10-21T02:28:50.930000+00:00"
+    ],
+    [
+      "2026-10-21T10:34:07.596000+00:00",
+      "2026-10-22T02:23:36.116000+00:00"
+    ],
+    [
+      "2026-10-22T06:12:39.410000+00:00",
+      "2026-10-22T06:41:04.411000+00:00"
+    ],
+    [
+      "2026-10-27T07:58:30.958000+00:00",
+      "2026-10-27T08:23:22.629000+00:00"
+    ],
+    [
+      "2026-10-28T07:41:39.154000+00:00",
+      "2026-10-28T07:45:32.551000+00:00"
+    ],
+    [
+      "2026-10-28T07:47:47.499000+00:00",
+      "2026-10-28T07:48:57.978000+00:00"
+    ],
+    [
+      "2026-10-28T07:54:54.115000+00:00",
+      "2026-10-28T08:30:15.712000+00:00"
+    ],
+    [
+      "2026-10-28T08:32:57.701000+00:00",
+      "2026-10-28T08:44:56.358000+00:00"
+    ],
+    [
+      "2026-11-04T12:22:32.913000+00:00",
+      "2026-11-04T12:52:36.646000+00:00"
+    ],
+    [
+      "2026-11-04T13:18:18.359000+00:00",
+      "2026-11-04T13:51:22.084000+00:00"
+    ],
+    [
+      "2026-11-06T09:41:05.770000+00:00",
+      "2026-11-06T09:41:06.825000+00:00"
+    ],
+    [
+      "2026-11-09T07:46:27.053000+00:00",
+      "2026-11-09T07:46:29.935000+00:00"
+    ],
+    [
+      "2026-11-09T08:37:01.388000+00:00",
+      "2026-11-09T08:37:02.778000+00:00"
+    ],
+    [
+      "2026-11-09T11:44:04.223000+00:00",
+      "2026-11-09T11:44:11.642000+00:00"
+    ],
+    [
+      "2026-11-09T11:48:09.623000+00:00",
+      "2026-11-09T11:51:31.448000+00:00"
+    ],
+    [
+      "2026-11-10T04:05:10.347000+00:00",
+      "2026-11-10T04:10:16.434000+00:00"
+    ],
+    [
+      "2026-11-10T09:01:03.533000+00:00",
+      "2026-11-10T09:05:02.313000+00:00"
+    ],
+    [
+      "2026-11-10T09:06:26.384000+00:00",
+      "2026-11-10T09:08:14.944000+00:00"
+    ],
+    [
+      "2026-11-10T10:06:59.986000+00:00",
+      "2026-11-10T10:19:47.456000+00:00"
+    ],
+    [
+      "2026-11-10T11:08:29.778000+00:00",
+      "2026-11-10T11:17:56.290000+00:00"
+    ],
+    [
+      "2026-11-10T11:45:19.273000+00:00",
+      "2026-11-10T12:08:33.251000+00:00"
+    ]
+  ],
+  "snapshotUTC": "2026-11-11T07:44:17.238Z",
+  "implementationStartUTC": "2026-10-08T09:15:11.004Z",
+  "definition": {
+    "tokens": "Per thread ID, take highest available cumulative counter from live logs or archived project snapshots; do not sum phase deltas or previous aggregate totals. Input includes cached input; output includes reasoning. Includes design, development, troubleshooting and recorded independent Stage thread.",
+    "coverage": "Verified lower bound, not exact complete project total: 6 live logs and 19 snapshot-only thread identities; unseen later work for missing logs and image/backend tokens are excluded. Current audit after snapshot is excluded.",
+    "time": "Union of completed task_started/task_complete intervals in available project logs, including design, tools, user waiting and overnight suspension. Concurrent agents are not added twice. Not net working time; missing logs can leave gaps.",
+    "netWorkSeconds": null
+  },
+  "observedCompletedTurnDuration": "60h 31m 08s"
+}
