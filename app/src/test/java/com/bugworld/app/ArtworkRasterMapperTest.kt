@@ -136,6 +136,35 @@ class ArtworkRasterMapperTest {
         assertTrue((color ushr 8 and 255) < 100)
     }
 
+    @Test fun caterpillarWrapTransfersPigmentWithoutTurningPaperOutlineIntoADorsalStripe() {
+        val transfer = mapper(Species.CATERPILLAR, runtime=true)
+        val mask = PngTestPixels.read(File(root,"app/src/main/assets/v3/templates/caterpillar-mask.png"))
+        val colors = intArrayOf(0,0xFFBA91DF.toInt(),0xFFEE95B9.toInt(),0xFF84B5EB.toInt(),
+            0xFFE3B0CE.toInt(),0xFF77B2E0.toInt(),0xFFA8C97D.toInt(),0xFFEF9791.toInt(),
+            0xFFB28BDD.toInt(),0xFF86C8BF.toInt(),0xFFF1B65D.toInt())
+        val pigment = IntArray(mask.pixels.size) { colors[mask.pixels[it] ushr 16 and 255] }
+        val material = "Continuous wax pigment • image PBR"
+        val mapped = transfer.mapPixels(pigment).getValue(material)
+        // Optional actual Kotlin atlas for importing into the shipped GLB in Blender.
+        System.getenv("BUGWORLD_TEXTURE_PROOF_DIR")?.let { directory ->
+            File(directory).mkdirs()
+            java.io.DataOutputStream(File(directory,"caterpillar.argb").outputStream().buffered()).use { out ->
+                out.writeInt(1024); out.writeInt(512); mapped.forEach(out::writeInt)
+            }
+        }
+        val centers = floatArrayOf(.03f,.1125f,.2175f,.3225f,.4275f,.5325f,.6375f,.7425f,.8475f,.95f)
+        for ((segment,u) in centers.withIndex()) for (v in floatArrayOf(0f,.20f,.25f,.30f,.5f,.75f)) {
+            assertEquals("Segment ${segment+1} at V=$v retains painted color",colors[segment+1],
+                transfer.sample(material,u,v,pigment))
+            val x=(u*1024).toInt(); val y=(v*512).toInt()
+            assertEquals(colors[segment+1],mapped[y*1024+x])
+        }
+        // Do not remove dark colors chosen by the player along with the template outline.
+        val dark = 0xFF27202B.toInt()
+        val darkPigment = IntArray(pigment.size) { if (pigment[it]==0) 0 else dark }
+        assertEquals(dark,transfer.sample(material,.4275f,.25f,darkPigment))
+    }
+
     private fun mark(pixels: IntArray, x: Int, y: Int, color: Int, width: Int=2048) {
         for (iy in y-5..y+5) for (ix in x-5..x+5) pixels[iy*width+ix] = color
     }

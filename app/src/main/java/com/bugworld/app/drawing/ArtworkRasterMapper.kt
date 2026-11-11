@@ -74,7 +74,7 @@ class ArtworkRasterMapper(val species: Species, val width: Int, val height: Int,
                 val (top,bottom) = shape.column(px)
                 // j=24/96 is dorsal, j=72/96 ventral in the actual continuous cuticle mesh.
                 val down = (1-sin(2*PI*y)).toFloat()/2
-                Point(px,top+(bottom-top)*down)
+                shape.pigmentPoint(px,top+(bottom-top)*down)
             }
         }
     }
@@ -89,6 +89,9 @@ class ArtworkRasterMapper(val species: Species, val width: Int, val height: Int,
     private fun colorAt(index: Int,pigment: IntArray): Int {
         if (index<0) return PaintDocument.PAPER
         val base = if (regions[index] == 0 || pigment[index] ushr 24 == 0) PaintDocument.PAPER else pigment[index]
+        // The side-view silhouette folds onto the dorsal/ventral ridge in this wrap.
+        // Transfer only player pigment; eyes and feet already have separate model materials.
+        if (species == Species.CATERPILLAR) return base
         val relief=detail ?: return over(ink[index],base)
         val tone=relief[index].toInt() and 255
         fun channel(shift:Int) = (((base ushr shift and 255)*tone+64) / 128).coerceAtMost(255)
@@ -147,7 +150,8 @@ class ArtworkRasterMapper(val species: Species, val width: Int, val height: Int,
 }
 
 /** Scanline envelopes include locked holes, so a black spot cannot shrink a curved shell. */
-internal class RegionShape(private val width: Int, private val height: Int, regions: IntArray, id: Int) {
+internal class RegionShape(private val width: Int, private val height: Int,
+                           private val regions: IntArray, private val id: Int) {
     var left = width; private set
     var right = -1; private set
     var top = height; private set
@@ -164,6 +168,17 @@ internal class RegionShape(private val width: Int, private val height: Int, regi
         require(right >= left && bottom >= top) { "Missing drawing region $id" }
     }
     fun rectangle(u: Float,v: Float) = ArtworkRasterMapper.Point(left+u*(right-left),top+v*(bottom-top))
+    /** Extend pigment through locked eye/outline holes without copying the paper's ink to skin. */
+    fun pigmentPoint(x: Float,y: Float): ArtworkRasterMapper.Point {
+        val ix=x.roundToInt().coerceIn(left,right); val iy=y.roundToInt().coerceIn(top,bottom)
+        if (regions[iy*width+ix]==id) return ArtworkRasterMapper.Point(x,y)
+        for (distance in 1..bottom-top) {
+            val above=iy-distance; val below=iy+distance
+            if (above>=top && regions[above*width+ix]==id) return ArtworkRasterMapper.Point(ix.toFloat(),above.toFloat())
+            if (below<=bottom && regions[below*width+ix]==id) return ArtworkRasterMapper.Point(ix.toFloat(),below.toFloat())
+        }
+        return ArtworkRasterMapper.Point(x,y)
+    }
     fun row(y: Float): Pair<Float,Float> = span(y.roundToInt().coerceIn(top,bottom),rowMin,rowMax,top,bottom)
     fun column(x: Float): Pair<Float,Float> = span(x.roundToInt().coerceIn(left,right),colMin,colMax,left,right)
     private fun span(index: Int, lo: IntArray, hi: IntArray, min: Int, max: Int): Pair<Float,Float> {
