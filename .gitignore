@@ -72,5 +72,7 @@ assets-src/**/.Component/
 assets-src/**/*.picometa
 assets-src/**/*.spatialmeta
 assets-src/**/animation-*.png
+assets-src/v3-review/*/pose_*.png
+assets-src/v3-review/*/preview_neutral.png
 assets-src/emerald-forest-review/*.blend
 assets-src/stage-ring/*.blend

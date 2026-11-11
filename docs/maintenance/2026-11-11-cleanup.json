@@ -1,0 +1,914 @@
+{
+  "baselineBytes": 4363584332,
+  "afterBytes": 3680048465,
+  "netReductionBytes": 683535867,
+  "sizeMethod": "Logical file bytes including .git; measured after Gradle clean, before Git commit/push. Not allocated disk space.",
+  "plannedRemovalBytes": 958197884,
+  "targets": [
+    {
+      "path": ".gradle",
+      "bytes": 4057714,
+      "files": 15,
+      "removed": false
+    },
+    {
+      "path": ".kotlin",
+      "bytes": 0,
+      "files": 0,
+      "removed": false
+    },
+    {
+      "path": ".work/air117.log",
+      "bytes": 4578,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/air118.log",
+      "bytes": 4046,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/all118.py",
+      "bytes": 418,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/asset-review-iteration.png",
+      "bytes": 459728,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/attachment-bytecode119.txt",
+      "bytes": 2784,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/attachment-core119.txt",
+      "bytes": 16274,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/attachment-delegate119.txt",
+      "bytes": 8045,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/attachment-display119.txt",
+      "bytes": 9793,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/attachment-legacy119.txt",
+      "bytes": 73239,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/audit_project_usage.py",
+      "bytes": 2350,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/baseline-114.log",
+      "bytes": 2853,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board-regression118-app.txt",
+      "bytes": 5070,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board-regression118-logcat.txt",
+      "bytes": 1146857,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board118-snapshot.json",
+      "bytes": 192,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board118-windowdump.txt",
+      "bytes": 71295,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-album-recreate-failed.json",
+      "bytes": 344,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-awake-snapshot.json",
+      "bytes": 186087,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-awake-windows.txt",
+      "bytes": 71856,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-before-check.json",
+      "bytes": 817,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-before-check.last-snapshot.json",
+      "bytes": 290121,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-cold-start.json",
+      "bytes": 753,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-final-regression.json",
+      "bytes": 1056,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-final-regression.last-snapshot.json",
+      "bytes": 230,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-first-return.json",
+      "bytes": 230,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-open-preview.json",
+      "bytes": 364637,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview-close.json",
+      "bytes": 230,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview-logcat.txt",
+      "bytes": 1033786,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview-ui.json",
+      "bytes": 364651,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview-windows.txt",
+      "bytes": 68518,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview2-open.json",
+      "bytes": 364637,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview2-ui.json",
+      "bytes": 379333,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-preview2-windows.txt",
+      "bytes": 71984,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-regression-sleep-interrupted.json",
+      "bytes": 244,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-regression-stage-return-failed.json",
+      "bytes": 1056,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-restore-nav.txt",
+      "bytes": 179202,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-stage-final.json",
+      "bytes": 383,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-stage-fixed.json",
+      "bytes": 344,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-stage-fixed.last-snapshot.json",
+      "bytes": 364894,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-stage-return-activities.txt",
+      "bytes": 25350,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/board119-stage-return-log.txt",
+      "bytes": 731895,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build-113.log",
+      "bytes": 2760,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build117.log",
+      "bytes": 2971,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build118.log",
+      "bytes": 2916,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build119-final.txt",
+      "bytes": 2956,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build119-final2.txt",
+      "bytes": 2901,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build119-preview.txt",
+      "bytes": 2079,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build119-return.txt",
+      "bytes": 2901,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/build119.txt",
+      "bytes": 2938,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/cleanup-20261027",
+      "bytes": 1344079,
+      "files": 12,
+      "removed": false
+    },
+    {
+      "path": ".work/containerapis119.txt",
+      "bytes": 81589,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/core-view119.txt",
+      "bytes": 101664,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/eight-sheets-114.png",
+      "bytes": 135535,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/emerald-native-verification.json",
+      "bytes": 1672,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/expansion-paint.json",
+      "bytes": 1352,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/final-113.log",
+      "bytes": 2959,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/find118.log",
+      "bytes": 3933,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/find118.py",
+      "bytes": 3605,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/grass-clear117.log",
+      "bytes": 9981,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/grass117.log",
+      "bytes": 1253,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/grass118-timed.json",
+      "bytes": 63420,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/grass118.json",
+      "bytes": 63214,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/ground114",
+      "bytes": 3991557,
+      "files": 14,
+      "removed": false
+    },
+    {
+      "path": ".work/hand-sdk",
+      "bytes": 2405158,
+      "files": 46,
+      "removed": false
+    },
+    {
+      "path": ".work/localize-sdk",
+      "bytes": 2858517,
+      "files": 3,
+      "removed": false
+    },
+    {
+      "path": ".work/metrics-113-ambiguous-55.txt",
+      "bytes": 480,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/migration-sdk.init.gradle",
+      "bytes": 258,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/outline-116.jpg",
+      "bytes": 105929,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/package-113.json",
+      "bytes": 1667,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/package-115.json",
+      "bytes": 1746,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/package-116.json",
+      "bytes": 1746,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/package-117.json",
+      "bytes": 1746,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/package-118.json",
+      "bytes": 1746,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/paint-116.json",
+      "bytes": 201,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/paint117.json",
+      "bytes": 201,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/panelcomponent119.txt",
+      "bytes": 33732,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/platform115.jar",
+      "bytes": 301931,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/prerelease-models-114.png",
+      "bytes": 514425,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/project-usage-audit-summary.txt",
+      "bytes": 1710,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/project-usage-audit.json",
+      "bytes": 9909,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/project-usage-reconciled.json",
+      "bytes": 14942,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/proof-114",
+      "bytes": 2629589,
+      "files": 18,
+      "removed": false
+    },
+    {
+      "path": ".work/proof-117",
+      "bytes": 548497,
+      "files": 7,
+      "removed": false
+    },
+    {
+      "path": ".work/proof-120",
+      "bytes": 7705589,
+      "files": 21,
+      "removed": false
+    },
+    {
+      "path": ".work/release-113.log",
+      "bytes": 2901,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/resident-routes",
+      "bytes": 2144985,
+      "files": 37,
+      "removed": false
+    },
+    {
+      "path": ".work/retained-113.log",
+      "bytes": 2901,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/retained-114.log",
+      "bytes": 2982,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/route-tests117.log",
+      "bytes": 1782,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/route-tests118.log",
+      "bytes": 67,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/route118-first.json",
+      "bytes": 14765,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/routes117",
+      "bytes": 413467,
+      "files": 2,
+      "removed": false
+    },
+    {
+      "path": ".work/routes117-safe",
+      "bytes": 358891,
+      "files": 2,
+      "removed": false
+    },
+    {
+      "path": ".work/routes117-safe.log",
+      "bytes": 3907,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/routes117.log",
+      "bytes": 4209,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/routes118-base",
+      "bytes": 358891,
+      "files": 2,
+      "removed": false
+    },
+    {
+      "path": ".work/routes118-candidates.json",
+      "bytes": 2794188,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/routes118-check",
+      "bytes": 381864,
+      "files": 2,
+      "removed": false
+    },
+    {
+      "path": ".work/routes118-final",
+      "bytes": 381864,
+      "files": 2,
+      "removed": false
+    },
+    {
+      "path": ".work/routes118-final.log",
+      "bytes": 3981,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/sdk-container-6.1.jar",
+      "bytes": 1083339,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/sdk-nav-6.1.jar",
+      "bytes": 301931,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/search118.log",
+      "bytes": 4173,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/search118.py",
+      "bytes": 5709,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/spatialview-bytecode119.txt",
+      "bytes": 77859,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/support117.py",
+      "bytes": 478,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/test117.log",
+      "bytes": 2452,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/tests-114.log",
+      "bytes": 1940,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/v3-route-tests",
+      "bytes": 479691,
+      "files": 23,
+      "removed": false
+    },
+    {
+      "path": ".work/v3-routes",
+      "bytes": 2005544,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": ".work/view-attachments119.txt",
+      "bytes": 25267,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": "app/build",
+      "bytes": 680251581,
+      "files": 1382,
+      "removed": true
+    },
+    {
+      "path": "assets-src/expansion-114/__pycache__",
+      "bytes": 3766,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": "assets-src/expansion-114/ground/__pycache__",
+      "bytes": 7151,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": "assets-src/v2",
+      "bytes": 0,
+      "files": 0,
+      "removed": false
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_flight_09.png",
+      "bytes": 193739,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_idle_01.png",
+      "bytes": 190177,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_takeoff_22.png",
+      "bytes": 196556,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_takeoff_43.png",
+      "bytes": 198961,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_touch_18.png",
+      "bytes": 190138,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_walk_06.png",
+      "bytes": 189765,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_walk_10.png",
+      "bytes": 187554,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/beetle/preview_neutral.png",
+      "bytes": 489660,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_flight_09.png",
+      "bytes": 208766,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_idle_01.png",
+      "bytes": 193281,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_takeoff_22.png",
+      "bytes": 207912,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_takeoff_43.png",
+      "bytes": 210400,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_touch_18.png",
+      "bytes": 192868,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_walk_06.png",
+      "bytes": 192678,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_walk_10.png",
+      "bytes": 156265,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/preview_neutral.png",
+      "bytes": 500637,
+      "files": 1,
+      "removed": true
+    },
+    {
+      "path": "deliverables/BugWorld-1.0.19.apk",
+      "bytes": 229893010,
+      "files": 1,
+      "removed": false
+    },
+    {
+      "path": "scripts/__pycache__",
+      "bytes": 147163,
+      "files": 8,
+      "removed": false
+    }
+  ],
+  "trackedDeleted": [
+    {
+      "path": "assets-src/v3-review/beetle/pose_flight_09.png",
+      "sha256": "2e1ae58f6a8dee6f0a35f49d3fb4e79ba4ef1d059c6c4ad9f3cb4928b779d9f3"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_idle_01.png",
+      "sha256": "313a080c49c12171b1ce1e2be73658d288bee2628e7f0a12bb35e05709baa5a5"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_takeoff_22.png",
+      "sha256": "506177b25d7c2e8bcdee0d13689a053816cd91b850539cb02cd8b4aa6b2641ba"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_takeoff_43.png",
+      "sha256": "187f62b7e5e3efcc60e149abf39df331917dca580ebd844705dd112cdf21630d"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_touch_18.png",
+      "sha256": "9f7c445e8f2c56a24f36a9297da7585330139cdf2e97c52c722d7abcef74f5df"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_walk_06.png",
+      "sha256": "0b1daa09135fda88fc523cee9ee13134d70ddebd961daaf955e491f4c82fe31c"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/pose_walk_10.png",
+      "sha256": "3128d57eb3ff6b55dde6d1b4bec346482e57bcf38bf43d45704c05bb67477b94"
+    },
+    {
+      "path": "assets-src/v3-review/beetle/preview_neutral.png",
+      "sha256": "5f99184caadf910a180de022347cb281f3d3a034ac0c98a1f2d65214ec8026c3"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_flight_09.png",
+      "sha256": "f0d5303e987d60ed0bafa7bb45e2a67f50589dea8942754f0ec8036fb9e117dc"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_idle_01.png",
+      "sha256": "e4adaf6e997b1272db3f34189f266627eac9c9d81e187cd749fd9861f8589204"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_takeoff_22.png",
+      "sha256": "8b47d8f026445ad02104db1dd5d0ee1ba5c8291d500fb8cce6312f158e38fa3d"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_takeoff_43.png",
+      "sha256": "6a5197067418071cc6b96efe2772e777852f0d049a9db827b3eb3253a6376aa6"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_touch_18.png",
+      "sha256": "901d49f63855e798d73d41e6b64d0632073c34154a25d5dc52d67c551391ef58"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_walk_06.png",
+      "sha256": "bc49fba11932b345cac3828498b5bc037d3b8a47d809471414a2a2f317bf0d9d"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/pose_walk_10.png",
+      "sha256": "d490e91c3088cd4906684de4047c6f5d66a3d719436b3562428b8bfdc7a6d677"
+    },
+    {
+      "path": "assets-src/v3-review/ladybug/preview_neutral.png",
+      "sha256": "f28fa74ca7bbac2ec6963dfea085b1aadf6fcf672503f2e3f68420f8ee3c082a"
+    }
+  ],
+  "protectedFilesUnchanged": 804,
+  "archivedDiagnosticFiles": [
+    "board119-album-recreate-failed.json",
+    "board119-before-check.json",
+    "board119-cold-start.json",
+    "board119-final-regression.json",
+    "board119-first-return.json",
+    "board119-preview-close.json",
+    "board119-regression-sleep-interrupted.json",
+    "board119-regression-stage-return-failed.json",
+    "board119-stage-final.json",
+    "board119-stage-fixed.json",
+    "package-113.json",
+    "package-115.json",
+    "package-116.json",
+    "package-117.json",
+    "package-118.json",
+    "project-usage-audit.json",
+    "project-usage-reconciled.json",
+    "route118-first.json"
+  ],
+  "build": "clean full Gradle testDebugUnitTest/lintDebug/assembleDebug passed; then app:clean passed",
+  "unitTests": 127,
+  "lintErrors": 0,
+  "lintWarnings": 35,
+  "packagedAssetFiles": 55,
+  "retainedApkSha256": "0dc11953d11bf1e112209faabd39f8600ea61e953497becf2a8aedd732625ce1",
+  "nativeDependencyFiles": 73,
+  "nativeRelativeReferences": 127,
+  "paintVerification": "passed for eight insects",
+  "hdrTest": "passed",
+  "headsetVerifiedThisTask": false,
+  "blocked": "Recursive cleanup and narrowed per-file temporary cleanup rejected by automatic policy; no reason beyond blocked by policy. Old APK and temporary files retained.",
+  "licensing": "MIT approved by user; third-party licenses preserved",
+  "branch": "codex/github-migration"
+}

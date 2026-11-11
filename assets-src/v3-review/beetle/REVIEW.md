@@ -16,7 +16,7 @@
 - `neutral_three_quarter.png`：真实中性灯光三分之四视角。
 - `natural_setting.png`：真实树皮布景渲染。
 - `roundtrip_neutral.png`、`roundtrip_flight.png`：新 Blender 进程重新导入最终 GLB 后的实际渲染。
-- `animation_contact_sheet.png`：上排从左至右为 idle、walk、touch；下排为开壳、展翼、flight。单帧原图保留为 `pose_*.png`。
+- `animation_contact_sheet.png`：上排从左至右为 idle、walk、touch；下排为开壳、展翼、flight。重复单帧 `pose_*.png` 已清理，需要时可用生成脚本重新输出。
 
 ## 几何与动画
 
