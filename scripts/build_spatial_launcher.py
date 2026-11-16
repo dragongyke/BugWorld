@@ -1,75 +1,46 @@
-"""Bake the Android vector artwork into PICO's ordered color and distance layers."""
-from pathlib import Path
-import re
-import xml.etree.ElementTree as ET
-import cv2
-import numpy as np
-from PIL import Image, ImageDraw
+"""Package the approved store icon for Android and PICO (no artwork regeneration).
 
-RES = Path(__file__).resolve().parents[1] / "app/src/main/res"
-DRAWABLE = RES / "drawable"
-ANDROID = "{http://schemas.android.com/apk/res/android}"
+Requires NumPy and Pillow. Run from any directory with Python 3.
+The two ordered PICO layers keep the existing launcher contract: a full artwork
+front tile and a matching solid back tile, both with the same rounded silhouette.
+"""
+from pathlib import Path
+import numpy as np
+from PIL import Image
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "deliverables/store-media-2026-11-16/BugWorld-AppIcon-1024.png"
+RES = ROOT / "app/src/main/res"
 SIZE = 1024
 
 
-def sample_path(data):
-    paths = []
-    for command, values in re.findall(r"([MCQZ])([^MCQZ]*)", data):
-        numbers = list(map(float, re.findall(r"-?\d+(?:\.\d+)?", values)))
-        points = np.array(numbers).reshape(-1, 2)
-        if command == "M":
-            paths.append([points[0]])
-        elif command == "Z":
-            paths[-1].append(paths[-1][0])
-        else:
-            start = paths[-1][-1]
-            for t in np.linspace(0, 1, 65)[1:]:
-                u = 1 - t
-                if command == "Q":
-                    position = u*u*start + 2*u*t*points[0] + t*t*points[1]
-                else:
-                    position = u**3*start + 3*u*u*t*points[0] + 3*u*t*t*points[1] + t**3*points[2]
-                paths[-1].append(position)
-    return paths
-
-
-def save_layer(layer, index):
-    layer = layer.resize((SIZE, SIZE), Image.Resampling.LANCZOS)
-    layer.save(DRAWABLE / f"icon_3d_layer_{index}.png", optimize=True)
-    alpha = np.asarray(layer.getchannel("A"))
-    solid = (alpha >= 128).astype(np.uint8)
-    inner = cv2.distanceTransform(solid, cv2.DIST_L2, cv2.DIST_MASK_PRECISE)
-    outer = cv2.distanceTransform(1 - solid, cv2.DIST_L2, cv2.DIST_MASK_PRECISE)
-    distance = np.clip(128 + (inner - outer) * 9, 0, 255).astype(np.uint8)
-    field = Image.fromarray(distance)
-    Image.merge("RGBA", (field, field, field, Image.fromarray(alpha))).save(
-        DRAWABLE / f"icon_3d_sdf_{index}.png", optimize=True)
-    return layer
-
-
 def main():
-    scale = 2
-    extent = SIZE * scale
-    canvas = (extent, extent)
-    background = Image.new("RGBA", canvas)
-    color = ET.parse(RES / "values/launcher_colors.xml").getroot().findtext("color")
-    ImageDraw.Draw(background).rounded_rectangle((0, 0, extent-1, extent-1), radius=extent*.22, fill=color)
-    foreground = Image.new("RGBA", canvas)
-    draw = ImageDraw.Draw(foreground)
-    multiplier = extent / 108
-    for element in ET.parse(DRAWABLE / "ic_launcher_foreground.xml").getroot():
-        attrs = element.attrib
-        for path in sample_path(attrs[ANDROID + "pathData"]):
-            points = [tuple(point * multiplier) for point in path]
-            if ANDROID + "fillColor" in attrs:
-                draw.polygon(points, fill=attrs[ANDROID + "fillColor"])
-            else:
-                width = round(float(attrs[ANDROID + "strokeWidth"]) * multiplier)
-                draw.line(points, fill=attrs[ANDROID + "strokeColor"], width=width, joint="curve")
-    preview = Image.alpha_composite(save_layer(background, 0), save_layer(foreground, 1))
-    fallback = RES / "mipmap-xxxhdpi"
-    fallback.mkdir(exist_ok=True)
-    preview.resize((512, 512), Image.Resampling.LANCZOS).save(fallback / "ic_spatial_launcher.png", optimize=True)
+    with Image.open(SOURCE) as source:
+        assert source.size == (SIZE, SIZE), "Approved icon must be 1024 square"
+        artwork = source.convert("RGBA")
+    assert SOURCE.stat().st_size < 4_000_000
+    # Analytic signed distance for the existing 22%-radius launcher tile.
+    # Positive inside; center pixels encode 255, outer pixels 0, edge 128.
+    yy, xx = np.mgrid[:SIZE, :SIZE].astype(np.float32)
+    radius = SIZE * .22
+    qx = np.abs(xx + .5 - SIZE / 2) - (SIZE / 2 - radius)
+    qy = np.abs(yy + .5 - SIZE / 2) - (SIZE / 2 - radius)
+    distance = radius - (np.hypot(np.maximum(qx, 0), np.maximum(qy, 0))
+                         + np.minimum(np.maximum(qx, qy), 0))
+    alpha = Image.fromarray(np.uint8(np.clip(distance + .5, 0, 1) * 255))
+    field = Image.fromarray(np.uint8(np.clip(128 + distance * 9, 0, 255)))
+    sdf = Image.merge("RGBA", (field, field, field, alpha))
+    back = Image.new("RGBA", (SIZE, SIZE), "#174E3E")
+    drawable = RES / "drawable"
+    for index, layer in enumerate((back, artwork)):
+        layer.putalpha(alpha)
+        layer.save(drawable / f"icon_3d_layer_{index}.png", optimize=True)
+        sdf.save(drawable / f"icon_3d_sdf_{index}.png", optimize=True)
+    # Ordinary Android entry uses the approved full-bleed image unchanged.
+    target = RES / "mipmap-xxxhdpi/ic_spatial_launcher.png"
+    target.parent.mkdir(exist_ok=True)
+    target.write_bytes(SOURCE.read_bytes())
+    print("Packaged approved icon: Android PNG + two PICO color/SDF layers")
 
 
 if __name__ == "__main__":

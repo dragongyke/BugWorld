@@ -4,6 +4,7 @@
 
 | 用途 | 入口 |
 | --- | --- |
+| 正式应用图标 | `build_spatial_launcher.py`；NumPy、Pillow；以 `deliverables/store-media-2026-11-16/BugWorld-AppIcon-1024.png` 为唯一图案源，导出 Android PNG 和 PICO 色彩/SDF 层 |
 | 当前 APK/资产一致性 | `verify_stage112_package.py`；先运行 Gradle 单测/Lint/构建。默认报告写 `.work`，`--apk` 选包，`--publish` 才覆盖留存包 |
 | 原生源引用/材质声明/保留的水波截图 | `verify_emerald_native_scene.py`；可选 `--bundle` 验证重建的审阅 bundle，未提供时不声称编译产物通过 |
 | 运行/审阅 bundle | `pack_emerald_runtime.py` / `pack_emerald_native_scene.py`；需本机 PICO 6.1 编辑器打包器 |

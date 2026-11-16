@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "video": "BugWorld_ScreenRecording_2026.11.03.mp4",
+  "files": [
+    {
+      "file": "BugWorld-AppIcon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1616767,
+      "sha256": "02a6d7b247d008b75f50f0bd13b53e5b7dba0bee0fe449f229dd79640af3900e",
+      "source_type": "AI_promotional_art",
+      "seek_seconds": null
+    },
+    {
+      "file": "BugWorld-Poster-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 4832549,
+      "sha256": "bdd450d6b1505c68142384beea8b0f81ac14fb81b5617b245f10879e4b88ded6",
+      "source_type": "AI_promotional_art",
+      "seek_seconds": null
+    },
+    {
+      "file": "screenshots/01-Shared-Space.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1715845,
+      "sha256": "203fe11631c8b6c01a1130c606f4aa396cfb518d229c4a03ae6ce94159c34440",
+      "source_type": "video_frame",
+      "seek_seconds": 0.5
+    },
+    {
+      "file": "screenshots/02-Finger-Coloring.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1573577,
+      "sha256": "4164ffe524bb112891d33a88750224b4d8d3332f1ec3aaff751ec1c1fd1ad69c",
+      "source_type": "video_frame",
+      "seek_seconds": 78.0
+    },
+    {
+      "file": "screenshots/03-3D-Preview.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1808105,
+      "sha256": "4b44234606ee31650d65e01711e524faf13b9c9d9c9ff7a752ba6a0d0abdecc7",
+      "source_type": "video_frame",
+      "seek_seconds": 115.7
+    },
+    {
+      "file": "screenshots/04-Forest-Garden.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 3211035,
+      "sha256": "3e4849556452d6efbfa91d352353628569cfb9b2f270e7c5ec92b006129b1d7b",
+      "source_type": "video_frame",
+      "seek_seconds": 147.0
+    },
+    {
+      "file": "screenshots/05-Hand-Interaction.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 3325702,
+      "sha256": "2184e283fdc36ebffc3e1ece6dce260b58f3671f4e1500d90ed6074cae4bb20b",
+      "source_type": "video_frame",
+      "seek_seconds": 158.5
+    }
+  ]
+}

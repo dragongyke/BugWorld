@@ -1,12 +1,14 @@
 # BugWorld · 我的昆虫世界
 
+<img src="deliverables/store-media-2026-11-16/BugWorld-AppIcon-1024.png" width="128" height="128" alt="BugWorld 正式应用图标：蝴蝶与绿叶" />
+
 给昆虫涂色，把自己的画送进温馨的碧绿森林。原生 Android/Kotlin 应用，PICO Spatial SDK **6.1.0**。
 
 ## 当前版本
 
-**1.0.20**（2026-11-11）。中文系统显示「我的昆虫世界」，英文系统显示 BugWorld；TopBar 品牌保持 BugWorld。界面跟随系统支持中英文。
+**1.0.21**（2026-11-16）。中文系统显示「我的昆虫世界」，英文系统显示 BugWorld；TopBar 品牌保持 BugWorld。界面跟随系统支持中英文。
 
-本地保留包为 `deliverables/BugWorld-1.0.20.apk`，APK 不提交到 Git。克隆仓库后可按下文构建，输出为 `app/build/outputs/apk/debug/app-debug.apk`。
+本地保留包为 `deliverables/BugWorld-1.0.21.apk`，APK 不提交到 Git。克隆仓库后可按下文构建，输出为 `app/build/outputs/apk/debug/app-debug.apk`。
 
 - Shared Space：原生 TopBar、中央画纸、跟随画板的右侧画具、独立作品册及凝视反馈。
 - 八种画纸可横向切换：蝴蝶、独角仙、瓢虫、毛毛虫、蜻蜓、蜜蜂、工蚁、蚱蜢。20 色蜡笔、填色、橡皮、撤销/重做及对称绘画；涂色映射到 3D 模型。预览位置固定在画板前，捏住后随手腕旋转，切换画纸时关闭预览。
@@ -18,12 +20,29 @@
 
 | 版本 | 主要变化 | 记录 |
 | --- | --- | --- |
+| 1.0.21 | 正式启用蝴蝶与绿叶新图标，同时替换 Android/PICO 图标资源；发布海报与五张录屏截图 | [素材与验证说明](deliverables/store-media-2026-11-16/README.md) |
 | 1.0.20 | 去除毛毛虫 3D 背部被误映射的画纸黑边，保留玩家笔触 | [修复与渲染对照](docs/Caterpillar-120-Delivery.md) |
 | 1.0.19 | 修复中央画板启动时消失；调整 Stage 返回恢复顺序，保留作品册状态与位置 | [画板交付记录](docs/Studio-119-Delivery.md) |
 | 1.0.18 | 蚱蜢地面→树干→荷叶循环路线；掌面落点偏移调整 | [疑难复盘](docs/Troubleshooting-Retrospective.md) |
 | 1.0.15–1.0.17 | 空间启动图标、画纸线条、蚱蜢贴图、预览旋转及蚂蚁路线修订 | [疑难复盘](docs/Troubleshooting-Retrospective.md) |
 
 1.0.20 的 127 项单元测试通过，Lint 为 0 错误/35 警告，已覆盖安装到头显。毛毛虫黑带已通过实际 GLB 的 Blender 对照渲染检查，真机显示仍待确认。性能、手掌遮挡和视觉还原以各交付记录为准；不以加载成功或离线渲染代替真机验收，也不宣称所有场景稳定达到 90 FPS。
+
+## 宣传素材与实机截图
+
+![BugWorld 宣传插画，非实机截图](deliverables/store-media-2026-11-16/BugWorld-Poster-2560x1440.png)
+
+海报为 AI 宣传插画。以下五张为用户提供的 **2026-11-03** 原录屏抽帧，保留当时版本的界面，不代表 1.0.21 的全部功能。
+
+| Shared Space 画板 | 手指涂色 |
+| --- | --- |
+| ![画板](deliverables/store-media-2026-11-16/screenshots/01-Shared-Space.png) | ![涂色](deliverables/store-media-2026-11-16/screenshots/02-Finger-Coloring.png) |
+| 3D 预览 | 森林花园 |
+| ![3D 预览](deliverables/store-media-2026-11-16/screenshots/03-3D-Preview.png) | ![森林](deliverables/store-media-2026-11-16/screenshots/04-Forest-Garden.png) |
+
+![手部互动](deliverables/store-media-2026-11-16/screenshots/05-Hand-Interaction.png)
+
+[完整图片、规格与来源](deliverables/store-media-2026-11-16/README.md)。
 
 ## 构建与验证
 
