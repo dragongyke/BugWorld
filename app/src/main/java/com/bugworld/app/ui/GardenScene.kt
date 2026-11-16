@@ -28,6 +28,7 @@ import com.bugworld.app.garden.GardenRuntime
 import com.bugworld.app.garden.StageDiagnostics
 import com.bugworld.app.garden.StageFrameStats
 import com.bugworld.app.interaction.HandTrackingSession
+import com.bugworld.app.interaction.rememberHandTrackingPermission
 import com.pico.spatial.core.ecs.*
 import com.pico.spatial.core.math.*
 import com.pico.spatial.ui.design.Text
@@ -50,6 +51,7 @@ import java.util.concurrent.atomic.AtomicBoolean
     var loadError by remember { mutableStateOf<Int?>(null) }
     val containerState=LocalSpatialContainerStateManager.current
     val visible by rememberUpdatedState(containerState.isOnstage.value)
+    val handPermissionGranted=rememberHandTrackingPermission(active && visible && !exiting)
     val readyCallback by rememberUpdatedState(onReady)
     val context=LocalContext.current
     val preferences=remember(context) { context.getSharedPreferences("garden-guide",0) }
@@ -161,9 +163,9 @@ import java.util.concurrent.atomic.AtomicBoolean
             android.util.Log.e("BugWorldGarden","GLB preparation failed",error)
         }
     }
-    LaunchedEffect(runtime,hands,active,visible,exiting) {
+    LaunchedEffect(runtime,hands,active,visible,exiting,handPermissionGranted) {
         runtime?.active(active && visible)
-        runCatching { hands?.active(active && visible && !exiting) }.onFailure {
+        runCatching { hands?.active(active && visible && !exiting,handPermissionGranted) }.onFailure {
             android.util.Log.e("BugWorldGarden","Hand tracking start/stop failed",it)
             state.report(R.string.tracking_unavailable)
         }

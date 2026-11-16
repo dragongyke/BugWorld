@@ -38,14 +38,14 @@ These frames come directly from a headset recording made on November 3, 2026, sh
 | Area | Stack |
 | --- | --- |
 | Application | Kotlin, Android, Gradle |
-| Spatial UI and input | PICO Spatial SDK 6.1.0; native spatial windows and eye/hand interaction |
+| Spatial UI and input | PICO Spatial SDK 6.2.8; native spatial windows and eye/hand interaction |
 | Environment and characters | PICO native scenes, GLB models, skeletal animation, and materials |
 | Asset creation | Blender and Python asset tools |
 
 ## Try it
 
-1. Use a PICO device compatible with this app's PICO Spatial SDK 6.1.0 requirements and enable hand tracking.
-2. Obtain the **1.0.21 APK** from the maintainer and sideload it using your device's app installation tools. Preview builds are currently supplied by the maintainer; request one through this repository's [Issues](https://github.com/dragongyke/BugWorld/issues).
+1. Use a PICO device compatible with this app's PICO Spatial SDK 6.2.8 requirements and enable hand tracking.
+2. Obtain the **1.0.22 APK** from the maintainer and sideload it using your device's app installation tools. Preview builds are currently supplied by the maintainer; request one through this repository's [Issues](https://github.com/dragongyke/BugWorld/issues).
 3. Open BugWorld, choose a coloring sheet, paint with your fingertip, and select **Preview**.
 4. Select **Set free** to enter the forest. Use the return-to-canvas object in the scene whenever you want to create again.
 

@@ -38,14 +38,14 @@ BugWorld 是一款为 PICO 空间设备打造的创作与治愈应用。你可�
 | 部分 | 技术 |
 | --- | --- |
 | 应用 | Kotlin、Android、Gradle |
-| 空间界面与输入 | PICO Spatial SDK 6.1.0；原生空间窗口、眼手交互 |
+| 空间界面与输入 | PICO Spatial SDK 6.2.8；原生空间窗口、眼手交互 |
 | 场景与角色 | PICO 原生场景、GLB 模型、骨骼动画与材质 |
 | 资产制作 | Blender、Python 资产处理工具 |
 
 ## 如何体验
 
-1. 准备兼容本应用 PICO Spatial SDK 6.1.0 的 PICO 设备，并开启手部追踪。
-2. 获取维护者提供的 **1.0.21 APK**，通过设备的应用安装工具侧载。当前体验包由维护者提供，可通过本仓库 [Issues](https://github.com/dragongyke/BugWorld/issues) 联系获取。
+1. 准备兼容本应用 PICO Spatial SDK 6.2.8 的 PICO 设备，并开启手部追踪。
+2. 获取维护者提供的 **1.0.22 APK**，通过设备的应用安装工具侧载。当前体验包由维护者提供，可通过本仓库 [Issues](https://github.com/dragongyke/BugWorld/issues) 联系获取。
 3. 打开「我的昆虫世界」，选择画纸，用手指涂色，点击「看看它」预览。
 4. 点击「送到大自然」进入森林；想继续创作时，选择场景中的返回画板入口。
 

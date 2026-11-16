@@ -14,30 +14,33 @@ class HandTrackingSession(private val scope: CoroutineScope) : AutoCloseable {
     private var job: Job?=null
     private var updated=0L
     private var latest=emptyList<TrackedHand>()
-    val headPose get()=if(job!=null) headset.latestData?.hmdPose else null
+    private val lifecycle=TrackingLifecycle(
+        startHead={headset.start()},stopHead={headset.stop()},
+        startHands={startHands()},stopHands={stopHands()})
+    val headPose get()=if(lifecycle.headActive) headset.latestData?.hmdPose else null
     val hands get()=if(job!=null && SystemClock.elapsedRealtime()-updated<180L) latest else emptyList()
-    // 6.1.0 does not expose later SDK hand-pinch fields or pointer handedness.
+    // Keep the existing joint-distance thresholds consistent with invitation gestures.
     // If two hands are pinching at once, let the first unambiguous offered palm win.
     val pinchingSide get()=hands.singleOrNull { it.pinchGap<.045f }?.side
 
-    fun active(value: Boolean) {
-        if(value==(job!=null)) return
-        if(value) {
-            job=scope.launch(start=CoroutineStart.UNDISPATCHED) {
-                provider.dataFlow.collect { data ->
-                    latest=listOfNotNull(data.left?.let { tracked(it,HandSide.LEFT) },
-                        data.right?.let { tracked(it,HandSide.RIGHT) })
-                    updated=SystemClock.elapsedRealtime()
-                }
+    fun active(value: Boolean,handPermissionGranted: Boolean) = lifecycle.update(value,handPermissionGranted)
+
+    private fun startHands() {
+        job=scope.launch(start=CoroutineStart.UNDISPATCHED) {
+            provider.dataFlow.collect { data ->
+                latest=listOfNotNull(data.left?.let { tracked(it,HandSide.LEFT) },
+                    data.right?.let { tracked(it,HandSide.RIGHT) })
+                updated=SystemClock.elapsedRealtime()
             }
-            try { provider.start(); headset.start() }
-            catch(error: Exception) { close(); throw error }
-        } else {
-            job?.cancel(); job=null; latest=emptyList(); updated=0L
-            try { provider.stop() } finally { headset.stop() }
         }
+        provider.start()
     }
-    override fun close() { active(false) }
+
+    private fun stopHands() {
+        job?.cancel(); job=null; latest=emptyList(); updated=0L
+        provider.stop()
+    }
+    override fun close() { active(false,false) }
 }
 
 internal fun tracked(pose: HandPose,side: HandSide): TrackedHand? {
