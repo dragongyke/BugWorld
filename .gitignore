@@ -77,3 +77,17 @@ assets-src/v3-review/*/pose_*.png
 assets-src/v3-review/*/preview_neutral.png
 assets-src/emerald-forest-review/*.blend
 assets-src/stage-ring/*.blend
+
+# Development history stays local; retain direct asset/validation inputs.
+/docs/*
+!/docs/Stage-109-Usage.json
+!/docs/Stage-111-Asset-Verification.json
+!/docs/Stage-112-Bundle.json
+!/docs/Stage-112-IBL.json
+!/docs/visual-redesign/
+/docs/visual-redesign/*
+!/docs/visual-redesign/2026-10-08/
+/docs/visual-redesign/2026-10-08/*
+!/docs/visual-redesign/2026-10-08/01-insect-sheets-v1.png
+/BugWorld-Design.md
+/deliverables/store-media-2026-11-16/prompts.md
