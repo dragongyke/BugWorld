@@ -37,8 +37,8 @@ BugWorld 是一款为 PICO 空间设备打造的创作与治愈应用。你可�
 
 | 部分 | 技术 |
 | --- | --- |
-| 应用 | Kotlin、Android、Gradle |
-| 空间界面与输入 | PICO Spatial SDK 6.2.8；原生空间窗口、眼手交互 |
+| 应用 | PICO Android Spatial SDK v6.2.8、PICO CLI 0.7.0、Codex |
+| 空间界面与输入 | 原生空间窗口、眼手交互 |
 | 场景与角色 | PICO 原生场景、GLB 模型、骨骼动画与材质 |
 | 资产制作 | Blender、Python 资产处理工具 |
 
